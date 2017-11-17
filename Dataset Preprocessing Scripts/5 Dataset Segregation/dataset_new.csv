@@ -1,4 +1,1472 @@
 Scorecard,Team 1,Team 2,Margin,Ground,Match Date,Winner
+ODI # 1,Australia,England,5 wickets,Melbourne,"Jan 5, 1971",Australia
+ODI # 2,England,Australia,6 wickets,Manchester,"Aug 24, 1972",England
+ODI # 3,England,Australia,5 wickets,Lord's,"Aug 26, 1972",Australia
+ODI # 4,England,Australia,2 wickets,Birmingham,"Aug 28, 1972",England
+ODI # 5,New Zealand,Pakistan,22 runs,Christchurch,"Feb 11, 1973",New Zealand
+ODI # 6,England,New Zealand,7 wickets,Swansea,"Jul 18, 1973",England
+ODI # 8,England,West Indies,1 wicket,Leeds,"Sep 5, 1973",England
+ODI # 9,England,West Indies,8 wickets,The Oval,"Sep 7, 1973",West Indies
+ODI # 10,New Zealand,Australia,7 wickets,Dunedin,"Mar 30, 1974",Australia
+ODI # 11,New Zealand,Australia,31 runs,Christchurch,"Mar 31, 1974",Australia
+ODI # 12,England,India,4 wickets,Leeds,"Jul 13, 1974",England
+ODI # 13,England,India,6 wickets,The Oval,"Jul 15-16, 1974",England
+ODI # 14,England,Pakistan,7 wickets,Nottingham,"Aug 31, 1974",Pakistan
+ODI # 15,England,Pakistan,8 wickets,Birmingham,"Sep 3, 1974",Pakistan
+ODI # 16,Australia,England,3 wickets,Melbourne,"Jan 1, 1975",England
+ODI # 19,England,India,202 runs,Lord's,"Jun 7, 1975",England
+ODI # 20,East Africa,New Zealand,181 runs,Birmingham,"Jun 7, 1975",New Zealand
+ODI # 21,Australia,Pakistan,73 runs,Leeds,"Jun 7, 1975",Australia
+ODI # 22,Sri Lanka,West Indies,9 wickets,Manchester,"Jun 7, 1975",West Indies
+ODI # 23,England,New Zealand,80 runs,Nottingham,"Jun 11, 1975",England
+ODI # 24,East Africa,India,10 wickets,Leeds,"Jun 11, 1975",India
+ODI # 25,Australia,Sri Lanka,52 runs,The Oval,"Jun 11, 1975",Australia
+ODI # 26,Pakistan,West Indies,1 wicket,Birmingham,"Jun 11, 1975",West Indies
+ODI # 27,England,East Africa,196 runs,Birmingham,"Jun 14, 1975",England
+ODI # 28,India,New Zealand,4 wickets,Manchester,"Jun 14, 1975",New Zealand
+ODI # 29,Australia,West Indies,7 wickets,The Oval,"Jun 14, 1975",West Indies
+ODI # 30,Pakistan,Sri Lanka,192 runs,Nottingham,"Jun 14, 1975",Pakistan
+ODI # 31,England,Australia,4 wickets,Leeds,"Jun 18, 1975",Australia
+ODI # 32,New Zealand,West Indies,5 wickets,The Oval,"Jun 18, 1975",West Indies
+ODI # 33,Australia,West Indies,17 runs,Lord's,"Jun 21, 1975",West Indies
+ODI # 34,Australia,West Indies,5 wickets,Adelaide,"Dec 20, 1975",Australia
+ODI # 35,New Zealand,India,9 wickets,Christchurch,"Feb 21, 1976",New Zealand
+ODI # 36,New Zealand,India,80 runs,Auckland,"Feb 22, 1976",New Zealand
+ODI # 37,England,West Indies,6 wickets,Scarborough,"Aug 26, 1976",West Indies
+ODI # 38,England,West Indies,36 runs,Lord's,"Aug 28-29, 1976",West Indies
+ODI # 39,England,West Indies,50 runs,Birmingham,"Aug 30-31, 1976",West Indies
+ODI # 40,Pakistan,New Zealand,1 run,Sialkot,"Oct 16, 1976",New Zealand
+ODI # 41,West Indies,Pakistan,4 wickets,Albion,"Mar 16, 1977",West Indies
+ODI # 42,England,Australia,2 wickets,Manchester,"Jun 2, 1977",England
+ODI # 43,England,Australia,101 runs,Birmingham,"Jun 4, 1977",England
+ODI # 44,England,Australia,2 wickets,The Oval,"Jun 6, 1977",Australia
+ODI # 45,Pakistan,England,3 wickets,Sahiwal,"Dec 23, 1977",England
+ODI # 46,Pakistan,England,6 wickets,Sialkot,"Dec 30, 1977",England
+ODI # 47,Pakistan,England,36 runs,Lahore,"Jan 13, 1978",Pakistan
+ODI # 48,West Indies,Australia,44 runs,St John's,"Feb 22, 1978",West Indies
+ODI # 49,West Indies,Australia,2 wickets,Castries,"Apr 12, 1978",Australia
+ODI # 50,England,Pakistan,132 runs,Manchester,"May 24-25, 1978",England
+ODI # 51,England,Pakistan,94 runs,The Oval,"May 26, 1978",England
+ODI # 52,England,New Zealand,19 runs,Scarborough,"Jul 15, 1978",England
+ODI # 53,England,New Zealand,126 runs,Manchester,"Jul 17, 1978",England
+ODI # 54,Pakistan,India,4 runs,Quetta,"Oct 1, 1978",India
+ODI # 55,Pakistan,India,8 wickets,Sialkot,"Oct 13, 1978",Pakistan
+ODI # 56,Pakistan,India,,Sahiwal,"Nov 3, 1978",Pakistan
+ODI # 58,Australia,England,7 wickets,Melbourne,"Jan 24, 1979",England
+ODI # 59,Australia,England,4 wickets,Melbourne,"Feb 4, 1979",Australia
+ODI # 60,Australia,England,6 wickets,Melbourne,"Feb 7, 1979",Australia
+ODI # 61,India,West Indies,9 wickets,Birmingham,"Jun 9, 1979",West Indies
+ODI # 62,New Zealand,Sri Lanka,9 wickets,Nottingham,"Jun 9, 1979",New Zealand
+ODI # 63,England,Australia,6 wickets,Lord's,"Jun 9, 1979",England
+ODI # 64,Canada,Pakistan,8 wickets,Leeds,"Jun 9, 1979",Pakistan
+ODI # 65,India,New Zealand,8 wickets,Leeds,"Jun 13, 1979",New Zealand
+ODI # 66,Australia,Pakistan,89 runs,Nottingham,"Jun 13-14, 1979",Pakistan
+ODI # 67,England,Canada,8 wickets,Manchester,"Jun 13-14, 1979",England
+ODI # 68,India,Sri Lanka,47 runs,Manchester,"Jun 16-18, 1979",Sri Lanka
+ODI # 69,New Zealand,West Indies,32 runs,Nottingham,"Jun 16, 1979",West Indies
+ODI # 70,Australia,Canada,7 wickets,Birmingham,"Jun 16, 1979",Australia
+ODI # 71,England,Pakistan,14 runs,Leeds,"Jun 16, 1979",England
+ODI # 72,England,New Zealand,9 runs,Manchester,"Jun 20, 1979",England
+ODI # 73,Pakistan,West Indies,43 runs,The Oval,"Jun 20, 1979",West Indies
+ODI # 74,England,West Indies,92 runs,Lord's,"Jun 23, 1979",West Indies
+ODI # 75,Australia,West Indies,5 wickets,Sydney,"Nov 27, 1979",Australia
+ODI # 76,England,West Indies,2 runs,Sydney,"Nov 28, 1979",England
+ODI # 77,Australia,England,3 wickets,Melbourne,"Dec 8, 1979",England
+ODI # 78,Australia,West Indies,80 runs,Melbourne,"Dec 9, 1979",West Indies
+ODI # 79,Australia,England,72 runs,Sydney,"Dec 11, 1979",England
+ODI # 80,Australia,West Indies,7 runs,Sydney,"Dec 21, 1979",Australia
+ODI # 81,England,West Indies,9 wickets,Brisbane,"Dec 23, 1979",West Indies
+ODI # 82,Australia,England,4 wickets,Sydney,"Dec 26, 1979",England
+ODI # 83,Australia,England,2 wickets,Sydney,"Jan 14, 1980",England
+ODI # 84,England,West Indies,107 runs,Adelaide,"Jan 16, 1980",West Indies
+ODI # 85,Australia,West Indies,9 runs,Sydney,"Jan 18, 1980",Australia
+ODI # 86,England,West Indies,2 runs,Melbourne,"Jan 20, 1980",West Indies
+ODI # 87,England,West Indies,8 wickets,Sydney,"Jan 22, 1980",West Indies
+ODI # 88,New Zealand,West Indies,1 wicket,Christchurch,"Feb 6, 1980",New Zealand
+ODI # 89,England,West Indies,24 runs,Leeds,"May 28-29, 1980",West Indies
+ODI # 90,England,West Indies,3 wickets,Lord's,"May 30, 1980",England
+ODI # 91,England,Australia,23 runs,The Oval,"Aug 20, 1980",England
+ODI # 92,England,Australia,47 runs,Birmingham,"Aug 22, 1980",England
+ODI # 93,Pakistan,West Indies,4 wickets,Karachi,"Nov 21, 1980",West Indies
+ODI # 94,Australia,New Zealand,3 wickets,Adelaide,"Nov 23, 1980",New Zealand
+ODI # 95,Australia,New Zealand,94 runs,Sydney,"Nov 25, 1980",Australia
+ODI # 96,Pakistan,West Indies,7 wickets,Sialkot,"Dec 5, 1980",West Indies
+ODI # 97,Australia,India,66 runs,Melbourne,"Dec 6, 1980",India
+ODI # 98,Australia,New Zealand,4 wickets,Melbourne,"Dec 7, 1980",Australia
+ODI # 99,India,New Zealand,5 runs,Perth,"Dec 9, 1980",India
+ODI # 100,Australia,India,9 wickets,Sydney,"Dec 18, 1980",Australia
+ODI # 101,Pakistan,West Indies,7 runs,Lahore,"Dec 19, 1980",West Indies
+ODI # 102,India,New Zealand,3 wickets,Brisbane,"Dec 21, 1980",New Zealand
+ODI # 103,India,New Zealand,6 runs,Adelaide,"Dec 23, 1980",India
+ODI # 104,Australia,India,9 wickets,Sydney,"Jan 8, 1981",Australia
+ODI # 105,India,New Zealand,10 wickets,Melbourne,"Jan 10, 1981",New Zealand
+ODI # 106,Australia,India,7 wickets,Melbourne,"Jan 11, 1981",Australia
+ODI # 107,Australia,New Zealand,1 run,Sydney,"Jan 13, 1981",New Zealand
+ODI # 108,Australia,India,27 runs,Sydney,"Jan 15, 1981",Australia
+ODI # 109,India,New Zealand,22 runs,Brisbane,"Jan 18, 1981",New Zealand
+ODI # 111,Australia,New Zealand,78 runs,Sydney,"Jan 29, 1981",New Zealand
+ODI # 112,Australia,New Zealand,7 wickets,Melbourne,"Jan 31, 1981",Australia
+ODI # 113,Australia,New Zealand,6 runs,Melbourne,"Feb 1, 1981",Australia
+ODI # 114,Australia,New Zealand,6 wickets,Sydney,"Feb 3, 1981",Australia
+ODI # 115,West Indies,England,2 runs,Kingstown,"Feb 4, 1981",West Indies
+ODI # 116,New Zealand,India,78 runs,Auckland,"Feb 14, 1981",New Zealand
+ODI # 117,New Zealand,India,57 runs,Hamilton,"Feb 15, 1981",New Zealand
+ODI # 118,West Indies,England,6 wickets,Albion,"Feb 26, 1981",West Indies
+ODI # 119,England,Australia,6 wickets,Lord's,"Jun 4, 1981",England
+ODI # 120,England,Australia,2 runs,Birmingham,"Jun 6, 1981",Australia
+ODI # 121,England,Australia,71 runs,Leeds,"Jun 8, 1981",Australia
+ODI # 122,Pakistan,West Indies,18 runs,Melbourne,"Nov 21, 1981",West Indies
+ODI # 123,Australia,Pakistan,4 wickets,Melbourne,"Nov 22, 1981",Pakistan
+ODI # 124,Australia,West Indies,7 wickets,Sydney,"Nov 24, 1981",Australia
+ODI # 125,India,England,5 wickets,Ahmedabad,"Nov 25, 1981",England
+ODI # 126,Pakistan,West Indies,8 runs,Adelaide,"Dec 5, 1981",Pakistan
+ODI # 127,Australia,Pakistan,38 runs,Adelaide,"Dec 6, 1981",Australia
+ODI # 128,Australia,Pakistan,6 wickets,Sydney,"Dec 17, 1981",Pakistan
+ODI # 129,Pakistan,West Indies,7 wickets,Perth,"Dec 19, 1981",West Indies
+ODI # 130,Australia,West Indies,8 wickets,Perth,"Dec 20, 1981",West Indies
+ODI # 131,India,England,6 wickets,Jalandhar,"Dec 20, 1981",India
+ODI # 132,Australia,Pakistan,25 runs,Melbourne,"Jan 9, 1982",Pakistan
+ODI # 133,Australia,West Indies,5 wickets,Melbourne,"Jan 10, 1982",West Indies
+ODI # 134,Pakistan,West Indies,7 wickets,Sydney,"Jan 12, 1982",West Indies
+ODI # 135,Australia,Pakistan,76 runs,Sydney,"Jan 14, 1982",Australia
+ODI # 136,Pakistan,West Indies,1 wicket,Brisbane,"Jan 16, 1982",West Indies
+ODI # 137,Australia,West Indies,5 wickets,Brisbane,"Jan 17, 1982",West Indies
+ODI # 138,Australia,West Indies,5 runs,Sydney,"Jan 19, 1982",Australia
+ODI # 139,Australia,West Indies,86 runs,Melbourne,"Jan 23, 1982",West Indies
+ODI # 140,Australia,West Indies,128 runs,Melbourne,"Jan 24, 1982",West Indies
+ODI # 141,Australia,West Indies,46 runs,Sydney,"Jan 26, 1982",Australia
+ODI # 142,Australia,West Indies,18 runs,Sydney,"Jan 27, 1982",West Indies
+ODI # 143,India,England,5 wickets,Cuttack,"Jan 27, 1982",India
+ODI # 144,New Zealand,Australia,46 runs,Auckland,"Feb 13, 1982",New Zealand
+ODI # 145,Sri Lanka,England,5 runs,Colombo (SSC),"Feb 13, 1982",England
+ODI # 146,Sri Lanka,England,3 runs,Colombo (SSC),"Feb 14, 1982",Sri Lanka
+ODI # 147,New Zealand,Australia,6 wickets,Dunedin,"Feb 17, 1982",Australia
+ODI # 148,New Zealand,Australia,8 wickets,Wellington,"Feb 20, 1982",Australia
+ODI # 149,Pakistan,Sri Lanka,8 wickets,Karachi,"Mar 12, 1982",Pakistan
+ODI # 150,Pakistan,Sri Lanka,30 runs,Lahore,"Mar 29, 1982",Sri Lanka
+ODI # 151,Pakistan,Sri Lanka,5 wickets,Karachi,"Mar 31, 1982",Pakistan
+ODI # 152,England,India,9 wickets,Leeds,"Jun 2, 1982",England
+ODI # 153,England,India,114 runs,The Oval,"Jun 4, 1982",England
+ODI # 154,England,Pakistan,7 wickets,Nottingham,"Jul 17, 1982",England
+ODI # 155,England,Pakistan,73 runs,Manchester,"Jul 19, 1982",England
+ODI # 156,India,Sri Lanka,78 runs,Amritsar,"Sep 12, 1982",India
+ODI # 157,India,Sri Lanka,6 wickets,Delhi,"Sep 15, 1982",India
+ODI # 158,Pakistan,Australia,59 runs,Hyderabad (Sind),"Sep 20, 1982",Pakistan
+ODI # 159,India,Sri Lanka,6 wickets,Bengaluru,"Sep 26, 1982",India
+ODI # 160,Pakistan,Australia,28 runs,Lahore,"Oct 8, 1982",Pakistan
+ODI # 162,Pakistan,India,14 runs,Gujranwala,"Dec 3, 1982",Pakistan
+ODI # 163,Pakistan,India,37 runs,Multan,"Dec 17, 1982",Pakistan
+ODI # 164,Pakistan,India,18 runs,Lahore,"Dec 31, 1982",India
+ODI # 165,Australia,New Zealand,8 wickets,Melbourne,"Jan 9, 1983",Australia
+ODI # 166,Australia,England,31 runs,Sydney,"Jan 11, 1983",Australia
+ODI # 167,England,New Zealand,2 runs,Melbourne,"Jan 13, 1983",New Zealand
+ODI # 168,England,New Zealand,54 runs,Brisbane,"Jan 15, 1983",England
+ODI # 169,Australia,England,7 wickets,Brisbane,"Jan 16, 1983",Australia
+ODI # 170,Australia,New Zealand,47 runs,Sydney,"Jan 18, 1983",New Zealand
+ODI # 171,England,New Zealand,8 wickets,Sydney,"Jan 20, 1983",England
+ODI # 172,Pakistan,India,8 wickets,Karachi,"Jan 21, 1983",Pakistan
+ODI # 173,Australia,New Zealand,58 runs,Melbourne,"Jan 22, 1983",New Zealand
+ODI # 174,Australia,England,5 wickets,Melbourne,"Jan 23, 1983",Australia
+ODI # 175,Australia,England,98 runs,Sydney,"Jan 26, 1983",England
+ODI # 176,England,New Zealand,4 wickets,Adelaide,"Jan 29, 1983",New Zealand
+ODI # 177,Australia,England,14 runs,Adelaide,"Jan 30, 1983",England
+ODI # 178,Australia,New Zealand,47 runs,Adelaide,"Jan 31, 1983",New Zealand
+ODI # 179,England,New Zealand,7 wickets,Perth,"Feb 5, 1983",New Zealand
+ODI # 180,Australia,New Zealand,27 runs,Perth,"Feb 6, 1983",Australia
+ODI # 181,Australia,New Zealand,6 wickets,Sydney,"Feb 9, 1983",Australia
+ODI # 182,Australia,New Zealand,149 runs,Melbourne,"Feb 13, 1983",Australia
+ODI # 183,New Zealand,England,6 wickets,Auckland,"Feb 19, 1983",New Zealand
+ODI # 184,New Zealand,England,103 runs,Wellington,"Feb 23, 1983",New Zealand
+ODI # 185,New Zealand,England,84 runs,Christchurch,"Feb 26, 1983",New Zealand
+ODI # 186,New Zealand,Sri Lanka,65 runs,Dunedin,"Mar 2, 1983",New Zealand
+ODI # 187,West Indies,India,52 runs,Port of Spain,"Mar 9, 1983",West Indies
+ODI # 188,Australia,New Zealand,14 runs,Sydney,"Mar 17, 1983",New Zealand
+ODI # 189,New Zealand,Sri Lanka,7 wickets,Napier,"Mar 19, 1983",New Zealand
+ODI # 190,New Zealand,Sri Lanka,116 runs,Auckland,"Mar 20, 1983",New Zealand
+ODI # 191,West Indies,India,27 runs,Albion,"Mar 29, 1983",India
+ODI # 192,West Indies,India,7 wickets,St George's,"Apr 7, 1983",West Indies
+ODI # 193,Sri Lanka,Australia,2 wickets,Colombo (PSS),"Apr 13, 1983",Sri Lanka
+ODI # 194,Sri Lanka,Australia,4 wickets,Colombo (PSS),"Apr 16, 1983",Sri Lanka
+ODI # 197,England,New Zealand,106 runs,The Oval,"Jun 9, 1983",England
+ODI # 198,Pakistan,Sri Lanka,50 runs,Swansea,"Jun 9, 1983",Pakistan
+ODI # 199,Australia,Zimbabwe,13 runs,Nottingham,"Jun 9, 1983",Zimbabwe
+ODI # 200,India,West Indies,34 runs,Manchester,"Jun 9-10, 1983",India
+ODI # 201,England,Sri Lanka,47 runs,Taunton,"Jun 11, 1983",England
+ODI # 202,New Zealand,Pakistan,52 runs,Birmingham,"Jun 11-12, 1983",New Zealand
+ODI # 203,Australia,West Indies,101 runs,Leeds,"Jun 11-12, 1983",West Indies
+ODI # 204,India,Zimbabwe,5 wickets,Leicester,"Jun 11, 1983",India
+ODI # 205,England,Pakistan,8 wickets,Lord's,"Jun 13, 1983",England
+ODI # 206,New Zealand,Sri Lanka,5 wickets,Bristol,"Jun 13, 1983",New Zealand
+ODI # 207,Australia,India,162 runs,Nottingham,"Jun 13, 1983",Australia
+ODI # 208,West Indies,Zimbabwe,8 wickets,Worcester,"Jun 13, 1983",West Indies
+ODI # 209,England,New Zealand,2 wickets,Birmingham,"Jun 15, 1983",New Zealand
+ODI # 210,India,West Indies,66 runs,The Oval,"Jun 15, 1983",West Indies
+ODI # 211,Pakistan,Sri Lanka,11 runs,Leeds,"Jun 16, 1983",Pakistan
+ODI # 212,Australia,Zimbabwe,32 runs,Southampton,"Jun 16, 1983",Australia
+ODI # 213,England,Pakistan,7 wickets,Manchester,"Jun 18, 1983",England
+ODI # 214,New Zealand,Sri Lanka,3 wickets,Derby,"Jun 18, 1983",Sri Lanka
+ODI # 215,Australia,West Indies,7 wickets,Lord's,"Jun 18, 1983",West Indies
+ODI # 216,India,Zimbabwe,31 runs,Tunbridge Wells,"Jun 18, 1983",India
+ODI # 217,England,Sri Lanka,9 wickets,Leeds,"Jun 20, 1983",England
+ODI # 218,New Zealand,Pakistan,11 runs,Nottingham,"Jun 20, 1983",Pakistan
+ODI # 219,Australia,India,118 runs,Chelmsford,"Jun 20, 1983",India
+ODI # 220,West Indies,Zimbabwe,10 wickets,Birmingham,"Jun 20, 1983",West Indies
+ODI # 221,England,India,6 wickets,Manchester,"Jun 22, 1983",India
+ODI # 222,Pakistan,West Indies,8 wickets,The Oval,"Jun 22, 1983",West Indies
+ODI # 223,India,West Indies,43 runs,Lord's,"Jun 25, 1983",India
+ODI # 224,India,Pakistan,4 wickets,Hyderabad (Deccan),"Sep 10, 1983",India
+ODI # 225,India,Pakistan,4 wickets,Jaipur,"Oct 2, 1983",India
+ODI # 226,India,West Indies,28 runs,Srinagar,"Oct 13, 1983",West Indies
+ODI # 227,India,West Indies,4 wickets,Vadodara,"Nov 9, 1983",West Indies
+ODI # 228,India,West Indies,8 wickets,Indore,"Dec 1, 1983",West Indies
+ODI # 229,India,West Indies,104 runs,Jamshedpur,"Dec 7, 1983",West Indies
+ODI # 230,India,West Indies,6 wickets,Guwahati,"Dec 17, 1983",West Indies
+ODI # 231,Australia,West Indies,27 runs,Melbourne,"Jan 8, 1984",West Indies
+ODI # 232,Australia,Pakistan,34 runs,Sydney,"Jan 10, 1984",Australia
+ODI # 233,Pakistan,West Indies,97 runs,Melbourne,"Jan 12, 1984",Pakistan
+ODI # 234,Pakistan,West Indies,5 wickets,Brisbane,"Jan 14, 1984",West Indies
+ODI # 236,Australia,West Indies,28 runs,Sydney,"Jan 17, 1984",West Indies
+ODI # 237,Pakistan,West Indies,5 wickets,Sydney,"Jan 19, 1984",West Indies
+ODI # 238,Australia,Pakistan,43 runs,Melbourne,"Jan 21, 1984",Australia
+ODI # 239,Australia,West Indies,26 runs,Melbourne,"Jan 22, 1984",West Indies
+ODI # 240,Australia,Pakistan,87 runs,Sydney,"Jan 25, 1984",Australia
+ODI # 241,Pakistan,West Indies,1 wicket,Adelaide,"Jan 28, 1984",West Indies
+ODI # 242,Australia,West Indies,6 wickets,Adelaide,"Jan 29, 1984",West Indies
+ODI # 243,Australia,Pakistan,70 runs,Adelaide,"Jan 30, 1984",Australia
+ODI # 244,Pakistan,West Indies,7 wickets,Perth,"Feb 4, 1984",West Indies
+ODI # 245,Australia,West Indies,14 runs,Perth,"Feb 5, 1984",Australia
+ODI # 246,Australia,West Indies,9 wickets,Sydney,"Feb 8, 1984",West Indies
+ODI # 248,Australia,West Indies,6 wickets,Melbourne,"Feb 12, 1984",West Indies
+ODI # 249,New Zealand,England,54 runs,Christchurch,"Feb 18, 1984",England
+ODI # 250,New Zealand,England,6 wickets,Wellington,"Feb 22, 1984",England
+ODI # 251,New Zealand,England,7 wickets,Auckland,"Feb 25, 1984",New Zealand
+ODI # 252,West Indies,Australia,8 wickets,Albion,"Feb 29, 1984",West Indies
+ODI # 253,Sri Lanka,New Zealand,104 runs,Colombo (SSC),"Mar 3, 1984",New Zealand
+ODI # 254,Pakistan,England,6 wickets,Lahore,"Mar 9, 1984",Pakistan
+ODI # 255,West Indies,Australia,4 wickets,Port of Spain,"Mar 14, 1984",Australia
+ODI # 256,Pakistan,England,6 wickets,Karachi,"Mar 26, 1984",England
+ODI # 257,Sri Lanka,New Zealand,41 runs,Moratuwa,"Mar 31, 1984",Sri Lanka
+ODI # 258,Sri Lanka,New Zealand,86 runs,Colombo (PSS),"Apr 1, 1984",New Zealand
+ODI # 259,Pakistan,Sri Lanka,5 wickets,Sharjah,"Apr 6, 1984",Sri Lanka
+ODI # 260,India,Sri Lanka,10 wickets,Sharjah,"Apr 8, 1984",India
+ODI # 261,India,Pakistan,54 runs,Sharjah,"Apr 13, 1984",India
+ODI # 262,West Indies,Australia,7 wickets,Castries,"Apr 19, 1984",West Indies
+ODI # 263,West Indies,Australia,9 wickets,Kingston,"Apr 26, 1984",West Indies
+ODI # 264,England,West Indies,104 runs,Manchester,"May 31, 1984",West Indies
+ODI # 265,England,West Indies,3 wickets,Nottingham,"Jun 2, 1984",England
+ODI # 266,England,West Indies,8 wickets,Lord's,"Jun 4, 1984",West Indies
+ODI # 267,India,Australia,48 runs,New Delhi,"Sep 28, 1984",Australia
+ODI # 270,India,Australia,7 wickets,Ahmedabad,"Oct 5, 1984",Australia
+ODI # 271,India,Australia,6 wickets,Indore,"Oct 6, 1984",Australia
+ODI # 272,Pakistan,India,46 runs,Quetta,"Oct 12, 1984",Pakistan
+ODI # 274,Sri Lanka,New Zealand,4 wickets,Colombo (PSS),"Nov 3, 1984",Sri Lanka
+ODI # 275,Sri Lanka,New Zealand,7 wickets,Moratuwa,"Nov 4, 1984",New Zealand
+ODI # 276,Pakistan,New Zealand,46 runs,Peshawar,"Nov 12, 1984",Pakistan
+ODI # 277,Pakistan,New Zealand,5 runs,Faisalabad,"Nov 23, 1984",Pakistan
+ODI # 278,Pakistan,New Zealand,34 runs,Sialkot,"Dec 2, 1984",New Zealand
+ODI # 279,India,England,4 wickets,Pune,"Dec 5, 1984",England
+ODI # 280,Pakistan,New Zealand,1 wicket,Multan,"Dec 7, 1984",Pakistan
+ODI # 281,India,England,1 run,Cuttack,"Dec 27, 1984",England
+ODI # 282,Australia,West Indies,7 wickets,Melbourne,"Jan 6, 1985",West Indies
+ODI # 283,Australia,Sri Lanka,6 wickets,Sydney,"Jan 8, 1985",Australia
+ODI # 284,Sri Lanka,West Indies,8 wickets,Hobart,"Jan 10, 1985",West Indies
+ODI # 285,New Zealand,Pakistan,110 runs,Napier,"Jan 12, 1985",New Zealand
+ODI # 286,Sri Lanka,West Indies,90 runs,Brisbane,"Jan 12, 1985",West Indies
+ODI # 287,Australia,West Indies,5 wickets,Brisbane,"Jan 13, 1985",West Indies
+ODI # 288,New Zealand,Pakistan,4 wickets,Hamilton,"Jan 15, 1985",New Zealand
+ODI # 289,Australia,West Indies,5 wickets,Sydney,"Jan 15, 1985",West Indies
+ODI # 290,Sri Lanka,West Indies,65 runs,Sydney,"Jan 17, 1985",West Indies
+ODI # 291,Australia,Sri Lanka,4 wickets,Melbourne,"Jan 19, 1985",Sri Lanka
+ODI # 292,Australia,West Indies,65 runs,Melbourne,"Jan 20, 1985",West Indies
+ODI # 293,India,England,3 wickets,Bengaluru,"Jan 20, 1985",England
+ODI # 294,Australia,Sri Lanka,3 wickets,Sydney,"Jan 23, 1985",Australia
+ODI # 295,India,England,3 wickets,Nagpur,"Jan 23, 1985",India
+ODI # 296,Sri Lanka,West Indies,8 wickets,Adelaide,"Jan 26, 1985",West Indies
+ODI # 297,Australia,West Indies,6 wickets,Adelaide,"Jan 27, 1985",West Indies
+ODI # 298,India,England,7 runs,Chandigarh,"Jan 27, 1985",England
+ODI # 299,Australia,Sri Lanka,232 runs,Adelaide,"Jan 28, 1985",Australia
+ODI # 300,Sri Lanka,West Indies,82 runs,Perth,"Feb 2, 1985",West Indies
+ODI # 301,Australia,Sri Lanka,9 wickets,Perth,"Feb 3, 1985",Australia
+ODI # 302,New Zealand,Pakistan,13 runs,Christchurch,"Feb 6, 1985",New Zealand
+ODI # 303,Australia,West Indies,26 runs,Sydney,"Feb 6, 1985",Australia
+ODI # 304,Australia,West Indies,4 wickets,Melbourne,"Feb 10, 1985",West Indies
+ODI # 305,Australia,West Indies,7 wickets,Sydney,"Feb 12, 1985",West Indies
+ODI # 307,Australia,England,7 wickets,Melbourne,"Feb 17, 1985",Australia
+ODI # 309,India,Pakistan,6 wickets,Melbourne,"Feb 20, 1985",India
+ODI # 310,New Zealand,Sri Lanka,51 runs,Melbourne,"Feb 23, 1985",New Zealand
+ODI # 311,Australia,Pakistan,62 runs,Melbourne,"Feb 24, 1985",Pakistan
+ODI # 312,England,India,86 runs,Sydney,"Feb 26, 1985",India
+ODI # 313,Sri Lanka,West Indies,8 wickets,Melbourne,"Feb 27, 1985",West Indies
+ODI # 314,England,Pakistan,67 runs,Melbourne,"Mar 2, 1985",Pakistan
+ODI # 315,Australia,India,8 wickets,Melbourne,"Mar 3, 1985",India
+ODI # 316,India,New Zealand,7 wickets,Sydney,"Mar 5, 1985",India
+ODI # 317,Pakistan,West Indies,7 wickets,Melbourne,"Mar 6, 1985",Pakistan
+ODI # 318,New Zealand,West Indies,6 wickets,Sydney,"Mar 9, 1985",West Indies
+ODI # 319,India,Pakistan,8 wickets,Melbourne,"Mar 10, 1985",India
+ODI # 320,West Indies,New Zealand,23 runs,St John's,"Mar 20, 1985",West Indies
+ODI # 321,India,Pakistan,38 runs,Sharjah,"Mar 22, 1985",India
+ODI # 322,Australia,England,2 wickets,Sharjah,"Mar 24, 1985",Australia
+ODI # 323,England,Pakistan,43 runs,Sharjah,"Mar 26, 1985",Pakistan
+ODI # 324,West Indies,New Zealand,6 wickets,Port of Spain,"Mar 27, 1985",West Indies
+ODI # 325,Australia,India,3 wickets,Sharjah,"Mar 29, 1985",India
+ODI # 326,West Indies,New Zealand,130 runs,Albion,"Apr 14, 1985",West Indies
+ODI # 327,West Indies,New Zealand,10 wickets,Port of Spain,"Apr 17, 1985",West Indies
+ODI # 328,West Indies,New Zealand,112 runs,Bridgetown,"Apr 23, 1985",West Indies
+ODI # 329,England,Australia,3 wickets,Manchester,"May 30, 1985",Australia
+ODI # 330,England,Australia,4 wickets,Birmingham,"Jun 1, 1985",Australia
+ODI # 331,England,Australia,8 wickets,Lord's,"Jun 3, 1985",England
+ODI # 332,Sri Lanka,India,2 wickets,Colombo (SSC),"Aug 25, 1985",India
+ODI # 333,Sri Lanka,India,14 runs,Colombo (PSS),"Sep 21, 1985",Sri Lanka
+ODI # 335,Pakistan,Sri Lanka,8 wickets,Peshawar,"Oct 13, 1985",Pakistan
+ODI # 336,Pakistan,Sri Lanka,15 runs,Gujranwala,"Oct 23, 1985",Pakistan
+ODI # 337,Pakistan,Sri Lanka,5 wickets,Lahore,"Oct 25, 1985",Pakistan
+ODI # 338,Pakistan,Sri Lanka,89 runs,Hyderabad (Sind),"Nov 3, 1985",Pakistan
+ODI # 339,Pakistan,West Indies,7 wickets,Sharjah,"Nov 15, 1985",West Indies
+ODI # 340,India,Pakistan,48 runs,Sharjah,"Nov 17, 1985",Pakistan
+ODI # 341,India,West Indies,8 wickets,Sharjah,"Nov 22, 1985",West Indies
+ODI # 342,Pakistan,West Indies,8 wickets,Gujranwala,"Nov 27, 1985",West Indies
+ODI # 343,Pakistan,West Indies,6 wickets,Lahore,"Nov 29, 1985",Pakistan
+ODI # 344,Pakistan,West Indies,40 runs,Peshawar,"Dec 2, 1985",West Indies
+ODI # 345,Pakistan,West Indies,5 wickets,Rawalpindi,"Dec 4, 1985",Pakistan
+ODI # 346,Pakistan,West Indies,8 wickets,Karachi,"Dec 6, 1985",West Indies
+ODI # 348,India,New Zealand,5 wickets,Brisbane,"Jan 11, 1986",India
+ODI # 349,Australia,India,4 wickets,Brisbane,"Jan 12, 1986",Australia
+ODI # 350,Australia,New Zealand,4 wickets,Sydney,"Jan 14, 1986",Australia
+ODI # 351,Australia,India,8 wickets,Melbourne,"Jan 16, 1986",India
+ODI # 352,India,New Zealand,3 wickets,Perth,"Jan 18, 1986",New Zealand
+ODI # 353,Australia,New Zealand,4 wickets,Perth,"Jan 19, 1986",Australia
+ODI # 354,Australia,India,100 runs,Sydney,"Jan 21, 1986",Australia
+ODI # 355,India,New Zealand,5 wickets,Melbourne,"Jan 23, 1986",New Zealand
+ODI # 356,India,New Zealand,5 wickets,Adelaide,"Jan 25, 1986",India
+ODI # 357,Australia,India,36 runs,Adelaide,"Jan 26, 1986",Australia
+ODI # 358,Australia,New Zealand,206 runs,Adelaide,"Jan 27, 1986",New Zealand
+ODI # 359,Australia,New Zealand,99 runs,Sydney,"Jan 29, 1986",Australia
+ODI # 360,Australia,India,6 wickets,Melbourne,"Jan 31, 1986",India
+ODI # 361,India,New Zealand,22 runs,Launceston,"Feb 2, 1986",India
+ODI # 362,Australia,India,11 runs,Sydney,"Feb 5, 1986",Australia
+ODI # 363,Australia,India,7 wickets,Melbourne,"Feb 9, 1986",Australia
+ODI # 364,West Indies,England,6 wickets,Kingston,"Feb 18, 1986",West Indies
+ODI # 365,Sri Lanka,Pakistan,8 wickets,Kandy,"Mar 2, 1986",Pakistan
+ODI # 366,West Indies,England,5 wickets,Port of Spain,"Mar 4, 1986",England
+ODI # 368,Sri Lanka,Pakistan,8 wickets,Colombo (SSC),"Mar 11, 1986",Pakistan
+ODI # 369,New Zealand,Australia,30 runs,Dunedin,"Mar 19, 1986",New Zealand
+ODI # 370,West Indies,England,135 runs,Bridgetown,"Mar 19, 1986",West Indies
+ODI # 371,New Zealand,Australia,53 runs,Christchurch,"Mar 22, 1986",New Zealand
+ODI # 372,New Zealand,Australia,3 wickets,Wellington,"Mar 26, 1986",Australia
+ODI # 373,New Zealand,Australia,44 runs,Auckland,"Mar 29, 1986",Australia
+ODI # 374,Sri Lanka,Pakistan,81 runs,Colombo (PSS),"Mar 30, 1986",Pakistan
+ODI # 375,Bangladesh,Pakistan,7 wickets,Moratuwa,"Mar 31, 1986",Pakistan
+ODI # 376,West Indies,England,8 wickets,Port of Spain,"Mar 31, 1986",West Indies
+ODI # 377,Sri Lanka,Bangladesh,7 wickets,Kandy,"Apr 2, 1986",Sri Lanka
+ODI # 378,Sri Lanka,New Zealand,6 wickets,Colombo (RPS),"Apr 5, 1986",New Zealand
+ODI # 379,Sri Lanka,Pakistan,5 wickets,Colombo (SSC),"Apr 6, 1986",Sri Lanka
+ODI # 380,New Zealand,Pakistan,4 wickets,Colombo (SSC),"Apr 7, 1986",Pakistan
+ODI # 381,India,New Zealand,3 wickets,Sharjah,"Apr 10, 1986",India
+ODI # 382,Australia,Pakistan,8 wickets,Sharjah,"Apr 11, 1986",Pakistan
+ODI # 383,India,Sri Lanka,3 wickets,Sharjah,"Apr 13, 1986",India
+ODI # 384,New Zealand,Pakistan,10 wickets,Sharjah,"Apr 15, 1986",Pakistan
+ODI # 385,India,Pakistan,1 wicket,Sharjah,"Apr 18, 1986",Pakistan
+ODI # 386,England,India,9 wickets,The Oval,"May 24, 1986",India
+ODI # 387,England,India,5 wickets,Manchester,"May 26, 1986",England
+ODI # 388,England,New Zealand,47 runs,Leeds,"Jul 16, 1986",New Zealand
+ODI # 389,England,New Zealand,6 wickets,Manchester,"Jul 18, 1986",England
+ODI # 390,India,Australia,7 wickets,Jaipur,"Sep 7, 1986",India
+ODI # 391,India,Australia,3 wickets,Srinagar,"Sep 9, 1986",Australia
+ODI # 393,India,Australia,3 wickets,Delhi,"Oct 2, 1986",India
+ODI # 394,India,Australia,52 runs,Ahmedabad,"Oct 5, 1986",India
+ODI # 395,India,Australia,7 wickets,Rajkot,"Oct 7, 1986",Australia
+ODI # 396,Pakistan,West Indies,4 wickets,Peshawar,"Oct 17, 1986",West Indies
+ODI # 397,Pakistan,West Indies,17 runs,Gujranwala,"Nov 4, 1986",West Indies
+ODI # 398,Pakistan,West Indies,4 wickets,Sialkot,"Nov 14, 1986",West Indies
+ODI # 399,Pakistan,West Indies,89 runs,Multan,"Nov 17, 1986",West Indies
+ODI # 400,Pakistan,West Indies,11 runs,Hyderabad (Sind),"Nov 18, 1986",Pakistan
+ODI # 401,India,Sri Lanka,7 wickets,Sharjah,"Nov 27, 1986",India
+ODI # 402,Pakistan,West Indies,9 wickets,Sharjah,"Nov 28, 1986",West Indies
+ODI # 403,India,West Indies,33 runs,Sharjah,"Nov 30, 1986",West Indies
+ODI # 404,Pakistan,Sri Lanka,4 wickets,Sharjah,"Dec 2, 1986",Pakistan
+ODI # 405,Sri Lanka,West Indies,193 runs,Sharjah,"Dec 3, 1986",West Indies
+ODI # 406,India,Pakistan,3 wickets,Sharjah,"Dec 5, 1986",Pakistan
+ODI # 407,India,Sri Lanka,117 runs,Kanpur,"Dec 24, 1986",Sri Lanka
+ODI # 408,Pakistan,West Indies,34 runs,Perth,"Dec 30, 1986",Pakistan
+ODI # 409,Australia,England,37 runs,Perth,"Jan 1, 1987",England
+ODI # 410,Australia,Pakistan,1 wicket,Perth,"Jan 2, 1987",Pakistan
+ODI # 411,England,West Indies,19 runs,Perth,"Jan 3, 1987",England
+ODI # 412,Australia,West Indies,164 runs,Perth,"Jan 4, 1987",West Indies
+ODI # 413,England,Pakistan,3 wickets,Perth,"Jan 5, 1987",England
+ODI # 414,England,Pakistan,5 wickets,Perth,"Jan 7, 1987",England
+ODI # 415,India,Sri Lanka,8 wickets,Guwahati,"Jan 11, 1987",India
+ODI # 416,India,Sri Lanka,6 wickets,Delhi,"Jan 13, 1987",India
+ODI # 417,India,Sri Lanka,94 runs,Vadodara,"Jan 15, 1987",India
+ODI # 418,England,West Indies,6 wickets,Brisbane,"Jan 17, 1987",England
+ODI # 419,India,Sri Lanka,10 runs,Mumbai,"Jan 17, 1987",India
+ODI # 420,Australia,England,11 runs,Brisbane,"Jan 18, 1987",Australia
+ODI # 421,Australia,West Indies,7 wickets,Melbourne,"Jan 20, 1987",West Indies
+ODI # 422,Australia,England,3 wickets,Sydney,"Jan 22, 1987",England
+ODI # 423,England,West Indies,89 runs,Adelaide,"Jan 24, 1987",England
+ODI # 424,Australia,West Indies,16 runs,Adelaide,"Jan 25, 1987",West Indies
+ODI # 425,Australia,England,33 runs,Adelaide,"Jan 26, 1987",Australia
+ODI # 426,India,Pakistan,3 wickets,Indore,"Jan 27, 1987",Pakistan
+ODI # 427,Australia,West Indies,36 runs,Sydney,"Jan 28, 1987",Australia
+ODI # 428,England,West Indies,6 wickets,Melbourne,"Jan 30, 1987",West Indies
+ODI # 429,Australia,England,109 runs,Melbourne,"Feb 1, 1987",Australia
+ODI # 430,England,West Indies,29 runs,Devonport,"Feb 3, 1987",England
+ODI # 431,Australia,West Indies,2 wickets,Sydney,"Feb 6, 1987",Australia
+ODI # 432,Australia,England,6 wickets,Melbourne,"Feb 8, 1987",England
+ODI # 433,Australia,England,8 runs,Sydney,"Feb 11, 1987",England
+ODI # 434,India,Pakistan,2 wickets,Kolkata,"Feb 18, 1987",Pakistan
+ODI # 435,New Zealand,West Indies,95 runs,Dunedin,"Mar 18, 1987",West Indies
+ODI # 436,India,Pakistan,,Hyderabad (Deccan),"Mar 20, 1987",India
+ODI # 437,New Zealand,West Indies,6 wickets,Auckland,"Mar 21, 1987",West Indies
+ODI # 438,India,Pakistan,6 wickets,Pune,"Mar 22, 1987",Pakistan
+ODI # 439,India,Pakistan,41 runs,Nagpur,"Mar 24, 1987",Pakistan
+ODI # 440,India,Pakistan,5 wickets,Jamshedpur,"Mar 26, 1987",Pakistan
+ODI # 441,New Zealand,West Indies,10 wickets,Christchurch,"Mar 28, 1987",West Indies
+ODI # 442,England,India,3 wickets,Sharjah,"Apr 2, 1987",India
+ODI # 443,Australia,Pakistan,6 wickets,Sharjah,"Apr 3, 1987",Pakistan
+ODI # 444,Australia,India,7 wickets,Sharjah,"Apr 5, 1987",India
+ODI # 445,England,Pakistan,5 wickets,Sharjah,"Apr 7, 1987",England
+ODI # 446,Australia,England,11 runs,Sharjah,"Apr 9, 1987",England
+ODI # 447,India,Pakistan,8 wickets,Sharjah,"Apr 10, 1987",Pakistan
+ODI # 448,England,Pakistan,7 wickets,The Oval,"May 21, 1987",England
+ODI # 449,England,Pakistan,6 wickets,Nottingham,"May 23, 1987",Pakistan
+ODI # 450,England,Pakistan,1 wicket,Birmingham,"May 25, 1987",England
+ODI # 451,Pakistan,Sri Lanka,15 runs,Hyderabad (Sind),"Oct 8, 1987",Pakistan
+ODI # 453,India,Australia,1 run,Chennai,"Oct 9, 1987",Australia
+ODI # 452,England,West Indies,2 wickets,Gujranwala,"Oct 9, 1987",England
+ODI # 454,New Zealand,Zimbabwe,3 runs,Hyderabad (Deccan),"Oct 10, 1987",New Zealand
+ODI # 455,Pakistan,England,18 runs,Rawalpindi,"Oct 12-13, 1987",Pakistan
+ODI # 456,Australia,Zimbabwe,96 runs,Chennai,"Oct 13, 1987",Australia
+ODI # 457,Sri Lanka,West Indies,191 runs,Karachi,"Oct 13, 1987",West Indies
+ODI # 458,India,New Zealand,16 runs,Bengaluru,"Oct 14, 1987",India
+ODI # 459,Pakistan,West Indies,1 wicket,Lahore,"Oct 16, 1987",Pakistan
+ODI # 461,India,Zimbabwe,8 wickets,Mumbai,"Oct 17, 1987",India
+ODI # 460,England,Sri Lanka,108 runs,Peshawar,"Oct 17, 1987",England
+ODI # 462,Australia,New Zealand,3 runs,Indore,"Oct 18-19, 1987",Australia
+ODI # 463,Pakistan,England,7 wickets,Karachi,"Oct 20, 1987",Pakistan
+ODI # 464,Sri Lanka,West Indies,25 runs,Kanpur,"Oct 21, 1987",West Indies
+ODI # 465,India,Australia,56 runs,Delhi,"Oct 22, 1987",India
+ODI # 466,New Zealand,Zimbabwe,4 wickets,Kolkata,"Oct 23, 1987",New Zealand
+ODI # 467,Pakistan,Sri Lanka,113 runs,Faisalabad,"Oct 25, 1987",Pakistan
+ODI # 468,England,West Indies,34 runs,Jaipur,"Oct 26, 1987",England
+ODI # 469,India,Zimbabwe,7 wickets,Ahmedabad,"Oct 26, 1987",India
+ODI # 470,Australia,New Zealand,17 runs,Chandigarh,"Oct 27, 1987",Australia
+ODI # 471,Australia,Zimbabwe,70 runs,Cuttack,"Oct 30, 1987",Australia
+ODI # 472,England,Sri Lanka,8 wickets,Pune,"Oct 30, 1987",England
+ODI # 473,Pakistan,West Indies,28 runs,Karachi,"Oct 30, 1987",West Indies
+ODI # 474,India,New Zealand,9 wickets,Nagpur,"Oct 31, 1987",India
+ODI # 475,Pakistan,Australia,18 runs,Lahore,"Nov 4, 1987",Australia
+ODI # 476,India,England,35 runs,Mumbai,"Nov 5, 1987",England
+ODI # 477,Australia,England,7 runs,Kolkata,"Nov 8, 1987",Australia
+ODI # 478,Pakistan,England,2 wickets,Lahore,"Nov 18, 1987",England
+ODI # 479,Pakistan,England,23 runs,Karachi,"Nov 20, 1987",England
+ODI # 480,Pakistan,England,98 runs,Peshawar,"Nov 22, 1987",England
+ODI # 481,India,West Indies,10 runs,Nagpur,"Dec 8, 1987",West Indies
+ODI # 482,India,West Indies,52 runs,Guwahati,"Dec 23, 1987",West Indies
+ODI # 484,Australia,Sri Lanka,81 runs,Perth,"Jan 2, 1988",Australia
+ODI # 483,India,West Indies,56 runs,Kolkata,"Jan 2, 1988",India
+ODI # 485,Australia,New Zealand,1 run,Perth,"Jan 3, 1988",New Zealand
+ODI # 486,New Zealand,Sri Lanka,6 wickets,Sydney,"Jan 5, 1988",New Zealand
+ODI # 487,India,West Indies,6 wickets,Rajkot,"Jan 5, 1988",West Indies
+ODI # 488,Australia,New Zealand,6 runs,Melbourne,"Jan 7, 1988",Australia
+ODI # 489,India,West Indies,2 runs,Ahmedabad,"Jan 7, 1988",West Indies
+ODI # 490,New Zealand,Sri Lanka,4 wickets,Adelaide,"Jan 9, 1988",New Zealand
+ODI # 491,Australia,Sri Lanka,81 runs,Adelaide,"Jan 10, 1988",Australia
+ODI # 492,New Zealand,Sri Lanka,4 wickets,Hobart,"Jan 12, 1988",Sri Lanka
+ODI # 493,Australia,Sri Lanka,38 runs,Melbourne,"Jan 14, 1988",Australia
+ODI # 494,New Zealand,Sri Lanka,4 wickets,Brisbane,"Jan 16, 1988",New Zealand
+ODI # 495,Australia,New Zealand,5 wickets,Brisbane,"Jan 17, 1988",Australia
+ODI # 496,Australia,Sri Lanka,3 wickets,Sydney,"Jan 19, 1988",Australia
+ODI # 497,India,West Indies,4 wickets,Faridabad,"Jan 19, 1988",West Indies
+ODI # 498,Australia,New Zealand,78 runs,Sydney,"Jan 20, 1988",Australia
+ODI # 499,Australia,New Zealand,8 wickets,Melbourne,"Jan 22, 1988",Australia
+ODI # 500,India,West Indies,73 runs,Gwalior,"Jan 22, 1988",West Indies
+ODI # 501,Australia,New Zealand,6 wickets,Sydney,"Jan 24, 1988",Australia
+ODI # 502,India,West Indies,9 wickets,Thiruvananthapuram,"Jan 25, 1988",West Indies
+ODI # 503,Australia,England,22 runs,Melbourne,"Feb 4, 1988",Australia
+ODI # 504,New Zealand,England,5 wickets,Dunedin,"Mar 9, 1988",England
+ODI # 505,New Zealand,England,6 wickets,Christchurch,"Mar 12, 1988",England
+ODI # 506,West Indies,Pakistan,47 runs,Kingston,"Mar 12, 1988",West Indies
+ODI # 507,West Indies,Pakistan,5 wickets,St John's,"Mar 15, 1988",West Indies
+ODI # 508,New Zealand,England,7 wickets,Napier,"Mar 16, 1988",New Zealand
+ODI # 509,West Indies,Pakistan,50 runs,Port of Spain,"Mar 18, 1988",West Indies
+ODI # 510,New Zealand,England,4 wickets,Auckland,"Mar 19, 1988",New Zealand
+ODI # 511,West Indies,Pakistan,7 wickets,Port of Spain,"Mar 20, 1988",West Indies
+ODI # 512,India,Sri Lanka,18 runs,Sharjah,"Mar 25, 1988",India
+ODI # 513,India,New Zealand,73 runs,Sharjah,"Mar 27, 1988",India
+ODI # 514,New Zealand,Sri Lanka,99 runs,Sharjah,"Mar 29, 1988",New Zealand
+ODI # 515,West Indies,Pakistan,7 wickets,Georgetown,"Mar 30, 1988",West Indies
+ODI # 516,New Zealand,Sri Lanka,43 runs,Sharjah,"Mar 31, 1988",New Zealand
+ODI # 517,India,New Zealand,52 runs,Sharjah,"Apr 1, 1988",India
+ODI # 518,England,West Indies,6 wickets,Birmingham,"May 19, 1988",England
+ODI # 519,England,West Indies,47 runs,Leeds,"May 21, 1988",England
+ODI # 520,England,West Indies,7 wickets,Lord's,"May 23-24, 1988",England
+ODI # 521,England,Sri Lanka,5 wickets,The Oval,"Sep 4, 1988",England
+ODI # 522,Pakistan,Australia,,Lahore,"Oct 14, 1988",Pakistan
+ODI # 523,India,West Indies,23 runs,Sharjah,"Oct 16, 1988",India
+ODI # 524,Pakistan,West Indies,84 runs,Sharjah,"Oct 18, 1988",Pakistan
+ODI # 525,India,Pakistan,34 runs,Sharjah,"Oct 19, 1988",Pakistan
+ODI # 526,India,West Indies,8 wickets,Sharjah,"Oct 21, 1988",West Indies
+ODI # 527,Pakistan,West Indies,11 runs,Sharjah,"Oct 22, 1988",West Indies
+ODI # 528,Pakistan,Sri Lanka,5 wickets,Dhaka,"Oct 27, 1988",Sri Lanka
+ODI # 529,Bangladesh,India,9 wickets,Chittagong,"Oct 27, 1988",India
+ODI # 530,India,Sri Lanka,17 runs,Dhaka,"Oct 29, 1988",Sri Lanka
+ODI # 531,Bangladesh,Pakistan,173 runs,Chittagong,"Oct 29, 1988",Pakistan
+ODI # 532,India,Pakistan,4 wickets,Dhaka,"Oct 31, 1988",India
+ODI # 533,Bangladesh,Sri Lanka,9 wickets,Dhaka,"Nov 2, 1988",Sri Lanka
+ODI # 534,India,Sri Lanka,6 wickets,Dhaka,"Nov 4, 1988",India
+ODI # 535,Pakistan,West Indies,89 runs,Adelaide,"Dec 10, 1988",West Indies
+ODI # 536,India,New Zealand,4 wickets,Visakhapatnam,"Dec 10, 1988",India
+ODI # 537,Australia,Pakistan,9 wickets,Adelaide,"Dec 11, 1988",Australia
+ODI # 538,India,New Zealand,5 wickets,Cuttack,"Dec 12, 1988",India
+ODI # 539,Australia,West Indies,1 run,Sydney,"Dec 13, 1988",West Indies
+ODI # 540,Australia,West Indies,34 runs,Melbourne,"Dec 15, 1988",West Indies
+ODI # 541,India,New Zealand,53 runs,Indore,"Dec 15, 1988",India
+ODI # 542,Pakistan,West Indies,17 runs,Hobart,"Dec 17, 1988",West Indies
+ODI # 543,India,New Zealand,2 wickets,Vadodara,"Dec 17, 1988",India
+ODI # 544,Pakistan,West Indies,7 wickets,Perth,"Jan 1, 1989",West Indies
+ODI # 545,Australia,Pakistan,38 runs,Perth,"Jan 2, 1989",Pakistan
+ODI # 546,Australia,West Indies,8 runs,Melbourne,"Jan 5, 1989",Australia
+ODI # 547,Pakistan,West Indies,55 runs,Brisbane,"Jan 7, 1989",Pakistan
+ODI # 548,Australia,Pakistan,5 wickets,Brisbane,"Jan 8, 1989",Australia
+ODI # 549,Australia,Pakistan,6 runs,Melbourne,"Jan 10, 1989",Australia
+ODI # 550,Australia,West Indies,61 runs,Sydney,"Jan 12, 1989",Australia
+ODI # 551,Australia,West Indies,2 runs,Melbourne,"Jan 14, 1989",Australia
+ODI # 552,Australia,West Indies,92 runs,Sydney,"Jan 16, 1989",West Indies
+ODI # 553,Australia,West Indies,8 wickets,Sydney,"Jan 18, 1989",West Indies
+ODI # 554,New Zealand,Pakistan,8 wickets,Dunedin,"Feb 6, 1989",New Zealand
+ODI # 555,New Zealand,Pakistan,7 wickets,Christchurch,"Mar 4, 1989",New Zealand
+ODI # 556,West Indies,India,50 runs,Bridgetown,"Mar 7, 1989",West Indies
+ODI # 557,New Zealand,Pakistan,6 wickets,Wellington,"Mar 8, 1989",New Zealand
+ODI # 558,West Indies,India,6 wickets,Port of Spain,"Mar 9, 1989",West Indies
+ODI # 559,New Zealand,Pakistan,7 wickets,Auckland,"Mar 11, 1989",Pakistan
+ODI # 560,West Indies,India,6 wickets,Port of Spain,"Mar 11, 1989",West Indies
+ODI # 561,New Zealand,Pakistan,7 wickets,Hamilton,"Mar 14, 1989",New Zealand
+ODI # 562,West Indies,India,8 wickets,St John's,"Mar 18, 1989",West Indies
+ODI # 563,West Indies,India,101 runs,Georgetown,"Mar 21, 1989",West Indies
+ODI # 564,Pakistan,Sri Lanka,30 runs,Sharjah,"Mar 23, 1989",Pakistan
+ODI # 565,Pakistan,Sri Lanka,7 wickets,Sharjah,"Mar 24, 1989",Pakistan
+ODI # 566,England,Australia,95 runs,Manchester,"May 25, 1989",England
+ODI # 568,England,Australia,6 wickets,Lord's,"May 29, 1989",Australia
+ODI # 569,India,West Indies,5 wickets,Sharjah,"Oct 13, 1989",West Indies
+ODI # 570,Pakistan,West Indies,11 runs,Sharjah,"Oct 14, 1989",Pakistan
+ODI # 571,England,Sri Lanka,5 wickets,Delhi,"Oct 15, 1989",England
+ODI # 572,India,Pakistan,6 wickets,Sharjah,"Oct 15, 1989",Pakistan
+ODI # 573,India,West Indies,37 runs,Sharjah,"Oct 16, 1989",India
+ODI # 574,Pakistan,West Indies,57 runs,Sharjah,"Oct 17, 1989",Pakistan
+ODI # 575,Australia,England,7 wickets,Hyderabad (Deccan),"Oct 19, 1989",England
+ODI # 576,Sri Lanka,West Indies,4 wickets,Rajkot,"Oct 19, 1989",Sri Lanka
+ODI # 577,India,Pakistan,38 runs,Sharjah,"Oct 20, 1989",Pakistan
+ODI # 578,Australia,West Indies,99 runs,Chennai,"Oct 21, 1989",Australia
+ODI # 579,England,Pakistan,4 wickets,Cuttack,"Oct 22, 1989",England
+ODI # 580,India,Sri Lanka,6 runs,Ahmedabad,"Oct 22, 1989",India
+ODI # 581,Australia,Pakistan,66 runs,Mumbai (BS),"Oct 23, 1989",Pakistan
+ODI # 582,India,West Indies,20 runs,Delhi,"Oct 23, 1989",West Indies
+ODI # 583,India,England,6 wickets,Kanpur,"Oct 25, 1989",India
+ODI # 584,Pakistan,West Indies,6 wickets,Jalandhar,"Oct 25, 1989",West Indies
+ODI # 585,Australia,Sri Lanka,28 runs,Margao,"Oct 25, 1989",Australia
+ODI # 586,England,West Indies,26 runs,Gwalior,"Oct 27, 1989",West Indies
+ODI # 587,India,Australia,3 wickets,Bengaluru,"Oct 27, 1989",India
+ODI # 588,Pakistan,Sri Lanka,6 runs,Lucknow,"Oct 27, 1989",Pakistan
+ODI # 589,India,Pakistan,77 runs,Kolkata,"Oct 28, 1989",Pakistan
+ODI # 590,England,Pakistan,6 wickets,Nagpur,"Oct 30, 1989",Pakistan
+ODI # 591,India,West Indies,8 wickets,Mumbai,"Oct 30, 1989",West Indies
+ODI # 592,Pakistan,West Indies,4 wickets,Kolkata,"Nov 1, 1989",Pakistan
+ODI # 593,Pakistan,India,7 runs,Gujranwala,"Dec 18, 1989",Pakistan
+ODI # 595,Pakistan,India,38 runs,Lahore,"Dec 22, 1989",Pakistan
+ODI # 596,Australia,Sri Lanka,30 runs,Melbourne,"Dec 26, 1989",Australia
+ODI # 597,Australia,Sri Lanka,9 wickets,Perth,"Dec 30, 1989",Australia
+ODI # 598,Pakistan,Sri Lanka,3 wickets,Perth,"Dec 31, 1989",Sri Lanka
+ODI # 599,Australia,Pakistan,7 wickets,Melbourne,"Jan 3, 1990",Australia
+ODI # 600,Australia,Sri Lanka,73 runs,Melbourne,"Jan 4, 1990",Australia
+ODI # 601,Pakistan,Sri Lanka,5 wickets,Brisbane,"Feb 10, 1990",Pakistan
+ODI # 602,Australia,Pakistan,67 runs,Brisbane,"Feb 11, 1990",Australia
+ODI # 603,Australia,Pakistan,5 wickets,Sydney,"Feb 13, 1990",Pakistan
+ODI # 605,Pakistan,Sri Lanka,6 wickets,Hobart,"Feb 15, 1990",Pakistan
+ODI # 606,Pakistan,Sri Lanka,27 runs,Adelaide,"Feb 17, 1990",Pakistan
+ODI # 608,Australia,Sri Lanka,7 wickets,Adelaide,"Feb 18, 1990",Australia
+ODI # 609,Australia,Pakistan,2 runs,Sydney,"Feb 20, 1990",Pakistan
+ODI # 610,Australia,Pakistan,7 wickets,Melbourne,"Feb 23, 1990",Australia
+ODI # 611,Australia,Pakistan,69 runs,Sydney,"Feb 25, 1990",Australia
+ODI # 612,New Zealand,India,108 runs,Dunedin,"Mar 1, 1990",New Zealand
+ODI # 613,Australia,India,18 runs,Christchurch,"Mar 3, 1990",Australia
+ODI # 614,West Indies,England,3 wickets,Kingston,"Mar 3, 1990",West Indies
+ODI # 615,New Zealand,Australia,150 runs,Christchurch,"Mar 4, 1990",Australia
+ODI # 616,New Zealand,India,1 run,Wellington,"Mar 6, 1990",India
+ODI # 617,West Indies,England,6 wickets,Georgetown,"Mar 7, 1990",West Indies
+ODI # 618,Australia,India,7 wickets,Hamilton,"Mar 8, 1990",Australia
+ODI # 619,New Zealand,Australia,10 runs,Auckland,"Mar 10, 1990",Australia
+ODI # 620,New Zealand,Australia,8 wickets,Auckland,"Mar 11, 1990",Australia
+ODI # 621,West Indies,England,7 wickets,Georgetown,"Mar 15, 1990",West Indies
+ODI # 622,West Indies,England,4 wickets,Bridgetown,"Apr 3, 1990",West Indies
+ODI # 623,India,Sri Lanka,3 wickets,Sharjah,"Apr 25, 1990",Sri Lanka
+ODI # 624,Australia,New Zealand,63 runs,Sharjah,"Apr 26, 1990",Australia
+ODI # 625,India,Pakistan,26 runs,Sharjah,"Apr 27, 1990",Pakistan
+ODI # 626,Bangladesh,New Zealand,161 runs,Sharjah,"Apr 28, 1990",New Zealand
+ODI # 627,Pakistan,Sri Lanka,90 runs,Sharjah,"Apr 29, 1990",Pakistan
+ODI # 628,Australia,Bangladesh,7 wickets,Sharjah,"Apr 30, 1990",Australia
+ODI # 629,New Zealand,Pakistan,8 wickets,Sharjah,"May 1, 1990",Pakistan
+ODI # 630,Australia,Sri Lanka,114 runs,Sharjah,"May 2, 1990",Australia
+ODI # 631,Australia,Pakistan,36 runs,Sharjah,"May 4, 1990",Pakistan
+ODI # 632,England,New Zealand,4 wickets,Leeds,"May 23, 1990",New Zealand
+ODI # 633,England,New Zealand,6 wickets,The Oval,"May 25, 1990",England
+ODI # 634,England,India,6 wickets,Leeds,"Jul 18, 1990",India
+ODI # 635,England,India,5 wickets,Nottingham,"Jul 20, 1990",India
+ODI # 636,Pakistan,New Zealand,19 runs,Lahore,"Nov 2, 1990",Pakistan
+ODI # 637,Pakistan,New Zealand,8 wickets,Peshawar,"Nov 4, 1990",Pakistan
+ODI # 638,Pakistan,New Zealand,105 runs,Sialkot,"Nov 6, 1990",Pakistan
+ODI # 639,Pakistan,West Indies,6 runs,Karachi,"Nov 9, 1990",Pakistan
+ODI # 640,Pakistan,West Indies,5 wickets,Lahore,"Nov 11, 1990",Pakistan
+ODI # 641,Pakistan,West Indies,31 runs,Multan,"Nov 13, 1990",Pakistan
+ODI # 642,Australia,New Zealand,61 runs,Sydney,"Nov 29, 1990",Australia
+ODI # 643,England,New Zealand,7 runs,Adelaide,"Dec 1, 1990",New Zealand
+ODI # 644,India,Sri Lanka,19 runs,Nagpur,"Dec 1, 1990",India
+ODI # 645,Australia,New Zealand,6 wickets,Adelaide,"Dec 2, 1990",Australia
+ODI # 646,India,Sri Lanka,6 wickets,Pune,"Dec 5, 1990",India
+ODI # 647,England,New Zealand,4 wickets,Perth,"Dec 7, 1990",England
+ODI # 648,India,Sri Lanka,7 wickets,Margao,"Dec 8, 1990",Sri Lanka
+ODI # 649,Australia,England,6 wickets,Perth,"Dec 9, 1990",Australia
+ODI # 650,Australia,New Zealand,39 runs,Melbourne,"Dec 11, 1990",Australia
+ODI # 651,England,New Zealand,33 runs,Sydney,"Dec 13, 1990",England
+ODI # 652,England,New Zealand,8 wickets,Brisbane,"Dec 15, 1990",New Zealand
+ODI # 653,Australia,England,37 runs,Brisbane,"Dec 16, 1990",Australia
+ODI # 654,Australia,New Zealand,1 run,Hobart,"Dec 18, 1990",New Zealand
+ODI # 655,Pakistan,Sri Lanka,6 wickets,Sharjah,"Dec 20, 1990",Sri Lanka
+ODI # 656,Pakistan,Sri Lanka,50 runs,Sharjah,"Dec 21, 1990",Pakistan
+ODI # 657,India,Bangladesh,9 wickets,Chandigarh,"Dec 25, 1990",India
+ODI # 658,India,Sri Lanka,36 runs,Cuttack,"Dec 28, 1990",Sri Lanka
+ODI # 659,Bangladesh,Sri Lanka,71 runs,Kolkata,"Dec 31, 1990",Sri Lanka
+ODI # 660,Australia,England,68 runs,Sydney,"Jan 1, 1991",Australia
+ODI # 661,India,Sri Lanka,7 wickets,Kolkata,"Jan 4, 1991",India
+ODI # 662,Australia,England,3 runs,Melbourne,"Jan 10, 1991",Australia
+ODI # 663,Australia,New Zealand,6 wickets,Sydney,"Jan 13, 1991",Australia
+ODI # 664,Australia,New Zealand,7 wickets,Melbourne,"Jan 15, 1991",Australia
+ODI # 665,New Zealand,Sri Lanka,5 wickets,Napier,"Jan 26, 1991",New Zealand
+ODI # 666,New Zealand,Sri Lanka,41 runs,Auckland,"Jan 28, 1991",New Zealand
+ODI # 667,New Zealand,Sri Lanka,107 runs,Dunedin,"Feb 6, 1991",New Zealand
+ODI # 668,New Zealand,England,14 runs,Christchurch,"Feb 9, 1991",England
+ODI # 669,New Zealand,England,9 runs,Wellington,"Feb 13, 1991",New Zealand
+ODI # 670,New Zealand,England,7 runs,Auckland,"Feb 16, 1991",New Zealand
+ODI # 671,West Indies,Australia,35 runs,Kingston,"Feb 26, 1991",Australia
+ODI # 672,West Indies,Australia,45 runs,Port of Spain,"Mar 9, 1991",Australia
+ODI # 673,West Indies,Australia,7 wickets,Port of Spain,"Mar 10, 1991",West Indies
+ODI # 674,West Indies,Australia,37 runs,Bridgetown,"Mar 13, 1991",Australia
+ODI # 675,West Indies,Australia,6 wickets,Georgetown,"Mar 20, 1991",Australia
+ODI # 676,England,West Indies,1 wicket,Birmingham,"May 23-24, 1991",England
+ODI # 677,England,West Indies,9 runs,Manchester,"May 25, 1991",England
+ODI # 678,England,West Indies,7 wickets,Lord's,"May 27, 1991",England
+ODI # 679,Pakistan,West Indies,1 wicket,Sharjah,"Oct 17, 1991",West Indies
+ODI # 680,India,Pakistan,60 runs,Sharjah,"Oct 18, 1991",India
+ODI # 681,India,West Indies,19 runs,Sharjah,"Oct 19, 1991",India
+ODI # 682,Pakistan,West Indies,1 run,Sharjah,"Oct 21, 1991",Pakistan
+ODI # 683,India,West Indies,7 wickets,Sharjah,"Oct 22, 1991",India
+ODI # 684,India,Pakistan,4 runs,Sharjah,"Oct 23, 1991",Pakistan
+ODI # 685,India,Pakistan,72 runs,Sharjah,"Oct 25, 1991",Pakistan
+ODI # 686,India,South Africa,3 wickets,Kolkata,"Nov 10, 1991",India
+ODI # 687,India,South Africa,38 runs,Gwalior,"Nov 12, 1991",India
+ODI # 688,India,South Africa,8 wickets,New Delhi,"Nov 14, 1991",South Africa
+ODI # 689,Pakistan,West Indies,24 runs,Karachi,"Nov 20, 1991",West Indies
+ODI # 691,Pakistan,West Indies,17 runs,Faisalabad,"Nov 24, 1991",West Indies
+ODI # 693,Australia,India,107 runs,Perth,"Dec 8, 1991",India
+ODI # 694,Australia,India,8 wickets,Hobart,"Dec 10, 1991",Australia
+ODI # 695,Australia,West Indies,9 runs,Melbourne,"Dec 12, 1991",Australia
+ODI # 696,India,West Indies,10 runs,Adelaide,"Dec 14, 1991",India
+ODI # 697,Australia,India,6 wickets,Adelaide,"Dec 15, 1991",Australia
+ODI # 698,Australia,West Indies,51 runs,Sydney,"Dec 18, 1991",Australia
+ODI # 700,Pakistan,Sri Lanka,8 wickets,Sargodha,"Jan 10, 1992",Pakistan
+ODI # 701,New Zealand,England,7 wickets,Auckland,"Jan 11, 1992",England
+ODI # 702,India,West Indies,6 wickets,Brisbane,"Jan 11, 1992",West Indies
+ODI # 703,Australia,West Indies,12 runs,Brisbane,"Jan 12, 1992",West Indies
+ODI # 704,Pakistan,Sri Lanka,29 runs,Karachi,"Jan 13, 1992",Pakistan
+ODI # 705,Australia,India,9 wickets,Sydney,"Jan 14, 1992",Australia
+ODI # 706,Pakistan,Sri Lanka,59 runs,Hyderabad (Sind),"Jan 15, 1992",Pakistan
+ODI # 707,India,West Indies,5 wickets,Melbourne,"Jan 16, 1992",India
+ODI # 708,Pakistan,Sri Lanka,4 wickets,Multan,"Jan 17, 1992",Sri Lanka
+ODI # 709,Australia,India,88 runs,Melbourne,"Jan 18, 1992",Australia
+ODI # 710,Pakistan,Sri Lanka,117 runs,Rawalpindi,"Jan 19, 1992",Pakistan
+ODI # 711,Australia,India,6 runs,Sydney,"Jan 20, 1992",Australia
+ODI # 712,New Zealand,England,3 wickets,Dunedin,"Feb 12, 1992",England
+ODI # 713,New Zealand,England,71 runs,Christchurch,"Feb 15, 1992",England
+ODI # 714,New Zealand,Australia,37 runs,Auckland,"Feb 22, 1992",New Zealand
+ODI # 715,England,India,9 runs,Perth,"Feb 22, 1992",England
+ODI # 716,Sri Lanka,Zimbabwe,3 wickets,New Plymouth,"Feb 23, 1992",Sri Lanka
+ODI # 717,Pakistan,West Indies,10 wickets,Melbourne,"Feb 23, 1992",West Indies
+ODI # 718,New Zealand,Sri Lanka,6 wickets,Hamilton,"Feb 25, 1992",New Zealand
+ODI # 719,Australia,South Africa,9 wickets,Sydney,"Feb 26, 1992",South Africa
+ODI # 720,Pakistan,Zimbabwe,53 runs,Hobart,"Feb 27, 1992",Pakistan
+ODI # 721,England,West Indies,6 wickets,Melbourne,"Feb 27, 1992",England
+ODI # 723,New Zealand,South Africa,7 wickets,Auckland,"Feb 29, 1992",New Zealand
+ODI # 724,West Indies,Zimbabwe,75 runs,Brisbane,"Feb 29, 1992",West Indies
+ODI # 725,Australia,India,1 run,Brisbane,"Mar 1, 1992",Australia
+ODI # 727,South Africa,Sri Lanka,3 wickets,Wellington,"Mar 2, 1992",Sri Lanka
+ODI # 728,New Zealand,Zimbabwe,48 runs,Napier,"Mar 3, 1992",New Zealand
+ODI # 729,India,Pakistan,43 runs,Sydney,"Mar 4, 1992",India
+ODI # 730,South Africa,West Indies,64 runs,Christchurch,"Mar 5, 1992",South Africa
+ODI # 731,Australia,England,8 wickets,Sydney,"Mar 5, 1992",England
+ODI # 732,India,Zimbabwe,55 runs,Hamilton,"Mar 7, 1992",India
+ODI # 733,Australia,Sri Lanka,7 wickets,Adelaide,"Mar 7, 1992",Australia
+ODI # 734,New Zealand,West Indies,5 wickets,Auckland,"Mar 8, 1992",New Zealand
+ODI # 735,Pakistan,South Africa,20 runs,Brisbane,"Mar 8, 1992",South Africa
+ODI # 736,England,Sri Lanka,106 runs,Ballarat,"Mar 9, 1992",England
+ODI # 737,India,West Indies,5 wickets,Wellington,"Mar 10, 1992",West Indies
+ODI # 738,South Africa,Zimbabwe,7 wickets,Canberra,"Mar 10, 1992",South Africa
+ODI # 739,Australia,Pakistan,48 runs,Perth,"Mar 11, 1992",Pakistan
+ODI # 740,New Zealand,India,4 wickets,Dunedin,"Mar 12, 1992",New Zealand
+ODI # 741,England,South Africa,3 wickets,Melbourne,"Mar 12, 1992",England
+ODI # 742,Sri Lanka,West Indies,91 runs,Berri,"Mar 13, 1992",West Indies
+ODI # 743,Australia,Zimbabwe,128 runs,Hobart,"Mar 14, 1992",Australia
+ODI # 744,New Zealand,England,7 wickets,Wellington,"Mar 15, 1992",New Zealand
+ODI # 745,India,South Africa,6 wickets,Adelaide,"Mar 15, 1992",South Africa
+ODI # 746,Pakistan,Sri Lanka,4 wickets,Perth,"Mar 15, 1992",Pakistan
+ODI # 747,New Zealand,Pakistan,7 wickets,Christchurch,"Mar 18, 1992",Pakistan
+ODI # 748,England,Zimbabwe,9 runs,Albury,"Mar 18, 1992",Zimbabwe
+ODI # 749,Australia,West Indies,57 runs,Melbourne,"Mar 18, 1992",Australia
+ODI # 750,New Zealand,Pakistan,4 wickets,Auckland,"Mar 21, 1992",Pakistan
+ODI # 751,England,South Africa,19 runs,Sydney,"Mar 22, 1992",England
+ODI # 752,England,Pakistan,22 runs,Melbourne,"Mar 25, 1992",Pakistan
+ODI # 753,West Indies,South Africa,107 runs,Kingston,"Apr 7, 1992",West Indies
+ODI # 754,West Indies,South Africa,10 wickets,Port of Spain,"Apr 11, 1992",West Indies
+ODI # 755,West Indies,South Africa,7 wickets,Port of Spain,"Apr 12, 1992",West Indies
+ODI # 756,England,Pakistan,79 runs,Lord's,"May 20, 1992",England
+ODI # 757,England,Pakistan,39 runs,The Oval,"May 22, 1992",England
+ODI # 758,Sri Lanka,Australia,4 wickets,Colombo (PSS),"Aug 15, 1992",Sri Lanka
+ODI # 759,England,Pakistan,198 runs,Nottingham,"Aug 20, 1992",England
+ODI # 760,England,Pakistan,3 runs,Lord's,"Aug 22, 1992",Pakistan
+ODI # 761,England,Pakistan,6 wickets,Manchester,"Aug 24, 1992",England
+ODI # 762,Sri Lanka,Australia,5 wickets,Colombo (RPS),"Sep 4, 1992",Sri Lanka
+ODI # 763,Sri Lanka,Australia,5 wickets,Colombo (RPS),"Sep 5, 1992",Australia
+ODI # 764,Zimbabwe,India,30 runs,Harare,"Oct 25, 1992",India
+ODI # 765,Zimbabwe,New Zealand,22 runs,Bulawayo,"Oct 31, 1992",New Zealand
+ODI # 766,Zimbabwe,New Zealand,4 wickets,Harare,"Nov 8, 1992",New Zealand
+ODI # 767,Pakistan,West Indies,5 wickets,Perth,"Dec 4, 1992",Pakistan
+ODI # 769,Australia,West Indies,9 wickets,Perth,"Dec 6, 1992",West Indies
+ODI # 770,South Africa,India,6 wickets,Cape Town,"Dec 7, 1992",South Africa
+ODI # 771,Australia,West Indies,14 runs,Sydney,"Dec 8, 1992",Australia
+ODI # 772,South Africa,India,6 wickets,Port Elizabeth,"Dec 9, 1992",South Africa
+ODI # 774,South Africa,India,4 wickets,Centurion,"Dec 11, 1992",India
+ODI # 775,Pakistan,West Indies,4 runs,Adelaide,"Dec 12, 1992",West Indies
+ODI # 776,Sri Lanka,New Zealand,8 wickets,Colombo (PSS),"Dec 12, 1992",Sri Lanka
+ODI # 777,Australia,Pakistan,8 wickets,Adelaide,"Dec 13, 1992",Australia
+ODI # 778,Sri Lanka,New Zealand,31 runs,Colombo (RPS),"Dec 13, 1992",Sri Lanka
+ODI # 779,South Africa,India,6 wickets,Johannesburg,"Dec 13, 1992",South Africa
+ODI # 780,Australia,West Indies,4 runs,Melbourne,"Dec 15, 1992",Australia
+ODI # 781,South Africa,India,8 wickets,Bloemfontein,"Dec 15, 1992",South Africa
+ODI # 782,Pakistan,West Indies,133 runs,Sydney,"Dec 17, 1992",West Indies
+ODI # 783,South Africa,India,39 runs,Durban,"Dec 17, 1992",South Africa
+ODI # 784,South Africa,India,5 wickets,East London,"Dec 19, 1992",India
+ODI # 785,New Zealand,Pakistan,50 runs,Wellington,"Dec 26, 1992",Pakistan
+ODI # 786,New Zealand,Pakistan,6 wickets,Napier,"Dec 28, 1992",New Zealand
+ODI # 787,New Zealand,Pakistan,6 wickets,Auckland,"Dec 30, 1992",New Zealand
+ODI # 788,Pakistan,West Indies,9 wickets,Brisbane,"Jan 9, 1993",West Indies
+ODI # 789,Australia,West Indies,7 runs,Brisbane,"Jan 10, 1993",West Indies
+ODI # 790,Australia,Pakistan,32 runs,Melbourne,"Jan 12, 1993",Australia
+ODI # 791,Australia,Pakistan,23 runs,Sydney,"Jan 14, 1993",Australia
+ODI # 792,Australia,West Indies,25 runs,Sydney,"Jan 16, 1993",West Indies
+ODI # 793,Australia,West Indies,4 wickets,Melbourne,"Jan 18, 1993",West Indies
+ODI # 794,India,England,4 wickets,Jaipur,"Jan 18, 1993",England
+ODI # 795,India,England,5 wickets,Chandigarh,"Jan 21, 1993",India
+ODI # 796,Pakistan,Zimbabwe,49 runs,Sharjah,"Feb 1, 1993",Pakistan
+ODI # 797,Pakistan,Sri Lanka,8 wickets,Sharjah,"Feb 2, 1993",Pakistan
+ODI # 798,Sri Lanka,Zimbabwe,30 runs,Sharjah,"Feb 3, 1993",Sri Lanka
+ODI # 799,Pakistan,Sri Lanka,114 runs,Sharjah,"Feb 4, 1993",Pakistan
+ODI # 800,South Africa,Pakistan,10 runs,Durban,"Feb 9, 1993",Pakistan
+ODI # 801,South Africa,West Indies,6 wickets,Port Elizabeth,"Feb 11, 1993",South Africa
+ODI # 802,Pakistan,West Indies,8 wickets,Johannesburg,"Feb 13, 1993",West Indies
+ODI # 803,South Africa,Pakistan,9 runs,East London,"Feb 15, 1993",Pakistan
+ODI # 804,South Africa,West Indies,4 runs,Cape Town,"Feb 17, 1993",South Africa
+ODI # 805,Pakistan,West Indies,124 runs,Durban,"Feb 19, 1993",West Indies
+ODI # 806,South Africa,Pakistan,22 runs,Centurion,"Feb 21, 1993",Pakistan
+ODI # 807,South Africa,West Indies,9 wickets,Bloemfontein,"Feb 23, 1993",West Indies
+ODI # 808,Pakistan,West Indies,7 wickets,Cape Town,"Feb 25, 1993",West Indies
+ODI # 809,India,England,48 runs,Bengaluru,"Feb 26, 1993",England
+ODI # 810,Pakistan,West Indies,5 wickets,Johannesburg,"Feb 27, 1993",West Indies
+ODI # 811,India,England,6 wickets,Jamshedpur,"Mar 1, 1993",England
+ODI # 812,Zimbabwe,Pakistan,7 wickets,Harare,"Mar 2, 1993",Pakistan
+ODI # 813,India,England,3 wickets,Gwalior,"Mar 4, 1993",India
+ODI # 814,India,England,4 wickets,Gwalior,"Mar 5, 1993",India
+ODI # 815,Sri Lanka,England,32 runs,Colombo (RPS),"Mar 10, 1993",Sri Lanka
+ODI # 816,New Zealand,Australia,129 runs,Dunedin,"Mar 19, 1993",Australia
+ODI # 817,India,Zimbabwe,67 runs,Faridabad,"Mar 19, 1993",India
+ODI # 818,Sri Lanka,England,8 wickets,Moratuwa,"Mar 20, 1993",Sri Lanka
+ODI # 819,New Zealand,Australia,1 wicket,Christchurch,"Mar 21-22, 1993",Australia
+ODI # 820,India,Zimbabwe,7 wickets,Guwahati,"Mar 22, 1993",India
+ODI # 821,West Indies,Pakistan,4 wickets,Kingston,"Mar 23, 1993",West Indies
+ODI # 822,New Zealand,Australia,88 runs,Wellington,"Mar 24, 1993",New Zealand
+ODI # 823,India,Zimbabwe,8 wickets,Pune,"Mar 25, 1993",India
+ODI # 824,West Indies,Pakistan,5 wickets,Port of Spain,"Mar 26, 1993",West Indies
+ODI # 825,New Zealand,Australia,3 wickets,Hamilton,"Mar 27, 1993",New Zealand
+ODI # 826,West Indies,Pakistan,7 wickets,Port of Spain,"Mar 27, 1993",Pakistan
+ODI # 827,New Zealand,Australia,3 runs,Auckland,"Mar 28, 1993",Australia
+ODI # 828,West Indies,Pakistan,38 runs,Kingstown,"Mar 30, 1993",Pakistan
+ODI # 830,England,Australia,4 runs,Manchester,"May 19, 1993",Australia
+ODI # 831,England,Australia,6 wickets,Birmingham,"May 21, 1993",Australia
+ODI # 832,England,Australia,19 runs,Lord's,"May 23, 1993",Australia
+ODI # 833,Sri Lanka,India,1 run,Colombo (RPS),"Jul 25, 1993",India
+ODI # 834,Sri Lanka,India,8 runs,Colombo (RPS),"Aug 12, 1993",Sri Lanka
+ODI # 835,Sri Lanka,India,4 wickets,Moratuwa,"Aug 14, 1993",Sri Lanka
+ODI # 837,Sri Lanka,South Africa,124 runs,Colombo (RPS),"Sep 2, 1993",South Africa
+ODI # 838,Sri Lanka,South Africa,44 runs,Colombo (RPS),"Sep 4, 1993",Sri Lanka
+ODI # 839,Sri Lanka,West Indies,8 wickets,Sharjah,"Oct 28, 1993",West Indies
+ODI # 840,Pakistan,West Indies,39 runs,Sharjah,"Oct 29, 1993",West Indies
+ODI # 841,Pakistan,Sri Lanka,114 runs,Sharjah,"Oct 30, 1993",Pakistan
+ODI # 842,Pakistan,West Indies,5 wickets,Sharjah,"Nov 1, 1993",Pakistan
+ODI # 843,Pakistan,Sri Lanka,2 wickets,Sharjah,"Nov 2, 1993",Pakistan
+ODI # 844,Sri Lanka,West Indies,8 wickets,Sharjah,"Nov 3, 1993",West Indies
+ODI # 845,Pakistan,West Indies,6 wickets,Sharjah,"Nov 5, 1993",West Indies
+ODI # 846,India,Sri Lanka,7 wickets,Kanpur,"Nov 7, 1993",India
+ODI # 847,Sri Lanka,West Indies,46 runs,Mumbai,"Nov 9, 1993",West Indies
+ODI # 849,South Africa,West Indies,41 runs,Mumbai (BS),"Nov 14, 1993",South Africa
+ODI # 850,Sri Lanka,Zimbabwe,55 runs,Patna,"Nov 15, 1993",Sri Lanka
+ODI # 851,India,West Indies,69 runs,Ahmedabad,"Nov 16, 1993",West Indies
+ODI # 853,South Africa,Sri Lanka,78 runs,Guwahati,"Nov 19, 1993",South Africa
+ODI # 854,West Indies,Zimbabwe,134 runs,Hyderabad (Deccan),"Nov 21, 1993",West Indies
+ODI # 855,India,South Africa,43 runs,Mohali,"Nov 22, 1993",India
+ODI # 856,India,South Africa,2 runs,Kolkata,"Nov 24, 1993",India
+ODI # 857,Sri Lanka,West Indies,7 wickets,Kolkata,"Nov 25, 1993",West Indies
+ODI # 858,India,West Indies,102 runs,Kolkata,"Nov 27, 1993",India
+ODI # 860,Australia,South Africa,7 wickets,Melbourne,"Dec 9, 1993",South Africa
+ODI # 861,Australia,New Zealand,8 wickets,Adelaide,"Dec 12, 1993",Australia
+ODI # 862,Australia,South Africa,103 runs,Sydney,"Dec 14, 1993",Australia
+ODI # 863,Australia,New Zealand,3 runs,Melbourne,"Dec 16, 1993",Australia
+ODI # 864,Sri Lanka,West Indies,3 wickets,Colombo (RPS),"Dec 16, 1993",Sri Lanka
+ODI # 865,New Zealand,South Africa,4 wickets,Hobart,"Dec 18, 1993",New Zealand
+ODI # 866,Sri Lanka,West Indies,6 wickets,Colombo (SSC),"Dec 18, 1993",West Indies
+ODI # 867,Pakistan,Zimbabwe,7 wickets,Karachi,"Dec 24, 1993",Pakistan
+ODI # 868,Pakistan,Zimbabwe,6 wickets,Rawalpindi,"Dec 25, 1993",Pakistan
+ODI # 869,Pakistan,Zimbabwe,75 runs,Lahore,"Dec 27, 1993",Pakistan
+ODI # 870,New Zealand,South Africa,9 runs,Brisbane,"Jan 8, 1994",New Zealand
+ODI # 871,Australia,South Africa,48 runs,Brisbane,"Jan 9, 1994",Australia
+ODI # 872,Australia,New Zealand,13 runs,Sydney,"Jan 11, 1994",New Zealand
+ODI # 873,New Zealand,South Africa,5 wickets,Perth,"Jan 14, 1994",South Africa
+ODI # 874,Australia,South Africa,82 runs,Perth,"Jan 16, 1994",South Africa
+ODI # 875,Australia,New Zealand,51 runs,Melbourne,"Jan 19, 1994",Australia
+ODI # 876,Australia,South Africa,28 runs,Melbourne,"Jan 21, 1994",South Africa
+ODI # 877,Australia,South Africa,69 runs,Sydney,"Jan 23, 1994",Australia
+ODI # 878,Australia,South Africa,35 runs,Sydney,"Jan 25, 1994",Australia
+ODI # 879,India,Sri Lanka,8 runs,Rajkot,"Feb 15, 1994",India
+ODI # 880,West Indies,England,61 runs,Bridgetown,"Feb 16, 1994",England
+ODI # 881,India,Sri Lanka,7 wickets,Hyderabad (Deccan),"Feb 18, 1994",India
+ODI # 882,South Africa,Australia,5 runs,Johannesburg,"Feb 19, 1994",South Africa
+ODI # 883,India,Sri Lanka,4 wickets,Jalandhar,"Feb 20, 1994",Sri Lanka
+ODI # 884,South Africa,Australia,56 runs,Centurion,"Feb 20, 1994",South Africa
+ODI # 885,South Africa,Australia,88 runs,Port Elizabeth,"Feb 22, 1994",Australia
+ODI # 886,South Africa,Australia,7 wickets,Durban,"Feb 24, 1994",South Africa
+ODI # 887,West Indies,England,3 wickets,Kingston,"Feb 26, 1994",West Indies
+ODI # 888,West Indies,England,165 runs,Kingstown,"Mar 2, 1994",West Indies
+ODI # 889,New Zealand,Pakistan,5 wickets,Dunedin,"Mar 3, 1994",Pakistan
+ODI # 890,West Indies,England,15 runs,Port of Spain,"Mar 5, 1994",West Indies
+ODI # 891,New Zealand,Pakistan,36 runs,Auckland,"Mar 6, 1994",Pakistan
+ODI # 892,West Indies,England,5 wickets,Port of Spain,"Mar 6, 1994",England
+ODI # 893,New Zealand,Pakistan,11 runs,Wellington,"Mar 9, 1994",Pakistan
+ODI # 895,New Zealand,Pakistan,7 wickets,Christchurch,"Mar 16, 1994",New Zealand
+ODI # 896,New Zealand,India,28 runs,Napier,"Mar 25, 1994",New Zealand
+ODI # 897,New Zealand,India,7 wickets,Auckland,"Mar 27, 1994",India
+ODI # 898,New Zealand,India,12 runs,Wellington,"Mar 30, 1994",India
+ODI # 899,New Zealand,India,6 wickets,Christchurch,"Apr 2, 1994",New Zealand
+ODI # 900,South Africa,Australia,7 wickets,East London,"Apr 2, 1994",Australia
+ODI # 901,South Africa,Australia,26 runs,Port Elizabeth,"Apr 4, 1994",South Africa
+ODI # 902,South Africa,Australia,36 runs,Cape Town,"Apr 6, 1994",Australia
+ODI # 903,South Africa,Australia,1 run,Bloemfontein,"Apr 8, 1994",Australia
+ODI # 904,U.A.E.,India,71 runs,Sharjah,"Apr 13, 1994",India
+ODI # 905,Australia,Sri Lanka,9 wickets,Sharjah,"Apr 14, 1994",Australia
+ODI # 906,India,Pakistan,6 wickets,Sharjah,"Apr 15, 1994",Pakistan
+ODI # 907,Australia,New Zealand,7 wickets,Sharjah,"Apr 16, 1994",Australia
+ODI # 908,U.A.E.,Pakistan,9 wickets,Sharjah,"Apr 17, 1994",Pakistan
+ODI # 909,New Zealand,Sri Lanka,2 runs,Sharjah,"Apr 18, 1994",New Zealand
+ODI # 910,Australia,India,7 wickets,Sharjah,"Apr 19, 1994",India
+ODI # 911,New Zealand,Pakistan,62 runs,Sharjah,"Apr 20, 1994",Pakistan
+ODI # 912,India,Pakistan,39 runs,Sharjah,"Apr 22, 1994",Pakistan
+ODI # 913,England,New Zealand,42 runs,Birmingham,"May 19, 1994",England
+ODI # 914,Sri Lanka,Pakistan,9 wickets,Colombo (RPS),"Aug 3, 1994",Pakistan
+ODI # 915,Sri Lanka,Pakistan,7 wickets,Colombo (RPS),"Aug 6, 1994",Sri Lanka
+ODI # 916,Sri Lanka,Pakistan,19 runs,Colombo (SSC),"Aug 7, 1994",Pakistan
+ODI # 917,Sri Lanka,Pakistan,5 wickets,Colombo (SSC),"Aug 22, 1994",Pakistan
+ODI # 918,Sri Lanka,Pakistan,27 runs,Colombo (RPS),"Aug 24, 1994",Pakistan
+ODI # 919,England,South Africa,6 wickets,Birmingham,"Aug 25, 1994",England
+ODI # 920,England,South Africa,4 wickets,Manchester,"Aug 27-28, 1994",England
+ODI # 922,Sri Lanka,India,7 wickets,Colombo (RPS),"Sep 5, 1994",Sri Lanka
+ODI # 923,Australia,Pakistan,28 runs,Colombo (SSC),"Sep 7, 1994",Australia
+ODI # 924,Australia,India,31 runs,Colombo (RPS),"Sep 9, 1994",India
+ODI # 925,Sri Lanka,Pakistan,7 wickets,Colombo (SSC),"Sep 11, 1994",Sri Lanka
+ODI # 926,Sri Lanka,Australia,6 wickets,Colombo (PSS),"Sep 13, 1994",Sri Lanka
+ODI # 927,Sri Lanka,India,6 wickets,Colombo (SSC),"Sep 17, 1994",India
+ODI # 928,Australia,South Africa,6 runs,Lahore,"Oct 12, 1994",Australia
+ODI # 929,Pakistan,Australia,7 wickets,Multan,"Oct 14, 1994",Australia
+ODI # 930,Pakistan,South Africa,8 wickets,Karachi,"Oct 16, 1994",Pakistan
+ODI # 931,India,West Indies,96 runs,Faridabad,"Oct 17, 1994",West Indies
+ODI # 932,Australia,South Africa,22 runs,Faisalabad,"Oct 18, 1994",Australia
+ODI # 933,India,West Indies,8 runs,Mumbai,"Oct 20, 1994",India
+ODI # 934,Pakistan,South Africa,39 runs,Rawalpindi,"Oct 20, 1994",Pakistan
+ODI # 935,Pakistan,Australia,9 wickets,Rawalpindi,"Oct 22, 1994",Pakistan
+ODI # 936,India,West Indies,4 wickets,Chennai,"Oct 23, 1994",India
+ODI # 937,Australia,South Africa,3 wickets,Peshawar,"Oct 24, 1994",Australia
+ODI # 939,India,New Zealand,7 wickets,Vadodara,"Oct 28, 1994",India
+ODI # 940,Pakistan,South Africa,6 wickets,Faisalabad,"Oct 28, 1994",Pakistan
+ODI # 941,India,West Indies,46 runs,Kanpur,"Oct 30, 1994",West Indies
+ODI # 942,Pakistan,Australia,64 runs,Lahore,"Oct 30, 1994",Australia
+ODI # 943,New Zealand,West Indies,135 runs,Guwahati,"Nov 1, 1994",West Indies
+ODI # 944,India,New Zealand,107 runs,Delhi,"Nov 3, 1994",India
+ODI # 945,Zimbabwe,Sri Lanka,56 runs,Harare,"Nov 3, 1994",Sri Lanka
+ODI # 946,Zimbabwe,Sri Lanka,2 runs,Harare,"Nov 5, 1994",Zimbabwe
+ODI # 947,India,West Indies,72 runs,Kolkata,"Nov 5, 1994",India
+ODI # 948,Zimbabwe,Sri Lanka,191 runs,Harare,"Nov 6, 1994",Sri Lanka
+ODI # 949,India,West Indies,4 runs,Visakhapatnam,"Nov 7, 1994",India
+ODI # 950,India,West Indies,8 wickets,Cuttack,"Nov 9, 1994",India
+ODI # 951,India,West Indies,5 runs,Jaipur,"Nov 11, 1994",India
+ODI # 952,Australia,Zimbabwe,2 wickets,Perth,"Dec 2, 1994",Australia
+ODI # 953,Pakistan,Sri Lanka,6 wickets,Durban,"Dec 2, 1994",Pakistan
+ODI # 954,Pakistan,Sri Lanka,12 runs,Centurion,"Dec 4, 1994",Pakistan
+ODI # 955,Australia,England,28 runs,Sydney,"Dec 6, 1994",Australia
+ODI # 956,South Africa,New Zealand,69 runs,Cape Town,"Dec 6, 1994",South Africa
+ODI # 957,Australia,Zimbabwe,84 runs,Hobart,"Dec 8, 1994",Australia
+ODI # 959,South Africa,Pakistan,7 wickets,Johannesburg,"Dec 10, 1994",South Africa
+ODI # 960,South Africa,New Zealand,81 runs,Centurion,"Dec 11, 1994",South Africa
+ODI # 961,New Zealand,Pakistan,5 wickets,Port Elizabeth,"Dec 13, 1994",Pakistan
+ODI # 962,England,Zimbabwe,13 runs,Sydney,"Dec 15, 1994",Zimbabwe
+ODI # 963,South Africa,Sri Lanka,35 runs,Bloemfontein,"Dec 15, 1994",Sri Lanka
+ODI # 964,South Africa,Pakistan,8 wickets,Durban,"Dec 17, 1994",Pakistan
+ODI # 965,New Zealand,Sri Lanka,5 wickets,East London,"Dec 18, 1994",Sri Lanka
+ODI # 966,New Zealand,Pakistan,5 wickets,East London,"Dec 19, 1994",Pakistan
+ODI # 967,South Africa,Sri Lanka,44 runs,Port Elizabeth,"Dec 21, 1994",South Africa
+ODI # 968,England,Zimbabwe,26 runs,Brisbane,"Jan 7, 1995",England
+ODI # 969,Australia,England,37 runs,Melbourne,"Jan 10, 1995",England
+ODI # 970,South Africa,Pakistan,37 runs,Cape Town,"Jan 10, 1995",South Africa
+ODI # 971,South Africa,Pakistan,157 runs,Johannesburg,"Jan 12, 1995",South Africa
+ODI # 972,New Zealand,West Indies,25 runs,Auckland,"Jan 22, 1995",West Indies
+ODI # 973,New Zealand,West Indies,41 runs,Wellington,"Jan 25, 1995",West Indies
+ODI # 974,New Zealand,West Indies,9 wickets,Christchurch,"Jan 28, 1995",West Indies
+ODI # 975,Australia,South Africa,3 wickets,Wellington,"Feb 15, 1995",Australia
+ODI # 976,New Zealand,India,4 wickets,Napier,"Feb 16, 1995",New Zealand
+ODI # 977,India,South Africa,14 runs,Hamilton,"Feb 18, 1995",South Africa
+ODI # 978,New Zealand,Australia,27 runs,Auckland,"Feb 19, 1995",Australia
+ODI # 979,Australia,India,5 wickets,Dunedin,"Feb 22, 1995",India
+ODI # 981,New Zealand,South Africa,46 runs,Christchurch,"Feb 23-24, 1995",New Zealand
+ODI # 982,Zimbabwe,Pakistan,4 wickets,Harare,"Feb 25, 1995",Pakistan
+ODI # 983,New Zealand,Australia,6 wickets,Auckland,"Feb 26, 1995",Australia
+ODI # 984,Zimbabwe,Pakistan,74 runs,Harare,"Feb 26, 1995",Zimbabwe
+ODI # 985,West Indies,Australia,6 runs,Bridgetown,"Mar 8, 1995",West Indies
+ODI # 986,West Indies,Australia,26 runs,Port of Spain,"Mar 11, 1995",Australia
+ODI # 987,West Indies,Australia,133 runs,Port of Spain,"Mar 12, 1995",West Indies
+ODI # 988,West Indies,Australia,7 wickets,Kingstown,"Mar 15, 1995",West Indies
+ODI # 989,West Indies,Australia,5 wickets,Georgetown,"Mar 18, 1995",West Indies
+ODI # 990,New Zealand,Sri Lanka,33 runs,Christchurch,"Mar 26, 1995",New Zealand
+ODI # 991,New Zealand,Sri Lanka,57 runs,Hamilton,"Mar 29, 1995",New Zealand
+ODI # 992,New Zealand,Sri Lanka,51 runs,Auckland,"Apr 1, 1995",Sri Lanka
+ODI # 993,Bangladesh,India,9 wickets,Sharjah,"Apr 5, 1995",India
+ODI # 994,Bangladesh,Sri Lanka,107 runs,Sharjah,"Apr 6, 1995",Sri Lanka
+ODI # 995,India,Pakistan,97 runs,Sharjah,"Apr 7, 1995",Pakistan
+ODI # 996,Bangladesh,Pakistan,6 wickets,Sharjah,"Apr 8, 1995",Pakistan
+ODI # 997,India,Sri Lanka,8 wickets,Sharjah,"Apr 9, 1995",India
+ODI # 998,Pakistan,Sri Lanka,5 wickets,Sharjah,"Apr 11, 1995",Sri Lanka
+ODI # 999,India,Sri Lanka,8 wickets,Sharjah,"Apr 14, 1995",India
+ODI # 1000,England,West Indies,5 wickets,Nottingham,"May 24-25, 1995",West Indies
+ODI # 1001,England,West Indies,25 runs,The Oval,"May 26, 1995",England
+ODI # 1002,England,West Indies,73 runs,Lord's,"May 28, 1995",England
+ODI # 1003,Pakistan,Sri Lanka,9 wickets,Gujranwala,"Sep 29, 1995",Pakistan
+ODI # 1004,Pakistan,Sri Lanka,49 runs,Faisalabad,"Oct 1, 1995",Sri Lanka
+ODI # 1005,Pakistan,Sri Lanka,4 wickets,Rawalpindi,"Oct 3, 1995",Sri Lanka
+ODI # 1006,Sri Lanka,West Indies,6 runs,Sharjah,"Oct 11, 1995",Sri Lanka
+ODI # 1007,Pakistan,Sri Lanka,82 runs,Sharjah,"Oct 12, 1995",Pakistan
+ODI # 1008,Pakistan,West Indies,15 runs,Sharjah,"Oct 13, 1995",Pakistan
+ODI # 1009,Pakistan,West Indies,4 wickets,Sharjah,"Oct 15, 1995",West Indies
+ODI # 1010,Sri Lanka,West Indies,4 runs,Sharjah,"Oct 16, 1995",West Indies
+ODI # 1011,Pakistan,Sri Lanka,8 wickets,Sharjah,"Oct 17, 1995",Sri Lanka
+ODI # 1012,Sri Lanka,West Indies,50 runs,Sharjah,"Oct 20, 1995",Sri Lanka
+ODI # 1013,Zimbabwe,South Africa,134 runs,Harare,"Oct 21, 1995",South Africa
+ODI # 1014,Zimbabwe,South Africa,112 runs,Harare,"Oct 22, 1995",South Africa
+ODI # 1015,India,New Zealand,8 wickets,Jamshedpur,"Nov 15, 1995",New Zealand
+ODI # 1016,India,New Zealand,6 wickets,Amritsar,"Nov 18, 1995",India
+ODI # 1017,India,New Zealand,5 wickets,Pune,"Nov 24, 1995",India
+ODI # 1018,India,New Zealand,99 runs,Nagpur,"Nov 26, 1995",New Zealand
+ODI # 1019,India,New Zealand,6 wickets,Mumbai (BS),"Nov 29, 1995",India
+ODI # 1020,New Zealand,Pakistan,20 runs,Dunedin,"Dec 15, 1995",Pakistan
+ODI # 1021,Sri Lanka,West Indies,4 wickets,Adelaide,"Dec 15, 1995",Sri Lanka
+ODI # 1022,New Zealand,Pakistan,1 wicket,Christchurch,"Dec 17, 1995",New Zealand
+ODI # 1023,Australia,West Indies,121 runs,Adelaide,"Dec 17, 1995",Australia
+ODI # 1024,Australia,West Indies,24 runs,Melbourne,"Dec 19, 1995",Australia
+ODI # 1025,New Zealand,Pakistan,54 runs,Wellington,"Dec 20, 1995",Pakistan
+ODI # 1026,Australia,Sri Lanka,5 wickets,Sydney,"Dec 21, 1995",Australia
+ODI # 1027,New Zealand,Pakistan,32 runs,Auckland,"Dec 23, 1995",New Zealand
+ODI # 1028,Australia,West Indies,1 wicket,Sydney,"Jan 1, 1996",Australia
+ODI # 1029,Sri Lanka,West Indies,70 runs,Hobart,"Jan 3, 1996",West Indies
+ODI # 1030,Sri Lanka,West Indies,7 wickets,Brisbane,"Jan 5, 1996",West Indies
+ODI # 1031,Australia,West Indies,14 runs,Brisbane,"Jan 7, 1996",West Indies
+ODI # 1032,Australia,Sri Lanka,3 wickets,Melbourne,"Jan 9, 1996",Sri Lanka
+ODI # 1033,South Africa,England,6 runs,Cape Town,"Jan 9, 1996",South Africa
+ODI # 1034,South Africa,England,5 wickets,Bloemfontein,"Jan 11, 1996",England
+ODI # 1035,Australia,Sri Lanka,83 runs,Perth,"Jan 12, 1996",Australia
+ODI # 1036,South Africa,England,3 wickets,Johannesburg,"Jan 13, 1996",South Africa
+ODI # 1037,Sri Lanka,West Indies,16 runs,Perth,"Jan 14, 1996",Sri Lanka
+ODI # 1038,South Africa,England,7 wickets,Centurion,"Jan 14, 1996",South Africa
+ODI # 1039,Australia,Sri Lanka,3 wickets,Melbourne,"Jan 16, 1996",Sri Lanka
+ODI # 1040,South Africa,England,5 wickets,Durban,"Jan 17, 1996",South Africa
+ODI # 1041,Australia,Sri Lanka,18 runs,Melbourne,"Jan 18, 1996",Australia
+ODI # 1042,South Africa,England,14 runs,East London,"Jan 19, 1996",South Africa
+ODI # 1043,Australia,Sri Lanka,9 runs,Sydney,"Jan 20, 1996",Australia
+ODI # 1044,South Africa,England,64 runs,Port Elizabeth,"Jan 21, 1996",South Africa
+ODI # 1045,New Zealand,Zimbabwe,74 runs,Auckland,"Jan 28, 1996",New Zealand
+ODI # 1046,New Zealand,Zimbabwe,6 wickets,Wellington,"Jan 31, 1996",New Zealand
+ODI # 1047,New Zealand,Zimbabwe,21 runs,Napier,"Feb 3, 1996",Zimbabwe
+ODI # 1048,England,New Zealand,11 runs,Ahmedabad,"Feb 14, 1996",New Zealand
+ODI # 1049,South Africa,U.A.E.,169 runs,Rawalpindi,"Feb 16, 1996",South Africa
+ODI # 1050,West Indies,Zimbabwe,6 wickets,Hyderabad (Deccan),"Feb 16, 1996",West Indies
+ODI # 1051,Netherlands,New Zealand,119 runs,Vadodara,"Feb 17, 1996",New Zealand
+ODI # 1052,India,Kenya,7 wickets,Cuttack,"Feb 18, 1996",India
+ODI # 1053,England,U.A.E.,8 wickets,Peshawar,"Feb 18, 1996",England
+ODI # 1054,New Zealand,South Africa,5 wickets,Faisalabad,"Feb 20, 1996",South Africa
+ODI # 1055,Sri Lanka,Zimbabwe,6 wickets,Colombo (SSC),"Feb 21, 1996",Sri Lanka
+ODI # 1056,India,West Indies,5 wickets,Gwalior,"Feb 21, 1996",India
+ODI # 1057,England,Netherlands,49 runs,Peshawar,"Feb 22, 1996",England
+ODI # 1058,Australia,Kenya,97 runs,Visakhapatnam,"Feb 23, 1996",Australia
+ODI # 1059,Pakistan,U.A.E.,9 wickets,Gujranwala,"Feb 24, 1996",Pakistan
+ODI # 1060,England,South Africa,78 runs,Rawalpindi,"Feb 25, 1996",South Africa
+ODI # 1062,Pakistan,Netherlands,8 wickets,Lahore,"Feb 26, 1996",Pakistan
+ODI # 1063,Kenya,Zimbabwe,5 wickets,Patna,"Feb 27, 1996",Zimbabwe
+ODI # 1064,New Zealand,U.A.E.,109 runs,Faisalabad,"Feb 27, 1996",New Zealand
+ODI # 1065,India,Australia,16 runs,Mumbai,"Feb 27, 1996",Australia
+ODI # 1066,Kenya,West Indies,73 runs,Pune,"Feb 29, 1996",Kenya
+ODI # 1067,Pakistan,South Africa,5 wickets,Karachi,"Feb 29, 1996",South Africa
+ODI # 1068,Australia,Zimbabwe,8 wickets,Nagpur,"Mar 1, 1996",Australia
+ODI # 1069,Netherlands,U.A.E.,7 wickets,Lahore,"Mar 1, 1996",U.A.E.
+ODI # 1070,India,Sri Lanka,6 wickets,Delhi,"Mar 2, 1996",Sri Lanka
+ODI # 1071,Pakistan,England,7 wickets,Karachi,"Mar 3, 1996",Pakistan
+ODI # 1072,Australia,West Indies,4 wickets,Jaipur,"Mar 4, 1996",West Indies
+ODI # 1073,Netherlands,South Africa,160 runs,Rawalpindi,"Mar 5, 1996",South Africa
+ODI # 1075,India,Zimbabwe,40 runs,Kanpur,"Mar 6, 1996",India
+ODI # 1074,Sri Lanka,Kenya,144 runs,Kandy,"Mar 6, 1996",Sri Lanka
+ODI # 1076,Pakistan,New Zealand,46 runs,Lahore,"Mar 6, 1996",Pakistan
+ODI # 1077,England,Sri Lanka,5 wickets,Faisalabad,"Mar 9, 1996",Sri Lanka
+ODI # 1078,India,Pakistan,39 runs,Bengaluru,"Mar 9, 1996",India
+ODI # 1079,South Africa,West Indies,19 runs,Karachi,"Mar 11, 1996",West Indies
+ODI # 1080,Australia,New Zealand,6 wickets,Chennai,"Mar 11, 1996",Australia
+ODI # 1081,India,Sri Lanka,,Kolkata,"Mar 13, 1996",Sri Lanka
+ODI # 1082,Australia,West Indies,5 runs,Mohali,"Mar 14, 1996",Australia
+ODI # 1083,Australia,Sri Lanka,7 wickets,Lahore,"Mar 17, 1996",Sri Lanka
+ODI # 1084,West Indies,New Zealand,1 wicket,Kingston,"Mar 26, 1996",West Indies
+ODI # 1085,West Indies,New Zealand,4 wickets,Port of Spain,"Mar 29, 1996",New Zealand
+ODI # 1086,West Indies,New Zealand,7 wickets,Port of Spain,"Mar 30, 1996",West Indies
+ODI # 1088,Pakistan,Sri Lanka,34 runs,Singapore,"Apr 2, 1996",Sri Lanka
+ODI # 1089,India,Sri Lanka,12 runs,Singapore,"Apr 3, 1996",India
+ODI # 1090,West Indies,New Zealand,4 runs,Georgetown,"Apr 3, 1996",New Zealand
+ODI # 1091,India,Pakistan,8 wickets,Singapore,"Apr 5, 1996",Pakistan
+ODI # 1092,West Indies,New Zealand,7 wickets,Kingstown,"Apr 6, 1996",West Indies
+ODI # 1093,Pakistan,Sri Lanka,43 runs,Singapore,"Apr 7, 1996",Pakistan
+ODI # 1094,India,Pakistan,38 runs,Sharjah,"Apr 12, 1996",Pakistan
+ODI # 1095,Pakistan,South Africa,143 runs,Sharjah,"Apr 13, 1996",South Africa
+ODI # 1096,West Indies,Sri Lanka,35 runs,Port of Spain,"Apr 13, 1996",Sri Lanka
+ODI # 1097,India,South Africa,80 runs,Sharjah,"Apr 14, 1996",South Africa
+ODI # 1098,India,Pakistan,28 runs,Sharjah,"Apr 15, 1996",India
+ODI # 1099,Pakistan,South Africa,8 wickets,Sharjah,"Apr 16, 1996",South Africa
+ODI # 1100,India,South Africa,5 wickets,Sharjah,"Apr 17, 1996",South Africa
+ODI # 1101,India,South Africa,38 runs,Sharjah,"Apr 19, 1996",South Africa
+ODI # 1103,England,India,6 wickets,Leeds,"May 25, 1996",England
+ODI # 1104,England,India,4 wickets,Manchester,"May 26-27, 1996",England
+ODI # 1105,Australia,Zimbabwe,125 runs,Colombo (RPS),"Aug 26, 1996",Australia
+ODI # 1106,Sri Lanka,India,9 wickets,Colombo (RPS),"Aug 28, 1996",Sri Lanka
+ODI # 1107,England,Pakistan,5 wickets,Manchester,"Aug 29, 1996",England
+ODI # 1108,Sri Lanka,Australia,4 wickets,Colombo (RPS),"Aug 30, 1996",Sri Lanka
+ODI # 1109,England,Pakistan,107 runs,Birmingham,"Aug 31, 1996",England
+ODI # 1110,India,Zimbabwe,7 wickets,Colombo (SSC),"Sep 1, 1996",India
+ODI # 1111,England,Pakistan,2 wickets,Nottingham,"Sep 1, 1996",Pakistan
+ODI # 1112,Sri Lanka,Zimbabwe,6 wickets,Colombo (SSC),"Sep 3, 1996",Sri Lanka
+ODI # 1113,Australia,India,3 wickets,Colombo (SSC),"Sep 6, 1996",Australia
+ODI # 1114,Sri Lanka,Australia,50 runs,Colombo (RPS),"Sep 7, 1996",Sri Lanka
+ODI # 1115,India,Pakistan,8 wickets,Toronto,"Sep 16, 1996",India
+ODI # 1116,India,Pakistan,2 wickets,Toronto,"Sep 17, 1996",Pakistan
+ODI # 1117,India,Pakistan,55 runs,Toronto,"Sep 18, 1996",India
+ODI # 1118,India,Pakistan,97 runs,Toronto,"Sep 21, 1996",Pakistan
+ODI # 1119,India,Pakistan,52 runs,Toronto,"Sep 23, 1996",Pakistan
+ODI # 1120,Kenya,Sri Lanka,7 wickets,Nairobi (Gym),"Sep 28, 1996",Sri Lanka
+ODI # 1121,Pakistan,South Africa,62 runs,Nairobi (Gym),"Sep 29, 1996",South Africa
+ODI # 1122,South Africa,Sri Lanka,2 wickets,Nairobi (Club),"Oct 1, 1996",Sri Lanka
+ODI # 1123,Kenya,Pakistan,4 wickets,Nairobi (Aga),"Oct 2, 1996",Pakistan
+ODI # 1124,Kenya,South Africa,202 runs,Nairobi (Gym),"Oct 3, 1996",South Africa
+ODI # 1125,Pakistan,Sri Lanka,82 runs,Nairobi (Gym),"Oct 4, 1996",Pakistan
+ODI # 1126,Pakistan,South Africa,7 wickets,Nairobi (Gym),"Oct 6, 1996",South Africa
+ODI # 1127,India,South Africa,47 runs,Hyderabad (Deccan),"Oct 17, 1996",South Africa
+ODI # 1128,Australia,South Africa,7 wickets,Indore,"Oct 19, 1996",South Africa
+ODI # 1129,India,Australia,2 wickets,Bengaluru,"Oct 21, 1996",India
+ODI # 1130,India,South Africa,27 runs,Jaipur,"Oct 23, 1996",South Africa
+ODI # 1131,Australia,South Africa,2 wickets,Faridabad,"Oct 25, 1996",South Africa
+ODI # 1132,India,South Africa,5 wickets,Rajkot,"Oct 29, 1996",South Africa
+ODI # 1133,Pakistan,Zimbabwe,3 wickets,Quetta,"Oct 30, 1996",Pakistan
+ODI # 1134,Australia,South Africa,8 wickets,Guwahati,"Nov 1, 1996",South Africa
+ODI # 1135,Pakistan,Zimbabwe,9 wickets,Lahore,"Nov 1, 1996",Pakistan
+ODI # 1136,Pakistan,Zimbabwe,78 runs,Peshawar,"Nov 3, 1996",Pakistan
+ODI # 1137,India,Australia,5 runs,Mohali,"Nov 3, 1996",India
+ODI # 1138,India,South Africa,35 runs,Mumbai,"Nov 6, 1996",India
+ODI # 1139,New Zealand,Sri Lanka,29 runs,Sharjah,"Nov 7, 1996",New Zealand
+ODI # 1140,Pakistan,Sri Lanka,75 runs,Sharjah,"Nov 8, 1996",Sri Lanka
+ODI # 1141,New Zealand,Pakistan,4 wickets,Sharjah,"Nov 10, 1996",Pakistan
+ODI # 1143,Pakistan,Sri Lanka,8 wickets,Sharjah,"Nov 12, 1996",Pakistan
+ODI # 1144,New Zealand,Pakistan,4 wickets,Sharjah,"Nov 13, 1996",Pakistan
+ODI # 1145,New Zealand,Pakistan,41 runs,Sharjah,"Nov 15, 1996",Pakistan
+ODI # 1146,Pakistan,New Zealand,11 runs,Gujranwala,"Dec 4, 1996",Pakistan
+ODI # 1147,Australia,West Indies,5 wickets,Melbourne,"Dec 6, 1996",Australia
+ODI # 1148,Pakistan,New Zealand,46 runs,Sialkot,"Dec 6, 1996",Pakistan
+ODI # 1149,Australia,West Indies,8 wickets,Sydney,"Dec 8, 1996",Australia
+ODI # 1150,Pakistan,New Zealand,7 wickets,Karachi,"Dec 8, 1996",New Zealand
+ODI # 1151,India,South Africa,74 runs,Mumbai,"Dec 14, 1996",India
+ODI # 1152,Australia,Pakistan,12 runs,Adelaide,"Dec 15, 1996",Pakistan
+ODI # 1153,Zimbabwe,England,2 wickets,Bulawayo,"Dec 15, 1996",Zimbabwe
+ODI # 1154,Pakistan,West Indies,7 wickets,Adelaide,"Dec 17, 1996",West Indies
+ODI # 1155,Australia,Pakistan,4 wickets,Sydney,"Jan 1, 1997",Pakistan
+ODI # 1156,Zimbabwe,England,7 runs,Harare,"Jan 1, 1997",Zimbabwe
+ODI # 1157,Pakistan,West Indies,6 wickets,Brisbane,"Jan 3, 1997",West Indies
+ODI # 1158,Zimbabwe,England,131 runs,Harare,"Jan 3, 1997",Zimbabwe
+ODI # 1159,Australia,West Indies,7 wickets,Brisbane,"Jan 5, 1997",West Indies
+ODI # 1160,Australia,Pakistan,29 runs,Hobart,"Jan 7, 1997",Pakistan
+ODI # 1161,Pakistan,West Indies,5 wickets,Perth,"Jan 10, 1997",West Indies
+ODI # 1162,Australia,West Indies,4 wickets,Perth,"Jan 12, 1997",West Indies
+ODI # 1163,Pakistan,West Indies,8 wickets,Sydney,"Jan 14, 1997",Pakistan
+ODI # 1164,Australia,Pakistan,3 wickets,Melbourne,"Jan 16, 1997",Australia
+ODI # 1165,Pakistan,West Indies,4 wickets,Sydney,"Jan 18, 1997",Pakistan
+ODI # 1166,Pakistan,West Indies,62 runs,Melbourne,"Jan 20, 1997",Pakistan
+ODI # 1167,South Africa,India,39 runs,Bloemfontein,"Jan 23, 1997",South Africa
+ODI # 1168,South Africa,Zimbabwe,5 wickets,Centurion,"Jan 25, 1997",South Africa
+ODI # 1170,South Africa,Zimbabwe,5 wickets,Cape Town,"Jan 29, 1997",South Africa
+ODI # 1171,South Africa,Zimbabwe,4 wickets,Johannesburg,"Jan 31, 1997",South Africa
+ODI # 1172,South Africa,India,6 wickets,Port Elizabeth,"Feb 2, 1997",South Africa
+ODI # 1173,South Africa,India,6 wickets,East London,"Feb 4, 1997",South Africa
+ODI # 1174,India,Zimbabwe,3 wickets,Centurion,"Feb 7, 1997",Zimbabwe
+ODI # 1175,India,Zimbabwe,6 wickets,Benoni,"Feb 9, 1997",India
+ODI # 1177,South Africa,India,17 runs,Durban,"Feb 13, 1997",South Africa
+ODI # 1178,Zimbabwe,India,8 wickets,Bulawayo,"Feb 15, 1997",Zimbabwe
+ODI # 1179,New Zealand,England,4 wickets,Christchurch,"Feb 20, 1997",England
+ODI # 1180,New Zealand,England,6 wickets,Auckland,"Feb 23, 1997",England
+ODI # 1182,New Zealand,England,9 runs,Auckland,"Mar 2, 1997",New Zealand
+ODI # 1183,New Zealand,England,28 runs,Wellington,"Mar 4, 1997",New Zealand
+ODI # 1184,New Zealand,Sri Lanka,6 wickets,Christchurch,"Mar 25, 1997",Sri Lanka
+ODI # 1185,New Zealand,Sri Lanka,69 runs,Wellington,"Mar 27, 1997",New Zealand
+ODI # 1186,South Africa,Australia,6 wickets,East London,"Mar 29, 1997",South Africa
+ODI # 1187,South Africa,Australia,7 wickets,Port Elizabeth,"Mar 31, 1997",Australia
+ODI # 1188,South Africa,Australia,46 runs,Cape Town,"Apr 2, 1997",South Africa
+ODI # 1189,Sri Lanka,Zimbabwe,7 wickets,Sharjah,"Apr 3, 1997",Sri Lanka
+ODI # 1190,Pakistan,Sri Lanka,19 runs,Sharjah,"Apr 4, 1997",Sri Lanka
+ODI # 1191,South Africa,Australia,15 runs,Durban,"Apr 5, 1997",Australia
+ODI # 1192,Pakistan,Zimbabwe,93 runs,Sharjah,"Apr 6, 1997",Pakistan
+ODI # 1193,Pakistan,Sri Lanka,51 runs,Sharjah,"Apr 7, 1997",Sri Lanka
+ODI # 1194,Sri Lanka,Zimbabwe,50 runs,Sharjah,"Apr 8, 1997",Zimbabwe
+ODI # 1195,South Africa,Australia,8 runs,Johannesburg,"Apr 8, 1997",Australia
+ODI # 1196,Pakistan,Zimbabwe,32 runs,Sharjah,"Apr 9, 1997",Pakistan
+ODI # 1197,South Africa,Australia,5 wickets,Centurion,"Apr 10, 1997",Australia
+ODI # 1198,Pakistan,Sri Lanka,4 wickets,Sharjah,"Apr 11, 1997",Sri Lanka
+ODI # 1199,South Africa,Australia,109 runs,Bloemfontein,"Apr 13, 1997",South Africa
+ODI # 1200,West Indies,India,8 wickets,Port of Spain,"Apr 26, 1997",West Indies
+ODI # 1201,West Indies,India,10 wickets,Port of Spain,"Apr 27, 1997",India
+ODI # 1202,West Indies,India,18 runs,Kingstown,"Apr 30, 1997",West Indies
+ODI # 1203,West Indies,India,10 wickets,Bridgetown,"May 3, 1997",West Indies
+ODI # 1204,New Zealand,Pakistan,22 runs,Mohali,"May 9, 1997",New Zealand
+ODI # 1205,Pakistan,Sri Lanka,30 runs,Gwalior,"May 12, 1997",Pakistan
+ODI # 1206,India,New Zealand,8 wickets,Bengaluru,"May 14, 1997",India
+ODI # 1207,India,Sri Lanka,5 wickets,Mumbai,"May 17, 1997",Sri Lanka
+ODI # 1208,New Zealand,Sri Lanka,52 runs,Hyderabad (Deccan),"May 20, 1997",Sri Lanka
+ODI # 1209,India,Pakistan,35 runs,Chennai,"May 21, 1997",Pakistan
+ODI # 1210,England,Australia,6 wickets,Leeds,"May 22, 1997",England
+ODI # 1212,Pakistan,Sri Lanka,115 runs,Mohali,"May 24, 1997",Sri Lanka
+ODI # 1211,England,Australia,6 wickets,The Oval,"May 24, 1997",England
+ODI # 1213,England,Australia,6 wickets,Lord's,"May 25, 1997",England
+ODI # 1214,Pakistan,Sri Lanka,85 runs,Kolkata,"May 27, 1997",Sri Lanka
+ODI # 1215,West Indies,Sri Lanka,35 runs,Port of Spain,"Jun 6, 1997",West Indies
+ODI # 1216,Sri Lanka,Pakistan,15 runs,Colombo (RPS),"Jul 14, 1997",Sri Lanka
+ODI # 1217,Bangladesh,Pakistan,109 runs,Colombo (RPS),"Jul 16, 1997",Pakistan
+ODI # 1218,Sri Lanka,India,6 wickets,Colombo (RPS),"Jul 18, 1997",Sri Lanka
+ODI # 1220,Sri Lanka,Bangladesh,103 runs,Colombo (SSC),"Jul 22, 1997",Sri Lanka
+ODI # 1221,Bangladesh,India,9 wickets,Colombo (SSC),"Jul 24, 1997",India
+ODI # 1222,Sri Lanka,India,8 wickets,Colombo (RPS),"Jul 26, 1997",Sri Lanka
+ODI # 1223,Sri Lanka,India,2 runs,Colombo (RPS),"Aug 17, 1997",Sri Lanka
+ODI # 1224,Sri Lanka,India,7 wickets,Colombo (RPS),"Aug 20, 1997",Sri Lanka
+ODI # 1226,Sri Lanka,India,9 runs,Colombo (SSC),"Aug 24, 1997",Sri Lanka
+ODI # 1227,India,Pakistan,20 runs,Toronto,"Sep 13, 1997",India
+ODI # 1228,India,Pakistan,7 wickets,Toronto,"Sep 14, 1997",India
+ODI # 1230,India,Pakistan,34 runs,Toronto,"Sep 18, 1997",India
+ODI # 1231,India,Pakistan,7 wickets,Toronto,"Sep 20, 1997",India
+ODI # 1232,India,Pakistan,5 wickets,Toronto,"Sep 21, 1997",Pakistan
+ODI # 1233,Pakistan,India,5 wickets,Hyderabad (Sind),"Sep 28, 1997",Pakistan
+ODI # 1234,Pakistan,India,4 wickets,Karachi,"Sep 30, 1997",India
+ODI # 1236,Pakistan,India,9 wickets,Lahore,"Oct 2, 1997",Pakistan
+ODI # 1237,Zimbabwe,New Zealand,3 wickets,Harare,"Oct 4, 1997",Zimbabwe
+ODI # 1238,Zimbabwe,New Zealand,83 runs,Harare,"Oct 5, 1997",New Zealand
+ODI # 1239,Kenya,Bangladesh,150 runs,Nairobi (Gym),"Oct 10, 1997",Kenya
+ODI # 1240,Bangladesh,Zimbabwe,48 runs,Nairobi (Gym),"Oct 11, 1997",Zimbabwe
+ODI # 1241,Kenya,Zimbabwe,6 wickets,Nairobi (Gym),"Oct 12, 1997",Zimbabwe
+ODI # 1242,Bangladesh,Zimbabwe,192 runs,Nairobi (Aga),"Oct 14, 1997",Zimbabwe
+ODI # 1243,Kenya,Bangladesh,8 wickets,Nairobi (Aga),"Oct 15, 1997",Kenya
+ODI # 1244,Kenya,Zimbabwe,7 wickets,Nairobi (Aga),"Oct 16, 1997",Zimbabwe
+ODI # 1245,Kenya,Zimbabwe,83 runs,Nairobi (Gym),"Oct 18, 1997",Zimbabwe
+ODI # 1246,Kenya,Zimbabwe,82 runs,Nairobi (Gym),"Oct 19, 1997",Zimbabwe
+ODI # 1247,Sri Lanka,West Indies,7 wickets,Lahore,"Nov 1, 1997",Sri Lanka
+ODI # 1248,Pakistan,South Africa,9 runs,Lahore,"Nov 2, 1997",South Africa
+ODI # 1249,South Africa,West Indies,5 wickets,Lahore,"Nov 3, 1997",South Africa
+ODI # 1250,Pakistan,West Indies,8 wickets,Lahore,"Nov 4, 1997",Pakistan
+ODI # 1251,Pakistan,Sri Lanka,8 wickets,Lahore,"Nov 5, 1997",Sri Lanka
+ODI # 1252,South Africa,Sri Lanka,66 runs,Lahore,"Nov 6, 1997",South Africa
+ODI # 1253,South Africa,Sri Lanka,4 wickets,Lahore,"Nov 8, 1997",South Africa
+ODI # 1254,Australia,South Africa,67 runs,Sydney,"Dec 4, 1997",South Africa
+ODI # 1255,New Zealand,South Africa,47 runs,Adelaide,"Dec 6, 1997",New Zealand
+ODI # 1256,Australia,New Zealand,3 wickets,Adelaide,"Dec 7, 1997",Australia
+ODI # 1257,Australia,South Africa,45 runs,Melbourne,"Dec 9, 1997",South Africa
+ODI # 1258,New Zealand,South Africa,1 run,Hobart,"Dec 11, 1997",South Africa
+ODI # 1259,England,India,7 runs,Sharjah,"Dec 11, 1997",England
+ODI # 1260,Pakistan,West Indies,43 runs,Sharjah,"Dec 12, 1997",West Indies
+ODI # 1261,England,West Indies,4 wickets,Sharjah,"Dec 13, 1997",England
+ODI # 1262,India,Pakistan,4 wickets,Sharjah,"Dec 14, 1997",Pakistan
+ODI # 1263,England,Pakistan,8 runs,Sharjah,"Dec 15, 1997",England
+ODI # 1264,India,West Indies,41 runs,Sharjah,"Dec 16, 1997",West Indies
+ODI # 1265,Australia,New Zealand,6 wickets,Melbourne,"Dec 17, 1997",Australia
+ODI # 1266,England,West Indies,3 wickets,Sharjah,"Dec 19, 1997",England
+ODI # 1267,India,Sri Lanka,7 wickets,Guwahati,"Dec 22, 1997",India
+ODI # 1269,India,Sri Lanka,5 wickets,Margao,"Dec 28, 1997",Sri Lanka
+ODI # 1270,New Zealand,South Africa,2 runs,Brisbane,"Jan 9, 1998",South Africa
+ODI # 1271,Bangladesh,India,4 wickets,Dhaka,"Jan 10, 1998",India
+ODI # 1273,India,Pakistan,18 runs,Dhaka,"Jan 11, 1998",India
+ODI # 1272,Australia,South Africa,5 wickets,Brisbane,"Jan 11, 1998",South Africa
+ODI # 1274,Bangladesh,Pakistan,9 wickets,Dhaka,"Jan 12, 1998",Pakistan
+ODI # 1276,India,Pakistan,8 wickets,Dhaka,"Jan 14, 1998",India
+ODI # 1275,Australia,New Zealand,131 runs,Sydney,"Jan 14, 1998",Australia
+ODI # 1277,India,Pakistan,6 wickets,Dhaka,"Jan 16, 1998",Pakistan
+ODI # 1278,New Zealand,South Africa,67 runs,Perth,"Jan 16, 1998",South Africa
+ODI # 1279,India,Pakistan,3 wickets,Dhaka,"Jan 18, 1998",India
+ODI # 1280,Australia,South Africa,7 wickets,Perth,"Jan 18, 1998",South Africa
+ODI # 1281,Australia,New Zealand,4 wickets,Melbourne,"Jan 21, 1998",New Zealand
+ODI # 1282,Sri Lanka,Zimbabwe,5 wickets,Colombo (SSC),"Jan 22, 1998",Sri Lanka
+ODI # 1283,Australia,South Africa,6 runs,Melbourne,"Jan 23, 1998",South Africa
+ODI # 1284,Sri Lanka,Zimbabwe,5 wickets,Colombo (RPS),"Jan 24, 1998",Sri Lanka
+ODI # 1285,Australia,South Africa,7 wickets,Sydney,"Jan 26, 1998",Australia
+ODI # 1286,Sri Lanka,Zimbabwe,4 wickets,Colombo (SSC),"Jan 26, 1998",Sri Lanka
+ODI # 1287,Australia,South Africa,14 runs,Sydney,"Jan 27, 1998",Australia
+ODI # 1288,New Zealand,Zimbabwe,40 runs,Hamilton,"Feb 4, 1998",New Zealand
+ODI # 1289,New Zealand,Zimbabwe,8 wickets,Wellington,"Feb 6, 1998",New Zealand
+ODI # 1290,New Zealand,Australia,7 wickets,Christchurch,"Feb 8, 1998",Australia
+ODI # 1291,New Zealand,Australia,66 runs,Wellington,"Feb 10, 1998",Australia
+ODI # 1292,New Zealand,Australia,7 wickets,Napier,"Feb 12, 1998",New Zealand
+ODI # 1293,New Zealand,Australia,30 runs,Auckland,"Feb 14, 1998",New Zealand
+ODI # 1294,New Zealand,Zimbabwe,1 run,Christchurch,"Mar 4, 1998",Zimbabwe
+ODI # 1295,New Zealand,Zimbabwe,9 wickets,Napier,"Mar 6, 1998",New Zealand
+ODI # 1296,New Zealand,Zimbabwe,2 runs,Auckland,"Mar 8, 1998",New Zealand
+ODI # 1297,Zimbabwe,Pakistan,4 wickets,Harare,"Mar 28, 1998",Pakistan
+ODI # 1298,Zimbabwe,Pakistan,4 wickets,Harare,"Mar 29, 1998",Pakistan
+ODI # 1299,West Indies,England,16 runs,Bridgetown,"Mar 29, 1998",England
+ODI # 1300,India,Australia,41 runs,Kochi,"Apr 1, 1998",India
+ODI # 1301,West Indies,England,1 wicket,Bridgetown,"Apr 1, 1998",West Indies
+ODI # 1302,Australia,Zimbabwe,13 runs,Ahmedabad,"Apr 3, 1998",Australia
+ODI # 1303,South Africa,Pakistan,52 runs,Durban,"Apr 3, 1998",South Africa
+ODI # 1304,West Indies,England,5 wickets,Kingstown,"Apr 4, 1998",West Indies
+ODI # 1305,India,Zimbabwe,13 runs,Vadodara,"Apr 5, 1998",India
+ODI # 1306,South Africa,Sri Lanka,57 runs,Johannesburg,"Apr 5, 1998",South Africa
+ODI # 1307,West Indies,England,4 wickets,Kingstown,"Apr 5, 1998",West Indies
+ODI # 1308,India,Australia,6 wickets,Kanpur,"Apr 7, 1998",India
+ODI # 1309,Pakistan,Sri Lanka,4 wickets,Kimberley,"Apr 7, 1998",Pakistan
+ODI # 1310,West Indies,England,57 runs,Port of Spain,"Apr 8, 1998",West Indies
+ODI # 1311,India,Zimbabwe,32 runs,Cuttack,"Apr 9, 1998",India
+ODI # 1312,Pakistan,Sri Lanka,110 runs,Paarl,"Apr 9, 1998",Pakistan
+ODI # 1313,Australia,Zimbabwe,16 runs,Delhi,"Apr 11, 1998",Australia
+ODI # 1314,South Africa,Pakistan,3 wickets,East London,"Apr 11, 1998",South Africa
+ODI # 1315,South Africa,Sri Lanka,6 wickets,Port Elizabeth,"Apr 13, 1998",Sri Lanka
+ODI # 1316,India,Australia,4 wickets,Delhi,"Apr 14, 1998",Australia
+ODI # 1317,Pakistan,Sri Lanka,115 runs,Benoni,"Apr 15, 1998",Sri Lanka
+ODI # 1318,South Africa,Pakistan,7 wickets,Centurion,"Apr 17, 1998",South Africa
+ODI # 1319,India,New Zealand,15 runs,Sharjah,"Apr 17, 1998",India
+ODI # 1320,Australia,New Zealand,6 wickets,Sharjah,"Apr 18, 1998",Australia
+ODI # 1321,South Africa,Sri Lanka,5 wickets,Bloemfontein,"Apr 19, 1998",South Africa
+ODI # 1322,Australia,India,58 runs,Sharjah,"Apr 19, 1998",Australia
+ODI # 1323,India,New Zealand,4 wickets,Sharjah,"Apr 20, 1998",New Zealand
+ODI # 1324,Australia,New Zealand,5 wickets,Sharjah,"Apr 21, 1998",Australia
+ODI # 1325,Australia,India,26 runs,Sharjah,"Apr 22, 1998",Australia
+ODI # 1326,South Africa,Pakistan,9 wickets,Cape Town,"Apr 23, 1998",South Africa
+ODI # 1327,Australia,India,6 wickets,Sharjah,"Apr 24, 1998",India
+ODI # 1328,India,Bangladesh,5 wickets,Mohali,"May 14, 1998",India
+ODI # 1329,Bangladesh,Kenya,6 wickets,Hyderabad (Deccan),"May 17, 1998",Bangladesh
+ODI # 1330,India,Kenya,4 wickets,Bengaluru,"May 20, 1998",India
+ODI # 1331,England,South Africa,3 wickets,The Oval,"May 21, 1998",South Africa
+ODI # 1333,Bangladesh,Kenya,28 runs,Chennai,"May 23, 1998",Kenya
+ODI # 1332,England,South Africa,32 runs,Manchester,"May 23, 1998",South Africa
+ODI # 1334,England,South Africa,7 wickets,Leeds,"May 24, 1998",England
+ODI # 1335,India,Bangladesh,5 wickets,Mumbai,"May 25, 1998",India
+ODI # 1336,India,Kenya,69 runs,Gwalior,"May 28, 1998",Kenya
+ODI # 1337,India,Kenya,9 wickets,Kolkata,"May 31, 1998",India
+ODI # 1338,Sri Lanka,India,8 wickets,Colombo (RPS),"Jun 19, 1998",India
+ODI # 1339,Sri Lanka,New Zealand,7 wickets,Colombo (RPS),"Jun 21, 1998",Sri Lanka
+ODI # 1341,Sri Lanka,India,8 runs,Colombo (SSC),"Jul 1, 1998",Sri Lanka
+ODI # 1343,Sri Lanka,New Zealand,87 runs,Colombo (SSC),"Jul 5, 1998",Sri Lanka
+ODI # 1344,Sri Lanka,India,6 runs,Colombo (RPS),"Jul 7, 1998",India
+ODI # 1345,South Africa,Sri Lanka,57 runs,Nottingham,"Aug 14, 1998",Sri Lanka
+ODI # 1346,England,Sri Lanka,36 runs,Lord's,"Aug 16, 1998",England
+ODI # 1347,England,South Africa,14 runs,Birmingham,"Aug 18, 1998",South Africa
+ODI # 1348,England,Sri Lanka,5 wickets,Lord's,"Aug 20, 1998",Sri Lanka
+ODI # 1349,India,Pakistan,6 wickets,Toronto,"Sep 12, 1998",India
+ODI # 1350,India,Pakistan,51 runs,Toronto,"Sep 13, 1998",Pakistan
+ODI # 1351,India,Pakistan,77 runs,Toronto,"Sep 16, 1998",Pakistan
+ODI # 1352,India,Pakistan,134 runs,Toronto,"Sep 19, 1998",Pakistan
+ODI # 1353,India,Pakistan,5 wickets,Toronto,"Sep 20, 1998",Pakistan
+ODI # 1354,Zimbabwe,India,8 wickets,Bulawayo,"Sep 26, 1998",India
+ODI # 1355,Zimbabwe,India,8 wickets,Bulawayo,"Sep 27, 1998",India
+ODI # 1356,Zimbabwe,India,37 runs,Harare,"Sep 30, 1998",Zimbabwe
+ODI # 1357,New Zealand,Zimbabwe,5 wickets,Dhaka,"Oct 24, 1998",New Zealand
+ODI # 1358,England,South Africa,6 wickets,Dhaka,"Oct 25, 1998",South Africa
+ODI # 1359,New Zealand,Sri Lanka,5 wickets,Dhaka,"Oct 26, 1998",Sri Lanka
+ODI # 1360,Australia,India,44 runs,Dhaka,"Oct 28, 1998",India
+ODI # 1361,Pakistan,West Indies,30 runs,Dhaka,"Oct 29, 1998",West Indies
+ODI # 1362,South Africa,Sri Lanka,92 runs,Dhaka,"Oct 30, 1998",South Africa
+ODI # 1363,India,West Indies,6 wickets,Dhaka,"Oct 31, 1998",West Indies
+ODI # 1364,South Africa,West Indies,4 wickets,Dhaka,"Nov 1, 1998",South Africa
+ODI # 1365,Pakistan,Australia,86 runs,Karachi,"Nov 6, 1998",Australia
+ODI # 1366,India,Sri Lanka,3 wickets,Sharjah,"Nov 6, 1998",India
+ODI # 1367,Sri Lanka,Zimbabwe,7 wickets,Sharjah,"Nov 7, 1998",Zimbabwe
+ODI # 1368,Pakistan,Australia,5 wickets,Peshawar,"Nov 8, 1998",Australia
+ODI # 1369,India,Zimbabwe,7 wickets,Sharjah,"Nov 8, 1998",India
+ODI # 1370,India,Sri Lanka,81 runs,Sharjah,"Nov 9, 1998",India
+ODI # 1371,Pakistan,Australia,6 wickets,Lahore,"Nov 10, 1998",Australia
+ODI # 1372,Sri Lanka,Zimbabwe,24 runs,Sharjah,"Nov 10, 1998",Zimbabwe
+ODI # 1373,India,Zimbabwe,13 runs,Sharjah,"Nov 11, 1998",Zimbabwe
+ODI # 1374,India,Zimbabwe,10 wickets,Sharjah,"Nov 13, 1998",India
+ODI # 1375,Pakistan,Zimbabwe,4 wickets,Gujranwala,"Nov 20, 1998",Pakistan
+ODI # 1376,Pakistan,Zimbabwe,6 wickets,Sheikhupura,"Nov 22, 1998",Zimbabwe
+ODI # 1377,Pakistan,Zimbabwe,111 runs,Rawalpindi,"Nov 24, 1998",Pakistan
+ODI # 1378,New Zealand,India,5 wickets,Taupo,"Jan 9, 1999",New Zealand
+ODI # 1379,Australia,England,7 runs,Brisbane,"Jan 10, 1999",England
+ODI # 1380,England,Sri Lanka,4 wickets,Brisbane,"Jan 11, 1999",England
+ODI # 1381,New Zealand,India,2 wickets,Napier,"Jan 12, 1999",India
+ODI # 1382,Australia,Sri Lanka,8 wickets,Sydney,"Jan 13, 1999",Australia
+ODI # 1384,Australia,England,9 wickets,Melbourne,"Jan 15, 1999",Australia
+ODI # 1385,New Zealand,India,5 wickets,Auckland,"Jan 16, 1999",India
+ODI # 1386,Australia,England,7 runs,Sydney,"Jan 17, 1999",England
+ODI # 1387,New Zealand,India,70 runs,Christchurch,"Jan 19, 1999",New Zealand
+ODI # 1388,England,Sri Lanka,7 wickets,Melbourne,"Jan 19, 1999",England
+ODI # 1389,Australia,Sri Lanka,3 wickets,Hobart,"Jan 21, 1999",Sri Lanka
+ODI # 1390,South Africa,West Indies,2 wickets,Johannesburg,"Jan 22, 1999",South Africa
+ODI # 1391,England,Sri Lanka,1 wicket,Adelaide,"Jan 23, 1999",Sri Lanka
+ODI # 1392,Australia,Sri Lanka,80 runs,Adelaide,"Jan 24, 1999",Australia
+ODI # 1393,South Africa,West Indies,43 runs,East London,"Jan 24, 1999",West Indies
+ODI # 1394,Australia,England,16 runs,Adelaide,"Jan 26, 1999",Australia
+ODI # 1395,South Africa,West Indies,55 runs,Durban,"Jan 27, 1999",South Africa
+ODI # 1396,England,Sri Lanka,128 runs,Perth,"Jan 29, 1999",England
+ODI # 1397,South Africa,West Indies,99 runs,Port Elizabeth,"Jan 30, 1999",South Africa
+ODI # 1398,Australia,Sri Lanka,45 runs,Perth,"Jan 31, 1999",Australia
+ODI # 1399,South Africa,West Indies,89 runs,Cape Town,"Feb 2, 1999",South Africa
+ODI # 1400,England,Sri Lanka,11 runs,Sydney,"Feb 3, 1999",Sri Lanka
+ODI # 1401,Australia,England,4 wickets,Sydney,"Feb 5, 1999",Australia
+ODI # 1402,South Africa,West Indies,114 runs,Bloemfontein,"Feb 5, 1999",South Africa
+ODI # 1403,Australia,Sri Lanka,43 runs,Melbourne,"Feb 7, 1999",Australia
+ODI # 1404,South Africa,West Indies,50 runs,Centurion,"Feb 7, 1999",South Africa
+ODI # 1405,Australia,England,10 runs,Sydney,"Feb 10, 1999",Australia
+ODI # 1406,Australia,England,162 runs,Melbourne,"Feb 13, 1999",Australia
+ODI # 1407,New Zealand,South Africa,3 wickets,Dunedin,"Feb 14, 1999",New Zealand
+ODI # 1408,New Zealand,South Africa,7 wickets,Christchurch,"Feb 17, 1999",South Africa
+ODI # 1409,New Zealand,South Africa,7 wickets,Auckland,"Feb 20, 1999",New Zealand
+ODI # 1410,Bangladesh,Pakistan,152 runs,Dhaka,"Mar 16, 1999",Pakistan
+ODI # 1411,Pakistan,Sri Lanka,9 runs,Jamshedpur,"Mar 19, 1999",Pakistan
+ODI # 1412,Kenya,Zimbabwe,133 runs,Dhaka,"Mar 19, 1999",Zimbabwe
+ODI # 1413,Bangladesh,Kenya,8 wickets,Dhaka,"Mar 20, 1999",Kenya
+ODI # 1414,Bangladesh,Zimbabwe,126 runs,Dhaka,"Mar 21, 1999",Zimbabwe
+ODI # 1415,India,Sri Lanka,80 runs,Nagpur,"Mar 22, 1999",India
+ODI # 1416,Kenya,Zimbabwe,64 runs,Dhaka,"Mar 23, 1999",Zimbabwe
+ODI # 1417,India,Pakistan,143 runs,Jaipur,"Mar 24, 1999",Pakistan
+ODI # 1418,Bangladesh,Kenya,73 runs,Dhaka,"Mar 24, 1999",Kenya
+ODI # 1420,Bangladesh,Zimbabwe,3 wickets,Dhaka,"Mar 25, 1999",Zimbabwe
+ODI # 1421,New Zealand,South Africa,2 wickets,Napier,"Mar 26, 1999",South Africa
+ODI # 1422,New Zealand,South Africa,143 runs,Auckland,"Mar 27, 1999",South Africa
+ODI # 1423,Pakistan,Sri Lanka,12 runs,Visakhapatnam,"Mar 27, 1999",Sri Lanka
+ODI # 1424,Kenya,Zimbabwe,202 runs,Dhaka,"Mar 27, 1999",Zimbabwe
+ODI # 1426,India,Sri Lanka,51 runs,Pune,"Mar 30, 1999",India
+ODI # 1427,India,Pakistan,7 wickets,Mohali,"Apr 1, 1999",Pakistan
+ODI # 1428,India,Pakistan,123 runs,Bengaluru,"Apr 4, 1999",Pakistan
+ODI # 1429,England,Pakistan,90 runs,Sharjah,"Apr 7, 1999",Pakistan
+ODI # 1430,India,Pakistan,116 runs,Sharjah,"Apr 8, 1999",Pakistan
+ODI # 1431,England,India,20 runs,Sharjah,"Apr 9, 1999",India
+ODI # 1432,England,India,9 runs,Sharjah,"Apr 11, 1999",India
+ODI # 1433,West Indies,Australia,44 runs,Kingstown,"Apr 11, 1999",West Indies
+ODI # 1434,England,Pakistan,62 runs,Sharjah,"Apr 12, 1999",England
+ODI # 1435,India,Pakistan,6 wickets,Sharjah,"Apr 13, 1999",India
+ODI # 1436,West Indies,Australia,46 runs,St George's,"Apr 14, 1999",Australia
+ODI # 1437,India,Pakistan,8 wickets,Sharjah,"Apr 16, 1999",Pakistan
+ODI # 1438,West Indies,Australia,5 wickets,Port of Spain,"Apr 17, 1999",West Indies
+ODI # 1439,West Indies,Australia,20 runs,Port of Spain,"Apr 18, 1999",Australia
+ODI # 1441,West Indies,Australia,4 wickets,Bridgetown,"Apr 24, 1999",Australia
+ODI # 1442,West Indies,Australia,8 wickets,Bridgetown,"Apr 25, 1999",West Indies
+ODI # 1443,England,Sri Lanka,8 wickets,Lord's,"May 14, 1999",England
+ODI # 1444,India,South Africa,4 wickets,Hove,"May 15, 1999",South Africa
+ODI # 1445,Kenya,Zimbabwe,5 wickets,Taunton,"May 15, 1999",Zimbabwe
+ODI # 1446,Australia,Scotland,6 wickets,Worcester,"May 16, 1999",Australia
+ODI # 1447,Pakistan,West Indies,27 runs,Bristol,"May 16, 1999",Pakistan
+ODI # 1448,Bangladesh,New Zealand,6 wickets,Chelmsford,"May 17, 1999",New Zealand
+ODI # 1449,England,Kenya,9 wickets,Canterbury,"May 18, 1999",England
+ODI # 1450,India,Zimbabwe,3 runs,Leicester,"May 19, 1999",Zimbabwe
+ODI # 1451,South Africa,Sri Lanka,89 runs,Northampton,"May 19, 1999",South Africa
+ODI # 1452,Australia,New Zealand,5 wickets,Cardiff,"May 20, 1999",New Zealand
+ODI # 1453,Pakistan,Scotland,94 runs,Chester-le-Street,"May 20, 1999",Pakistan
+ODI # 1454,Bangladesh,West Indies,7 wickets,Dublin,"May 21, 1999",West Indies
+ODI # 1455,England,South Africa,122 runs,The Oval,"May 22, 1999",South Africa
+ODI # 1456,Sri Lanka,Zimbabwe,4 wickets,Worcester,"May 22, 1999",Sri Lanka
+ODI # 1457,India,Kenya,94 runs,Bristol,"May 23, 1999",India
+ODI # 1458,Australia,Pakistan,10 runs,Leeds,"May 23, 1999",Pakistan
+ODI # 1459,Scotland,Bangladesh,22 runs,Edinburgh,"May 24, 1999",Bangladesh
+ODI # 1460,New Zealand,West Indies,7 wickets,Southampton,"May 24, 1999",West Indies
+ODI # 1461,England,Zimbabwe,7 wickets,Nottingham,"May 25, 1999",England
+ODI # 1462,Kenya,South Africa,7 wickets,Amstelveen,"May 26, 1999",South Africa
+ODI # 1463,India,Sri Lanka,157 runs,Taunton,"May 26, 1999",India
+ODI # 1464,Australia,Bangladesh,7 wickets,Chester-le-Street,"May 27, 1999",Australia
+ODI # 1465,Scotland,West Indies,8 wickets,Leicester,"May 27, 1999",West Indies
+ODI # 1466,New Zealand,Pakistan,62 runs,Derby,"May 28, 1999",Pakistan
+ODI # 1467,England,India,63 runs,Birmingham,"May 29-30, 1999",India
+ODI # 1468,South Africa,Zimbabwe,48 runs,Chelmsford,"May 29, 1999",Zimbabwe
+ODI # 1469,Kenya,Sri Lanka,45 runs,Southampton,"May 30, 1999",Sri Lanka
+ODI # 1470,Australia,West Indies,6 wickets,Manchester,"May 30, 1999",Australia
+ODI # 1471,Bangladesh,Pakistan,62 runs,Northampton,"May 31, 1999",Bangladesh
+ODI # 1472,Scotland,New Zealand,6 wickets,Edinburgh,"May 31, 1999",New Zealand
+ODI # 1473,Australia,India,77 runs,The Oval,"Jun 4, 1999",Australia
+ODI # 1474,Pakistan,South Africa,3 wickets,Nottingham,"Jun 5, 1999",South Africa
+ODI # 1476,India,Pakistan,47 runs,Manchester,"Jun 8, 1999",India
+ODI # 1477,Australia,Zimbabwe,44 runs,Lord's,"Jun 9, 1999",Australia
+ODI # 1478,New Zealand,South Africa,74 runs,Birmingham,"Jun 10, 1999",South Africa
+ODI # 1479,Pakistan,Zimbabwe,148 runs,The Oval,"Jun 11, 1999",Pakistan
+ODI # 1480,India,New Zealand,5 wickets,Nottingham,"Jun 12, 1999",New Zealand
+ODI # 1481,Australia,South Africa,5 wickets,Leeds,"Jun 13, 1999",Australia
+ODI # 1482,New Zealand,Pakistan,9 wickets,Manchester,"Jun 16, 1999",Pakistan
+ODI # 1484,Australia,Pakistan,8 wickets,Lord's,"Jun 20, 1999",Australia
+ODI # 1485,Sri Lanka,Australia,50 runs,Galle,"Aug 22, 1999",Australia
+ODI # 1486,Australia,India,8 wickets,Galle,"Aug 23, 1999",Australia
+ODI # 1487,Sri Lanka,India,7 wickets,Colombo (RPS),"Aug 25, 1999",Sri Lanka
+ODI # 1488,Sri Lanka,Australia,27 runs,Colombo (RPS),"Aug 26, 1999",Australia
+ODI # 1489,Australia,India,41 runs,Colombo (SSC),"Aug 28, 1999",Australia
+ODI # 1490,Sri Lanka,India,23 runs,Colombo (SSC),"Aug 29, 1999",India
+ODI # 1491,Sri Lanka,Australia,8 wickets,Colombo (RPS),"Aug 31, 1999",Sri Lanka
+ODI # 1492,West Indies,Zimbabwe,6 wickets,Singapore,"Sep 2, 1999",West Indies
+ODI # 1493,India,Zimbabwe,115 runs,Singapore,"Sep 4, 1999",India
+ODI # 1494,India,West Indies,42 runs,Singapore,"Sep 5, 1999",West Indies
+ODI # 1496,India,West Indies,4 wickets,Singapore,"Sep 8, 1999",West Indies
+ODI # 1497,India,West Indies,8 wickets,Toronto,"Sep 11, 1999",India
+ODI # 1498,India,West Indies,70 runs,Toronto,"Sep 12, 1999",West Indies
+ODI # 1499,India,West Indies,88 runs,Toronto,"Sep 14, 1999",India
+ODI # 1500,Pakistan,West Indies,15 runs,Toronto,"Sep 16, 1999",Pakistan
+ODI # 1501,Pakistan,West Indies,42 runs,Toronto,"Sep 18, 1999",Pakistan
+ODI # 1502,Pakistan,West Indies,7 wickets,Toronto,"Sep 19, 1999",Pakistan
+ODI # 1503,Kenya,Zimbabwe,3 wickets,Nairobi (Gym),"Sep 25, 1999",Zimbabwe
+ODI # 1504,India,South Africa,8 wickets,Nairobi (Gym),"Sep 26, 1999",India
+ODI # 1505,South Africa,Zimbabwe,9 wickets,Nairobi (Gym),"Sep 28, 1999",South Africa
+ODI # 1506,Kenya,India,58 runs,Nairobi (Gym),"Sep 29, 1999",India
+ODI # 1507,Kenya,South Africa,24 runs,Nairobi (Gym),"Sep 30, 1999",South Africa
+ODI # 1508,India,Zimbabwe,107 runs,Nairobi (Gym),"Oct 1, 1999",India
+ODI # 1509,India,South Africa,26 runs,Nairobi (Gym),"Oct 3, 1999",South Africa
+ODI # 1510,Bangladesh,West Indies,73 runs,Dhaka,"Oct 8, 1999",West Indies
+ODI # 1511,Bangladesh,West Indies,109 runs,Dhaka,"Oct 9, 1999",West Indies
+ODI # 1512,Sri Lanka,West Indies,3 wickets,Sharjah,"Oct 13, 1999",West Indies
+ODI # 1513,Pakistan,West Indies,130 runs,Sharjah,"Oct 14, 1999",Pakistan
+ODI # 1515,Sri Lanka,West Indies,9 wickets,Sharjah,"Oct 17, 1999",Sri Lanka
+ODI # 1516,Pakistan,Sri Lanka,118 runs,Sharjah,"Oct 18, 1999",Pakistan
+ODI # 1517,Pakistan,West Indies,138 runs,Sharjah,"Oct 19, 1999",Pakistan
+ODI # 1518,Zimbabwe,Australia,83 runs,Bulawayo,"Oct 21, 1999",Australia
+ODI # 1519,Pakistan,Sri Lanka,88 runs,Sharjah,"Oct 22, 1999",Pakistan
+ODI # 1520,Zimbabwe,Australia,9 wickets,Harare,"Oct 23, 1999",Australia
+ODI # 1521,Zimbabwe,Australia,9 wickets,Harare,"Oct 24, 1999",Australia
+ODI # 1522,India,New Zealand,43 runs,Rajkot,"Nov 5, 1999",New Zealand
+ODI # 1523,India,New Zealand,174 runs,Hyderabad (Deccan),"Nov 8, 1999",India
+ODI # 1524,India,New Zealand,14 runs,Gwalior,"Nov 11, 1999",India
+ODI # 1525,India,New Zealand,48 runs,Guwahati,"Nov 14, 1999",New Zealand
+ODI # 1526,India,New Zealand,7 wickets,Delhi,"Nov 17, 1999",India
+ODI # 1528,Zimbabwe,Sri Lanka,13 runs,Bulawayo,"Dec 12, 1999",Sri Lanka
+ODI # 1529,Zimbabwe,Sri Lanka,98 runs,Harare,"Dec 15, 1999",Sri Lanka
+ODI # 1530,Zimbabwe,Sri Lanka,6 wickets,Harare,"Dec 18, 1999",Sri Lanka
+ODI # 1531,Zimbabwe,Sri Lanka,6 wickets,Harare,"Dec 19, 1999",Zimbabwe
 ODI # 1532,New Zealand,West Indies,3 wickets,Auckland,"Jan 2, 2000",New Zealand
 ODI # 1533,New Zealand,West Indies,7 wickets,Taupo,"Jan 4, 2000",New Zealand
 ODI # 1534,New Zealand,West Indies,4 wickets,Napier,"Jan 6, 2000",New Zealand
@@ -30,7 +1498,6 @@ ODI # 1559,Pakistan,Sri Lanka,29 runs,Karachi,"Feb 13, 2000",Sri Lanka
 ODI # 1560,South Africa,England,38 runs,Johannesburg,"Feb 13, 2000",South Africa
 ODI # 1561,Pakistan,Sri Lanka,34 runs,Gujranwala,"Feb 16, 2000",Sri Lanka
 ODI # 1562,Zimbabwe,England,5 wickets,Bulawayo,"Feb 16, 2000",England
-ODI # 1563,New Zealand,Australia,,Wellington,"Feb 17, 2000",no result
 ODI # 1564,Zimbabwe,England,1 wicket,Bulawayo,"Feb 18, 2000",England
 ODI # 1565,New Zealand,Australia,5 wickets,Auckland,"Feb 19, 2000",Australia
 ODI # 1566,Pakistan,Sri Lanka,104 runs,Lahore,"Feb 19, 2000",Sri Lanka
@@ -76,7 +1543,6 @@ ODI # 1605,West Indies,Zimbabwe,6 wickets,Bristol,"Jul 6, 2000",Zimbabwe
 ODI # 1606,Pakistan,South Africa,18 runs,Colombo (RPS),"Jul 8, 2000",South Africa
 ODI # 1607,England,Zimbabwe,5 wickets,The Oval,"Jul 8, 2000",Zimbabwe
 ODI # 1608,Sri Lanka,Pakistan,6 wickets,Colombo (RPS),"Jul 9, 2000",Sri Lanka
-ODI # 1609,England,West Indies,,Lord's,"Jul 9, 2000",no result
 ODI # 1610,Sri Lanka,South Africa,8 wickets,Colombo (SSC),"Jul 11, 2000",Sri Lanka
 ODI # 1611,West Indies,Zimbabwe,70 runs,Canterbury,"Jul 11, 2000",Zimbabwe
 ODI # 1612,Pakistan,South Africa,7 wickets,Colombo (SSC),"Jul 12, 2000",South Africa
@@ -88,7 +1554,6 @@ ODI # 1617,England,Zimbabwe,52 runs,Birmingham,"Jul 18, 2000",England
 ODI # 1618,England,West Indies,3 runs,Nottingham,"Jul 20, 2000",West Indies
 ODI # 1619,England,Zimbabwe,6 wickets,Lord's,"Jul 22, 2000",England
 ODI # 1620,Australia,South Africa,94 runs,Melbourne (Docklands),"Aug 16, 2000",Australia
-ODI # 1621,Australia,South Africa,,Melbourne (Docklands),"Aug 18, 2000",tied
 ODI # 1622,Australia,South Africa,8 runs,Melbourne (Docklands),"Aug 20, 2000",South Africa
 ODI # 1623,New Zealand,Pakistan,12 runs,Singapore,"Aug 20, 2000",Pakistan
 ODI # 1624,Pakistan,South Africa,28 runs,Singapore,"Aug 23, 2000",Pakistan
@@ -108,7 +1573,6 @@ ODI # 1637,New Zealand,Pakistan,4 wickets,Nairobi (Gym),"Oct 11, 2000",New Zeala
 ODI # 1638,India,South Africa,95 runs,Nairobi (Gym),"Oct 13, 2000",India
 ODI # 1639,India,New Zealand,4 wickets,Nairobi (Gym),"Oct 15, 2000",New Zealand
 ODI # 1640,India,Sri Lanka,5 wickets,Sharjah,"Oct 20, 2000",Sri Lanka
-ODI # 1641,South Africa,New Zealand,,Potchefstroom,"Oct 20, 2000",no result
 ODI # 1642,Sri Lanka,Zimbabwe,7 wickets,Sharjah,"Oct 21, 2000",Sri Lanka
 ODI # 1643,South Africa,New Zealand,6 wickets,Benoni,"Oct 22, 2000",South Africa
 ODI # 1644,India,Zimbabwe,13 runs,Sharjah,"Oct 22, 2000",India
@@ -288,7 +1752,6 @@ ODI # 1817,India,Zimbabwe,5 wickets,Hyderabad (Deccan),"Mar 16, 2002",India
 ODI # 1818,India,Zimbabwe,101 runs,Guwahati,"Mar 19, 2002",India
 ODI # 1819,South Africa,Australia,19 runs,Johannesburg,"Mar 22, 2002",Australia
 ODI # 1820,South Africa,Australia,45 runs,Centurion,"Mar 24, 2002",Australia
-ODI # 1821,South Africa,Australia,,Potchefstroom,"Mar 27, 2002",tied
 ODI # 1822,South Africa,Australia,37 runs,Bloemfontein,"Mar 30, 2002",Australia
 ODI # 1823,South Africa,Australia,8 wickets,Durban,"Apr 3, 2002",Australia
 ODI # 1824,South Africa,Australia,3 wickets,Port Elizabeth,"Apr 6, 2002",Australia
@@ -306,7 +1769,6 @@ ODI # 1835,Pakistan,New Zealand,66 runs,Lahore,"Apr 27, 2002",Pakistan
 ODI # 1836,West Indies,India,7 wickets,Bridgetown,"May 29, 2002",India
 ODI # 1837,West Indies,India,7 wickets,Port of Spain,"Jun 1, 2002",West Indies
 ODI # 1838,West Indies,India,56 runs,Port of Spain,"Jun 2, 2002",India
-ODI # 1839,West Indies,New Zealand,,Kingston,"Jun 5, 2002",no result
 ODI # 1840,West Indies,New Zealand,6 wickets,Gros Islet,"Jun 8, 2002",West Indies
 ODI # 1841,West Indies,New Zealand,7 wickets,Gros Islet,"Jun 9, 2002",West Indies
 ODI # 1842,Australia,Pakistan,7 wickets,Melbourne (Docklands),"Jun 12, 2002",Australia
@@ -318,7 +1780,6 @@ ODI # 1847,England,Sri Lanka,44 runs,Nottingham,"Jun 27, 2002",England
 ODI # 1848,England,India,6 wickets,Lord's,"Jun 29, 2002",India
 ODI # 1849,India,Sri Lanka,4 wickets,The Oval,"Jun 30, 2002",India
 ODI # 1850,England,Sri Lanka,3 wickets,Leeds,"Jul 2, 2002",England
-ODI # 1851,England,India,,Chester-le-Street,"Jul 4, 2002",no result
 ODI # 1852,India,Sri Lanka,4 wickets,Birmingham,"Jul 6, 2002",India
 ODI # 1853,England,Sri Lanka,23 runs,Manchester,"Jul 7, 2002",Sri Lanka
 ODI # 1854,England,India,64 runs,The Oval,"Jul 9, 2002",England
@@ -340,7 +1801,6 @@ ODI # 1869,Kenya,Pakistan,7 wickets,Nairobi (Gym),"Sep 1, 2002",Pakistan
 ODI # 1870,Kenya,Australia,8 wickets,Nairobi (Gym),"Sep 2, 2002",Australia
 ODI # 1871,Australia,Pakistan,9 wickets,Nairobi (Gym),"Sep 4, 2002",Australia
 ODI # 1872,Kenya,Australia,5 wickets,Nairobi (Gym),"Sep 5, 2002",Australia
-ODI # 1873,Australia,Pakistan,,Nairobi (Gym),"Sep 7, 2002",no result
 ODI # 1874,Sri Lanka,Pakistan,8 wickets,Colombo (RPS),"Sep 12, 2002",Sri Lanka
 ODI # 1875,South Africa,West Indies,2 wickets,Colombo (SSC),"Sep 13, 2002",South Africa
 ODI # 1876,India,Zimbabwe,14 runs,Colombo (RPS),"Sep 14, 2002",India
@@ -355,8 +1815,6 @@ ODI # 1884,England,India,8 wickets,Colombo (RPS),"Sep 22, 2002",India
 ODI # 1885,Bangladesh,New Zealand,167 runs,Colombo (SSC),"Sep 23, 2002",New Zealand
 ODI # 1886,India,South Africa,10 runs,Colombo (RPS),"Sep 25, 2002",India
 ODI # 1887,Sri Lanka,Australia,7 wickets,Colombo (RPS),"Sep 27, 2002",Sri Lanka
-ODI # 1888,Sri Lanka,India,,Colombo (RPS),"Sep 29, 2002",no result
-ODI # 1889,Sri Lanka,India,,Colombo (RPS),"Sep 30, 2002",no result
 ODI # 1890,South Africa,Bangladesh,168 runs,Potchefstroom,"Oct 3, 2002",South Africa
 ODI # 1891,South Africa,Bangladesh,10 wickets,Benoni,"Oct 6, 2002",South Africa
 ODI # 1892,South Africa,Bangladesh,7 wickets,Kimberley,"Oct 9, 2002",South Africa
@@ -371,7 +1829,6 @@ ODI # 1900,India,West Indies,135 runs,Vijayawada,"Nov 24, 2002",West Indies
 ODI # 1901,Zimbabwe,Pakistan,104 runs,Bulawayo,"Nov 24, 2002",Pakistan
 ODI # 1902,Zimbabwe,Pakistan,48 runs,Harare,"Nov 27, 2002",Pakistan
 ODI # 1903,South Africa,Sri Lanka,6 wickets,Johannesburg,"Nov 27, 2002",South Africa
-ODI # 1904,Bangladesh,West Indies,,Chittagong,"Nov 29, 2002",no result
 ODI # 1905,South Africa,Sri Lanka,177 runs,Centurion,"Nov 29, 2002",South Africa
 ODI # 1906,Zimbabwe,Pakistan,8 wickets,Harare,"Nov 30, 2002",Pakistan
 ODI # 1907,Zimbabwe,Pakistan,70 runs,Harare,"Dec 1, 2002",Pakistan
@@ -380,7 +1837,6 @@ ODI # 1909,Bangladesh,West Indies,84 runs,Dhaka,"Dec 2, 2002",West Indies
 ODI # 1910,Bangladesh,West Indies,86 runs,Dhaka,"Dec 3, 2002",West Indies
 ODI # 1911,South Africa,Sri Lanka,8 wickets,Kimberley,"Dec 4, 2002",South Africa
 ODI # 1912,South Africa,Sri Lanka,6 wickets,Bloemfontein,"Dec 6, 2002",South Africa
-ODI # 1913,Zimbabwe,Kenya,,Harare,"Dec 8, 2002",no result
 ODI # 1914,South Africa,Pakistan,132 runs,Durban,"Dec 8, 2002",South Africa
 ODI # 1915,Zimbabwe,Kenya,47 runs,Kwekwe,"Dec 11, 2002",Zimbabwe
 ODI # 1916,South Africa,Pakistan,182 runs,Port Elizabeth,"Dec 11, 2002",Pakistan
@@ -423,7 +1879,6 @@ ODI # 1952,Canada,Kenya,4 wickets,Cape Town,"Feb 15, 2003",Kenya
 ODI # 1953,England,Netherlands,6 wickets,East London,"Feb 16, 2003",England
 ODI # 1954,Namibia,Pakistan,171 runs,Kimberley,"Feb 16, 2003",Pakistan
 ODI # 1955,South Africa,New Zealand,9 wickets,Johannesburg,"Feb 16, 2003",New Zealand
-ODI # 1956,Bangladesh,West Indies,,Benoni,"Feb 18, 2003",no result
 ODI # 1957,Zimbabwe,India,83 runs,Harare,"Feb 19, 2003",India
 ODI # 1958,Canada,Sri Lanka,9 wickets,Paarl,"Feb 19, 2003",Sri Lanka
 ODI # 1959,England,Namibia,55 runs,Port Elizabeth,"Feb 19, 2003",England
@@ -446,8 +1901,6 @@ ODI # 1975,India,Pakistan,6 wickets,Centurion,"Mar 1, 2003",India
 ODI # 1976,Australia,England,2 wickets,Port Elizabeth,"Mar 2, 2003",Australia
 ODI # 1977,Canada,New Zealand,5 wickets,Benoni,"Mar 3, 2003",New Zealand
 ODI # 1978,Namibia,Netherlands,64 runs,Bloemfontein,"Mar 3, 2003",Netherlands
-ODI # 1979,South Africa,Sri Lanka,,Durban,"Mar 3, 2003",tied
-ODI # 1980,Zimbabwe,Pakistan,,Bulawayo,"Mar 4, 2003",no result
 ODI # 1981,Kenya,West Indies,142 runs,Kimberley,"Mar 4, 2003",West Indies
 ODI # 1982,Australia,Sri Lanka,96 runs,Centurion,"Mar 7, 2003",Australia
 ODI # 1983,India,Kenya,6 wickets,Cape Town,"Mar 7, 2003",India
@@ -474,7 +1927,6 @@ ODI # 2003,Bangladesh,South Africa,83 runs,Dhaka,"Apr 14, 2003",South Africa
 ODI # 2004,Bangladesh,India,4 wickets,Dhaka,"Apr 16, 2003",India
 ODI # 2005,Bangladesh,South Africa,93 runs,Dhaka,"Apr 17, 2003",South Africa
 ODI # 2006,India,South Africa,5 wickets,Dhaka,"Apr 18, 2003",South Africa
-ODI # 2007,India,South Africa,,Dhaka,"Apr 21, 2003",no result
 ODI # 2008,Sri Lanka,Pakistan,79 runs,Dambulla,"May 10, 2003",Pakistan
 ODI # 2009,New Zealand,Pakistan,7 wickets,Dambulla,"May 11, 2003",New Zealand
 ODI # 2010,Sri Lanka,New Zealand,5 wickets,Dambulla,"May 13, 2003",Sri Lanka
@@ -498,7 +1950,6 @@ ODI # 2027,England,Pakistan,4 wickets,Lord's,"Jun 22, 2003",England
 ODI # 2028,England,Zimbabwe,4 wickets,Nottingham,"Jun 26, 2003",Zimbabwe
 ODI # 2029,England,South Africa,6 wickets,The Oval,"Jun 28, 2003",England
 ODI # 2030,South Africa,Zimbabwe,46 runs,Canterbury,"Jun 29, 2003",South Africa
-ODI # 2031,England,Zimbabwe,,Leeds,"Jul 1, 2003",no result
 ODI # 2032,England,South Africa,7 wickets,Manchester,"Jul 3, 2003",South Africa
 ODI # 2033,South Africa,Zimbabwe,9 wickets,Cardiff,"Jul 5, 2003",South Africa
 ODI # 2034,England,Zimbabwe,6 wickets,Bristol,"Jul 6, 2003",England
@@ -518,7 +1969,6 @@ ODI # 2047,Pakistan,South Africa,42 runs,Lahore,"Oct 5, 2003",Pakistan
 ODI # 2048,Pakistan,South Africa,13 runs,Faisalabad,"Oct 7, 2003",South Africa
 ODI # 2049,Pakistan,South Africa,6 wickets,Rawalpindi,"Oct 10, 2003",South Africa
 ODI # 2050,Pakistan,South Africa,7 wickets,Rawalpindi,"Oct 12, 2003",South Africa
-ODI # 2051,India,New Zealand,,Chennai,"Oct 23, 2003",no result
 ODI # 2052,India,Australia,37 runs,Gwalior,"Oct 26, 2003",India
 ODI # 2053,Australia,New Zealand,8 wickets,Faridabad,"Oct 29, 2003",Australia
 ODI # 2054,India,Australia,77 runs,Mumbai,"Nov 1, 2003",Australia
@@ -558,8 +2008,6 @@ ODI # 2087,India,Zimbabwe,3 runs,Adelaide,"Jan 24, 2004",India
 ODI # 2088,South Africa,West Indies,209 runs,Cape Town,"Jan 25, 2004",South Africa
 ODI # 2089,Australia,Zimbabwe,13 runs,Adelaide,"Jan 26, 2004",Australia
 ODI # 2090,South Africa,West Indies,16 runs,Port Elizabeth,"Jan 28, 2004",South Africa
-ODI # 2091,Australia,Zimbabwe,,Melbourne,"Jan 29, 2004",no result
-ODI # 2092,South Africa,West Indies,,Durban,"Jan 30, 2004",no result
 ODI # 2093,Australia,India,5 wickets,Perth,"Feb 1, 2004",Australia
 ODI # 2094,South Africa,West Indies,7 wickets,Centurion,"Feb 1, 2004",West Indies
 ODI # 2095,India,Zimbabwe,4 wickets,Perth,"Feb 3, 2004",India
@@ -588,7 +2036,6 @@ ODI # 2117,Pakistan,India,40 runs,Lahore,"Mar 24, 2004",India
 ODI # 2118,West Indies,England,2 wickets,Georgetown,"Apr 18, 2004",England
 ODI # 2119,Zimbabwe,Sri Lanka,12 runs,Bulawayo,"Apr 20, 2004",Sri Lanka
 ODI # 2120,Zimbabwe,Sri Lanka,9 wickets,Bulawayo,"Apr 22, 2004",Sri Lanka
-ODI # 2121,West Indies,England,,Port of Spain,"Apr 24, 2004",no result
 ODI # 2122,Zimbabwe,Sri Lanka,9 wickets,Harare,"Apr 25, 2004",Sri Lanka
 ODI # 2123,Zimbabwe,Sri Lanka,72 runs,Harare,"Apr 27, 2004",Sri Lanka
 ODI # 2124,Zimbabwe,Sri Lanka,25 runs,Harare,"Apr 29, 2004",Sri Lanka
@@ -601,14 +2048,12 @@ ODI # 2130,West Indies,Bangladesh,7 wickets,St George's,"May 19, 2004",West Indi
 ODI # 2131,Zimbabwe,Australia,7 wickets,Harare,"May 25, 2004",Australia
 ODI # 2132,Zimbabwe,Australia,139 runs,Harare,"May 27, 2004",Australia
 ODI # 2133,Zimbabwe,Australia,8 wickets,Harare,"May 29, 2004",Australia
-ODI # 2134,New Zealand,West Indies,,Birmingham,"Jun 26, 2004",no result
 ODI # 2135,England,West Indies,7 wickets,Nottingham,"Jun 27, 2004",West Indies
 ODI # 2136,England,New Zealand,7 wickets,Chester-le-Street,"Jun 29, 2004",New Zealand
 ODI # 2137,England,West Indies,7 wickets,Leeds,"Jul 1, 2004",England
 ODI # 2138,New Zealand,West Indies,5 wickets,Cardiff,"Jul 3, 2004",New Zealand
 ODI # 2139,England,New Zealand,6 wickets,Bristol,"Jul 4, 2004",New Zealand
 ODI # 2140,England,West Indies,7 wickets,Lord's,"Jul 6, 2004",West Indies
-ODI # 2141,New Zealand,West Indies,,Southampton,"Jul 8, 2004",no result
 ODI # 2142,New Zealand,West Indies,107 runs,Lord's,"Jul 10, 2004",New Zealand
 ODI # 2143,Bangladesh,Hong Kong,116 runs,Colombo (SSC),"Jul 16, 2004",Bangladesh
 ODI # 2144,India,U.A.E.,116 runs,Dambulla,"Jul 16, 2004",India
@@ -626,7 +2071,6 @@ ODI # 2155,Sri Lanka,India,25 runs,Colombo (RPS),"Aug 1, 2004",Sri Lanka
 ODI # 2156,Sri Lanka,South Africa,3 wickets,Colombo (RPS),"Aug 20, 2004",Sri Lanka
 ODI # 2157,India,Pakistan,66 runs,Amstelveen,"Aug 21, 2004",Pakistan
 ODI # 2158,Sri Lanka,South Africa,37 runs,Colombo (RPS),"Aug 22, 2004",Sri Lanka
-ODI # 2159,Australia,India,,Amstelveen,"Aug 23, 2004",no result
 ODI # 2160,Sri Lanka,South Africa,4 wickets,Dambulla,"Aug 25, 2004",Sri Lanka
 ODI # 2161,Sri Lanka,South Africa,7 wickets,Dambulla,"Aug 28, 2004",Sri Lanka
 ODI # 2162,Australia,Pakistan,17 runs,Amstelveen,"Aug 28, 2004",Australia
@@ -670,12 +2114,10 @@ ODI # 2199,Bangladesh,India,11 runs,Chittagong,"Dec 23, 2004",India
 ODI # 2200,New Zealand,Sri Lanka,7 wickets,Auckland,"Dec 26, 2004",New Zealand
 ODI # 2201,Bangladesh,India,15 runs,Dhaka,"Dec 26, 2004",Bangladesh
 ODI # 2202,Bangladesh,India,91 runs,Dhaka,"Dec 27, 2004",India
-ODI # 2203,Asia XI,ICC World XI,112 runs,Melbourne,"Jan 10, 2005",ICC World XI
 ODI # 2204,Australia,West Indies,116 runs,Melbourne,"Jan 14, 2005",Australia
 ODI # 2205,Australia,Pakistan,4 wickets,Hobart,"Jan 16, 2005",Australia
 ODI # 2206,Pakistan,West Indies,6 wickets,Brisbane,"Jan 19, 2005",Pakistan
 ODI # 2207,Bangladesh,Zimbabwe,22 runs,Dhaka,"Jan 20, 2005",Zimbabwe
-ODI # 2208,Australia,West Indies,,Brisbane,"Jan 21, 2005",no result
 ODI # 2209,Australia,Pakistan,9 wickets,Sydney,"Jan 23, 2005",Australia
 ODI # 2210,Bangladesh,Zimbabwe,31 runs,Chittagong,"Jan 24, 2005",Zimbabwe
 ODI # 2211,Bangladesh,Zimbabwe,40 runs,Chittagong,"Jan 26, 2005",Bangladesh
@@ -686,13 +2128,11 @@ ODI # 2215,Australia,Pakistan,3 wickets,Perth,"Jan 30, 2005",Pakistan
 ODI # 2216,South Africa,England,26 runs,Johannesburg,"Jan 30, 2005",England
 ODI # 2217,Bangladesh,Zimbabwe,8 wickets,Dhaka,"Jan 31, 2005",Bangladesh
 ODI # 2218,Pakistan,West Indies,30 runs,Perth,"Feb 1, 2005",Pakistan
-ODI # 2219,South Africa,England,,Bloemfontein,"Feb 2, 2005",tied
 ODI # 2220,Australia,Pakistan,18 runs,Melbourne,"Feb 4, 2005",Australia
 ODI # 2221,South Africa,England,3 wickets,Port Elizabeth,"Feb 4, 2005",South Africa
 ODI # 2222,Australia,Pakistan,31 runs,Sydney,"Feb 6, 2005",Australia
 ODI # 2223,South Africa,England,108 runs,Cape Town,"Feb 6, 2005",South Africa
 ODI # 2224,South Africa,England,7 runs,East London,"Feb 9, 2005",South Africa
-ODI # 2225,South Africa,England,,Durban,"Feb 11, 2005",no result
 ODI # 2226,South Africa,England,3 wickets,Centurion,"Feb 13, 2005",South Africa
 ODI # 2227,New Zealand,Australia,10 runs,Wellington,"Feb 19, 2005",Australia
 ODI # 2228,New Zealand,Australia,106 runs,Christchurch,"Feb 22, 2005",Australia
@@ -723,9 +2163,7 @@ ODI # 2252,England,Bangladesh,168 runs,Nottingham,"Jun 21, 2005",England
 ODI # 2253,England,Australia,57 runs,Chester-le-Street,"Jun 23, 2005",Australia
 ODI # 2254,Australia,Bangladesh,10 wickets,Manchester,"Jun 25, 2005",Australia
 ODI # 2255,England,Bangladesh,5 wickets,Leeds,"Jun 26, 2005",England
-ODI # 2256,England,Australia,,Birmingham,"Jun 28, 2005",no result
 ODI # 2257,Australia,Bangladesh,6 wickets,Canterbury,"Jun 30, 2005",Australia
-ODI # 2258,England,Australia,,Lord's,"Jul 2, 2005",tied
 ODI # 2259,England,Australia,9 wickets,Leeds,"Jul 7, 2005",England
 ODI # 2260,England,Australia,7 wickets,Lord's,"Jul 10, 2005",Australia
 ODI # 2261,England,Australia,8 wickets,The Oval,"Jul 12, 2005",Australia
@@ -736,9 +2174,6 @@ ODI # 2265,Sri Lanka,India,4 wickets,Dambulla,"Aug 3, 2005",Sri Lanka
 ODI # 2266,Sri Lanka,West Indies,33 runs,Colombo (RPS),"Aug 6, 2005",West Indies
 ODI # 2267,India,West Indies,7 runs,Colombo (RPS),"Aug 7, 2005",India
 ODI # 2268,Sri Lanka,India,18 runs,Colombo (RPS),"Aug 9, 2005",Sri Lanka
-ODI # 2269,Africa XI,Asia XI,2 runs,Centurion,"Aug 17, 2005",Africa XI
-ODI # 2270,Africa XI,Asia XI,17 runs,Durban,"Aug 20, 2005",Asia XI
-ODI # 2271,Africa XI,Asia XI,,Durban,"Aug 21, 2005",no result
 ODI # 2272,Zimbabwe,New Zealand,192 runs,Bulawayo,"Aug 24, 2005",New Zealand
 ODI # 2273,India,New Zealand,51 runs,Bulawayo,"Aug 26, 2005",New Zealand
 ODI # 2274,Zimbabwe,India,161 runs,Harare,"Aug 29, 2005",India
@@ -749,9 +2184,6 @@ ODI # 2278,India,New Zealand,6 wickets,Harare,"Sep 2, 2005",India
 ODI # 2279,Sri Lanka,Bangladesh,6 wickets,Colombo (RPS),"Sep 4, 2005",Sri Lanka
 ODI # 2280,Zimbabwe,India,4 wickets,Harare,"Sep 4, 2005",India
 ODI # 2281,India,New Zealand,6 wickets,Harare,"Sep 6, 2005",New Zealand
-ODI # 2282,Australia,ICC World XI,93 runs,Melbourne (Docklands),"Oct 5, 2005",Australia
-ODI # 2283,Australia,ICC World XI,55 runs,Melbourne (Docklands),"Oct 7, 2005",Australia
-ODI # 2284,Australia,ICC World XI,156 runs,Melbourne (Docklands),"Oct 9, 2005",Australia
 ODI # 2285,South Africa,New Zealand,2 wickets,Bloemfontein,"Oct 23, 2005",South Africa
 ODI # 2286,India,Sri Lanka,152 runs,Nagpur,"Oct 25, 2005",India
 ODI # 2287,India,Sri Lanka,8 wickets,Mohali,"Oct 28, 2005",India
@@ -759,7 +2191,6 @@ ODI # 2288,South Africa,New Zealand,19 runs,Cape Town,"Oct 28, 2005",South Afric
 ODI # 2289,South Africa,New Zealand,4 wickets,Port Elizabeth,"Oct 30, 2005",South Africa
 ODI # 2290,India,Sri Lanka,6 wickets,Jaipur,"Oct 31, 2005",India
 ODI # 2291,India,Sri Lanka,4 wickets,Pune,"Nov 3, 2005",India
-ODI # 2292,South Africa,New Zealand,,Durban,"Nov 4, 2005",no result
 ODI # 2293,South Africa,New Zealand,5 wickets,Centurion,"Nov 6, 2005",South Africa
 ODI # 2294,India,Sri Lanka,5 wickets,Ahmedabad,"Nov 6, 2005",Sri Lanka
 ODI # 2295,India,Sri Lanka,7 wickets,Rajkot,"Nov 9, 2005",India
@@ -818,7 +2249,6 @@ ODI # 2347,South Africa,Australia,24 runs,Port Elizabeth,"Mar 5, 2006",Australia
 ODI # 2348,South Africa,Australia,1 wicket,Durban,"Mar 10, 2006",Australia
 ODI # 2349,South Africa,Australia,1 wicket,Johannesburg,"Mar 12, 2006",South Africa
 ODI # 2350,Bangladesh,Kenya,131 runs,Bogra,"Mar 17, 2006",Bangladesh
-ODI # 2351,Sri Lanka,Pakistan,,Colombo (RPS),"Mar 17, 2006",no result
 ODI # 2352,Sri Lanka,Pakistan,4 wickets,Colombo (RPS),"Mar 19, 2006",Pakistan
 ODI # 2353,Bangladesh,Kenya,9 wickets,Khulna,"Mar 20, 2006",Bangladesh
 ODI # 2354,Sri Lanka,Pakistan,4 wickets,Colombo (SSC),"Mar 22, 2006",Pakistan
@@ -839,7 +2269,6 @@ ODI # 2368,West Indies,Zimbabwe,5 wickets,St John's,"Apr 29, 2006",West Indies
 ODI # 2369,West Indies,Zimbabwe,98 runs,St John's,"Apr 30, 2006",West Indies
 ODI # 2370,West Indies,Zimbabwe,82 runs,Georgetown,"May 7, 2006",West Indies
 ODI # 2371,West Indies,Zimbabwe,10 wickets,Gros Islet,"May 10, 2006",West Indies
-ODI # 2372,West Indies,Zimbabwe,,Port of Spain,"May 13, 2006",no result
 ODI # 2373,West Indies,Zimbabwe,104 runs,Port of Spain,"May 14, 2006",West Indies
 ODI # 2374,Canada,Zimbabwe,143 runs,Port of Spain,"May 16, 2006",Zimbabwe
 ODI # 2375,Bermuda,Canada,3 wickets,Port of Spain,"May 17, 2006",Bermuda
@@ -868,14 +2297,11 @@ ODI # 2397,Canada,Kenya,108 runs,Toronto,"Aug 5, 2006",Kenya
 ODI # 2398,Zimbabwe,Bangladesh,8 wickets,Harare,"Aug 6, 2006",Bangladesh
 ODI # 2399,Scotland,Netherlands,4 wickets,Ayr,"Aug 6, 2006",Scotland
 ODI # 2400,Canada,Kenya,5 wickets,Toronto,"Aug 6, 2006",Kenya
-ODI # 2401,Ireland,Netherlands,,Ayr,"Aug 8, 2006",no result
 ODI # 2402,Kenya,Bangladesh,6 wickets,Nairobi (Gym),"Aug 12, 2006",Bangladesh
 ODI # 2403,Kenya,Bangladesh,2 wickets,Nairobi (Gym),"Aug 13, 2006",Bangladesh
 ODI # 2404,Kenya,Bangladesh,6 wickets,Nairobi (Gym),"Aug 15, 2006",Bangladesh
-ODI # 2405,Sri Lanka,India,,Colombo (SSC),"Aug 18-19, 2006",no result
 ODI # 2406,Canada,Bermuda,6 wickets,Toronto,"Aug 19, 2006",Bermuda
 ODI # 2407,Canada,Bermuda,11 runs,Toronto,"Aug 21, 2006",Bermuda
-ODI # 2408,England,Pakistan,,Cardiff,"Aug 30, 2006",no result
 ODI # 2409,England,Pakistan,7 wickets,Lord's,"Sep 2, 2006",Pakistan
 ODI # 2410,England,Pakistan,2 wickets,Southampton,"Sep 5, 2006",Pakistan
 ODI # 2411,England,Pakistan,8 wickets,Nottingham,"Sep 8, 2006",England
@@ -883,7 +2309,6 @@ ODI # 2412,England,Pakistan,3 wickets,Birmingham,"Sep 10, 2006",England
 ODI # 2413,Australia,West Indies,78 runs,Kuala Lumpur,"Sep 12, 2006",Australia
 ODI # 2414,India,West Indies,29 runs,Kuala Lumpur,"Sep 14, 2006",West Indies
 ODI # 2415,South Africa,Zimbabwe,5 wickets,Bloemfontein,"Sep 15, 2006",South Africa
-ODI # 2416,Australia,India,,Kuala Lumpur,"Sep 16, 2006",no result
 ODI # 2417,Australia,West Indies,3 wickets,Kuala Lumpur,"Sep 18, 2006",West Indies
 ODI # 2418,South Africa,Zimbabwe,6 wickets,East London,"Sep 18, 2006",South Africa
 ODI # 2419,India,West Indies,16 runs,Kuala Lumpur,"Sep 20, 2006",India
@@ -939,7 +2364,6 @@ ODI # 2468,New Zealand,Sri Lanka,7 wickets,Napier,"Dec 28, 2006",Sri Lanka
 ODI # 2469,New Zealand,Sri Lanka,1 wicket,Queenstown,"Dec 31, 2006",New Zealand
 ODI # 2470,New Zealand,Sri Lanka,4 wickets,Christchurch,"Jan 2, 2007",New Zealand
 ODI # 2471,New Zealand,Sri Lanka,189 runs,Auckland,"Jan 6, 2007",Sri Lanka
-ODI # 2472,New Zealand,Sri Lanka,,Hamilton,"Jan 9, 2007",no result
 ODI # 2473,Australia,England,8 wickets,Melbourne,"Jan 12, 2007",Australia
 ODI # 2474,Australia,New Zealand,105 runs,Hobart,"Jan 14, 2007",Australia
 ODI # 2475,England,New Zealand,3 wickets,Hobart,"Jan 16, 2007",England
@@ -981,10 +2405,8 @@ ODI # 2510,England,New Zealand,14 runs,Brisbane,"Feb 6, 2007",England
 ODI # 2511,Zimbabwe,Bangladesh,8 wickets,Harare,"Feb 6, 2007",Zimbabwe
 ODI # 2512,Kenya,Scotland,8 wickets,Nairobi (Gym),"Feb 7, 2007",Kenya
 ODI # 2513,South Africa,Pakistan,141 runs,Durban,"Feb 7, 2007",Pakistan
-ODI # 2514,India,Sri Lanka,,Kolkata,"Feb 8, 2007",no result
 ODI # 2515,Australia,England,4 wickets,Melbourne,"Feb 9, 2007",England
 ODI # 2516,Zimbabwe,Bangladesh,14 runs,Harare,"Feb 9, 2007",Bangladesh
-ODI # 2517,South Africa,Pakistan,,Port Elizabeth,"Feb 9, 2007",no result
 ODI # 2518,Zimbabwe,Bangladesh,1 wicket,Harare,"Feb 10, 2007",Bangladesh
 ODI # 2519,Australia,England,34 runs,Sydney,"Feb 11, 2007",England
 ODI # 2520,India,Sri Lanka,5 runs,Rajkot,"Feb 11, 2007",Sri Lanka
@@ -1002,7 +2424,6 @@ ODI # 2531,West Indies,Pakistan,54 runs,Kingston,"Mar 13, 2007",West Indies
 ODI # 2532,Australia,Scotland,203 runs,Basseterre,"Mar 14, 2007",Australia
 ODI # 2533,Canada,Kenya,7 wickets,Gros Islet,"Mar 14, 2007",Kenya
 ODI # 2534,Bermuda,Sri Lanka,243 runs,Port of Spain,"Mar 15, 2007",Sri Lanka
-ODI # 2535,Ireland,Zimbabwe,,Kingston,"Mar 15, 2007",tied
 ODI # 2536,England,New Zealand,6 wickets,Gros Islet,"Mar 16, 2007",New Zealand
 ODI # 2537,Netherlands,South Africa,221 runs,Basseterre,"Mar 16, 2007",South Africa
 ODI # 2538,Bangladesh,India,5 wickets,Port of Spain,"Mar 17, 2007",Bangladesh
@@ -1054,9 +2475,6 @@ ODI # 2583,Bangladesh,India,46 runs,Dhaka,"May 12, 2007",India
 ODI # 2584,Pakistan,Sri Lanka,5 wickets,Abu Dhabi,"May 18, 2007",Pakistan
 ODI # 2585,Pakistan,Sri Lanka,98 runs,Abu Dhabi,"May 20, 2007",Pakistan
 ODI # 2586,Pakistan,Sri Lanka,115 runs,Abu Dhabi,"May 22, 2007",Sri Lanka
-ODI # 2587,Africa XI,Asia XI,34 runs,Bengaluru,"Jun 6, 2007",Asia XI
-ODI # 2588,Africa XI,Asia XI,31 runs,Chennai,"Jun 9, 2007",Asia XI
-ODI # 2589,Africa XI,Asia XI,13 runs,Chennai,"Jun 10, 2007",Asia XI
 ODI # 2590,Ireland,India,9 wickets,Belfast,"Jun 23, 2007",India
 ODI # 2591,Ireland,South Africa,42 runs,Belfast,"Jun 24, 2007",South Africa
 ODI # 2592,India,South Africa,4 wickets,Belfast,"Jun 26, 2007",South Africa
@@ -1069,8 +2487,6 @@ ODI # 2598,England,West Indies,93 runs,Nottingham,"Jul 7, 2007",West Indies
 ODI # 2599,Netherlands,West Indies,10 wickets,Dublin,"Jul 10, 2007",West Indies
 ODI # 2600,Ireland,Netherlands,1 run,Belfast,"Jul 11, 2007",Ireland
 ODI # 2601,Scotland,West Indies,4 wickets,Dublin,"Jul 12, 2007",West Indies
-ODI # 2602,Netherlands,Scotland,,Belfast,"Jul 13, 2007",no result
-ODI # 2603,Ireland,West Indies,,Dublin,"Jul 14, 2007",no result
 ODI # 2604,Ireland,Scotland,23 runs,Belfast,"Jul 15, 2007",Ireland
 ODI # 2605,Sri Lanka,Bangladesh,70 runs,Colombo (PSS),"Jul 20, 2007",Sri Lanka
 ODI # 2606,Sri Lanka,Bangladesh,5 wickets,Colombo (RPS),"Jul 23, 2007",Sri Lanka
@@ -1088,7 +2504,6 @@ ODI # 2617,England,India,3 wickets,Manchester,"Aug 30, 2007",England
 ODI # 2618,England,India,38 runs,Leeds,"Sep 2, 2007",India
 ODI # 2619,England,India,2 wickets,The Oval,"Sep 5, 2007",India
 ODI # 2620,England,India,7 wickets,Lord's,"Sep 8, 2007",England
-ODI # 2621,India,Australia,,Bengaluru,"Sep 29, 2007",no result
 ODI # 2622,Sri Lanka,England,119 runs,Dambulla,"Oct 1, 2007",Sri Lanka
 ODI # 2623,India,Australia,84 runs,Kochi,"Oct 2, 2007",Australia
 ODI # 2624,Sri Lanka,England,65 runs,Dambulla,"Oct 4, 2007",England
@@ -1123,7 +2538,6 @@ ODI # 2652,South Africa,New Zealand,5 wickets,Cape Town,"Dec 2, 2007",South Afri
 ODI # 2653,Zimbabwe,West Indies,6 wickets,Harare,"Dec 4, 2007",West Indies
 ODI # 2654,Zimbabwe,West Indies,5 wickets,Bulawayo,"Dec 7, 2007",West Indies
 ODI # 2655,Australia,New Zealand,7 wickets,Adelaide,"Dec 14, 2007",Australia
-ODI # 2656,Australia,New Zealand,,Sydney,"Dec 16, 2007",no result
 ODI # 2657,Australia,New Zealand,114 runs,Hobart,"Dec 20, 2007",Australia
 ODI # 2658,New Zealand,Bangladesh,6 wickets,Auckland,"Dec 26, 2007",New Zealand
 ODI # 2659,New Zealand,Bangladesh,102 runs,Napier,"Dec 28, 2007",New Zealand
@@ -1137,9 +2551,7 @@ ODI # 2666,South Africa,West Indies,7 wickets,Port Elizabeth,"Jan 27, 2008",Sout
 ODI # 2667,Pakistan,Zimbabwe,7 wickets,Faisalabad,"Jan 30, 2008",Pakistan
 ODI # 2668,South Africa,West Indies,5 wickets,Durban,"Feb 1, 2008",South Africa
 ODI # 2669,Pakistan,Zimbabwe,7 wickets,Sheikhupura,"Feb 2, 2008",Pakistan
-ODI # 2670,Australia,India,,Brisbane,"Feb 3, 2008",no result
 ODI # 2671,South Africa,West Indies,8 wickets,Johannesburg,"Feb 3, 2008",South Africa
-ODI # 2672,India,Sri Lanka,,Brisbane,"Feb 5, 2008",no result
 ODI # 2673,Australia,Sri Lanka,128 runs,Sydney,"Feb 8, 2008",Australia
 ODI # 2674,New Zealand,England,6 wickets,Wellington,"Feb 9, 2008",New Zealand
 ODI # 2675,Australia,India,5 wickets,Melbourne,"Feb 10, 2008",India
@@ -1149,7 +2561,6 @@ ODI # 2678,New Zealand,England,6 wickets,Auckland,"Feb 15, 2008",England
 ODI # 2679,Australia,Sri Lanka,63 runs,Perth,"Feb 15, 2008",Australia
 ODI # 2680,Australia,India,50 runs,Adelaide,"Feb 17, 2008",Australia
 ODI # 2681,India,Sri Lanka,2 wickets,Adelaide,"Feb 19, 2008",India
-ODI # 2682,New Zealand,England,,Napier,"Feb 20, 2008",tied
 ODI # 2683,Australia,Sri Lanka,24 runs,Melbourne,"Feb 22, 2008",Australia
 ODI # 2684,New Zealand,England,34 runs,Christchurch,"Feb 23, 2008",New Zealand
 ODI # 2685,Australia,India,18 runs,Sydney,"Feb 24, 2008",Australia
@@ -1168,7 +2579,6 @@ ODI # 2697,West Indies,Sri Lanka,1 wicket,Port of Spain,"Apr 10, 2008",West Indi
 ODI # 2698,Pakistan,Bangladesh,7 wickets,Faisalabad,"Apr 11, 2008",Pakistan
 ODI # 2699,West Indies,Sri Lanka,7 wickets,Port of Spain,"Apr 12, 2008",West Indies
 ODI # 2700,Pakistan,Bangladesh,23 runs,Lahore,"Apr 13, 2008",Pakistan
-ODI # 2701,West Indies,Sri Lanka,,Gros Islet,"Apr 15, 2008",no result
 ODI # 2702,Pakistan,Bangladesh,7 wickets,Multan,"Apr 16, 2008",Pakistan
 ODI # 2703,Pakistan,Bangladesh,150 runs,Karachi,"Apr 19, 2008",Pakistan
 ODI # 2704,Bangladesh,Pakistan,70 runs,Dhaka,"Jun 8, 2008",Pakistan
@@ -1176,7 +2586,6 @@ ODI # 2705,India,Pakistan,140 runs,Dhaka,"Jun 10, 2008",India
 ODI # 2706,Bangladesh,India,7 wickets,Dhaka,"Jun 12, 2008",India
 ODI # 2707,India,Pakistan,25 runs,Dhaka,"Jun 14, 2008",Pakistan
 ODI # 2708,England,New Zealand,114 runs,Chester-le-Street,"Jun 15, 2008",England
-ODI # 2709,England,New Zealand,,Birmingham,"Jun 18, 2008",no result
 ODI # 2710,England,New Zealand,22 runs,Bristol,"Jun 21, 2008",New Zealand
 ODI # 2711,Bangladesh,U.A.E.,96 runs,Lahore,"Jun 24, 2008",Bangladesh
 ODI # 2712,Pakistan,Hong Kong,155 runs,Karachi,"Jun 24, 2008",Pakistan
@@ -1208,9 +2617,7 @@ ODI # 2737,Ireland,Netherlands,7 wickets,Dublin,"Jul 28, 2008",Ireland
 ODI # 2738,Netherlands,Scotland,6 wickets,Dublin,"Jul 29, 2008",Scotland
 ODI # 2739,Ireland,Scotland,7 wickets,Dublin,"Jul 31, 2008",Ireland
 ODI # 2740,Netherlands,Bermuda,6 wickets,Amstelveen,"Aug 8, 2008",Netherlands
-ODI # 2741,Scotland,Kenya,,Ayr,"Aug 12, 2008",no result
 ODI # 2742,Sri Lanka,India,8 wickets,Dambulla,"Aug 18, 2008",Sri Lanka
-ODI # 2743,Scotland,England,,Edinburgh,"Aug 18, 2008",no result
 ODI # 2744,Canada,Bermuda,25 runs,King City (NW),"Aug 18, 2008",Canada
 ODI # 2745,Sri Lanka,India,3 wickets,Dambulla,"Aug 20, 2008",India
 ODI # 2746,Bermuda,West Indies,6 wickets,King City (NW),"Aug 20, 2008",West Indies
@@ -1220,7 +2627,6 @@ ODI # 2749,Canada,West Indies,49 runs,King City (NW),"Aug 22, 2008",West Indies
 ODI # 2750,Sri Lanka,India,33 runs,Colombo (RPS),"Aug 24, 2008",India
 ODI # 2751,Ireland,Kenya,33 runs,Belfast,"Aug 24, 2008",Ireland
 ODI # 2752,Canada,West Indies,7 wickets,King City (NW),"Aug 24, 2008",West Indies
-ODI # 2753,Ireland,Kenya,,Belfast,"Aug 25, 2008",no result
 ODI # 2754,England,South Africa,10 wickets,Nottingham,"Aug 26, 2008",England
 ODI # 2755,Sri Lanka,India,46 runs,Colombo (RPS),"Aug 27, 2008",India
 ODI # 2756,Sri Lanka,India,112 runs,Colombo (RPS),"Aug 29, 2008",Sri Lanka
@@ -1228,7 +2634,6 @@ ODI # 2757,England,South Africa,126 runs,The Oval,"Aug 29, 2008",England
 ODI # 2758,Australia,Bangladesh,180 runs,Darwin,"Aug 30, 2008",Australia
 ODI # 2759,England,South Africa,7 wickets,Lord's,"Aug 31, 2008",England
 ODI # 2760,Australia,Bangladesh,8 wickets,Darwin,"Sep 3, 2008",Australia
-ODI # 2761,England,South Africa,,Cardiff,"Sep 3, 2008",no result
 ODI # 2762,Australia,Bangladesh,73 runs,Darwin,"Sep 6, 2008",Australia
 ODI # 2763,Bangladesh,New Zealand,7 wickets,Dhaka,"Oct 9, 2008",Bangladesh
 ODI # 2764,Bangladesh,New Zealand,75 runs,Dhaka,"Oct 11, 2008",New Zealand
@@ -1253,10 +2658,8 @@ ODI # 2782,Zimbabwe,Sri Lanka,5 runs,Harare,"Nov 24, 2008",Sri Lanka
 ODI # 2783,India,England,6 wickets,Cuttack,"Nov 26, 2008",India
 ODI # 2784,Zimbabwe,Sri Lanka,2 wickets,Harare,"Nov 28, 2008",Sri Lanka
 ODI # 2785,Zimbabwe,Sri Lanka,19 runs,Harare,"Nov 30, 2008",Sri Lanka
-ODI # 2786,New Zealand,West Indies,,Queenstown,"Dec 31, 2008",no result
 ODI # 2787,New Zealand,West Indies,5 wickets,Christchurch,"Jan 3, 2009",West Indies
 ODI # 2788,New Zealand,West Indies,7 wickets,Wellington,"Jan 7, 2009",New Zealand
-ODI # 2789,New Zealand,West Indies,,Auckland,"Jan 10, 2009",no result
 ODI # 2790,Bangladesh,Zimbabwe,38 runs,Dhaka,"Jan 10, 2009",Zimbabwe
 ODI # 2791,Sri Lanka,Zimbabwe,130 runs,Dhaka,"Jan 12, 2009",Sri Lanka
 ODI # 2792,New Zealand,West Indies,9 runs,Napier,"Jan 13, 2009",New Zealand
@@ -1287,9 +2690,7 @@ ODI # 2816,Australia,New Zealand,6 wickets,Melbourne,"Feb 6, 2009",New Zealand
 ODI # 2817,Australia,New Zealand,32 runs,Sydney,"Feb 8, 2009",Australia
 ODI # 2818,Sri Lanka,India,68 runs,Colombo (RPS),"Feb 8, 2009",Sri Lanka
 ODI # 2819,Australia,New Zealand,6 wickets,Adelaide,"Feb 10, 2009",Australia
-ODI # 2820,Australia,New Zealand,,Brisbane,"Feb 13, 2009",no result
 ODI # 2821,New Zealand,India,53 runs,Napier,"Mar 3, 2009",India
-ODI # 2822,New Zealand,India,,Wellington,"Mar 6, 2009",no result
 ODI # 2823,New Zealand,India,58 runs,Christchurch,"Mar 8, 2009",India
 ODI # 2824,New Zealand,India,84 runs,Hamilton,"Mar 11, 2009",India
 ODI # 2825,New Zealand,India,8 wickets,Auckland,"Mar 14, 2009",New Zealand
@@ -1322,7 +2723,6 @@ ODI # 2851,England,West Indies,58 runs,Birmingham,"May 26, 2009",England
 ODI # 2852,West Indies,India,20 runs,Kingston,"Jun 26, 2009",India
 ODI # 2853,West Indies,India,8 wickets,Kingston,"Jun 28, 2009",West Indies
 ODI # 2854,West Indies,India,6 wickets,Gros Islet,"Jul 3, 2009",India
-ODI # 2855,West Indies,India,,Gros Islet,"Jul 5, 2009",no result
 ODI # 2856,Scotland,Canada,6 wickets,Aberdeen,"Jul 7, 2009",Canada
 ODI # 2857,Scotland,Canada,5 wickets,Aberdeen,"Jul 8, 2009",Scotland
 ODI # 2858,Ireland,Kenya,3 wickets,Dublin,"Jul 9, 2009",Ireland
@@ -1344,7 +2744,6 @@ ODI # 2873,Zimbabwe,Bangladesh,4 wickets,Bulawayo,"Aug 16, 2009",Bangladesh
 ODI # 2874,Zimbabwe,Bangladesh,5 wickets,Bulawayo,"Aug 18, 2009",Bangladesh
 ODI # 2875,Canada,Kenya,9 wickets,King City (NW),"Aug 19, 2009",Canada
 ODI # 2876,Scotland,Ireland,96 runs,Aberdeen,"Aug 22, 2009",Ireland
-ODI # 2877,Canada,Kenya,,King City (NW),"Aug 22, 2009",no result
 ODI # 2878,Ireland,England,3 runs,Belfast,"Aug 27, 2009",England
 ODI # 2879,Scotland,Australia,189 runs,Edinburgh,"Aug 28, 2009",Australia
 ODI # 2880,Netherlands,Afghanistan,8 runs,Amstelveen,"Aug 30, 2009",Netherlands
@@ -1368,7 +2767,6 @@ ODI # 2897,Australia,West Indies,50 runs,Johannesburg,"Sep 26, 2009",Australia
 ODI # 2898,India,Pakistan,54 runs,Centurion,"Sep 26, 2009",Pakistan
 ODI # 2899,New Zealand,Sri Lanka,38 runs,Johannesburg,"Sep 27, 2009",New Zealand
 ODI # 2900,South Africa,England,22 runs,Centurion,"Sep 27, 2009",England
-ODI # 2901,Australia,India,,Centurion,"Sep 28, 2009",no result
 ODI # 2902,England,New Zealand,4 wickets,Johannesburg,"Sep 29, 2009",New Zealand
 ODI # 2903,Australia,Pakistan,2 wickets,Centurion,"Sep 30, 2009",Australia
 ODI # 2904,India,West Indies,7 wickets,Johannesburg,"Sep 30, 2009",India
@@ -1403,7 +2801,6 @@ ODI # 2932,India,Sri Lanka,3 runs,Rajkot,"Dec 15, 2009",India
 ODI # 2933,India,Sri Lanka,3 wickets,Nagpur,"Dec 18, 2009",Sri Lanka
 ODI # 2934,India,Sri Lanka,7 wickets,Cuttack,"Dec 21, 2009",India
 ODI # 2935,India,Sri Lanka,7 wickets,Kolkata,"Dec 24, 2009",India
-ODI # 2936,India,Sri Lanka,,Delhi,"Dec 27, 2009",no result
 ODI # 2937,Bangladesh,Sri Lanka,7 wickets,Dhaka,"Jan 4, 2010",Sri Lanka
 ODI # 2938,India,Sri Lanka,5 wickets,Dhaka,"Jan 5, 2010",Sri Lanka
 ODI # 2939,Bangladesh,India,6 wickets,Dhaka,"Jan 7, 2010",India
@@ -1421,7 +2818,6 @@ ODI # 2950,Australia,West Indies,113 runs,Melbourne,"Feb 7, 2010",Australia
 ODI # 2951,New Zealand,Bangladesh,5 wickets,Dunedin,"Feb 8, 2010",New Zealand
 ODI # 2952,Australia,West Indies,8 wickets,Adelaide,"Feb 9, 2010",Australia
 ODI # 2953,New Zealand,Bangladesh,3 wickets,Christchurch,"Feb 11, 2010",New Zealand
-ODI # 2954,Australia,West Indies,,Sydney,"Feb 12, 2010",no result
 ODI # 2955,Australia,West Indies,50 runs,Brisbane,"Feb 14, 2010",Australia
 ODI # 2956,Kenya,Netherlands,6 wickets,Nairobi (Gym),"Feb 16, 2010",Kenya
 ODI # 2957,Afghanistan,Canada,1 run,Sharjah,"Feb 16, 2010",Afghanistan
@@ -1504,7 +2900,6 @@ ODI # 3033,Scotland,Afghanistan,9 wickets,Ayr,"Aug 16, 2010",Afghanistan
 ODI # 3034,Ireland,Netherlands,70 runs,Dublin,"Aug 16, 2010",Ireland
 ODI # 3035,Scotland,Afghanistan,6 wickets,Ayr,"Aug 17, 2010",Scotland
 ODI # 3036,Ireland,Netherlands,9 wickets,Dublin,"Aug 18, 2010",Ireland
-ODI # 3037,Sri Lanka,New Zealand,,Dambulla,"Aug 19-20, 2010",no result
 ODI # 3038,Sri Lanka,India,8 wickets,Dambulla,"Aug 22, 2010",Sri Lanka
 ODI # 3039,India,New Zealand,105 runs,Dambulla,"Aug 25, 2010",India
 ODI # 3040,Sri Lanka,India,74 runs,Dambulla,"Aug 28, 2010",Sri Lanka
@@ -1555,11 +2950,9 @@ ODI # 3084,South Africa,India,48 runs,Port Elizabeth,"Jan 21, 2011",South Africa
 ODI # 3085,New Zealand,Pakistan,9 wickets,Wellington,"Jan 22, 2011",New Zealand
 ODI # 3086,Australia,England,4 wickets,Sydney,"Jan 23, 2011",Australia
 ODI # 3087,South Africa,India,33 runs,Centurion,"Jan 23, 2011",South Africa
-ODI # 3088,New Zealand,Pakistan,,Queenstown,"Jan 26, 2011",no result
 ODI # 3089,Australia,England,21 runs,Adelaide,"Jan 26, 2011",England
 ODI # 3090,New Zealand,Pakistan,43 runs,Christchurch,"Jan 29, 2011",Pakistan
 ODI # 3091,Australia,England,51 runs,Brisbane,"Jan 30, 2011",Australia
-ODI # 3092,Sri Lanka,West Indies,,Colombo (SSC),"Jan 31, 2011",no result
 ODI # 3093,New Zealand,Pakistan,2 wickets,Napier,"Feb 1, 2011",Pakistan
 ODI # 3094,Australia,England,2 wickets,Sydney,"Feb 2, 2011",Australia
 ODI # 3095,New Zealand,Pakistan,41 runs,Hamilton,"Feb 3, 2011",Pakistan
@@ -1577,7 +2970,6 @@ ODI # 3106,South Africa,West Indies,7 wickets,Delhi,"Feb 24, 2011",South Africa
 ODI # 3107,Australia,New Zealand,7 wickets,Nagpur,"Feb 25, 2011",Australia
 ODI # 3108,Bangladesh,Ireland,27 runs,Dhaka,"Feb 25, 2011",Bangladesh
 ODI # 3109,Sri Lanka,Pakistan,11 runs,Colombo (RPS),"Feb 26, 2011",Pakistan
-ODI # 3110,India,England,,Bengaluru,"Feb 27, 2011",tied
 ODI # 3111,Canada,Zimbabwe,175 runs,Nagpur,"Feb 28, 2011",Zimbabwe
 ODI # 3112,Netherlands,West Indies,215 runs,Delhi,"Feb 28, 2011",West Indies
 ODI # 3113,Sri Lanka,Kenya,9 wickets,Colombo (RPS),"Mar 1, 2011",Sri Lanka
@@ -1586,7 +2978,6 @@ ODI # 3115,Netherlands,South Africa,231 runs,Mohali,"Mar 3, 2011",South Africa
 ODI # 3116,Canada,Pakistan,46 runs,Colombo (RPS),"Mar 3, 2011",Pakistan
 ODI # 3117,New Zealand,Zimbabwe,10 wickets,Ahmedabad,"Mar 4, 2011",New Zealand
 ODI # 3118,Bangladesh,West Indies,9 wickets,Dhaka,"Mar 4, 2011",West Indies
-ODI # 3119,Sri Lanka,Australia,,Colombo (RPS),"Mar 5, 2011",no result
 ODI # 3120,England,South Africa,6 runs,Chennai,"Mar 6, 2011",England
 ODI # 3121,India,Ireland,5 wickets,Bengaluru,"Mar 6, 2011",India
 ODI # 3122,Canada,Kenya,5 wickets,Delhi,"Mar 7, 2011",Canada
@@ -1653,12 +3044,10 @@ ODI # 3182,Sri Lanka,Australia,5 wickets,Colombo (RPS),"Aug 20, 2011",Australia
 ODI # 3183,Zimbabwe,Bangladesh,93 runs,Bulawayo,"Aug 21, 2011",Bangladesh
 ODI # 3184,Sri Lanka,Australia,4 wickets,Colombo (RPS),"Aug 22, 2011",Sri Lanka
 ODI # 3185,Ireland,England,11 runs,Dublin,"Aug 25, 2011",England
-ODI # 3186,England,India,,Chester-le-Street,"Sep 3, 2011",no result
 ODI # 3187,England,India,7 wickets,Southampton,"Sep 6, 2011",England
 ODI # 3188,Zimbabwe,Pakistan,5 runs,Bulawayo,"Sep 8, 2011",Pakistan
 ODI # 3189,England,India,3 wickets,The Oval,"Sep 9, 2011",England
 ODI # 3190,Zimbabwe,Pakistan,10 wickets,Harare,"Sep 11, 2011",Pakistan
-ODI # 3191,England,India,,Lord's,"Sep 11, 2011",tied
 ODI # 3192,Netherlands,Kenya,2 wickets,The Hague,"Sep 12, 2011",Netherlands
 ODI # 3193,Netherlands,Kenya,4 wickets,The Hague,"Sep 13, 2011",Netherlands
 ODI # 3194,Zimbabwe,Pakistan,28 runs,Harare,"Sep 14, 2011",Pakistan
@@ -1706,7 +3095,6 @@ ODI # 3235,Australia,Sri Lanka,5 runs,Perth,"Feb 10, 2012",Australia
 ODI # 3236,Afghanistan,Pakistan,7 wickets,Sharjah,"Feb 10, 2012",Pakistan
 ODI # 3237,Australia,India,4 wickets,Adelaide,"Feb 12, 2012",India
 ODI # 3238,England,Pakistan,130 runs,Abu Dhabi,"Feb 13, 2012",England
-ODI # 3239,India,Sri Lanka,,Adelaide,"Feb 14, 2012",tied
 ODI # 3240,England,Pakistan,20 runs,Abu Dhabi,"Feb 15, 2012",England
 ODI # 3241,Australia,Sri Lanka,8 wickets,Sydney,"Feb 17, 2012",Sri Lanka
 ODI # 3242,Kenya,Ireland,7 wickets,Mombasa,"Feb 18, 2012",Kenya
@@ -1733,7 +3121,6 @@ ODI # 3262,West Indies,Australia,64 runs,Kingstown,"Mar 16, 2012",Australia
 ODI # 3263,India,Pakistan,6 wickets,Dhaka,"Mar 18, 2012",India
 ODI # 3264,West Indies,Australia,5 wickets,Kingstown,"Mar 18, 2012",West Indies
 ODI # 3265,Bangladesh,Sri Lanka,5 wickets,Dhaka,"Mar 20, 2012",Bangladesh
-ODI # 3266,West Indies,Australia,,Kingstown,"Mar 20, 2012",tied
 ODI # 3267,Bangladesh,Pakistan,2 runs,Dhaka,"Mar 22, 2012",Pakistan
 ODI # 3268,West Indies,Australia,42 runs,Gros Islet,"Mar 23, 2012",West Indies
 ODI # 3269,West Indies,Australia,30 runs,Gros Islet,"Mar 25, 2012",Australia
@@ -1741,12 +3128,10 @@ ODI # 3270,Afghanistan,Netherlands,9 wickets,Sharjah,"Mar 29, 2012",Netherlands
 ODI # 3271,Afghanistan,Netherlands,5 wickets,Sharjah,"Mar 31, 2012",Afghanistan
 ODI # 3272,Sri Lanka,Pakistan,6 wickets,Pallekele,"Jun 7, 2012",Pakistan
 ODI # 3273,Sri Lanka,Pakistan,76 runs,Pallekele,"Jun 9, 2012",Sri Lanka
-ODI # 3274,Sri Lanka,Pakistan,,Colombo (RPS),"Jun 13, 2012",no result
 ODI # 3275,Sri Lanka,Pakistan,44 runs,Colombo (RPS),"Jun 16, 2012",Sri Lanka
 ODI # 3276,England,West Indies,114 runs,Southampton,"Jun 16, 2012",England
 ODI # 3277,Sri Lanka,Pakistan,2 wickets,Colombo (RPS),"Jun 18, 2012",Sri Lanka
 ODI # 3278,England,West Indies,8 wickets,The Oval,"Jun 19, 2012",England
-ODI # 3279,Ireland,Australia,,Belfast,"Jun 23, 2012",no result
 ODI # 3280,England,Australia,15 runs,Lord's,"Jun 29, 2012",England
 ODI # 3281,England,Australia,6 wickets,The Oval,"Jul 1, 2012",England
 ODI # 3282,Ireland,Afghanistan,59 runs,Dublin,"Jul 5, 2012",Ireland
@@ -1763,7 +3148,6 @@ ODI # 3292,Sri Lanka,India,9 wickets,Hambantota,"Jul 24, 2012",Sri Lanka
 ODI # 3293,Sri Lanka,India,5 wickets,Colombo (RPS),"Jul 28, 2012",India
 ODI # 3294,Sri Lanka,India,6 wickets,Colombo (RPS),"Jul 31, 2012",India
 ODI # 3295,Sri Lanka,India,20 runs,Pallekele,"Aug 4, 2012",India
-ODI # 3296,England,South Africa,,Cardiff,"Aug 24, 2012",no result
 ODI # 3297,Afghanistan,Australia,66 runs,Sharjah,"Aug 25, 2012",Australia
 ODI # 3298,England,South Africa,80 runs,Southampton,"Aug 28, 2012",South Africa
 ODI # 3299,Australia,Pakistan,4 wickets,Sharjah,"Aug 28, 2012",Australia
@@ -1775,7 +3159,6 @@ ODI # 3304,England,South Africa,7 wickets,Nottingham,"Sep 5, 2012",South Africa
 ODI # 3305,Sri Lanka,New Zealand,14 runs,Pallekele,"Nov 4, 2012",Sri Lanka
 ODI # 3306,Sri Lanka,New Zealand,7 wickets,Pallekele,"Nov 6, 2012",Sri Lanka
 ODI # 3307,Sri Lanka,New Zealand,7 wickets,Hambantota,"Nov 10, 2012",Sri Lanka
-ODI # 3308,Sri Lanka,New Zealand,,Hambantota,"Nov 12, 2012",no result
 ODI # 3309,Bangladesh,West Indies,7 wickets,Khulna,"Nov 30, 2012",Bangladesh
 ODI # 3310,Bangladesh,West Indies,160 runs,Khulna,"Dec 2, 2012",Bangladesh
 ODI # 3311,Bangladesh,West Indies,4 wickets,Dhaka,"Dec 5, 2012",West Indies
@@ -1791,7 +3174,6 @@ ODI # 3320,India,England,127 runs,Kochi,"Jan 15, 2013",India
 ODI # 3321,Australia,Sri Lanka,4 wickets,Brisbane,"Jan 18, 2013",Sri Lanka
 ODI # 3322,India,England,7 wickets,Ranchi,"Jan 19, 2013",India
 ODI # 3323,South Africa,New Zealand,1 wicket,Paarl,"Jan 19, 2013",New Zealand
-ODI # 3324,Australia,Sri Lanka,,Sydney,"Jan 20, 2013",no result
 ODI # 3325,South Africa,New Zealand,27 runs,Kimberley,"Jan 22, 2013",New Zealand
 ODI # 3326,Australia,Sri Lanka,32 runs,Hobart,"Jan 23, 2013",Australia
 ODI # 3327,India,England,5 wickets,Mohali,"Jan 23, 2013",India
@@ -1818,13 +3200,11 @@ ODI # 3347,South Africa,Pakistan,34 runs,Johannesburg,"Mar 17, 2013",South Afric
 ODI # 3348,South Africa,Pakistan,3 wickets,Durban,"Mar 21, 2013",Pakistan
 ODI # 3349,Sri Lanka,Bangladesh,8 wickets,Hambantota,"Mar 23, 2013",Sri Lanka
 ODI # 3350,South Africa,Pakistan,6 wickets,Benoni,"Mar 24, 2013",South Africa
-ODI # 3351,Sri Lanka,Bangladesh,,Hambantota,"Mar 25, 2013",no result
 ODI # 3352,Sri Lanka,Bangladesh,3 wickets,Pallekele,"Mar 28, 2013",Bangladesh
 ODI # 3353,Zimbabwe,Bangladesh,121 runs,Bulawayo,"May 3, 2013",Bangladesh
 ODI # 3354,Zimbabwe,Bangladesh,6 wickets,Bulawayo,"May 5, 2013",Zimbabwe
 ODI # 3355,Zimbabwe,Bangladesh,7 wickets,Bulawayo,"May 8, 2013",Zimbabwe
 ODI # 3356,Scotland,Pakistan,96 runs,Edinburgh,"May 17, 2013",Pakistan
-ODI # 3357,Ireland,Pakistan,,Dublin,"May 23, 2013",tied
 ODI # 3358,Ireland,Pakistan,2 wickets,Dublin,"May 26, 2013",Pakistan
 ODI # 3359,Netherlands,South Africa,83 runs,Amstelveen,"May 31, 2013",South Africa
 ODI # 3360,England,New Zealand,5 wickets,Lord's,"May 31, 2013",New Zealand
@@ -1836,9 +3216,7 @@ ODI # 3365,England,Australia,48 runs,Birmingham,"Jun 8, 2013",England
 ODI # 3366,New Zealand,Sri Lanka,1 wicket,Cardiff,"Jun 9, 2013",New Zealand
 ODI # 3367,Pakistan,South Africa,67 runs,Birmingham,"Jun 10, 2013",South Africa
 ODI # 3368,India,West Indies,8 wickets,The Oval,"Jun 11, 2013",India
-ODI # 3369,Australia,New Zealand,,Birmingham,"Jun 12, 2013",no result
 ODI # 3370,England,Sri Lanka,7 wickets,The Oval,"Jun 13, 2013",Sri Lanka
-ODI # 3371,South Africa,West Indies,,Cardiff,"Jun 14, 2013",tied
 ODI # 3372,India,Pakistan,8 wickets,Birmingham,"Jun 15, 2013",India
 ODI # 3373,England,New Zealand,10 runs,Cardiff,"Jun 16, 2013",England
 ODI # 3374,Australia,Sri Lanka,20 runs,The Oval,"Jun 17, 2013",Sri Lanka
@@ -1853,12 +3231,10 @@ ODI # 3382,India,Sri Lanka,161 runs,Kingston,"Jul 2, 2013",Sri Lanka
 ODI # 3383,West Indies,India,102 runs,Port of Spain,"Jul 5, 2013",India
 ODI # 3384,Netherlands,Ireland,88 runs,Amstelveen,"Jul 7, 2013",Ireland
 ODI # 3385,West Indies,Sri Lanka,39 runs,Port of Spain,"Jul 7-8, 2013",Sri Lanka
-ODI # 3386,Netherlands,Ireland,,Amstelveen,"Jul 9, 2013",tied
 ODI # 3387,India,Sri Lanka,81 runs,Port of Spain,"Jul 9, 2013",India
 ODI # 3388,India,Sri Lanka,1 wicket,Port of Spain,"Jul 11, 2013",India
 ODI # 3389,West Indies,Pakistan,126 runs,Providence,"Jul 14, 2013",Pakistan
 ODI # 3390,West Indies,Pakistan,37 runs,Providence,"Jul 16, 2013",West Indies
-ODI # 3391,West Indies,Pakistan,,Gros Islet,"Jul 19, 2013",tied
 ODI # 3392,Sri Lanka,South Africa,180 runs,Colombo (RPS),"Jul 20, 2013",Sri Lanka
 ODI # 3393,West Indies,Pakistan,6 wickets,Gros Islet,"Jul 21, 2013",Pakistan
 ODI # 3394,Sri Lanka,South Africa,17 runs,Colombo (RPS),"Jul 23, 2013",Sri Lanka
@@ -1872,7 +3248,6 @@ ODI # 3401,Sri Lanka,South Africa,128 runs,Colombo (RPS),"Jul 31, 2013",Sri Lank
 ODI # 3402,Zimbabwe,India,9 wickets,Bulawayo,"Aug 1, 2013",India
 ODI # 3403,Zimbabwe,India,7 wickets,Bulawayo,"Aug 3, 2013",India
 ODI # 3404,Zimbabwe,Pakistan,7 wickets,Harare,"Aug 27, 2013",Zimbabwe
-ODI # 3405,Canada,Netherlands,,King City (NW),"Aug 27-28, 2013",no result
 ODI # 3406,Zimbabwe,Pakistan,90 runs,Harare,"Aug 29, 2013",Pakistan
 ODI # 3407,Canada,Netherlands,9 wickets,King City (NW),"Aug 29, 2013",Netherlands
 ODI # 3408,Zimbabwe,Pakistan,108 runs,Harare,"Aug 31, 2013",Pakistan
@@ -1881,7 +3256,6 @@ ODI # 3410,Scotland,Australia,200 runs,Edinburgh,"Sep 3, 2013",Australia
 ODI # 3411,Ireland,Scotland,1 wicket,Belfast,"Sep 6, 2013",Ireland
 ODI # 3412,England,Australia,88 runs,Manchester,"Sep 8, 2013",Australia
 ODI # 3413,Ireland,Scotland,7 wickets,Belfast,"Sep 8, 2013",Ireland
-ODI # 3414,England,Australia,,Birmingham,"Sep 11, 2013",no result
 ODI # 3415,England,Australia,3 wickets,Cardiff,"Sep 14, 2013",England
 ODI # 3416,England,Australia,49 runs,Southampton,"Sep 16, 2013",Australia
 ODI # 3417,Afghanistan,Kenya,8 wickets,Sharjah,"Oct 2, 2013",Afghanistan
@@ -1889,7 +3263,6 @@ ODI # 3418,Afghanistan,Kenya,7 wickets,Sharjah,"Oct 4, 2013",Afghanistan
 ODI # 3419,India,Australia,72 runs,Pune,"Oct 13, 2013",Australia
 ODI # 3420,India,Australia,9 wickets,Jaipur,"Oct 16, 2013",India
 ODI # 3421,India,Australia,4 wickets,Mohali,"Oct 19, 2013",Australia
-ODI # 3422,India,Australia,,Ranchi,"Oct 23, 2013",no result
 ODI # 3423,Bangladesh,New Zealand,43 runs,Dhaka,"Oct 29, 2013",Bangladesh
 ODI # 3424,India,Australia,6 wickets,Nagpur,"Oct 30, 2013",India
 ODI # 3425,Pakistan,South Africa,1 run,Sharjah,"Oct 30, 2013",South Africa
@@ -1899,7 +3272,6 @@ ODI # 3428,India,Australia,57 runs,Bengaluru,"Nov 2, 2013",India
 ODI # 3429,Bangladesh,New Zealand,4 wickets,Fatullah,"Nov 3, 2013",Bangladesh
 ODI # 3430,Pakistan,South Africa,68 runs,Abu Dhabi,"Nov 6, 2013",South Africa
 ODI # 3431,Pakistan,South Africa,28 runs,Abu Dhabi,"Nov 8, 2013",South Africa
-ODI # 3432,Sri Lanka,New Zealand,,Hambantota,"Nov 10, 2013",no result
 ODI # 3433,Pakistan,South Africa,117 runs,Sharjah,"Nov 11, 2013",South Africa
 ODI # 3434,Sri Lanka,New Zealand,4 wickets,Hambantota,"Nov 12, 2013",New Zealand
 ODI # 3435,Sri Lanka,New Zealand,36 runs,Dambulla,"Nov 16, 2013",Sri Lanka
@@ -1911,7 +3283,6 @@ ODI # 3440,South Africa,Pakistan,1 run,Port Elizabeth,"Nov 27, 2013",Pakistan
 ODI # 3441,South Africa,Pakistan,4 wickets,Centurion,"Nov 30, 2013",South Africa
 ODI # 3442,South Africa,India,141 runs,Johannesburg,"Dec 5, 2013",South Africa
 ODI # 3443,South Africa,India,134 runs,Durban,"Dec 8, 2013",South Africa
-ODI # 3444,South Africa,India,,Centurion,"Dec 11, 2013",no result
 ODI # 3445,Pakistan,Sri Lanka,11 runs,Sharjah,"Dec 18, 2013",Pakistan
 ODI # 3446,Pakistan,Sri Lanka,2 wickets,Dubai (DSC),"Dec 20, 2013",Sri Lanka
 ODI # 3447,Pakistan,Sri Lanka,113 runs,Sharjah,"Dec 22, 2013",Pakistan
@@ -1929,7 +3300,6 @@ ODI # 3458,New Zealand,India,15 runs,Hamilton,"Jan 22, 2014",New Zealand
 ODI # 3459,Canada,Scotland,170 runs,Christchurch,"Jan 23, 2014",Scotland
 ODI # 3460,Kenya,Netherlands,4 wickets,Lincoln,"Jan 23, 2014",Kenya
 ODI # 3461,Australia,England,57 runs,Perth,"Jan 24, 2014",England
-ODI # 3462,New Zealand,India,,Auckland,"Jan 25, 2014",tied
 ODI # 3463,Australia,England,5 runs,Adelaide,"Jan 26, 2014",Australia
 ODI # 3464,Canada,Netherlands,8 wickets,Mount Maunganui,"Jan 28, 2014",Netherlands
 ODI # 3465,New Zealand,India,7 wickets,Hamilton,"Jan 28, 2014",New Zealand
@@ -1966,7 +3336,6 @@ ODI # 3495,England,Sri Lanka,7 runs,Lord's,"May 31, 2014",Sri Lanka
 ODI # 3496,England,Sri Lanka,6 wickets,Birmingham,"Jun 3, 2014",Sri Lanka
 ODI # 3497,Bangladesh,India,7 wickets,Dhaka,"Jun 15, 2014",India
 ODI # 3498,Bangladesh,India,47 runs,Dhaka,"Jun 17, 2014",India
-ODI # 3499,Bangladesh,India,,Dhaka,"Jun 19, 2014",no result
 ODI # 3500,Sri Lanka,South Africa,75 runs,Colombo (RPS),"Jul 6, 2014",South Africa
 ODI # 3501,Sri Lanka,South Africa,87 runs,Pallekele,"Jul 9, 2014",Sri Lanka
 ODI # 3502,Sri Lanka,South Africa,82 runs,Hambantota,"Jul 12, 2014",South Africa
@@ -2005,7 +3374,6 @@ ODI # 3534,Australia,Pakistan,1 run,Abu Dhabi,"Oct 12, 2014",Australia
 ODI # 3535,India,West Indies,59 runs,Dharamsala,"Oct 17, 2014",India
 ODI # 3536,New Zealand,South Africa,6 wickets,Mount Maunganui,"Oct 21, 2014",South Africa
 ODI # 3537,New Zealand,South Africa,72 runs,Mount Maunganui,"Oct 24, 2014",South Africa
-ODI # 3538,New Zealand,South Africa,,Hamilton,"Oct 27, 2014",no result
 ODI # 3539,India,Sri Lanka,169 runs,Cuttack,"Nov 2, 2014",India
 ODI # 3540,India,Sri Lanka,6 wickets,Ahmedabad,"Nov 6, 2014",India
 ODI # 3541,Hong Kong,P.N.G.,4 wickets,Townsville,"Nov 8, 2014",P.N.G.
@@ -2047,11 +3415,9 @@ ODI # 3576,Afghanistan,Scotland,150 runs,Abu Dhabi,"Jan 14, 2015",Scotland
 ODI # 3577,New Zealand,Sri Lanka,6 wickets,Hamilton,"Jan 15, 2015",Sri Lanka
 ODI # 3578,Australia,England,3 wickets,Sydney,"Jan 16, 2015",Australia
 ODI # 3579,South Africa,West Indies,61 runs,Durban,"Jan 16, 2015",South Africa
-ODI # 3580,New Zealand,Sri Lanka,,Auckland,"Jan 17, 2015",no result
 ODI # 3581,Afghanistan,Ireland,71 runs,Dubai (DSC),"Jan 17, 2015",Afghanistan
 ODI # 3582,Australia,India,4 wickets,Melbourne,"Jan 18, 2015",Australia
 ODI # 3583,South Africa,West Indies,148 runs,Johannesburg,"Jan 18, 2015",South Africa
-ODI # 3584,Ireland,Scotland,,ICCA Dubai,"Jan 19, 2015",no result
 ODI # 3585,New Zealand,Sri Lanka,4 wickets,Nelson,"Jan 20, 2015",New Zealand
 ODI # 3586,England,India,9 wickets,Brisbane,"Jan 20, 2015",England
 ODI # 3587,South Africa,West Indies,9 wickets,East London,"Jan 21, 2015",South Africa
@@ -2059,7 +3425,6 @@ ODI # 3588,New Zealand,Sri Lanka,108 runs,Dunedin,"Jan 23, 2015",New Zealand
 ODI # 3589,Australia,England,3 wickets,Hobart,"Jan 23, 2015",Australia
 ODI # 3590,New Zealand,Sri Lanka,120 runs,Dunedin,"Jan 25, 2015",New Zealand
 ODI # 3591,South Africa,West Indies,1 wicket,Port Elizabeth,"Jan 25, 2015",West Indies
-ODI # 3592,Australia,India,,Sydney,"Jan 26, 2015",no result
 ODI # 3593,South Africa,West Indies,131 runs,Centurion,"Jan 28, 2015",South Africa
 ODI # 3594,New Zealand,Sri Lanka,34 runs,Wellington,"Jan 29, 2015",Sri Lanka
 ODI # 3595,England,India,3 wickets,Perth,"Jan 30, 2015",England
@@ -2117,10 +3482,8 @@ ODI # 3646,Australia,New Zealand,7 wickets,Melbourne,"Mar 29, 2015",Australia
 ODI # 3647,Bangladesh,Pakistan,79 runs,Dhaka,"Apr 17, 2015",Bangladesh
 ODI # 3648,Bangladesh,Pakistan,7 wickets,Dhaka,"Apr 19, 2015",Bangladesh
 ODI # 3649,Bangladesh,Pakistan,8 wickets,Dhaka,"Apr 22, 2015",Bangladesh
-ODI # 3650,Ireland,England,,Dublin (Malahide),"May 8, 2015",no result
 ODI # 3651,Pakistan,Zimbabwe,41 runs,Lahore,"May 26, 2015",Pakistan
 ODI # 3652,Pakistan,Zimbabwe,6 wickets,Lahore,"May 29, 2015",Pakistan
-ODI # 3653,Pakistan,Zimbabwe,,Lahore,"May 31, 2015",no result
 ODI # 3654,England,New Zealand,210 runs,Birmingham,"Jun 9, 2015",England
 ODI # 3655,England,New Zealand,13 runs,The Oval,"Jun 12, 2015",New Zealand
 ODI # 3656,England,New Zealand,3 wickets,Southampton,"Jun 14, 2015",New Zealand
@@ -2185,7 +3548,6 @@ ODI # 3714,New Zealand,Sri Lanka,7 wickets,Christchurch,"Dec 26, 2015",New Zeala
 ODI # 3715,New Zealand,Sri Lanka,10 wickets,Christchurch,"Dec 28, 2015",New Zealand
 ODI # 3716,Afghanistan,Zimbabwe,4 wickets,Sharjah,"Dec 29, 2015",Afghanistan
 ODI # 3717,New Zealand,Sri Lanka,8 wickets,Nelson,"Dec 31, 2015",Sri Lanka
-ODI # 3718,New Zealand,Sri Lanka,,Nelson,"Jan 2, 2016",no result
 ODI # 3719,Afghanistan,Zimbabwe,117 runs,Sharjah,"Jan 2, 2016",Zimbabwe
 ODI # 3720,Afghanistan,Zimbabwe,65 runs,Sharjah,"Jan 4, 2016",Zimbabwe
 ODI # 3721,New Zealand,Sri Lanka,36 runs,Mount Maunganui,"Jan 5, 2016",New Zealand
@@ -2217,16 +3579,12 @@ ODI # 3746,Zimbabwe,India,10 wickets,Harare,"Jun 15, 2016",India
 ODI # 3747,West Indies,South Africa,139 runs,Basseterre,"Jun 15, 2016",South Africa
 ODI # 3748,Ireland,Sri Lanka,76 runs,Dublin (Malahide),"Jun 16, 2016",Sri Lanka
 ODI # 3749,Ireland,Sri Lanka,136 runs,Dublin (Malahide),"Jun 18, 2016",Sri Lanka
-ODI # 3750,Australia,South Africa,,Bridgetown,"Jun 19, 2016",no result
-ODI # 3751,England,Sri Lanka,,Nottingham,"Jun 21, 2016",tied
 ODI # 3752,West Indies,Australia,6 wickets,Bridgetown,"Jun 21, 2016",Australia
 ODI # 3753,England,Sri Lanka,10 wickets,Birmingham,"Jun 24, 2016",England
 ODI # 3754,West Indies,South Africa,100 runs,Bridgetown,"Jun 24, 2016",West Indies
-ODI # 3755,England,Sri Lanka,,Bristol,"Jun 26, 2016",no result
 ODI # 3756,West Indies,Australia,58 runs,Bridgetown,"Jun 26, 2016",Australia
 ODI # 3757,England,Sri Lanka,6 wickets,The Oval,"Jun 29, 2016",England
 ODI # 3758,England,Sri Lanka,122 runs,Cardiff,"Jul 2, 2016",England
-ODI # 3759,Scotland,Afghanistan,,Edinburgh,"Jul 4, 2016",no result
 ODI # 3760,Scotland,Afghanistan,78 runs,Edinburgh,"Jul 6, 2016",Afghanistan
 ODI # 3761,Ireland,Afghanistan,39 runs,Belfast,"Jul 12, 2016",Afghanistan
 ODI # 3762,Ireland,Afghanistan,6 wickets,Belfast,"Jul 14, 2016",Ireland
@@ -2245,7 +3603,6 @@ ODI # 3774,Sri Lanka,Australia,6 wickets,Dambulla,"Aug 31, 2016",Australia
 ODI # 3775,England,Pakistan,4 wickets,Leeds,"Sep 1, 2016",England
 ODI # 3776,Sri Lanka,Australia,5 wickets,Pallekele,"Sep 4, 2016",Australia
 ODI # 3777,England,Pakistan,4 wickets,Cardiff,"Sep 4, 2016",Pakistan
-ODI # 3778,Scotland,Hong Kong,,Edinburgh,"Sep 8, 2016",no result
 ODI # 3779,Scotland,Hong Kong,53 runs,Edinburgh,"Sep 10, 2016",Scotland
 ODI # 3780,South Africa,Ireland,206 runs,Benoni,"Sep 25, 2016",South Africa
 ODI # 3781,Bangladesh,Afghanistan,7 runs,Dhaka,"Sep 25, 2016",Bangladesh
@@ -2273,8 +3630,6 @@ ODI # 3802,Hong Kong,P.N.G.,14 runs,Mong Kok,"Nov 6, 2016",P.N.G.
 ODI # 3803,Hong Kong,P.N.G.,7 wickets,Mong Kok,"Nov 8, 2016",Hong Kong
 ODI # 3804,Zimbabwe,Sri Lanka,8 wickets,Harare,"Nov 14, 2016",Sri Lanka
 ODI # 3805,Sri Lanka,West Indies,62 runs,Harare,"Nov 16, 2016",West Indies
-ODI # 3806,Zimbabwe,West Indies,,Bulawayo,"Nov 19, 2016",tied
-ODI # 3807,Zimbabwe,Sri Lanka,,Bulawayo,"Nov 21, 2016",no result
 ODI # 3808,Sri Lanka,West Indies,1 run,Bulawayo,"Nov 23, 2016",Sri Lanka
 ODI # 3809,Zimbabwe,West Indies,5 runs,Bulawayo,"Nov 25, 2016",Zimbabwe
 ODI # 3810,Zimbabwe,Sri Lanka,6 wickets,Bulawayo,"Nov 27, 2016",Sri Lanka
@@ -2323,7 +3678,6 @@ ODI # 3852,Afghanistan,Ireland,6 wickets,Greater Noida,"Mar 19, 2017",Ireland
 ODI # 3853,Afghanistan,Ireland,3 wickets,Greater Noida,"Mar 22, 2017",Ireland
 ODI # 3854,Afghanistan,Ireland,7 wickets,Greater Noida,"Mar 24, 2017",Afghanistan
 ODI # 3855,Sri Lanka,Bangladesh,90 runs,Dambulla,"Mar 25, 2017",Bangladesh
-ODI # 3856,Sri Lanka,Bangladesh,,Dambulla,"Mar 28, 2017",no result
 ODI # 3857,U.A.E.,P.N.G.,82 runs,Abu Dhabi,"Mar 31, 2017",U.A.E.
 ODI # 3858,Sri Lanka,Bangladesh,70 runs,Colombo (SSC),"Apr 1, 2017",Sri Lanka
 ODI # 3859,U.A.E.,P.N.G.,26 runs,Abu Dhabi,"Apr 2, 2017",P.N.G.
@@ -2333,7 +3687,6 @@ ODI # 3862,West Indies,Pakistan,74 runs,Providence,"Apr 9, 2017",Pakistan
 ODI # 3863,West Indies,Pakistan,6 wickets,Providence,"Apr 11, 2017",Pakistan
 ODI # 3864,England,Ireland,7 wickets,Bristol,"May 5, 2017",England
 ODI # 3865,England,Ireland,85 runs,Lord's,"May 7, 2017",England
-ODI # 3866,Ireland,Bangladesh,,Dublin (Malahide),"May 12, 2017",no result
 ODI # 3867,Ireland,New Zealand,51 runs,Dublin (Malahide),"May 14, 2017",New Zealand
 ODI # 3868,Bangladesh,New Zealand,4 wickets,Dublin,"May 17, 2017",New Zealand
 ODI # 3869,Ireland,Bangladesh,8 wickets,Dublin (Malahide),"May 19, 2017",Bangladesh
@@ -2343,10 +3696,8 @@ ODI # 3872,England,South Africa,72 runs,Leeds,"May 24, 2017",England
 ODI # 3873,England,South Africa,2 runs,Southampton,"May 27, 2017",England
 ODI # 3874,England,South Africa,7 wickets,Lord's,"May 29, 2017",South Africa
 ODI # 3875,England,Bangladesh,8 wickets,The Oval,"Jun 1, 2017",England
-ODI # 3876,Australia,New Zealand,,Birmingham,"Jun 2, 2017",no result
 ODI # 3877,South Africa,Sri Lanka,96 runs,The Oval,"Jun 3, 2017",South Africa
 ODI # 3878,India,Pakistan,124 runs,Birmingham,"Jun 4, 2017",India
-ODI # 3879,Australia,Bangladesh,,The Oval,"Jun 5, 2017",no result
 ODI # 3880,England,New Zealand,87 runs,Cardiff,"Jun 6, 2017",England
 ODI # 3881,Pakistan,South Africa,19 runs,Birmingham,"Jun 7, 2017",Pakistan
 ODI # 3882,India,Sri Lanka,7 wickets,The Oval,"Jun 8, 2017",Sri Lanka
@@ -2357,12 +3708,10 @@ ODI # 3886,India,South Africa,8 wickets,The Oval,"Jun 11, 2017",India
 ODI # 3887,West Indies,Afghanistan,4 wickets,Gros Islet,"Jun 11, 2017",West Indies
 ODI # 3888,Pakistan,Sri Lanka,3 wickets,Cardiff,"Jun 12, 2017",Pakistan
 ODI # 3889,England,Pakistan,8 wickets,Cardiff,"Jun 14, 2017",Pakistan
-ODI # 3890,West Indies,Afghanistan,,Gros Islet,"Jun 14, 2017",no result
 ODI # 3891,Bangladesh,India,9 wickets,Birmingham,"Jun 15, 2017",India
 ODI # 3892,Scotland,Zimbabwe,26 runs,Edinburgh,"Jun 15, 2017",Scotland
 ODI # 3893,Scotland,Zimbabwe,6 wickets,Edinburgh,"Jun 17, 2017",Zimbabwe
 ODI # 3894,India,Pakistan,180 runs,The Oval,"Jun 18, 2017",Pakistan
-ODI # 3895,West Indies,India,,Port of Spain,"Jun 23, 2017",no result
 ODI # 3896,West Indies,India,105 runs,Port of Spain,"Jun 25, 2017",India
 ODI # 3897,Sri Lanka,Zimbabwe,6 wickets,Galle,"Jun 30, 2017",Zimbabwe
 ODI # 3898,West Indies,India,93 runs,North Sound,"Jun 30, 2017",India
@@ -2380,7 +3729,6 @@ ODI # 3909,Sri Lanka,India,6 wickets,Colombo (RPS),"Sep 3, 2017",India
 ODI # 3910,India,Australia,26 runs,Chennai,"Sep 17, 2017",India
 ODI # 3911,England,West Indies,7 wickets,Manchester,"Sep 19, 2017",England
 ODI # 3912,India,Australia,50 runs,Kolkata,"Sep 21, 2017",India
-ODI # 3913,England,West Indies,,Nottingham,"Sep 21, 2017",no result
 ODI # 3914,India,Australia,5 wickets,Indore,"Sep 24, 2017",India
 ODI # 3915,England,West Indies,124 runs,Bristol,"Sep 24, 2017",England
 ODI # 3916,England,West Indies,6 runs,The Oval,"Sep 27, 2017",England
@@ -2397,3 +3745,6 @@ ODI # 3926,Pakistan,Sri Lanka,7 wickets,Abu Dhabi,"Oct 18, 2017",Pakistan
 ODI # 3927,Pakistan,Sri Lanka,7 wickets,Sharjah,"Oct 20, 2017",Pakistan
 ODI # 3928,India,New Zealand,6 wickets,Mumbai,"Oct 22, 2017",New Zealand
 ODI # 3929,South Africa,Bangladesh,200 runs,East London,"Oct 22, 2017",South Africa
+ODI # 3930,Pakistan,Sri Lanka,9 wickets,Sharjah,"Oct 23, 2017",Pakistan
+ODI # 3931,India,New Zealand,6 wickets,Pune,"Oct 25, 2017",India
+ODI # 3932,India,New Zealand,6 runs,Kanpur,"Oct 29, 2017",India
