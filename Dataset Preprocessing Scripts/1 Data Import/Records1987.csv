@@ -1,0 +1,75 @@
+,Team 1,Team 2,Winner,Margin,Ground,Match Date,Scorecard
+0,Australia,England,England,37 runs,Perth,"Jan 1, 1987",ODI # 409
+1,Australia,Pakistan,Pakistan,1 wicket,Perth,"Jan 2, 1987",ODI # 410
+2,England,West Indies,England,19 runs,Perth,"Jan 3, 1987",ODI # 411
+3,Australia,West Indies,West Indies,164 runs,Perth,"Jan 4, 1987",ODI # 412
+4,England,Pakistan,England,3 wickets,Perth,"Jan 5, 1987",ODI # 413
+5,England,Pakistan,England,5 wickets,Perth,"Jan 7, 1987",ODI # 414
+6,India,Sri Lanka,India,8 wickets,Guwahati,"Jan 11, 1987",ODI # 415
+7,India,Sri Lanka,India,6 wickets,Delhi,"Jan 13, 1987",ODI # 416
+8,India,Sri Lanka,India,94 runs,Vadodara,"Jan 15, 1987",ODI # 417
+9,England,West Indies,England,6 wickets,Brisbane,"Jan 17, 1987",ODI # 418
+10,India,Sri Lanka,India,10 runs,Mumbai,"Jan 17, 1987",ODI # 419
+11,Australia,England,Australia,11 runs,Brisbane,"Jan 18, 1987",ODI # 420
+12,Australia,West Indies,West Indies,7 wickets,Melbourne,"Jan 20, 1987",ODI # 421
+13,Australia,England,England,3 wickets,Sydney,"Jan 22, 1987",ODI # 422
+14,England,West Indies,England,89 runs,Adelaide,"Jan 24, 1987",ODI # 423
+15,Australia,West Indies,West Indies,16 runs,Adelaide,"Jan 25, 1987",ODI # 424
+16,Australia,England,Australia,33 runs,Adelaide,"Jan 26, 1987",ODI # 425
+17,India,Pakistan,Pakistan,3 wickets,Indore,"Jan 27, 1987",ODI # 426
+18,Australia,West Indies,Australia,36 runs,Sydney,"Jan 28, 1987",ODI # 427
+19,England,West Indies,West Indies,6 wickets,Melbourne,"Jan 30, 1987",ODI # 428
+20,Australia,England,Australia,109 runs,Melbourne,"Feb 1, 1987",ODI # 429
+21,England,West Indies,England,29 runs,Devonport,"Feb 3, 1987",ODI # 430
+22,Australia,West Indies,Australia,2 wickets,Sydney,"Feb 6, 1987",ODI # 431
+23,Australia,England,England,6 wickets,Melbourne,"Feb 8, 1987",ODI # 432
+24,Australia,England,England,8 runs,Sydney,"Feb 11, 1987",ODI # 433
+25,India,Pakistan,Pakistan,2 wickets,Kolkata,"Feb 18, 1987",ODI # 434
+26,New Zealand,West Indies,West Indies,95 runs,Dunedin,"Mar 18, 1987",ODI # 435
+27,India,Pakistan,India,,Hyderabad (Deccan),"Mar 20, 1987",ODI # 436
+28,New Zealand,West Indies,West Indies,6 wickets,Auckland,"Mar 21, 1987",ODI # 437
+29,India,Pakistan,Pakistan,6 wickets,Pune,"Mar 22, 1987",ODI # 438
+30,India,Pakistan,Pakistan,41 runs,Nagpur,"Mar 24, 1987",ODI # 439
+31,India,Pakistan,Pakistan,5 wickets,Jamshedpur,"Mar 26, 1987",ODI # 440
+32,New Zealand,West Indies,West Indies,10 wickets,Christchurch,"Mar 28, 1987",ODI # 441
+33,England,India,India,3 wickets,Sharjah,"Apr 2, 1987",ODI # 442
+34,Australia,Pakistan,Pakistan,6 wickets,Sharjah,"Apr 3, 1987",ODI # 443
+35,Australia,India,India,7 wickets,Sharjah,"Apr 5, 1987",ODI # 444
+36,England,Pakistan,England,5 wickets,Sharjah,"Apr 7, 1987",ODI # 445
+37,Australia,England,England,11 runs,Sharjah,"Apr 9, 1987",ODI # 446
+38,India,Pakistan,Pakistan,8 wickets,Sharjah,"Apr 10, 1987",ODI # 447
+39,England,Pakistan,England,7 wickets,The Oval,"May 21, 1987",ODI # 448
+40,England,Pakistan,Pakistan,6 wickets,Nottingham,"May 23, 1987",ODI # 449
+41,England,Pakistan,England,1 wicket,Birmingham,"May 25, 1987",ODI # 450
+42,Pakistan,Sri Lanka,Pakistan,15 runs,Hyderabad (Sind),"Oct 8, 1987",ODI # 451
+43,India,Australia,Australia,1 run,Chennai,"Oct 9, 1987",ODI # 453
+44,England,West Indies,England,2 wickets,Gujranwala,"Oct 9, 1987",ODI # 452
+45,New Zealand,Zimbabwe,New Zealand,3 runs,Hyderabad (Deccan),"Oct 10, 1987",ODI # 454
+46,Pakistan,England,Pakistan,18 runs,Rawalpindi,"Oct 12-13, 1987",ODI # 455
+47,Australia,Zimbabwe,Australia,96 runs,Chennai,"Oct 13, 1987",ODI # 456
+48,Sri Lanka,West Indies,West Indies,191 runs,Karachi,"Oct 13, 1987",ODI # 457
+49,India,New Zealand,India,16 runs,Bengaluru,"Oct 14, 1987",ODI # 458
+50,Pakistan,West Indies,Pakistan,1 wicket,Lahore,"Oct 16, 1987",ODI # 459
+51,India,Zimbabwe,India,8 wickets,Mumbai,"Oct 17, 1987",ODI # 461
+52,England,Sri Lanka,England,108 runs,Peshawar,"Oct 17, 1987",ODI # 460
+53,Australia,New Zealand,Australia,3 runs,Indore,"Oct 18-19, 1987",ODI # 462
+54,Pakistan,England,Pakistan,7 wickets,Karachi,"Oct 20, 1987",ODI # 463
+55,Sri Lanka,West Indies,West Indies,25 runs,Kanpur,"Oct 21, 1987",ODI # 464
+56,India,Australia,India,56 runs,Delhi,"Oct 22, 1987",ODI # 465
+57,New Zealand,Zimbabwe,New Zealand,4 wickets,Kolkata,"Oct 23, 1987",ODI # 466
+58,Pakistan,Sri Lanka,Pakistan,113 runs,Faisalabad,"Oct 25, 1987",ODI # 467
+59,England,West Indies,England,34 runs,Jaipur,"Oct 26, 1987",ODI # 468
+60,India,Zimbabwe,India,7 wickets,Ahmedabad,"Oct 26, 1987",ODI # 469
+61,Australia,New Zealand,Australia,17 runs,Chandigarh,"Oct 27, 1987",ODI # 470
+62,Australia,Zimbabwe,Australia,70 runs,Cuttack,"Oct 30, 1987",ODI # 471
+63,England,Sri Lanka,England,8 wickets,Pune,"Oct 30, 1987",ODI # 472
+64,Pakistan,West Indies,West Indies,28 runs,Karachi,"Oct 30, 1987",ODI # 473
+65,India,New Zealand,India,9 wickets,Nagpur,"Oct 31, 1987",ODI # 474
+66,Pakistan,Australia,Australia,18 runs,Lahore,"Nov 4, 1987",ODI # 475
+67,India,England,England,35 runs,Mumbai,"Nov 5, 1987",ODI # 476
+68,Australia,England,Australia,7 runs,Kolkata,"Nov 8, 1987",ODI # 477
+69,Pakistan,England,England,2 wickets,Lahore,"Nov 18, 1987",ODI # 478
+70,Pakistan,England,England,23 runs,Karachi,"Nov 20, 1987",ODI # 479
+71,Pakistan,England,England,98 runs,Peshawar,"Nov 22, 1987",ODI # 480
+72,India,West Indies,West Indies,10 runs,Nagpur,"Dec 8, 1987",ODI # 481
+73,India,West Indies,West Indies,52 runs,Guwahati,"Dec 23, 1987",ODI # 482

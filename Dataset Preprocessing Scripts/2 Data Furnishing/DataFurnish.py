@@ -1,8 +1,6 @@
-#Script to Prune the records Accordingly
-
 import pandas as pd
 
-for var in range(2000,2018):
+for var in range(1971,2018):
 	newVar = str(var)
 	df = pd.read_csv('Records'+newVar+'.csv')
 	df.set_index('Scorecard',inplace=True)

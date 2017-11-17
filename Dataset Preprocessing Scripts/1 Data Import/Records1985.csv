@@ -1,0 +1,66 @@
+,Team 1,Team 2,Winner,Margin,Ground,Match Date,Scorecard
+0,Australia,West Indies,West Indies,7 wickets,Melbourne,"Jan 6, 1985",ODI # 282
+1,Australia,Sri Lanka,Australia,6 wickets,Sydney,"Jan 8, 1985",ODI # 283
+2,Sri Lanka,West Indies,West Indies,8 wickets,Hobart,"Jan 10, 1985",ODI # 284
+3,New Zealand,Pakistan,New Zealand,110 runs,Napier,"Jan 12, 1985",ODI # 285
+4,Sri Lanka,West Indies,West Indies,90 runs,Brisbane,"Jan 12, 1985",ODI # 286
+5,Australia,West Indies,West Indies,5 wickets,Brisbane,"Jan 13, 1985",ODI # 287
+6,New Zealand,Pakistan,New Zealand,4 wickets,Hamilton,"Jan 15, 1985",ODI # 288
+7,Australia,West Indies,West Indies,5 wickets,Sydney,"Jan 15, 1985",ODI # 289
+8,Sri Lanka,West Indies,West Indies,65 runs,Sydney,"Jan 17, 1985",ODI # 290
+9,Australia,Sri Lanka,Sri Lanka,4 wickets,Melbourne,"Jan 19, 1985",ODI # 291
+10,Australia,West Indies,West Indies,65 runs,Melbourne,"Jan 20, 1985",ODI # 292
+11,India,England,England,3 wickets,Bengaluru,"Jan 20, 1985",ODI # 293
+12,Australia,Sri Lanka,Australia,3 wickets,Sydney,"Jan 23, 1985",ODI # 294
+13,India,England,India,3 wickets,Nagpur,"Jan 23, 1985",ODI # 295
+14,Sri Lanka,West Indies,West Indies,8 wickets,Adelaide,"Jan 26, 1985",ODI # 296
+15,Australia,West Indies,West Indies,6 wickets,Adelaide,"Jan 27, 1985",ODI # 297
+16,India,England,England,7 runs,Chandigarh,"Jan 27, 1985",ODI # 298
+17,Australia,Sri Lanka,Australia,232 runs,Adelaide,"Jan 28, 1985",ODI # 299
+18,Sri Lanka,West Indies,West Indies,82 runs,Perth,"Feb 2, 1985",ODI # 300
+19,Australia,Sri Lanka,Australia,9 wickets,Perth,"Feb 3, 1985",ODI # 301
+20,New Zealand,Pakistan,New Zealand,13 runs,Christchurch,"Feb 6, 1985",ODI # 302
+21,Australia,West Indies,Australia,26 runs,Sydney,"Feb 6, 1985",ODI # 303
+22,Australia,West Indies,West Indies,4 wickets,Melbourne,"Feb 10, 1985",ODI # 304
+23,Australia,West Indies,West Indies,7 wickets,Sydney,"Feb 12, 1985",ODI # 305
+24,New Zealand,Pakistan,no result,,Auckland,"Feb 16-17, 1985",ODI # 306
+25,Australia,England,Australia,7 wickets,Melbourne,"Feb 17, 1985",ODI # 307
+26,New Zealand,West Indies,no result,,Sydney,"Feb 19-21, 1985",ODI # 308
+27,India,Pakistan,India,6 wickets,Melbourne,"Feb 20, 1985",ODI # 309
+28,New Zealand,Sri Lanka,New Zealand,51 runs,Melbourne,"Feb 23, 1985",ODI # 310
+29,Australia,Pakistan,Pakistan,62 runs,Melbourne,"Feb 24, 1985",ODI # 311
+30,England,India,India,86 runs,Sydney,"Feb 26, 1985",ODI # 312
+31,Sri Lanka,West Indies,West Indies,8 wickets,Melbourne,"Feb 27, 1985",ODI # 313
+32,England,Pakistan,Pakistan,67 runs,Melbourne,"Mar 2, 1985",ODI # 314
+33,Australia,India,India,8 wickets,Melbourne,"Mar 3, 1985",ODI # 315
+34,India,New Zealand,India,7 wickets,Sydney,"Mar 5, 1985",ODI # 316
+35,Pakistan,West Indies,Pakistan,7 wickets,Melbourne,"Mar 6, 1985",ODI # 317
+36,New Zealand,West Indies,West Indies,6 wickets,Sydney,"Mar 9, 1985",ODI # 318
+37,India,Pakistan,India,8 wickets,Melbourne,"Mar 10, 1985",ODI # 319
+38,West Indies,New Zealand,West Indies,23 runs,St John's,"Mar 20, 1985",ODI # 320
+39,India,Pakistan,India,38 runs,Sharjah,"Mar 22, 1985",ODI # 321
+40,Australia,England,Australia,2 wickets,Sharjah,"Mar 24, 1985",ODI # 322
+41,England,Pakistan,Pakistan,43 runs,Sharjah,"Mar 26, 1985",ODI # 323
+42,West Indies,New Zealand,West Indies,6 wickets,Port of Spain,"Mar 27, 1985",ODI # 324
+43,Australia,India,India,3 wickets,Sharjah,"Mar 29, 1985",ODI # 325
+44,West Indies,New Zealand,West Indies,130 runs,Albion,"Apr 14, 1985",ODI # 326
+45,West Indies,New Zealand,West Indies,10 wickets,Port of Spain,"Apr 17, 1985",ODI # 327
+46,West Indies,New Zealand,West Indies,112 runs,Bridgetown,"Apr 23, 1985",ODI # 328
+47,England,Australia,Australia,3 wickets,Manchester,"May 30, 1985",ODI # 329
+48,England,Australia,Australia,4 wickets,Birmingham,"Jun 1, 1985",ODI # 330
+49,England,Australia,England,8 wickets,Lord's,"Jun 3, 1985",ODI # 331
+50,Sri Lanka,India,India,2 wickets,Colombo (SSC),"Aug 25, 1985",ODI # 332
+51,Sri Lanka,India,Sri Lanka,14 runs,Colombo (PSS),"Sep 21, 1985",ODI # 333
+52,Sri Lanka,India,no result,,Colombo (PSS),"Sep 22, 1985",ODI # 334
+53,Pakistan,Sri Lanka,Pakistan,8 wickets,Peshawar,"Oct 13, 1985",ODI # 335
+54,Pakistan,Sri Lanka,Pakistan,15 runs,Gujranwala,"Oct 23, 1985",ODI # 336
+55,Pakistan,Sri Lanka,Pakistan,5 wickets,Lahore,"Oct 25, 1985",ODI # 337
+56,Pakistan,Sri Lanka,Pakistan,89 runs,Hyderabad (Sind),"Nov 3, 1985",ODI # 338
+57,Pakistan,West Indies,West Indies,7 wickets,Sharjah,"Nov 15, 1985",ODI # 339
+58,India,Pakistan,Pakistan,48 runs,Sharjah,"Nov 17, 1985",ODI # 340
+59,India,West Indies,West Indies,8 wickets,Sharjah,"Nov 22, 1985",ODI # 341
+60,Pakistan,West Indies,West Indies,8 wickets,Gujranwala,"Nov 27, 1985",ODI # 342
+61,Pakistan,West Indies,Pakistan,6 wickets,Lahore,"Nov 29, 1985",ODI # 343
+62,Pakistan,West Indies,West Indies,40 runs,Peshawar,"Dec 2, 1985",ODI # 344
+63,Pakistan,West Indies,Pakistan,5 wickets,Rawalpindi,"Dec 4, 1985",ODI # 345
+64,Pakistan,West Indies,West Indies,8 wickets,Karachi,"Dec 6, 1985",ODI # 346
