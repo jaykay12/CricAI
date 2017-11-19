@@ -1,12 +1,15 @@
-#This script segregates the categorial data of teams A, team B & Grounds into dummy variables
+#This script segregates the continous data of Innings, Venue & Winners into dummy variables
 
 import pandas as pd
 
 match_data = pd.read_csv('dataset.csv')
-new_data = match_data[['Team 1','Team 2','Ground']].copy()
+new_data = match_data[['Margin','Venue','Winner']].copy()
 feature_cols = list(new_data.columns[0:3])
+extra_cols = list(match_data.columns[0:207])
 
 print("Feature columns:\n{}".format(feature_cols))
+
+print("Extra columns:\n{}".format(extra_cols))
 
 X_all = match_data[feature_cols]
 
@@ -24,14 +27,18 @@ X_all = convert_intoDummyTeams(X_all)
 print("Processed Feature columns:\n{}".format(list(X_all.columns)))
 
 NewDF = pd.DataFrame(index = match_data.index)
-NewDF = NewDF.join(X_all)
 
-print(NewDF.head())
-
-oldDF = match_data[['Margin','Winner']]
+oldDF = match_data[extra_cols]
 
 NewDF = NewDF.join(oldDF)
 
 print(NewDF.head())
 
-NewDF.to_csv('dataset_TeamsGrounds_IntoDummies.csv',index=False)
+NewDF = NewDF.join(X_all)
+
+print(NewDF.head())
+
+
+
+
+NewDF.to_csv('dataset_InningsWinner_IntoDummies.csv',index=False)
