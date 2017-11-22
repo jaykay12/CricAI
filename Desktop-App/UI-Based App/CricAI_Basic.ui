@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>797</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>CricAI_Basic</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTextEdit" name="teTeam1">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>60</y>
+      <width>221</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="teTeam2">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>60</y>
+      <width>221</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="teGround">
+    <property name="geometry">
+     <rect>
+      <x>273</x>
+      <y>160</y>
+      <width>211</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelTeam1">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>40</y>
+      <width>49</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Team 1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelTeam2">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>40</y>
+      <width>49</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Team 2</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelGround">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>140</y>
+      <width>49</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ground</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buttonRunMLP">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>400</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>RUN : MLPClassifier</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="dbInnings">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>220</y>
+      <width>311</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QLabel" name="labelInnings">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>10</y>
+       <width>71</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>First Innings</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rbTeam1_Innings">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>40</y>
+       <width>92</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Team 1</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rbTeam2_Innings">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>40</y>
+       <width>92</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Team 2</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="dbVenue">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>290</y>
+      <width>331</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QLabel" name="labelVenue">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>10</y>
+       <width>49</width>
+       <height>12</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Venue</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rbTeam1_Home">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>92</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Home: Team 1</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rbTeam2_Home">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>40</y>
+       <width>111</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Home: Team 2</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rb_Neutral">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>40</y>
+       <width>92</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Neutral</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="buttonRunDT">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>460</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>RUN : DTClassifier</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>797</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

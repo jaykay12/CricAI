@@ -1,0 +1,5 @@
+pyuic5 -x CricAI_Basic.ui -o CricAI_Basic.py
+
+pyrcc5 projectImage.qrc -o projectImage_rc.py
+
+pyuic5 -x Loader.ui -o Loader.py
