@@ -3,11 +3,11 @@
 import pandas as pd
 
 match_data = pd.read_csv('dataset.csv')
-new_data = match_data[['Margin','Venue']].copy()
+new_data = match_data[['Innings_Team1','Innings_Team2','Venue_Team1','Venue_Team2']].copy()
 
-feature_cols = list(new_data.columns[0:2])
+feature_cols = list(new_data.columns[0:4])
 extra_cols = list(match_data.columns[0:207])
-last_col = match_data.columns[209]
+last_col = match_data.columns[211]
 
 print "Feature columns:\n{}".format(feature_cols)
 
