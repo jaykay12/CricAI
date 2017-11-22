@@ -25,11 +25,11 @@ class ourMLPClassifier:
 
 		dIF.hashingTargetWinners()
 		totalPrediction = ourPrediction[0][dIF.winnerIndex[t1]] + ourPrediction[0][dIF.winnerIndex[t2]]
-		predictionT1 = (ourPrediction[0][dIF.winnerIndex[t1]]/totalPrediction) * 100
-		predictionT2 = (ourPrediction[0][dIF.winnerIndex[t2]]/totalPrediction) * 100
+		self.predictionT1 = (ourPrediction[0][dIF.winnerIndex[t1]]/totalPrediction) * 100
+		self.predictionT2 = (ourPrediction[0][dIF.winnerIndex[t2]]/totalPrediction) * 100
 		print("\n")
-		print(t1,":",predictionT1,"%")
-		print(t2,":",predictionT2,"%")
+		print(t1,":",self.predictionT1,"%")
+		print(t2,":",self.predictionT2,"%")
 
 
 class ourDTClassifier:
@@ -53,7 +53,10 @@ class ourDTClassifier:
 		indexTeam2 = dIF.winnerIndex[t2]
 		if ourPrediction[0][indexTeam1] == 1:
 		    print("Winner:",t1)
+		    self.winner = t1
 		elif ourPrediction[0][indexTeam2] == 1:
 		    print("Winner:",t2)
+		    self.winner = t2
 		else:
 		    print("Decision Tree Classifier Can't Predict for this match reliably!")
+		    self.winner = "UnPredictable"
