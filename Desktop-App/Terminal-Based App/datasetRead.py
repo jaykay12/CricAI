@@ -14,4 +14,4 @@ class Dataset:
 
 		X = feature_set
 		Y = target_set
-		self.X_train, self.X_test, self.Y_train, self.Y_test = tts(X, Y, test_size=0.25)
+		self.X_train, self.X_test, self.Y_train, self.Y_test = tts(X, Y, test_size=0.3, random_state=100)

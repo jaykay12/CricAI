@@ -24,8 +24,8 @@ class MainWindow(QMainWindow):
 
 
 	def startUILoader(self):
-		MLPClf.trainModel()
-		DTClf.trainModel()
+		MLPClf.loadPickle()
+		DTClf.loadPickle()
 		dIF.hashAll()
 		self.startProgressBar()
 		
@@ -35,7 +35,7 @@ class MainWindow(QMainWindow):
 
 		self.completed = 0
 		while self.completed < 100:
-			self.completed += 0.0001
+			self.completed += 0.00008
 			self.uiLoader.progressBar.setValue(self.completed)
 			if self.completed > 95:
 				self.uiLoader.labelCurrentStatus.setText("Finalising Stuffs . . .")

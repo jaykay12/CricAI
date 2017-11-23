@@ -1,11 +1,11 @@
 <RCC>
   <qresource prefix="flags">
     <file>images/flags/Zimbabwe.jpg</file>
-    <file>images/flags/USA.jpg</file>
-    <file>images/flags/UAE.jpg</file>
     <file>images/flags/Scotland.jpg</file>
-    <file>images/flags/PNG.jpg</file>
     <file>images/flags/Pakistan.jpg</file>
+    <file>images/flags/U.S.A..jpg</file>
+    <file>images/flags/U.A.E..jpg</file>
+    <file>images/flags/P.N.G..jpg</file>
     <file>images/flags/Netherlands.jpg</file>
     <file>images/flags/Namibia.jpg</file>
     <file>images/flags/Kenya.jpg</file>

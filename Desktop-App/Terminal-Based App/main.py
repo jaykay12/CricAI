@@ -8,13 +8,11 @@ if __name__ == '__main__':
 	DTClf = ourDTClassifier()
 	dIF = dataInputFormat.DataInput()
 
-	print("Starting Up..!\n\nInitialising Models")
-	MLPClf.trainModel()
+	print("Starting Up..!\n\nLoading Pickled Models")
+	MLPClf.loadPickle()
 	print("MLP Model:\tDone!")
-	MLPClf.accuracyCheck()
-	DTClf.trainModel()
+	DTClf.loadPickle()
 	print("Decision Tree Classifier:\tDone!")
-	DTClf.accuracyCheck()
 	dIF.hashAll()
 
 	while True:
