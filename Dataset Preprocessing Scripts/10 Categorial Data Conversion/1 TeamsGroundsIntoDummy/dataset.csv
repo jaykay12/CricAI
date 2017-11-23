@@ -3743,6 +3743,9 @@ Unnamed: 0,Scorecard,Team 1,Team 2,Margin,Ground,Match Date,Winner,Host_Country,
 3746,ODI # 3930,Pakistan,Sri Lanka,Winner2ndInning,Sharjah,"Oct 23, 2017",Pakistan,U.A.E.,Neutral,Neutral,Second,First
 3747,ODI # 3931,India,New Zealand,Winner2ndInning,Pune,"Oct 25, 2017",India,India,Home,Away,Second,First
 3748,ODI # 3932,India,New Zealand,Winner1stInning,Kanpur,"Oct 29, 2017",India,India,Home,Away,First,Second
+3749,ODI # 3933,Hong Kong,Namibia,Winner2ndInning,Mumbai,"Aug 12, 2017",Namibia,India,Neutral,Neutral,First,Second
+3750,ODI # 3934,Bermuda,U.S.A.,Winner2ndInning,Mumbai,"Aug 12, 2017",U.S.A.,India,Neutral,Neutral,First,Second
+3749,ODI # 3935,East Africa,Namibia,Winner1stInning,Mumbai,"Aug 12, 2017",East Africa,India,Neutral,Neutral,First,Second
 0,ODI # 1,England,Australia,Winner2ndInning,Melbourne,"Jan 5, 1971",Australia,Australia,Away,Home,First,Second
 1,ODI # 2,Australia,England,Winner2ndInning,Manchester,"Aug 24, 1972",England,England,Away,Home,First,Second
 2,ODI # 3,Australia,England,Winner2ndInning,Lord's,"Aug 26, 1972",Australia,England,Away,Home,Second,First
@@ -7487,3 +7490,6 @@ Unnamed: 0,Scorecard,Team 1,Team 2,Margin,Ground,Match Date,Winner,Host_Country,
 3746,ODI # 3930,Sri Lanka,Pakistan,Winner2ndInning,Sharjah,"Oct 23, 2017",Pakistan,U.A.E.,Neutral,Neutral,First,Second
 3747,ODI # 3931,New Zealand,India,Winner2ndInning,Pune,"Oct 25, 2017",India,India,Away,Home,First,Second
 3748,ODI # 3932,New Zealand,India,Winner1stInning,Kanpur,"Oct 29, 2017",India,India,Away,Home,Second,First
+3749,ODI # 3933,Namibia,Hong Kong,Winner2ndInning,Mumbai,"Aug 12, 2017",Namibia,India,Neutral,Neutral,Second,First
+3750,ODI # 3934,U.S.A.,Bermuda,Winner2ndInning,Mumbai,"Aug 12, 2017",U.S.A.,India,Neutral,Neutral,Second,First
+3749,ODI # 3935,Namibia,East Africa,Winner1stInning,Mumbai,"Aug 12, 2017",East Africa,India,Neutral,Neutral,Second,First
