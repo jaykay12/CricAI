@@ -16,81 +16,15 @@
   <property name="autoFillBackground">
    <bool>false</bool>
   </property>
+  <property name="inputMethodHints">
+   <set>Qt::ImhDigitsOnly</set>
+  </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QTextEdit" name="teTeam1">
-    <property name="geometry">
-     <rect>
-      <x>90</x>
-      <y>60</y>
-      <width>221</width>
-      <height>51</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="teTeam2">
-    <property name="geometry">
-     <rect>
-      <x>440</x>
-      <y>60</y>
-      <width>221</width>
-      <height>51</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="teGround">
-    <property name="geometry">
-     <rect>
-      <x>273</x>
-      <y>160</y>
-      <width>211</width>
-      <height>31</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QLabel" name="labelTeam1">
-    <property name="geometry">
-     <rect>
-      <x>180</x>
-      <y>40</y>
-      <width>49</width>
-      <height>12</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Team 1</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="labelTeam2">
-    <property name="geometry">
-     <rect>
-      <x>530</x>
-      <y>40</y>
-      <width>49</width>
-      <height>12</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Team 2</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="labelGround">
-    <property name="geometry">
-     <rect>
-      <x>360</x>
-      <y>140</y>
-      <width>49</width>
-      <height>12</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Ground</string>
-    </property>
-   </widget>
    <widget class="QPushButton" name="buttonRunMLP">
     <property name="geometry">
      <rect>
-      <x>310</x>
-      <y>400</y>
+      <x>330</x>
+      <y>430</y>
       <width>151</width>
       <height>41</height>
      </rect>
@@ -102,8 +36,8 @@
    <widget class="QGroupBox" name="dbInnings">
     <property name="geometry">
      <rect>
-      <x>230</x>
-      <y>220</y>
+      <x>250</x>
+      <y>230</y>
       <width>311</width>
       <height>80</height>
      </rect>
@@ -157,8 +91,8 @@
    <widget class="QGroupBox" name="dbVenue">
     <property name="geometry">
      <rect>
-      <x>220</x>
-      <y>290</y>
+      <x>240</x>
+      <y>320</y>
       <width>331</width>
       <height>80</height>
      </rect>
@@ -222,14 +156,109 @@
    <widget class="QPushButton" name="buttonRunDT">
     <property name="geometry">
      <rect>
-      <x>310</x>
-      <y>460</y>
+      <x>330</x>
+      <y>490</y>
       <width>151</width>
       <height>41</height>
      </rect>
     </property>
     <property name="text">
      <string>RUN : DTClassifier</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelFlagT1">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>40</y>
+      <width>151</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/flags/images/flags/India.jpg&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelFlagT2">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>40</y>
+      <width>151</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/flags/images/flags/Australia.jpg&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelVersus">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>60</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>36</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>V/S</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBoxTeam1">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>101</width>
+      <height>24</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBoxTeam2">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>70</y>
+      <width>101</width>
+      <height>24</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBoxGround">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>180</y>
+      <width>181</width>
+      <height>24</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelGround">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>180</y>
+      <width>49</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ground</string>
     </property>
    </widget>
   </widget>
@@ -245,6 +274,8 @@
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <resources/>
+ <resources>
+  <include location="CricAI.qrc"/>
+ </resources>
  <connections/>
 </ui>

@@ -63,6 +63,23 @@ class MainWindow(QMainWindow):
 		self.uiWindow.setupUi(self)
 		self.uiWindow.buttonRunMLP.clicked.connect(self.runCLFClassifier)
 		self.uiWindow.buttonRunDT.clicked.connect(self.runDTClassifier)
+		
+		self.uiWindow.comboBoxTeam1.clear()
+		self.uiWindow.comboBoxTeam2.clear()
+		self.uiWindow.comboBoxGround.clear()
+
+		self.uiWindow.comboBoxTeam1.addItems(dIF.teamNames)
+		self.uiWindow.comboBoxTeam2.addItems(dIF.teamNames)
+		self.uiWindow.comboBoxGround.addItems(dIF.groundNames)
+
+		self.uiWindow.comboBoxTeam1.setCurrentText("India")
+		self.uiWindow.comboBoxTeam2.setCurrentText("Australia")
+		self.uiWindow.comboBoxGround.setCurrentText("Mumbai")
+
+		self.uiWindow.comboBoxTeam1.currentTextChanged.connect(lambda: self.updateFlagTeams(self.uiWindow.labelFlagT1,self.uiWindow.comboBoxTeam1.currentText()))
+		self.uiWindow.comboBoxTeam2.currentTextChanged.connect(lambda: self.updateFlagTeams(self.uiWindow.labelFlagT2,self.uiWindow.comboBoxTeam2.currentText()))
+
+
 		self.uiWindow.rbTeam1_Innings.setChecked(True)
 		self.uiWindow.rbTeam1_Home.setChecked(True)
 
@@ -87,11 +104,16 @@ class MainWindow(QMainWindow):
 		self.uiDTResult.setupUi(self)
 		self.uiDTResult.labelWinner.setText(DTClf.winner)
 
-	def grabAndSetInput(self):
-		self.t1 = self.uiWindow.teTeam1.toPlainText()
-		self.t2 = self.uiWindow.teTeam2.toPlainText()
+	def updateFlagTeams(self,currentLabel,currentValueName):
+		currentPath = "/home/jaykay12/Downloads/cricAI/desktopApp/BasicUIApp/images/flags/"+str(currentValueName)+".jpg"
+		pixmap = QtGui.QPixmap(currentPath)
+		currentLabel.setPixmap(pixmap)
 
-		ground = self.uiWindow.teGround.toPlainText()
+	def grabAndSetInput(self):
+		self.t1 = str(self.uiWindow.comboBoxTeam1.currentText())
+		self.t2 = str(self.uiWindow.comboBoxTeam2.currentText())
+
+		ground = str(self.uiWindow.comboBoxGround.currentText())
 
 		if self.uiWindow.rbTeam1_Innings.isChecked() == True:
 			inningsTeam1 = "Team1_1Inning"

@@ -71,7 +71,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/newPrefix/images/rsz_stadium1.jpg&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/projectImages/images/stadium.jpg&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -126,7 +126,8 @@
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources>
-  <include location="projectImage.qrc"/>
+  <include location="CricAI.qrc"/>
+  <include location="CricAI.qrc"/>
  </resources>
  <connections/>
 </ui>

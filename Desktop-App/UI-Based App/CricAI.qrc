@@ -1,0 +1,30 @@
+<RCC>
+  <qresource prefix="flags">
+    <file>images/flags/Zimbabwe.jpg</file>
+    <file>images/flags/USA.jpg</file>
+    <file>images/flags/UAE.jpg</file>
+    <file>images/flags/Scotland.jpg</file>
+    <file>images/flags/PNG.jpg</file>
+    <file>images/flags/Pakistan.jpg</file>
+    <file>images/flags/Netherlands.jpg</file>
+    <file>images/flags/Namibia.jpg</file>
+    <file>images/flags/Kenya.jpg</file>
+    <file>images/flags/Ireland.jpg</file>
+    <file>images/flags/India.jpg</file>
+    <file>images/flags/England.jpg</file>
+    <file>images/flags/Canada.jpg</file>
+    <file>images/flags/West Indies.jpg</file>
+    <file>images/flags/South Africa.jpg</file>
+    <file>images/flags/Sri Lanka.jpg</file>
+    <file>images/flags/New Zealand.jpg</file>
+    <file>images/flags/Hong Kong.jpg</file>
+    <file>images/flags/East Africa.jpg</file>
+    <file>images/flags/Bermuda.jpg</file>
+    <file>images/flags/Bangladesh.jpg</file>
+    <file>images/flags/Australia.jpg</file>
+    <file>images/flags/Afghanistan.jpg</file>
+  </qresource>
+  <qresource prefix="projectImages">
+    <file>images/stadium.jpg</file>
+  </qresource>
+</RCC>

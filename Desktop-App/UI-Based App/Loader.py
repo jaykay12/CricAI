@@ -60,11 +60,11 @@ class Ui_MainWindow(object):
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
         self.labelTitle.setText(_translate("MainWindow", "CricAI"))
         self.labelSubTitle.setText(_translate("MainWindow", "Smart Outcome Prediction for Cricket"))
-        self.labelImage.setText(_translate("MainWindow", "<html><head/><body><p><img src=\":/newPrefix/images/rsz_stadium1.jpg\"/></p></body></html>"))
+        self.labelImage.setText(_translate("MainWindow", "<html><head/><body><p><img src=\":/projectImages/images/stadium.jpg\"/></p></body></html>"))
         self.labelCurrentStatus.setText(_translate("MainWindow", "Loading . . ."))
         self.pBContinue.setText(_translate("MainWindow", "Continue"))
 
-import projectImage_rc
+import CricAI_rc
 
 if __name__ == "__main__":
     import sys
