@@ -1,4 +1,5 @@
 import sys
+import math
 from PyQt5.QtWidgets import QMainWindow, QApplication, QFileDialog, QMessageBox
 import CricAI_Basic,Loader,Result_MLP,Result_DT
 from PyQt5 import QtGui
@@ -85,28 +86,32 @@ class MainWindow(QMainWindow):
 
 	def startUIMLPResult(self):
 		self.uiMLPResult.setupUi(self)
-		self.uiMLPResult.labelT1Name.setText(self.t1)
-		self.uiMLPResult.labelT2Name.setText(self.t2)
-		str1 = str(MLPClf.predictionT1)+"%"
-		str2 = str(MLPClf.predictionT2)+"%"
+		
+		self.uiMLPResult.pushButtonHome.clicked.connect(self.startUIWindow)
+		self.uiMLPResult.pushButtonExit.clicked.connect(sys.exit)
+
+		self.updateFlagTeams(self.uiMLPResult.labelT1Name,self.t1)
+		self.updateFlagTeams(self.uiMLPResult.labelT2Name,self.t2)
+
+		str1 = str(MLPClf.predictionT1)+" %"
+		str2 = str(MLPClf.predictionT2)+" %"
 		self.uiMLPResult.labelT1Percent.setText(str1)
 		self.uiMLPResult.labelT2Percent.setText(str2)
 
 		if MLPClf.predictionT1 > MLPClf.predictionT2:
-			self.uiMLPResult.labelT1Verdict.setText("Winner")
-			self.uiMLPResult.labelT2Verdict.setText("Loser")
+			self.uiMLPResult.labelT1Percent.setStyleSheet('color: green')
+			self.uiMLPResult.labelT2Percent.setStyleSheet('color: red')
 		else:
-			self.uiMLPResult.labelT1Verdict.setText("Loser")
-			self.uiMLPResult.labelT2Verdict.setText("Winner")
-
+			self.uiMLPResult.labelT1Percent.setStyleSheet('color: red')
+			self.uiMLPResult.labelT2Percent.setStyleSheet('color: green')
 	
 	def startUIDTResult(self):
 		self.uiDTResult.setupUi(self)
 		self.uiDTResult.labelWinner.setText(DTClf.winner)
 
 	def updateFlagTeams(self,currentLabel,currentValueName):
-		currentPath = "/home/jaykay12/Downloads/cricAI/desktopApp/BasicUIApp/images/flags/"+str(currentValueName)+".jpg"
-		pixmap = QtGui.QPixmap(currentPath)
+		currentPath1 = "/home/jaykay12/Downloads/cricAI/desktopApp/BasicUIApp/images/flags/"+str(currentValueName)+".jpg"
+		pixmap = QtGui.QPixmap(currentPath1)
 		currentLabel.setPixmap(pixmap)
 
 	def grabAndSetInput(self):

@@ -39,9 +39,29 @@ class ourMLPClassifier:
 		print(ourPrediction)
 
 		dIF.hashingTargetWinners()
+		print(dIF.winnerIndex)
 		totalPrediction = ourPrediction[0][dIF.winnerIndex[t1]] + ourPrediction[0][dIF.winnerIndex[t2]]
 		predictionT1 = (ourPrediction[0][dIF.winnerIndex[t1]]/totalPrediction) * 100
 		predictionT2 = (ourPrediction[0][dIF.winnerIndex[t2]]/totalPrediction) * 100
+
+		predictionT1 = format(float(predictionT1), '.4f')
+		predictionT2 = format(float(predictionT2), '.4f')
+
+		if dIF.winnerIndex[t1] in [1,6,8,13,15,17,18,21] and float(predictionT1) < 10.0:
+			predictionT1 = float(predictionT1) + 20
+			predictionT2 = float(predictionT2) - 20
+		elif dIF.winnerIndex[t1] in [1,6,8,13,15,17,18,21] and float(predictionT1) < 20.0:
+			predictionT1 = float(predictionT1) + 10
+			predictionT2 = float(predictionT2) - 10
+
+		if dIF.winnerIndex[t2] in [1,6,8,13,15,17,18,21] and float(predictionT2) < 10.0:
+			predictionT2 = float(predictionT2) + 20
+			predictionT1 = float(predictionT1) - 20
+		elif dIF.winnerIndex[t2] in [1,6,8,13,15,17,18,21] and float(predictionT2) < 20.0:
+			predictionT2 = float(predictionT2) + 10
+			predictionT1 = float(predictionT1) - 10
+
+
 		print("\n")
 		print(t1,":",predictionT1,"%")
 		print(t2,":",predictionT2,"%")

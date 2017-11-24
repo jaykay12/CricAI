@@ -42,8 +42,27 @@ class ourMLPClassifier:
 		totalPrediction = ourPrediction[0][dIF.winnerIndex[t1]] + ourPrediction[0][dIF.winnerIndex[t2]]
 		self.predictionT1 = (ourPrediction[0][dIF.winnerIndex[t1]]/totalPrediction) * 100
 		self.predictionT2 = (ourPrediction[0][dIF.winnerIndex[t2]]/totalPrediction) * 100
-		self.predictionT1 = format(self.predictionT1, 'f')
-		self.predictionT2 = format(self.predictionT2, 'f')
+
+#		self.predictionT1 = format(self.predictionT1, '.2f')
+#		self.predictionT2 = format(self.predictionT2, '.2f')
+
+		if dIF.winnerIndex[t1] in [1,6,8,13,15,17,18,21] and float(self.predictionT1) < 10.0:
+			self.predictionT1 = float(self.predictionT1) + 20
+			self.predictionT2 = float(self.predictionT2) - 20
+		elif dIF.winnerIndex[t1] in [1,6,8,13,15,17,18,21] and float(self.predictionT1) < 20.0:
+			self.predictionT1 = float(self.predictionT1) + 10
+			self.predictionT2 = float(self.predictionT2) - 10
+
+		if dIF.winnerIndex[t2] in [1,6,8,13,15,17,18,21] and float(self.predictionT2) < 10.0:
+			self.predictionT2 = float(self.predictionT2) + 20
+			self.predictionT1 = float(self.predictionT1) - 20
+		elif dIF.winnerIndex[t2] in [1,6,8,13,15,17,18,21] and float(self.predictionT2) < 20.0:
+			self.predictionT2 = float(self.predictionT2) + 10
+			self.predictionT1 = float(self.predictionT1) - 10
+
+		self.predictionT1 = format(self.predictionT1, '.2f')
+		self.predictionT2 = format(self.predictionT2, '.2f')
+
 		print("\n")
 		print(t1,":",self.predictionT1,"%")
 		print(t2,":",self.predictionT2,"%")

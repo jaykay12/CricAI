@@ -24,6 +24,27 @@
     <file>images/flags/Australia.jpg</file>
     <file>images/flags/Afghanistan.jpg</file>
   </qresource>
+  <qresource prefix="smileys">
+    <file>images/smileys/wtf.jpg</file>
+    <file>images/smileys/worried.jpg</file>
+    <file>images/smileys/whisteling.jpg</file>
+    <file>images/smileys/thumbsUP.jpg</file>
+    <file>images/smileys/tensed.jpg</file>
+    <file>images/smileys/superHappy.jpg</file>
+    <file>images/smileys/satisfied.jpg</file>
+    <file>images/smileys/oops.jpg</file>
+    <file>images/smileys/neutral.jpg</file>
+    <file>images/smileys/needHelp.jpg</file>
+    <file>images/smileys/lost.jpg</file>
+    <file>images/smileys/frightened.jpg</file>
+    <file>images/smileys/failed.jpg</file>
+    <file>images/smileys/disappointed.jpg</file>
+    <file>images/smileys/crying.jpg</file>
+    <file>images/smileys/confused.jpg</file>
+    <file>images/smileys/clapping.jpg</file>
+    <file>images/smileys/beaten.jpg</file>
+    <file>images/smileys/arrogant.jpg</file>
+  </qresource>
   <qresource prefix="projectImages">
     <file>images/stadium.jpg</file>
   </qresource>

@@ -17,7 +17,7 @@
    <widget class="QLabel" name="labelTitle">
     <property name="geometry">
      <rect>
-      <x>170</x>
+      <x>180</x>
       <y>40</y>
       <width>451</width>
       <height>51</height>
@@ -39,10 +39,10 @@
    <widget class="QLabel" name="labelT1Name">
     <property name="geometry">
      <rect>
-      <x>180</x>
-      <y>190</y>
-      <width>51</width>
-      <height>21</height>
+      <x>130</x>
+      <y>170</y>
+      <width>201</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="font">
@@ -51,34 +51,42 @@
      </font>
     </property>
     <property name="text">
-     <string>India</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/flags/images/flags/India.jpg&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="labelT1Percent">
     <property name="geometry">
      <rect>
-      <x>250</x>
-      <y>190</y>
-      <width>51</width>
-      <height>21</height>
+      <x>130</x>
+      <y>300</y>
+      <width>201</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>20</pointsize>
+      <pointsize>36</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
      </font>
     </property>
     <property name="text">
      <string>60 %</string>
     </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
    </widget>
    <widget class="QLabel" name="labelT2Name">
     <property name="geometry">
      <rect>
-      <x>450</x>
-      <y>190</y>
-      <width>81</width>
-      <height>20</height>
+      <x>480</x>
+      <y>170</y>
+      <width>201</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="font">
@@ -87,61 +95,59 @@
      </font>
     </property>
     <property name="text">
-     <string>Pakistan</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/flags/images/flags/Pakistan.jpg&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="labelT2Percent">
     <property name="geometry">
      <rect>
-      <x>550</x>
-      <y>190</y>
-      <width>51</width>
-      <height>21</height>
+      <x>480</x>
+      <y>300</y>
+      <width>201</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>20</pointsize>
+      <pointsize>36</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
      </font>
     </property>
     <property name="text">
      <string>40 %</string>
     </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
    </widget>
-   <widget class="QLabel" name="labelT1Verdict">
+   <widget class="QPushButton" name="pushButtonHome">
     <property name="geometry">
      <rect>
-      <x>210</x>
-      <y>230</y>
-      <width>51</width>
-      <height>41</height>
+      <x>370</x>
+      <y>450</y>
+      <width>85</width>
+      <height>27</height>
      </rect>
     </property>
     <property name="text">
-     <string>WINNER</string>
+     <string>Home</string>
     </property>
    </widget>
-   <widget class="QLabel" name="labelT2Verdict">
+   <widget class="QPushButton" name="pushButtonExit">
     <property name="geometry">
      <rect>
-      <x>510</x>
-      <y>230</y>
-      <width>41</width>
-      <height>41</height>
+      <x>370</x>
+      <y>490</y>
+      <width>85</width>
+      <height>27</height>
      </rect>
     </property>
     <property name="text">
-     <string>LOSER</string>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="teAccuracyMLP">
-    <property name="geometry">
-     <rect>
-      <x>170</x>
-      <y>440</y>
-      <width>451</width>
-      <height>78</height>
-     </rect>
+     <string>Exit</string>
     </property>
    </widget>
   </widget>
@@ -157,6 +163,8 @@
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <resources/>
+ <resources>
+  <include location="CricAI.qrc"/>
+ </resources>
  <connections/>
 </ui>
