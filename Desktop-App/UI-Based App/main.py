@@ -32,8 +32,6 @@ class MainWindow(QMainWindow):
 		
 
 	def startProgressBar(self):
-		self.uiLoader.labelCurrentStatus.setText("Loading . . .")
-
 		self.completed = 0
 		while self.completed < 100:
 			self.completed += 0.00008
@@ -64,6 +62,9 @@ class MainWindow(QMainWindow):
 		self.uiWindow.setupUi(self)
 		self.uiWindow.buttonRunMLP.clicked.connect(self.runCLFClassifier)
 		self.uiWindow.buttonRunDT.clicked.connect(self.runDTClassifier)
+		self.uiWindow.frameWarning.hide()
+
+		self.uiWindow.pushButtonOK.clicked.connect(self.RemoveFrame)
 		
 		self.uiWindow.comboBoxTeam1.clear()
 		self.uiWindow.comboBoxTeam2.clear()
@@ -80,9 +81,15 @@ class MainWindow(QMainWindow):
 		self.uiWindow.comboBoxTeam1.currentTextChanged.connect(lambda: self.updateFlagTeams(self.uiWindow.labelFlagT1,self.uiWindow.comboBoxTeam1.currentText()))
 		self.uiWindow.comboBoxTeam2.currentTextChanged.connect(lambda: self.updateFlagTeams(self.uiWindow.labelFlagT2,self.uiWindow.comboBoxTeam2.currentText()))
 
+		self.uiWindow.comboBoxTeam1.currentTextChanged.connect(lambda: self.updateInningsNVenue(self.uiWindow.rbTeam1_Innings,self.uiWindow.comboBoxTeam1.currentText()))
+		self.uiWindow.comboBoxTeam2.currentTextChanged.connect(lambda: self.updateInningsNVenue(self.uiWindow.rbTeam2_Innings,self.uiWindow.comboBoxTeam2.currentText()))
+
+		self.uiWindow.comboBoxTeam1.currentTextChanged.connect(lambda: self.updateInningsNVenue(self.uiWindow.rbTeam1_Home,self.uiWindow.comboBoxTeam1.currentText()))
+		self.uiWindow.comboBoxTeam2.currentTextChanged.connect(lambda: self.updateInningsNVenue(self.uiWindow.rbTeam2_Home,self.uiWindow.comboBoxTeam2.currentText()))
 
 		self.uiWindow.rbTeam1_Innings.setChecked(True)
 		self.uiWindow.rbTeam1_Home.setChecked(True)
+
 
 	def startUIMLPResult(self):
 		self.uiMLPResult.setupUi(self)
@@ -107,12 +114,35 @@ class MainWindow(QMainWindow):
 	
 	def startUIDTResult(self):
 		self.uiDTResult.setupUi(self)
-		self.uiDTResult.labelWinner.setText(DTClf.winner)
+
+		self.uiDTResult.pushButtonHome.clicked.connect(self.startUIWindow)
+		self.uiDTResult.pushButtonExit.clicked.connect(sys.exit)
+
+		self.updateFlagTeams(self.uiDTResult.labelWinner,DTClf.winner)
+		if DTClf.winner == 1:
+			self.uiDTResult.labelTrophy.setPixmap(QtGui.QPixmap("/home/jaykay12/Downloads/cricAI/desktopApp/BasicUIApp/images/sorry.jpg"))
+			self.uiDTResult.labelWinner.setText("Decision Tree Classifier Can't Predict for\n this match reliably!")
+			self.uiDTResult.labelWinner.setStyleSheet('color: red')
+		else:
+			self.uiDTResult.labelTrophy.setPixmap(QtGui.QPixmap("/home/jaykay12/Downloads/cricAI/desktopApp/BasicUIApp/images/winner.jpg"))
 
 	def updateFlagTeams(self,currentLabel,currentValueName):
-		currentPath1 = "/home/jaykay12/Downloads/cricAI/desktopApp/BasicUIApp/images/flags/"+str(currentValueName)+".jpg"
-		pixmap = QtGui.QPixmap(currentPath1)
+		currentPath = "/home/jaykay12/Downloads/cricAI/desktopApp/BasicUIApp/images/flags/"+str(currentValueName)+".jpg"
+		pixmap = QtGui.QPixmap(currentPath)
 		currentLabel.setPixmap(pixmap)
+
+	def updateInningsNVenue(self,currentLabel,currentValueName):
+		currentLabel.setText(currentValueName);
+
+	def RemoveFrame(self):
+		self.uiWindow.frameWarning.hide()
+		self.uiWindow.buttonRunMLP.setEnabled(True)
+		self.uiWindow.buttonRunDT.setEnabled(True)
+
+	def ShowFrame(self):
+		self.uiWindow.frameWarning.show()
+		self.uiWindow.buttonRunMLP.setEnabled(False)
+		self.uiWindow.buttonRunDT.setEnabled(False)
 
 	def grabAndSetInput(self):
 		self.t1 = str(self.uiWindow.comboBoxTeam1.currentText())
@@ -149,14 +179,20 @@ class MainWindow(QMainWindow):
 
 
 	def runCLFClassifier(self):
-		self.grabAndSetInput()
-		MLPClf.runModel(self.inputPrediction,self.t1,self.t2)
-		self.startUIMLPResult()
+		if self.uiWindow.comboBoxTeam1.currentText() == self.uiWindow.comboBoxTeam2.currentText():
+			self.ShowFrame()
+		else:
+			self.grabAndSetInput()
+			MLPClf.runModel(self.inputPrediction,self.t1,self.t2)
+			self.startUIMLPResult()
 
 	def runDTClassifier(self):
-		self.grabAndSetInput()
-		DTClf.runModel(self.inputPrediction,self.t1,self.t2)
-		self.startUIDTResult()
+		if self.uiWindow.comboBoxTeam1.currentText() == self.uiWindow.comboBoxTeam2.currentText():
+			self.ShowFrame()
+		else:
+			self.grabAndSetInput()
+			DTClf.runModel(self.inputPrediction,self.t1,self.t2)
+			self.startUIDTResult()
 
 if __name__ == '__main__':
 	app = QApplication(sys.argv)

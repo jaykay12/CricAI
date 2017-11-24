@@ -37,6 +37,7 @@ class Ui_MainWindow(object):
         self.labelCurrentStatus = QtWidgets.QLabel(self.centralwidget)
         self.labelCurrentStatus.setGeometry(QtCore.QRect(390, 510, 231, 20))
         self.labelCurrentStatus.setLayoutDirection(QtCore.Qt.LeftToRight)
+        self.labelCurrentStatus.setText("")
         self.labelCurrentStatus.setAlignment(QtCore.Qt.AlignRight|QtCore.Qt.AlignTrailing|QtCore.Qt.AlignVCenter)
         self.labelCurrentStatus.setObjectName("labelCurrentStatus")
         self.pBContinue = QtWidgets.QPushButton(self.centralwidget)
@@ -61,7 +62,6 @@ class Ui_MainWindow(object):
         self.labelTitle.setText(_translate("MainWindow", "CricAI"))
         self.labelSubTitle.setText(_translate("MainWindow", "Smart Outcome Prediction for Cricket"))
         self.labelImage.setText(_translate("MainWindow", "<html><head/><body><p><img src=\":/projectImages/images/stadium.jpg\"/></p></body></html>"))
-        self.labelCurrentStatus.setText(_translate("MainWindow", "Loading . . ."))
         self.pBContinue.setText(_translate("MainWindow", "Continue"))
 
 import CricAI_rc

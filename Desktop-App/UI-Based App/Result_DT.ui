@@ -17,30 +17,34 @@
    <widget class="QLabel" name="labelTitle">
     <property name="geometry">
      <rect>
-      <x>260</x>
-      <y>40</y>
-      <width>281</width>
-      <height>20</height>
+      <x>160</x>
+      <y>30</y>
+      <width>461</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>24</pointsize>
+      <pointsize>28</pointsize>
       <weight>75</weight>
       <bold>true</bold>
+      <underline>true</underline>
      </font>
     </property>
     <property name="text">
      <string>Decision Tree Classifier</string>
     </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
    </widget>
    <widget class="QLabel" name="labelWinner">
     <property name="geometry">
      <rect>
-      <x>380</x>
-      <y>190</y>
-      <width>51</width>
-      <height>21</height>
+      <x>150</x>
+      <y>330</y>
+      <width>481</width>
+      <height>111</height>
      </rect>
     </property>
     <property name="font">
@@ -49,17 +53,52 @@
      </font>
     </property>
     <property name="text">
-     <string>India</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/flags/images/flags/India.jpg&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QTextEdit" name="teAccuracyDT">
+   <widget class="QLabel" name="labelTrophy">
     <property name="geometry">
      <rect>
-      <x>170</x>
-      <y>440</y>
-      <width>451</width>
-      <height>78</height>
+      <x>140</x>
+      <y>90</y>
+      <width>501</width>
+      <height>221</height>
      </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/projectImages/images/winner.jpg&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonHome">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>480</y>
+      <width>85</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Home</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonExit">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>520</y>
+      <width>85</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Exit</string>
     </property>
    </widget>
   </widget>
@@ -75,6 +114,8 @@
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <resources/>
+ <resources>
+  <include location="CricAI.qrc"/>
+ </resources>
  <connections/>
 </ui>

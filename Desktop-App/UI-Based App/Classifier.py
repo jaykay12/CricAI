@@ -39,29 +39,54 @@ class ourMLPClassifier:
 		ourPrediction = self.MLPclf.predict_proba([inputPrediction])
 
 		dIF.hashingTargetWinners()
+
+		print(ourPrediction)
+
+		print(ourPrediction[0][dIF.winnerIndex[t1]])
+		print(ourPrediction[0][dIF.winnerIndex[t2]])
+
+		print(float(ourPrediction[0][dIF.winnerIndex[t1]]))
+		print(float(ourPrediction[0][dIF.winnerIndex[t2]]))
+
+
+
 		totalPrediction = ourPrediction[0][dIF.winnerIndex[t1]] + ourPrediction[0][dIF.winnerIndex[t2]]
+
+		print(totalPrediction)
+
 		self.predictionT1 = (ourPrediction[0][dIF.winnerIndex[t1]]/totalPrediction) * 100
 		self.predictionT2 = (ourPrediction[0][dIF.winnerIndex[t2]]/totalPrediction) * 100
+
+		print(self.predictionT1)
+		print(self.predictionT2)
 
 #		self.predictionT1 = format(self.predictionT1, '.2f')
 #		self.predictionT2 = format(self.predictionT2, '.2f')
 
 		if dIF.winnerIndex[t1] in [1,6,8,13,15,17,18,21] and float(self.predictionT1) < 10.0:
-			self.predictionT1 = float(self.predictionT1) + 20
-			self.predictionT2 = float(self.predictionT2) - 20
+			self.predictionT1 = float(self.predictionT1) + 25
+			self.predictionT2 = float(self.predictionT2) - 25
 		elif dIF.winnerIndex[t1] in [1,6,8,13,15,17,18,21] and float(self.predictionT1) < 20.0:
-			self.predictionT1 = float(self.predictionT1) + 10
-			self.predictionT2 = float(self.predictionT2) - 10
+			self.predictionT1 = float(self.predictionT1) + 15
+			self.predictionT2 = float(self.predictionT2) - 15
+		elif dIF.winnerIndex[t1] in [1,6,8,13,15,17,18,21] and float(self.predictionT1) < 30.0:
+			self.predictionT1 = float(self.predictionT1) + 5
+			self.predictionT2 = float(self.predictionT2) - 5
+
 
 		if dIF.winnerIndex[t2] in [1,6,8,13,15,17,18,21] and float(self.predictionT2) < 10.0:
-			self.predictionT2 = float(self.predictionT2) + 20
-			self.predictionT1 = float(self.predictionT1) - 20
+			self.predictionT2 = float(self.predictionT2) + 25
+			self.predictionT1 = float(self.predictionT1) - 25
 		elif dIF.winnerIndex[t2] in [1,6,8,13,15,17,18,21] and float(self.predictionT2) < 20.0:
-			self.predictionT2 = float(self.predictionT2) + 10
-			self.predictionT1 = float(self.predictionT1) - 10
+			self.predictionT2 = float(self.predictionT2) + 15
+			self.predictionT1 = float(self.predictionT1) - 15
+		elif dIF.winnerIndex[t2] in [1,6,8,13,15,17,18,21] and float(self.predictionT2) < 30.0:
+			self.predictionT2 = float(self.predictionT2) + 5
+			self.predictionT1 = float(self.predictionT1) - 5
 
-		self.predictionT1 = format(self.predictionT1, '.2f')
-		self.predictionT2 = format(self.predictionT2, '.2f')
+
+		self.predictionT1 = format(self.predictionT1, '.4f')
+		self.predictionT2 = format(self.predictionT2, '.4f')
 
 		print("\n")
 		print(t1,":",self.predictionT1,"%")
@@ -109,4 +134,4 @@ class ourDTClassifier:
 		    self.winner = t2
 		else:
 		    print("Decision Tree Classifier Can't Predict for this match reliably!")
-		    self.winner = "UnPredictable"
+		    self.winner = 1
