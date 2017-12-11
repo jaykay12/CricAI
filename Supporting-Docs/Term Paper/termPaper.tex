@@ -1,5 +1,8 @@
 \documentclass[a4paper, 10pt, conference]{IEEEtran}
 \usepackage{enumitem}
+\usepackage{graphicx}
+
+\newcommand{\head}[1]{\textnormal{\textbf{#1}}}
 
 \title{Predicting the Outcome of ODI Cricket Matches using Decision Trees and MLP Networks}
 
@@ -64,4 +67,141 @@ We then built a software tool called CricAI based on emerged results, which can 
 Clustering couldn't have made any contribution to our research as we dealt with multiple independent attributes, therefore placing them in clusters after finding similarity did not seem feasible.
 
 The rest of this paper is organised as follows. Section 2 explains the approach we have used for conducting the analysis. Section 3 presents a comparative study of the classifiers used. Section 4 presents the related work in the area and the future scope associated with this approach. Section 5 gives the conclusions.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{APPROACH FOR ANALYSIS}
+
+\subsection{Data Collection}
+
+Data was extracted from www.stats.cricinfo.com by running a scraping script in a justified manner, sending 1 request per second.
+\begin{table}[h!]
+  \begin{center}
+    \caption{Scrapped Dataset Format}
+    \label{tab:table1}
+    \begin{tabular}{cccccc} 
+      \textbf{Match Id} & \textbf{Team 1} & \textbf{Team 2} & \textbf{Winner} & \textbf{Margin} & \textbf{Ground}\\
+      \hline
+      ODI \#1 & Australia & England & Australia & 5 wickets & Melbourne\\
+      ODI \#2 & England & Australia & England & 6 wickets & Manchester\\
+      ODI \#3 & England & Australia & Australia & 5 wickets & Lord's\\
+    \end{tabular}
+  \end{center}
+\end{table}
+
+Dataset comprises of all the ODI matches from Jan 5,1971 to Oct 29,2017. A total of 3933 ODI match results was scrapped. The collected data was subjected to cleaning process where some of the matches were deleted from the analysis. Since the impact of the nature on the game of cricket cannot be foreseen, matches which were either interrupted by rain or ended up in a draw/tie, were being removed from the dataset. Matches of Special teams like World XI, Asia XI \& Africa XI were also removed.
+\\
+We also further replicated our dataset two times by swapping the team positions i.e. A game between Team 1: India and Team 2: Sri Lanka was also replicated as Team 1: Sri Lanka and Team 2: India.
+For further making the dataset suitable for Input to the various Machine Learning Classifier Models, We converted the continous dataset into a categorial dataset, using dummy variables.\\
+
+\textbf{Innings Feature} was determined by first translating Column: \textit{Margin} into Column: \textit{Winner Innings} using:
+\\$\cdot$ Win by Balls $\Longrightarrow$ Winner Innings: 2
+\\$\cdot$ Win by Runs $\Longrightarrow$ Winner Innings: 1
+\\Further, Using Column: \textit{Winner} and the generated  Column: \textit{Winner Innings}, we aquired the innings of each team per match.
+
+\textbf{Venue Feature} was determined by using Column: \textit{Winner} and Scrapped dataframe from www.stats.cricinfo.com giving the names of cricket grounds in all countries. Combining both of these, Column: \textit{Host Country} was generated, which was used to get venue of a match with respect to both the teams.
+
+The data set was saved in comma separated format. A total of 7494 match records were used in analysis.  Finally, we divided the dataset into two parts, namely, the test data and the training data.
+\\$\star$ Training Dataset Size: 5620
+\\$\star$ Testing Dataset Size: 1874
+
+\subsection{MultiLayer Perceptron Networks}
+Multi-layer Perceptron (MLP) is a supervised learning algorithm that learns a function \[ f(.): R^{m} \rightarrow R^{o} \] by training on a dataset, where \textit{m} is the number of dimensions for input and \textit{o} is the number of dimensions for output. Given a set of features \textit{X = $x_{1}$, $x_{2}$, ..., $x_{m}$} and a target \textit{y}, it can learn a non-linear function approximator for either classification or regression. It is different from logistic regression, in that between the input and the output layer, there can be one or more non-linear layers, called hidden layers. Fig 1. shows a Perceptron Network with 1 hidden layer.
+\begin{figure}
+  \includegraphics[width=\linewidth]{mlp.png}
+  \caption{Multilayer Perceptron Network}
+  \label{fig:mlp}
+\end{figure}
+
+The leftmost layer, known as the input layer, consists of a set of neurons \[ {x_{i}|x_{1},x_{2},\ldots,x_{m}} \] representing the input features. Each neuron in the hidden layer transforms the values from the previous layer with a weighted linear summation \[ w_{1}x_{1} + w_{2}x_{2} + \ldots + w_{m}x_{m} \]
+, followed by a non-linear activation function. The output layer receives the values from the last hidden layer and transforms them into output values.
+
+MLPClassifier implements a multi-layer perceptron (MLP) algorithm that trains using Backpropagation. More precisely, it trains using some form of gradient descent and the gradients are calculated using Backpropagation.
+
+MLP trains on two arrays: array \textbf{X} of size(n\_samples, n\_features) which holds the training samples represented as floating point feature vectors; and array \textbf{y} of size (n\_samples) which holds the target values (class labels) for the training samples. 
+
+Currently, MLPClassifier supports only the Cross-Entropy loss function, which allows probability estimates by running the predict\_proba method. 
+Further, the model supports multi-label classification in which a sample can belong to more than one class which makes it quite suitable for our approach. For each class, the raw output passes through the logistic function. Values larger or equal to 0.5 are rounded to 1, otherwise to 0.\\
+
+\textbf{Advantages:}
+\\$\ast$ It is capable to run non-linear models.
+\\$\ast$ Since, MLPClassifier uses Backpropagation so, it continously learns and improvize itself.
+\\$\ast$ Capability to learn models in real-time using partial fitting.\\
+
+\textbf{Disadvantages:}
+\\$\ast$ Highly sensitive to feature scaling.
+\\$\ast$ It uses a black box model,  results may be more difficult to interpret. 
+\\$\ast$ MLP requires tuning a number of hyperparameters such as the number of hidden neurons, layers, and iterations.
+
+\subsection{Decision Trees}
+Decision Trees are a type of Supervised Machine Learning where the data is continuously split according to a certain parameter. The tree can be explained by two entities, namely decision nodes and leaves. The leaves are the decisions or the final outcomes and the decision nodes are where the data is split.
+Decision Trees (DTs) are used for classification and regression. The goal is to create a model that predicts the value of a target variable by learning simple decision rules inferred from the data features.
+\begin{figure}
+  \includegraphics[width=\linewidth]{dt.png}
+  \caption{Decision Tree}
+  \label{fig:dt}
+\end{figure}
+
+Given training vectors \textit{$x_{i}\epsilon$ $R^{n}$, i=1,..., l} and a label  vector \textit{y$\epsilon$ $R^{l}$}, a decision tree recursively partitions the space such that the samples with the same labels are grouped together.
+Let the data at node \textit{m} be represented by \textit{Q}. For each candidate split \textit{$\theta$ \= (j,$t_{m}$)} consisting of a feature \textit{j} and threshold \textit{$t_{m}$} , partition the data into \textit{$Q_{left}$($\theta$)} and \textit{$Q_{right}$($\theta$)} subsets as,
+\[ Q_{left}(\theta) = (x,y)|x_{j}<=t_{m}
+\]
+\[ Q_{right}(\theta) = Q/Q_{left}(\theta)
+\]
+
+The impurity at \textit{m} is computed using an impurity function \textit{H()} , the choice of which depends on the task being solved (classification or regression).
+\[ G(Q,\theta) = \frac{n_{left}}{N_{m}}H(Q_{left}(\theta)) + \frac{n_{right}}{N_{m}}H(Q_{right}(\theta))
+\]
+Select the parameters that minimises the impurity
+\[ \theta^{\ast} = arg min_{\theta}G(Q,\theta)
+\]
+Recurse for subsets \textit{$Q_{left}(\theta^{\ast})$} and \textit{$Q_{right}(\theta^{\ast})$} until the maximum allowable depth is reached, \textit{$N_{m}< min_{samples}$} or \textit{$N_{m}$}=1.
+\\
+
+\textbf{Advantages:}
+\\$\ast$ Quite Simple to understand, interpret and visualize.
+\\$\ast$ Able to handle both numeric as well as categorical data and also multi-output problems.
+\\$\ast$ Uses a white box model. If a given situation is observable in a model, the explanation for the condition is easily explained by boolean logic.\\
+
+\textbf{Disadvantages:}
+\\$\ast$ Creation of over-complex trees that do not generalize the data well. Overfitting is a problem in Decision Tree. 
+\\$\ast$ Decision trees can be unstable because small variations in the data might result in a completely different tree being generated.
+\\$\ast$ For the cases, where some classes dominate creation of biased Decision Tree takes place.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Results and Observations}
+
+\subsection{Performance Measures}
+\subsection{Comparative Analysis}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{RELATED WORK}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{CONCLUSION}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{ACKNOWLEDGMENT}
+
+The preferred spelling of the word ÒacknowledgmentÓ in America is without an ÒeÓ after the ÒgÓ. Avoid the stilted expression, ÒOne of us (R. B. G.) thanks . . .Ó  Instead, try ÒR. B. G. thanksÓ. Put sponsor acknowledgments in the unnumbered footnote on the first page.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+References are important to the reader; therefore, each citation must be complete and correct. If at all possible, references should be commonly available publications.
+
+
+
+%\begin{thebibliography}{99}
+
+%\bibitem{c1} G. O. Young, ÒSynthetic structure of industrial plastics (Book style with paper title and editor),Ó 	in Plastics, 2nd ed. vol. 3, J. Peters, Ed.  New York: McGraw-Hill, 1964, pp. 15Ð64.
+%\bibitem{c2} W.-K. Chen, Linear Networks and Systems (Book style).	Belmont, CA: Wadsworth, 1993, pp. 123Ð135.
+
+
+%\end{thebibliography}
+
 \end{document}
