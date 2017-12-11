@@ -6,7 +6,7 @@ class Dataset:
 	def ReadDataSet(self):
 		self.match_data = pd.read_csv('finalDataset.csv')
 
-		target_cols = self.match_data.columns[217:237]
+		target_cols = self.match_data.columns[217:240]
 		feature_cols = self.match_data.columns[0:217]
 
 		target_set = self.match_data[target_cols]
