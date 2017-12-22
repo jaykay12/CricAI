@@ -1,9 +1,9 @@
 import sys
-from Classifier import ourMLPClassifier,ourDTClassifier
+from Classifier import ourMLPClassifier,ourDTClassifier,ourSVMClassifier
 import dataInputFormat
 
 if __name__ == '__main__':
-
+	SVMClf = ourSVMClassifier()
 	MLPClf = ourMLPClassifier()
 	DTClf = ourDTClassifier()
 	dIF = dataInputFormat.DataInput()
@@ -13,6 +13,8 @@ if __name__ == '__main__':
 	print("MLP Model:\tDone!")
 	DTClf.loadPickle()
 	print("Decision Tree Classifier:\tDone!")
+	SVMClf.loadPickle()
+	print("SVM Classifier:\tDone!")
 	dIF.hashAll()
 
 	while True:
@@ -59,13 +61,15 @@ if __name__ == '__main__':
 		inputPrediction[dIF.ourVenues[venueTeam1]] = 1
 		inputPrediction[dIF.ourVenues[venueTeam2]] = 1
 
-		print("Menu:\n1- MLPClassifier\n2- DTClassifier\n3- Exit")
+		print("Menu:\n1- MLPClassifier\n2- DTClassifier\n3- SVMClassifier\n4- Exit")
 		choice = int(input())
 		if choice==1:
 			MLPClf.runModel(inputPrediction,t1,t2)
 		elif choice==2:
 			DTClf.runModel(inputPrediction,t1,t2)
 		elif choice==3:
+			SVMClf.runModel(inputPrediction,t1,t2)
+		elif choice==4:
 			sys.exit()
 		else:
 			print("Don't You Dare to CRASH the system!")
