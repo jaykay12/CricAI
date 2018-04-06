@@ -25,7 +25,7 @@ Email: \IEEEauthorrefmark{1}rajeev@nith.ac.in,\IEEEauthorrefmark{2}jalazkumar120
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{abstract}
 
-Applying Data Mining \& Machine Learning in Sports Analytics is a booming sector in the field of Computer Science. After Football, Cricket is the second most popular sports with a fan base of around 2.5 billion and most popular in South Asia, Australia, The Caribbean and UK. The game has tremendous spectator support in more than 100 nations and the masses show great interest in predicting the game outcomes. There are lots of pre-game and in-game attributes which decides the outcome of a cricket match. Pre-game attributes like the venue, past track-records, Innings(First/Second), team strength etc. and in-game attributes like Toss, run rate, wickets in hand, strike rate etc. influence the result of a match in a predominant manner. In our study, we have used 2 different ML approaches, Decision Trees \& MultiLayer Perceptron Network, to predict how these factors affect the outcome of an ODI cricket match. Based on the observed results, We have designed CricAI: Cricket Match Outcome Prediction System. Our designed tool takes into consideration the pre-game attributes like the ground, venue (home, away, neutral) \& innings (first/second) to predict the outcome of given match.
+Applications of Machine Learning supplemented with Data Mining Techniques has become a hot topic for research worldwide, Sports Analytics is no exception though. Cricket is one of the most popular sports in Australia, Caribbean, UK \& South Asian Nations with a net fan base of around 2.5 billion. The game has tremendous spectator support in more than 100 nations and the masses show great interest in predicting the game outcomes. There are lots of pre-game and in-game attributes which decides the outcome of a cricket match. Pre-game attributes like the venue, past track-records, Innings(First/Second), team strength etc. and the various in-game attributes like Toss, run rate, wickets remaining, strike rate etc. influence the result of a match in a predominant manner. In our study, we have used 2 different ML approaches, Decision Trees \& MultiLayer Perceptron Network, to analyse the affect produced on the outcome of a Cricket match due to these varied factors. Based on these results, We have designed CricAI: Cricket Match Outcome Prediction System. Our designed tool takes into consideration the pre-game attributes like the ground, venue (home, away, neutral) \& innings (first/second) to predict the final outcome of given match.
 
 
 Keywords: Decision Tree Classifier, MLP Classifier, Features, Performance Measures
@@ -36,22 +36,21 @@ Keywords: Decision Tree Classifier, MLP Classifier, Features, Performance Measur
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{INTRODUCTION}
 
-Cricket which is the world's second most popular sport after soccer is basically a bat and ball game played between two teams of eleven players each. Each team comes to bat and has a single inning in which it seeks to score as many runs as possible, while the other team fields. The innings ends when the total quota of deliveries, which depends on game format has turned up, or the 10 batsmen have been dismissed, whichever comes first. The prime objective is to score more runs \& thus Runs are the decisive factor.
+Cricket is basically a bat and ball game which is played between 2 teams having 11 players each. Each team comes to bat and has a single inning in which it seeks to score as many runs as possible, while the other team fields. The innings ends when the total quota of deliveries, which depends on game format has turned up, or the 10 batsmen have been dismissed, whichever comes first. The prime objective is to score more runs \& thus Runs are the decisive factor.
 
 Game of Cricket is highly unpredictable in nature. Until the very last moment, it is difficult to make accurate predictions about the game. Various natural factors affecting the game output, huge betting market and enormous media coverage have given strong incentives to model this game from the Machine Learning Perspective.
 
 International Cricket Council (ICC) is the governing body which decides the rules of Cricket.
 
-There are three internationally recognized formats of Cricket matches - Test match, ODI match(One Day International) and T20 match. The main difference between these three formats is the scheduled duration of the game which directly modifies the number of deliveries each team got to play in their respective innings.
+There are basically 3 widely accepted formats of Cricket on International level - Test match, One Day Internationals and T20 match. The scheduled duration of the game is the prime difference between these three formats, which directly modifies the number of deliveries each team got to play in their respective innings.
 
 Test cricket format is the longest one and is considered as the highest standard of the game. Match duration is five days in which each team get to play 2 innings each. A standard day of test cricket match comprises of 3 sessions each of 2 hours.
 
-One Day International i.e. ODI format is in limited overs, where each team faces 300 deliveries(50 overs). ODI match is scheduled to complete in a Day or a Day/Night combination. 
+One Day International i.e. ODI format is in limited overs, where each team faces 300 deliveries(50 overs). Generaly, ODI match falls in any of the 2 categories: Day or Day-Night Match
 
 T20 is the shortest internationally recognized format of this game, where each team innings consist of 20 overs. This is more of an "explosive" and more "athletic" than the other two formats.
 
-Our study is focused on the most popular format of Cricket, One Day Internationals or the ODIs. The outcome of ODI match is influenced by a large no. of factors and can be predicted like all other 
-games. We need to find the best attributes or factors that influence the match outcome. For our study, we considered the factors analyzed by [1] and [2], which are proven to have a significant impact on the outcome of ODI match. The factors considered for analysis include:
+Our study is focused on the most popular format of Cricket, One Day Internationals or the ODIs. The outcome of One Day Internationals is influenced by a varied no. of features and can be predicted like all other games. We need to find the best attributes or factors that influence the match outcome. For our analysis, we have considered the factors used by [1] and [2], which are proven to have a substantial impact on the match outcome. The factors considered for analysis include:
 
 \begin{description}
   \item[$\bullet$ Teams Past Performance:] This factor captures the historic outcomes of all the matches played between the teams.
@@ -60,13 +59,13 @@ games. We need to find the best attributes or factors that influence the match o
   \item[$\bullet$ Home Game Advantage:] This is achieved by using Venue feature, which determines whether a particular ground is home/away/neutral for each of the playing teams.
 \end{description}
 
-Both of our classifiers are trained on the basis of these factors. For predicting the outcome of ODI matches we have used 2 supervised classification techniques - Decision Trees and Multi-Layer Perceptron Networks. We have conducted comparative studies between both the classifiers and summarized the results in this paper. 
+Both of our classifiers are trained on the basis of these factors. For predicting the outcome of Cricket matches we have used 2 supervised classification techniques - Decision Trees and Multi-Layer Perceptron Networks. Comparative study is conducted between both the classifiers and final results are summarized in this paper. 
 
-We then built a software tool called CricAI based on emerged results, which can be used to predict the outcome of any ODI match given the concerned factors as inputs. This software of ours can be of real value to the cricketers, support staff of teams and cricket analysts in terms of analyzing the future game in advance and working towards maximizing their chances of victory.
+We then built a Desktop App called CricAI based on emerged results, which can be used to predict the outcome of any ODI match given the appropriate features as the inputs. This software of ours can be of real value to the cricketers, support staff of teams and the cricket governing bodies for analysing the future course of game well in advance and working accordingly so as to maximize the victory chances.
 
-Clustering couldn't have made any contribution to our research as we dealt with multiple independent attributes, therefore placing them in clusters after finding similarity did not seem feasible. 
+Since, we need to deal with multiple independent attributes, therefore clustering them after finding similarity patterns doesn't seem feasible, due to which Clustering doesn't make any reasonable contribution to our research. 
 
-The rest of this paper is organised as follows. Section 2 explains the approach we have used for conducting the analysis. Section 3 presents a comparative study of the classifiers used. Section 4 presents the related work in this domain area. Section 5 gives the conclusions and the future scope associated with this approach. \\
+The rest of this paper is organised as follows. Section 2 explains the approach we have taken into account for the proposed analysis. Section 3 deals with the comparative study of the classifiers used. Section 4 presents the other related works in this domain. Section 5 gives the conclusions and the future scope associated with this approach. \\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{APPROACH FOR ANALYSIS}
@@ -104,21 +103,21 @@ The dataset was saved in comma separated format. We used a total of 7494 match r
 \\$\star$ Testing Dataset Size: 1874
 
 \subsection{MultiLayer Perceptron Networks}
-MLP Network is a type of supervised learning algorithm which learns a function \[ f(.): R^{m} \rightarrow R^{o} \] by training on a dataset, where \textit{o} is the total number of output units and \textit{m} is the total number of input units. Given features set \textit{X = $x_{1}$, $x_{2}$, ..., $x_{m}$} and a target \textit{y},  MLP Network can be trained to be a non-linear function approximator for classification as well as regression. The core difference between MLP Networks and Logistic regression is in the former one there can be one or more nonlinear layers, called hidden layers. Fig 1. shows a Multi-layer Perceptron Network with only 1 hidden layer.
+MLP Network is a type of supervised learning algorithm which learns a function \[ f(.): R^{n} \rightarrow R^{t} \] by using some training dataset, where \textit{t} is the total number of output units and \textit{n} is the total number of input units. Given features set \textit{X = $x_{1}$, $x_{2}$, ..., $x_{m}$} and a target \textit{y},  MLP Network can be trained to be a non-linear function approximator for classification as well as regression. The core difference between MLP Networks and Logistic regression is in the former one there can be hiddem layers, which are actually one or more nonlinear layers. Fig 1. shows a Multi-layer Perceptron Network with only 1 hidden layer.
 \begin{figure}
   \includegraphics[width=\linewidth]{MLP.png}
   \caption{Multilayer Perceptron Network}
   \label{fig:mlp}
 \end{figure}
 
-The leftmost layer which represents the input features, known as the input layer, consists of a set of neurons. \[ {x_{i}|x_{1},x_{2},\ldots,x_{m}} \]Each neuron in the hidden layer transforms the values from the previous layer with a weighted linear summation, \[ w_{1}x_{1} + w_{2}x_{2} + \ldots + w_{m}x_{m} \]
+Input Layer is the leftmost layer representing the input features, consists of a set of neurons. \[ {x_{i}|x_{1},x_{2},\ldots,x_{m}} \]Values from the previous layers are transformed using weighted linear summation by the neurons of the Hidden Layer, \[ w_{1}x_{1} + w_{2}x_{2} + \ldots + w_{m}x_{m} \]
 followed by a non-linear activation function acting on its output. The last hidden layer further transfers these values towards the output layer which transforms these intermediate values into the final output values.
 
-MLPClassifier [4] is implemented using a multi-layer perceptron (MLP) algorithm in which Backpropagation is used for training. More precisely, the actual training of dataset is done using some form of gradient descent whose gradients are calculated using Backpropagation.
+MLPClassifier [4] is implemented using a multi-layer perceptron (MLP) algorithm in which Backpropagation is used for training. More precisely, some form of gradient descent is actually used to train the dataset, and such gradient values are computed using Backpropagation.
 
-MLP trains on two arrays: array \textbf{X} of size(n\_samples, n\_features) which holds the training samples represented as floating point feature vectors; and array \textbf{y} of size (n\_samples) which holds the target values (class labels) for the training samples. 
+MLP trains using two input arrays: array \textbf{X} of size(n\_samples, n\_features); and array \textbf{y} of size (n\_samples). All feature vectors comprises of the training samples are held in \textbf{X} \& the target values(class labels) for respective training samples are held in \textbf{y}.
 
-Currently, MLPClassifier[4] supports only the Cross-Entropy loss function, using which we can derive the estimated probabilities by running predict\_proba function. The model also supports multi-label classification in which any input feature set can belong to more than one class which makes it quite suitable for our approach. \\
+Currently, Only the Cross-Entropy loss function is supported by the MLPClassifier [4], using which we can derive the estimated probabilities by running predict\_proba function. The model also supports multi-label classification in which any input feature set can belong to more than one class which makes it quite suitable for our approach. \\
 
 \textbf{Advantages:}\\
 \indent $\ast$ MLP Networks are capable to run all types of non-linear models.\\
@@ -127,26 +126,25 @@ Currently, MLPClassifier[4] supports only the Cross-Entropy loss function, using
 
 \textbf{Disadvantages:}\\
 \indent $\ast$ MLP Networks are highly sensitive for feature scaling.\\
-\indent $\ast$ It uses a black box model, results may be more difficult to interpret.\\
-\indent $\ast$ MLP Networks requires a large number of hyperparameters like the number of hidden neurons, layers and iterations to be properly tuned.
+\indent $\ast$ It uses a black box model, interpretation of results may become difficult.\\
+\indent $\ast$ MLP Networks requires a large number of hyperparameters \& thus proper tuning of the number of hidden neurons, layers and iterations is required.
 
 \subsection{Decision Trees}
-Decision Trees are also a type of Supervised Machine Learning techniques where the input data while training is continuously split according to a certain parameter. Any decision tree can be explained using two of its entities, decision nodes and leaf nodes. The leaves denote the final outcomes or the overall decisions made and at the decision nodes, our data is split using some entropy calculation.
-Decision Trees (DTs) can be used for both classification as well as regression problems. Our goal is to create a supervised model which can be able to predict the value of any input target variable by making use of the simple decision rules inferred from the features of the dataset.
+Decision Trees are also a type of Supervised Machine Learning techniques where according to a certain parameter input training data is continuously split up. Any decision tree can be explained using two of its entities, decision nodes and leaf nodes. The leaves denote the final outcomes or the overall decisions made and our data is split using some entropy calculation at the decision nodes.
+Decision Trees (DTs) can be used for both classification as well as regression problems. The entire goal is to create a supervised model which can predict the value of any input target variable by making use of the prominent decision rules formulated from the training dataset features.
 \begin{figure}
   \includegraphics[width=\linewidth]{DecisionTree.png}
   \caption{Decision Tree}
   \label{fig:dt}
 \end{figure}
 
-Given training vectors \textit{$x_{i}\epsilon$ $R^{n}$, i=1,..., l} and a label  vector \textit{y$\epsilon$ $R^{l}$}, a decision tree recursively partitions the entire data space such that the data samples which have the same labels are grouped together.
-Let the data at node \textit{m} be represented by \textit{Q}. For each candidate split \textit{$\theta$ \= (j,$t_{m}$)} consisting of a feature \textit{j} and threshold \textit{$t_{m}$} , partition the data into \textit{$Q_{left}$($\theta$)} and \textit{$Q_{right}$($\theta$)} subsets as,
+Given training vectors \textit{$x_{i}\epsilon$ $R^{n}$, i=1,..., l} and a label  vector \textit{y$\epsilon$ $R^{l}$}, recursive partitioning of entire dataset is done by the decision tree such that same labelled data samples are grouped together. Let the data at node \textit{m} be represented by \textit{Q}. For each candidate split \textit{$\theta$ \= (j,$t_{m}$)} consisting of a feature \textit{j} and threshold \textit{$t_{m}$} , partition the data into \textit{$Q_{left}$($\theta$)} and \textit{$Q_{right}$($\theta$)} subsets as,
 \[ Q_{left}(\theta) = (x,y)|x_{j}<=t_{m}
 \]
 \[ Q_{right}(\theta) = Q/Q_{left}(\theta)
 \]
 
-The impurity at \textit{m} is computed using an impurity function \textit{H()} , the choice of which depends on the task being solved (classification or regression).
+An impurity function \textit{H()} is used to compute the impurity at \textit{m} , whose choice depends on the task under consideration (regression or classification).
 \[ G(Q,\theta) = \frac{n_{left}}{N_{m}}H(Q_{left}(\theta)) + \frac{n_{right}}{N_{m}}H(Q_{right}(\theta))
 \]
 Select the parameters that minimises the impurity
@@ -162,7 +160,7 @@ Recurse for subsets \textit{$Q_{left}(\theta^{\ast})$} and \textit{$Q_{right}(\t
 
 \textbf{Disadvantages:}\\
 \indent $\ast$ Sometimes complex trees are created which are not able to generalize the data well. Decision Trees are prone to Over-fitting.\\
-\indent $\ast$ Decision trees are usually very unstable and even small modifications in the data might result in the generation of a completely different tree.\\
+\indent $\ast$ Decision trees are usually very unstable and even small modifications in the data might lead to an entirely different tree being generated.\\
 \indent $\ast$ For the cases, where some classes dominate creation of biased Decision Tree takes place.\\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -180,17 +178,17 @@ We have performed a comparative analysis of our classifiers considering the foll
 In cases of presence of imbalanced classes, Precision-Recall is a useful index to measure the success of prediction. In information retrieval, result relevancy is measured by precision, while recall is a measure of the total number of truly relevant results which were returned.
 
 \textbf{Precision Score:}
-This is defined as the number of true positives $(T_{p})$ over the number of true positives plus the number of false positives $(F_{p})$
+This is defined as the number of true positives $(T_{p})$ divided by the number of true positives plus the number of false positives $(F_{p})$
 \[ P = \frac{T_{p}}{T_{p}+F_{p}}\]
-The precision is intuitively the ability of the classifier not to label as positive a sample that is negative. Best value: 1 and Worst value: 0. 
+The precision is actually the ability of the classifier not to label a negative sample as a positive one. Best value: 1 and Worst value: 0. 
 
 \textbf{Recall Score:}
-This is defined as the number of true positives $(T_{p})$ over the number of true positives plus the number of false negatives $(F_{n})$
+This is defined as the number of true positives $(T_{p})$ divided by the number of true positives plus the number of false negatives $(F_{n})$
 \[ P = \frac{T_{p}}{T_{p}+F_{n}}\]
-The recall is intuitively the ability of the classifier to find all the positive samples. Best value: 1 and Worst value: 0.
+The recall is the ability of any classifier to find all the possible positive samples. Best value: 1 and Worst value: 0.
 
 \textbf{F1 Score:}
-This is defined as the interpretation of a weighted average of the precision and recall of a classifier. Numerically, it is the harmonic mean of precision and recall.
+This is defined as the interpretation of a weighted average of the recall score and precision score of a classifier. Numerically, it is the harmonic mean of precision and recall.
 \[ F1 = 2 \frac{P*R}{P+R}
 \]
 It is also known as the F-measure or balanced F-score. The relative contribution of precision and recall to the F1 score are equal.
@@ -258,32 +256,32 @@ We selected 3 teams: India, Australia and Pakistan randomly and separated the ma
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{RELATED WORK}
-From our literature survey, we observed that game of cricket has very few machine learning related work done on it. Though cricket shares some features with sports like baseball, it still remains unique in various ways and thus deserves to be analyzed in an independent manner.
+From our literature survey, we observed that game of cricket has very few machine learning related work done on it. Despite sharing numerous features with other sports like baseball, game of cricket is unique of its type and thus an independent analysis is required.
 
-Statistical Approach is the base of most of the analyzing studies done on cricket.
+Statistical Approach is the base of majority of the analytical studies \& research done on cricket.
 
-Bailey and Clarke conducted a study for predicting the outcome of an in-progress game in one-day international cricket [5]. WASP(Winning and Score Predictor), 2012 is a product grounded on the theory of Dynamic Programming, by Dr Scott Brooker and Dr Seamus Hogan at the University of Canterbury in New Zealand.
+Prediction of the outcome of an in-progress game in one-day international cricket was conducted by Bailey and Clarke [5]. WASP(Winning and Score Predictor), 2012 is a product grounded on the theory of Dynamic Programming, by Dr Scott Brooker and Dr Seamus Hogan at the University of Canterbury in New Zealand.
 
 Neeraj Pathak \& Hardik Wadhwa conducted a similar comparative analysis of match outcomes using the classification models: Support Vector Machines, Random Forests and Naive Bayes[6].Preeti Satao and Team predicted the score of cricket match using Clustering Techniques[7].
 
 In Parag Shah, Mitesh Shah[8] and Amal Kaluarachchi, Aparna S. Varde[9], they explored the statistical significance of a range of factors \& game-attributes which explain the outcome of a cricket match. In particular, home crowd advantage, match type (day-night/day), past performance of the team against each other \& game plan (batting first or fielding first) were the key interests in their investigation.
 
-Madan Gopal Jhanwar and Vikram Pudi used a supervised learning approach from some team composition perspective to predict the outcome of a One Day International (ODI) cricket match. Their work suggested that one of the distinctive features for predicting the winner is the relative team strength of both the competing teams. Swetha and Saravanan.KN analysed the factors that cricket game depends on and decides Winning[1]. 
+Madan Gopal Jhanwar and Vikram Pudi used a supervised learning approach from some team composition perspective for predicting the result of an One Day International (ODI) cricket match. Their work suggested that one of the distinctive features for predicting the winner is the relative team strength of both the competing teams. Swetha and Saravanan.KN analysed the factors that cricket game depends on and decides Winning[1]. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{CONCLUSION}
 
-In our study, we performed a comparative analysis of the predictions generated by 2 different supervised classification models for the same input dataset. We have been able to predict the match outcome using the features from the dataset. 
+In our study, we performed a comparative analysis of the predictions generated by 2 different supervised classification models for the same input dataset. We are able to predict the final game outcomes using the pre-game attributes as the features of the dataset.
 
-The main contributions of our work are:
+The major contributions of our study are:
 \begin{description}
   \item$\bullet$ Comparative analysis of performance measure of two different supervised learning techniques. 
-  \item$\bullet$ Analysing all the factors which strive to affect the outcome of the cricket match.
-  \item$\bullet$ Development of the Prediction tool that can be used to predict the chances of winning, using input attributes.
+  \item$\bullet$ Analysing all the factors which strive to affect the final outcome of the game of cricket.
+  \item$\bullet$ Design \& Development of a Prediction Desktop App which can be used to predict the chances of winning, using input attributes.
 \end{description}
 
-As future work, we plan to expand this analysis more from the team composition perspective. Also, the relevance of considering 1980s match data equivalent to the 2017s match data also need to be analysed and worked upon. We can also apply our methodology and technique to predict the outcomes of games like hockey and football.
+As future course of work, we plan to expand this analytical study more from the team composition perspective. Also, the relevance of considering 1980s match data equivalent to the 2017s match data also need to be analysed and worked upon. We can also apply our methodology and technique to predict the outcomes of games like hockey and football.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{ACKNOWLEDGMENT}
