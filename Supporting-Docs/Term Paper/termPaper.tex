@@ -5,15 +5,15 @@
 
 \newcommand{\head}[1]{\textnormal{\textbf{#1}}}
 
-\title{Predicting the Outcome of ODI Cricket Matches using Decision Trees and MLP Networks}
+\title{Outcome Prediction of ODI Cricket Matches using Decision Trees and MLP Networks}
 
 \author{
-\IEEEauthorblockN{Rajeev Kumar\IEEEauthorrefmark{1},Jalaz Kumar\IEEEauthorrefmark{2}}
+\IEEEauthorblockN{\IEEEauthorrefmark{1}Rajeev Kumar,\IEEEauthorrefmark{2}Jalaz Kumar}
 \IEEEauthorblockA{
 \IEEEauthorrefmark{1}Assistant Professor,\IEEEauthorrefmark{2}Student\\
 Department of Computer Science and Engineering\\
 National Institute of Technology Hamirpur, India\\
-Email: \IEEEauthorrefmark{1}rajeev@nith.ac.in,\IEEEauthorrefmark{2}jalazkumar1208@gmail.com}}
+\IEEEauthorrefmark{1}rajeev@nith.ac.in,\IEEEauthorrefmark{2}jalazkumar1208@gmail.com}}
 
 \begin{document}
 
@@ -25,10 +25,10 @@ Email: \IEEEauthorrefmark{1}rajeev@nith.ac.in,\IEEEauthorrefmark{2}jalazkumar120
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{abstract}
 
-Applications of Machine Learning supplemented with Data Mining Techniques has become a hot topic for research worldwide, Sports Analytics is no exception though. Cricket is one of the most popular sports in Australia, Caribbean, UK \& South Asian Nations with a net fan base of around 2.5 billion. The game has tremendous spectator support in more than 100 nations and the masses show great interest in predicting the game outcomes. There are lots of pre-game and in-game attributes which decides the outcome of a cricket match. Pre-game attributes like the venue, past track-records, Innings(First/Second), team strength etc. and the various in-game attributes like Toss, run rate, wickets remaining, strike rate etc. influence the result of a match in a predominant manner. In our study, we have used 2 different ML approaches, Decision Trees \& MultiLayer Perceptron Network, to analyse the affect produced on the outcome of a Cricket match due to these varied factors. Based on these results, We have designed CricAI: Cricket Match Outcome Prediction System. Our designed tool takes into consideration the pre-game attributes like the ground, venue (home, away, neutral) \& innings (first/second) to predict the final outcome of given match.
+Applications of Machine Learning supplemented with Data Mining Techniques has become a hot topic for research worldwide, Sports Analytics is no exception though. Cricket is one of the most popular sports in Australia, Caribbean, UK \& South Asian Nations with a net fan base of around 2.5 billion. The game has tremendous spectator support in more than 100 nations and the masses show great interest in predicting the game outcomes. There are lots of pre-game and in-game attributes which decides the outcome of a cricket match. Pre-game attributes like the venue, past track-records, Innings(First/Second), team strength etc. and the various in-game attributes like Toss, run rate, wickets remaining, strike rate etc. influence the result of a match in a predominant manner. In our study, we have used 2 different ML approaches, Decision Trees \& MultiLayer Perceptron Network, to analyse the effect produced on the outcome of a Cricket match due to these varied factors. Based on these results, We have designed CricAI: Cricket Match Outcome Prediction System. Our designed tool takes into consideration the pre-game attributes like the ground, venue (home, away, neutral) \& innings (first/second) for predicting the final result of given match.
 
 
-Keywords: Decision Tree Classifier, MLP Classifier, Features, Performance Measures
+Keywords: Decision Tree Classifier, Multi Layer Perceptron Classifier, Features, Performance Measures
 
 \end{abstract}
 
@@ -42,7 +42,7 @@ Game of Cricket is highly unpredictable in nature. Until the very last moment, i
 
 International Cricket Council (ICC) is the governing body which decides the rules of Cricket.
 
-There are basically 3 widely accepted formats of Cricket on International level - Test match, One Day Internationals and T20 match. The scheduled duration of the game is the prime difference between these three formats, which directly modifies the number of deliveries each team got to play in their respective innings.
+There are 3 widely accepted formats of Cricket on International level - T20 match, One Day Internationals and Test match. The scheduled duration of the game is the prime difference between these three formats, which directly modifies the number of deliveries each team got to play in their respective innings.
 
 Test cricket format is the longest one and is considered as the highest standard of the game. Match duration is five days in which each team get to play 2 innings each. A standard day of test cricket match comprises of 3 sessions each of 2 hours.
 
@@ -59,15 +59,16 @@ Our study is focused on the most popular format of Cricket, One Day Internationa
   \item[$\bullet$ Home Game Advantage:] This is achieved by using Venue feature, which determines whether a particular ground is home/away/neutral for each of the playing teams.
 \end{description}
 
-Both of our classifiers are trained on the basis of these factors. For predicting the outcome of Cricket matches we have used 2 supervised classification techniques - Decision Trees and Multi-Layer Perceptron Networks. Comparative study is conducted between both the classifiers and final results are summarized in this paper. 
+Both of our classifiers are trained on the basis of these factors. For predicting the final result of Cricket matches we have used 2 supervised classification techniques - Decision Trees and Multi-Layer Perceptron Networks. Comparative study is conducted between both the classifiers and final results are summarized in this paper. 
 
-We then built a Desktop App called CricAI based on emerged results, which can be used to predict the outcome of any ODI match given the appropriate features as the inputs. This software of ours can be of real value to the cricketers, support staff of teams and the cricket governing bodies for analysing the future course of game well in advance and working accordingly so as to maximize the victory chances.
+We then built a Desktop App called CricAI based on emerged results, which can be used for predicting the final outcome of any Cricket match given the appropriate features as the inputs. This software of ours can be of real value to the cricketers, support staff of teams and the cricket governing bodies for analysing the future course of game well in advance and working accordingly so as to maximize the victory chances.
 
 Since, we need to deal with multiple independent attributes, therefore clustering them after finding similarity patterns doesn't seem feasible, due to which Clustering doesn't make any reasonable contribution to our research. 
 
-The rest of this paper is organised as follows. Section 2 explains the approach we have taken into account for the proposed analysis. Section 3 deals with the comparative study of the classifiers used. Section 4 presents the other related works in this domain. Section 5 gives the conclusions and the future scope associated with this approach. \\
+The rest of this paper is organised as follows. Section 2 explains the approach we have taken into account for the proposed analysis. Section 3 deals with the comparative analysis of both the classifiers used. Section 4 presents the other related works in this domain. Section 5 gives the conclusions and the future scope associated with this approach.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \section{APPROACH FOR ANALYSIS}
 
 \subsection{Data Collection}
@@ -117,7 +118,7 @@ MLPClassifier [4] is implemented using a multi-layer perceptron (MLP) algorithm 
 
 MLP trains using two input arrays: array \textbf{X} of size(n\_samples, n\_features); and array \textbf{y} of size (n\_samples). All feature vectors comprises of the training samples are held in \textbf{X} \& the target values(class labels) for respective training samples are held in \textbf{y}.
 
-Currently, Only the Cross-Entropy loss function is supported by the MLPClassifier [4], using which we can derive the estimated probabilities by running predict\_proba function. The model also supports multi-label classification in which any input feature set can belong to more than one class which makes it quite suitable for our approach. \\
+Currently, Only the Cross-Entropy loss function is supported by the MLPClassifier [4], using which we can derive the estimated probabilities by running predict\_proba function. MLPClassifier also supports multi-class classification in which any input feature set can belong to more than one class which makes it quite suitable for our approach. \\
 
 \textbf{Advantages:}\\
 \indent $\ast$ MLP Networks are capable to run all types of non-linear models.\\
@@ -127,7 +128,7 @@ Currently, Only the Cross-Entropy loss function is supported by the MLPClassifie
 \textbf{Disadvantages:}\\
 \indent $\ast$ MLP Networks are highly sensitive for feature scaling.\\
 \indent $\ast$ It uses a black box model, interpretation of results may become difficult.\\
-\indent $\ast$ MLP Networks requires a large number of hyperparameters \& thus proper tuning of the number of hidden neurons, layers and iterations is required.
+\indent $\ast$ MLP Networks requires a large number of hyperparameters \& thus proper tuning of the number of epochs, hidden neurons and layers is required.
 
 \subsection{Decision Trees}
 Decision Trees are also a type of Supervised Machine Learning techniques where according to a certain parameter input training data is continuously split up. Any decision tree can be explained using two of its entities, decision nodes and leaf nodes. The leaves denote the final outcomes or the overall decisions made and our data is split using some entropy calculation at the decision nodes.
@@ -138,7 +139,7 @@ Decision Trees (DTs) can be used for both classification as well as regression p
   \label{fig:dt}
 \end{figure}
 
-Given training vectors \textit{$x_{i}\epsilon$ $R^{n}$, i=1,..., l} and a label  vector \textit{y$\epsilon$ $R^{l}$}, recursive partitioning of entire dataset is done by the decision tree such that same labelled data samples are grouped together. Let the data at node \textit{m} be represented by \textit{Q}. For each candidate split \textit{$\theta$ \= (j,$t_{m}$)} consisting of a feature \textit{j} and threshold \textit{$t_{m}$} , partition the data into \textit{$Q_{left}$($\theta$)} and \textit{$Q_{right}$($\theta$)} subsets as,
+Given, \textit{$x_{i}\epsilon$ $R^{n}$, i=1,..., l} are the training vectors and \textit{y$\epsilon$ $R^{l}$} is the target vector, recursive partitioning of entire dataset is done by the decision tree such that data samples with same target labels get in a single group. Let \textit{Q} represents the data at node \textit{m}. For each candidate node, partition the data into \textit{$Q_{left}$($\theta$)} and \textit{$Q_{right}$($\theta$)} subsets using split \textit{$\theta$ \= (j,$t_{m}$)} which consists of a feature \textit{j} and threshold \textit{$t_{m}$},
 \[ Q_{left}(\theta) = (x,y)|x_{j}<=t_{m}
 \]
 \[ Q_{right}(\theta) = Q/Q_{left}(\theta)
@@ -150,7 +151,7 @@ An impurity function \textit{H()} is used to compute the impurity at \textit{m} 
 Select the parameters that minimises the impurity
 \[ \theta^{\ast} = arg min_{\theta}G(Q,\theta)
 \]
-Recurse for subsets \textit{$Q_{left}(\theta^{\ast})$} and \textit{$Q_{right}(\theta^{\ast})$} until the maximum allowable depth is reached, \textit{$N_{m}< min_{samples}$} or \textit{$N_{m}$}=1.
+Continue partitioning recursively for the subsets \textit{$Q_{left}(\theta^{\ast})$} and \textit{$Q_{right}(\theta^{\ast})$} until the maximum allowable depth is reached, \textit{$N_{m}< min_{samples}$} or \textit{$N_{m}$}=1.
 \\
 
 \textbf{Advantages:}\\
@@ -175,26 +176,26 @@ We have performed a comparative analysis of our classifiers considering the foll
 \textbf{Accuracy Score:}
  This compares the actual outcomes with the predicted outcomes of our classifier for a given input dataset. For best Accuracy Score, the set of actual true labels in testing dataset must match the corresponding set of predicted labels.
 
-In cases of presence of imbalanced classes, Precision-Recall is a useful index to measure the success of prediction. In information retrieval, result relevancy is measured by precision, while recall is a measure of the total number of truly relevant results which were returned.
+For measuring the success of our prediction, Precision-Recall is a useful index. In information retrieval, result relevancy is measured using precision, while recall is a measure of the total number of truly relevant results which were returned.
 
 \textbf{Precision Score:}
 This is defined as the number of true positives $(T_{p})$ divided by the number of true positives plus the number of false positives $(F_{p})$
 \[ P = \frac{T_{p}}{T_{p}+F_{p}}\]
-The precision is actually the ability of the classifier not to label a negative sample as a positive one. Best value: 1 and Worst value: 0. 
+The precision is the ability of the classification model for not labelling a negative sample as a positive one. Best value: 1 and Worst value: 0. 
 
 \textbf{Recall Score:}
 This is defined as the number of true positives $(T_{p})$ divided by the number of true positives plus the number of false negatives $(F_{n})$
 \[ P = \frac{T_{p}}{T_{p}+F_{n}}\]
-The recall is the ability of any classifier to find all the possible positive samples. Best value: 1 and Worst value: 0.
+The recall is the ability of the classification model of finding all the possible positive samples. Best value: 1 and Worst value: 0.
 
 \textbf{F1 Score:}
-This is defined as the interpretation of a weighted average of the recall score and precision score of a classifier. Numerically, it is the harmonic mean of precision and recall.
+This is defined as the interpretation of a weighted average of the recall score and precision score of a classifier. Numerically, it is equal to the harmonic mean of the precision-score and recall-score.
 \[ F1 = 2 \frac{P*R}{P+R}
 \]
-It is also known as the F-measure or balanced F-score. The relative contribution of precision and recall to the F1 score are equal.
+It is also known as the F-measure or balanced F-score. Both precision and recall have an equal relative contribution to the F1 score.
 
 \textbf{Average Precision Score:}
-The precision-recall curve is summarised as the weighted mean of precisions achieved at each threshold, with the increase in recall from the previous threshold used as the weight:
+This is defined as the weighted mean of precisions achieved at each threshold value, summarized using precision-recall curve:
 \[ AP = \Sigma_{k}(R_{k}-R_{k-1})P_{k}\]
 where \textit{$R_{k}$} and \textit{$P_{k}$} are the recall and precision at the \textit{$k^{th}$} threshold.
 
