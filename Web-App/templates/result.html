@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Cric AI</title>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='cric.css')}}" />
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='bootstrap.min.css')}}" />
+</head>
+
+<body background="/static/CRICKET.jpg" id="banner">
+
+
+<div class="head" id="banner">
+
+<div class="top">
+<div class="wrapper">
+
+<div class="col-md-3" id="name">
+CricAI
+</div>
+<div class="col-md-9" align="left" id="info">
+<marquee>The most accurate cricket prediction system.</marquee>
+</div>
+
+</div>
+</div>
+
+
+<div class="result" align="center" style="margin-top: 75px;">
+<h1>Winner</h1>
+<br />
+<br />
+<p style="font-size: 100px; font-color: #fff">
+{{result}}
+</p>
+</div>
+
+
+</div>
+
+</body>
+</html>
