@@ -1,14 +1,16 @@
 # CricAI
 
-## A Desktop App predicting the outcomes of Future Cricket Matches using Neutral Nets & Decision Tree Classifiers. :smile:
+## A Desktop App & Web App predicting the outcomes of Future Cricket Matches using Neutral Nets & Decision Tree Classifiers. :smile:
 
-### Technologies Used:
+## Technologies Used:
 - Python
 - Libraries of Python viz Sklearn, Pandas, NumPy etc. 
 - UI Framework is PyQT5
+- Web Framework is Flask
 - Models Implemented:
   - Multi Level Perceptron Classifier
   - Decision Tree Classifier
+  - Support Vector Machines Classifier
   
 ## How to build this project :-
 
@@ -19,17 +21,9 @@
    	`git clone https://github.com/[username]/CricAI.git`
 
    	[username] is replaced by your github username
-
-3. **Will Update in couple of days** :wink:
-
-## How to contribute in this project :-
-
-- Go through the entire project after building it, find bugs and report them by raising issues.
-
-- View the issues put up in the repo and try to fix them.
-
- **IMPORTANT** :- Before sending a **Pull Request** make sure that your forked repository is in sync with the base repository
+    
+3. See Individual Apps' README.md for Build-Specific Instructions.
  
 ### License :-
 This project is currently licensed under the MIT License & Copyright (c) 2017 Jalaz Kumar.  
-For more details see [LICENSE.md](https://github.com/CSEC-NITH/CricAI/blob/master/LICENSE).
+For more details see [LICENSE.md](https://github.com/jaykay12/CricAI/blob/master/LICENSE).
