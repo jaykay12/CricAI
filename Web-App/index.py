@@ -9,56 +9,50 @@ app = Flask(__name__)
 def index():
 	
 	if request.method == "POST":
-		first = request.form['First']
-		opponent = request.form['opponent']
-		innings= request.form['innings']
-		venue= request.form['venue']
-		ground= request.form['Ground']
+		team1 = request.form['team1']
+		team2 = request.form['team2']
+		innings_t1 = request.form['innings_t1']
+		venue_t1 = request.form['venue_t1']
+		ground= request.form['ground']
+		choice = request.form['choice']
 		
-		print( first, opponent, innings, venue, ground, file=sys.stderr)
-		return render_template('result.html',result = main1(ground,int(innings), int(venue), first,opponent))
+		print(team1, team2, innings_t1, venue_t1, ground, choice, file=sys.stderr)
+		return render_template('result.html',result = getResults(ground, int(innings_t1), int(venue_t1), team1, team2, int(choice)))
 	else:
 		return render_template('index.html')
 
 @app.route('/result', methods = ["GET","POST"])
 def result():
 	if request.method == "POST":
-		a = request.form['First']
-		print("dsdsfdsafdsfdsfdsfaadfsdfsadsfdfs", a, file=sys.stderr)
+		a = request.form['team1']
+		print("Hellooo...!", a, file=sys.stderr)
 		
 
-def main1(ground, innings, venue, t1,t2):
+def getResults(ground, innings, venue, team1, team2, choice):
 	ground=ground[1:-1]
-	t1=t1[1:-1]
-	t2=t2[1:-1]
+	team1=team1[1:-1]
+	team2=team2[1:-1]
 
 	SVMClf = ourSVMClassifier()
+	MLPClf = ourMLPClassifier()
+	DTClf = ourDTClassifier()
 	
-	dIF = dataInputFormat.DataInput()
+	dIF = dataInputFormat.DataInput_Categorical()
 
 	print("Starting Up..!\n\nLoading Pickled Models")
-	
 	SVMClf.loadPickle()
-	print("SVM Classifier:\tDone!")
+	DTClf.loadPickle()
+	MLPClf.loadPickle()
+
 	dIF.hashAll()
 
-	#choice = int(input("\n\nHit 0 to Exit & Hit 1 to proceed: "))
-	choice = 3
-
-
 	inputPrediction = [0]*217
-
-
-	
 	if innings == 1:
 		inningsTeam1 = "Team1_1Inning"
 		inningsTeam2 = "Team2_2Inning"
 	elif innings == 2:
 		inningsTeam1 = "Team1_2Inning"
 		inningsTeam2 = "Team2_1Inning"
-	else:
-		print("Don't You Dare to CRASH the system!")
-		sys.exit()
 
 	if venue == 1:
 		venueTeam1 = "Team1_Home"
@@ -69,31 +63,22 @@ def main1(ground, innings, venue, t1,t2):
 	elif venue == 3:
 		venueTeam1 = "Team1_Neutral"
 		venueTeam2 = "Team2_Neutral"
-	else:
-		print("Don't You Dare to CRASH the system!")
-		sys.exit()	
 
-	inputPrediction[dIF.ourTeams_1[t1]] = 1
-	inputPrediction[dIF.ourTeams_2[t2]] = 1
+	inputPrediction[dIF.ourTeams_1[team1]] = 1
+	inputPrediction[dIF.ourTeams_2[team2]] = 1
 	inputPrediction[dIF.ourGrounds[ground]] = 1
 	inputPrediction[dIF.ourInnings[inningsTeam1]] = 1
 	inputPrediction[dIF.ourInnings[inningsTeam2]] = 1
 	inputPrediction[dIF.ourVenues[venueTeam1]] = 1
 	inputPrediction[dIF.ourVenues[venueTeam2]] = 1
-
-	print("Menu:\n1- MLPClassifier\n2- DTClassifier\n3- SVMClassifier\n4- Exit")
 	
 	if choice==1:
-		MLPClf.runModel(inputPrediction,t1,t2)
+		return SVMClf.runModel(inputPrediction,team1,team2)
 	elif choice==2:
-		DTClf.runModel(inputPrediction,t1,t2)
+		return DTClf.runModel(inputPrediction,team1,team2)
 	elif choice==3:
-		return SVMClf.runModel(inputPrediction,t1,t2)
-	elif choice==4:
-		sys.exit()
-	else:
-		print("Don't You Dare to CRASH the system!")
-		sys.exit()
+		return MLPClf.runModel(inputPrediction,team1,team2)
+		
 
 if __name__ =='__main__':
 	app.run(debug=True)

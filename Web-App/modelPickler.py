@@ -4,9 +4,9 @@ from Classifier import ourMLPClassifier, ourDTClassifier,ourSVMClassifier
 
 if __name__ == '__main__':
 
+	SVMClf = ourSVMClassifier()
 	MLPClf = ourMLPClassifier()
 	DTClf = ourDTClassifier()
-	SVMClf = ourSVMClassifier()
 	
 	print("Beginning to Pickle SVM Model!")
 	SVMClf.trainModel()
@@ -18,7 +18,7 @@ if __name__ == '__main__':
 	MLPClf.trainModel()
 	MLPClf.accuracyCheck()
 	MLPClf.dumpPickle()
-	print("Done: MLP Model!")
+	print("Done: MLP Model!\n")
 
 	print("Beginning to Pickle DT Model!")
 	DTClf.trainModel()
