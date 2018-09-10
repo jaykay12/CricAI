@@ -43,7 +43,7 @@ class ourSVMClassifier:
 	def runModel(self,inputPrediction,t1,t2):
 		winnerTeam = self.SVMclf.predict([inputPrediction])
 
-		return winnerTeam
+		return winnerTeam[0]
 
 		
 class ourMLPClassifier:

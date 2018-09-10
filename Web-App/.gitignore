@@ -1,6 +1,5 @@
 *.gz
 *.log
 *.aux
-*.pkl
 *.pyc
 venv
