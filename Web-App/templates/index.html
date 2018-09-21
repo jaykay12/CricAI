@@ -63,8 +63,8 @@
             <form method="post">
                     <div class="row" style="margin-top:20px">
                         <div class="col-md-4">
-                            <select name="team1" class="btn btn-outline-primary" style="margin-left:150px">
-                                <option>Select Team 1</option>
+                            <select name="team1" class="btn btn-outline-primary" style="margin-left:150px" required>
+                                <option value="">Select Team 1</option>
                                 <option value=" Afghanistan "> Afghanistan </option>
                                 <option value=" Australia "> Australia </option>
                                 <option value=" Bangladesh "> Bangladesh </option>
@@ -92,16 +92,16 @@
                         </div>
 
                         <div class="col-md-3">
-                                <select name="innings_t1" class="btn btn-outline-primary" style="margin-left:70px">
-                                    <option>Select Innings(Team 1)</option>
+                                <select name="innings_t1" class="btn btn-outline-primary" style="margin-left:70px" required>
+                                    <option value="">Select Innings(Team 1)</option>
                                     <option value="1">First</option>
                                     <option value="2">Second</option>
                                 </select>
                         </div>
 
                         <div class="col-md-2">
-                                <select name="venue_t1" class="btn btn-outline-primary" style="margin-left:0px">
-                                    <option>Select Venue(Team 1)</option>
+                                <select name="venue_t1" class="btn btn-outline-primary" style="margin-left:0px" required>
+                                    <option value="">Select Venue(Team 1)</option>
                                     <option value="1">Home</option>
                                     <option value="2">Away</option>
                                     <option value="3">Neutral</option>
@@ -109,8 +109,8 @@
                         </div>
 
                         <div class="col-md-3">
-                                <select name="ground" class="btn btn-outline-primary" style="margin-left:30px">
-                                    <option>Select Ground</option>
+                                <select name="ground" class="btn btn-outline-primary" style="margin-left:30px" required>
+                                    <option value="">Select Ground</option>
                                     <option value=" Aberdeen "> Aberdeen </option>
                                     <option value=" Abu Dhabi "> Abu Dhabi </option>
                                     <option value=" Adelaide "> Adelaide </option>
@@ -278,8 +278,8 @@
 
                     <div class="row" style="margin-top:20px">
                         <div class="col-md-4">
-                            <select name="team2" class="btn btn-outline-primary" style="margin-left:150px">
-                                <option>Select Team 2</option>
+                            <select name="team2" class="btn btn-outline-primary" style="margin-left:150px" required>
+                                <option value="">Select Team 2</option>
                                 <option value=" Afghanistan "> Afghanistan </option>
                                 <option value=" Australia "> Australia </option>
                                 <option value=" Bangladesh "> Bangladesh </option>
@@ -306,8 +306,8 @@
                             </select>
                         </div>
                         <div class="col-md-8">
-                                <select name="choice" class="btn btn-outline-primary" style="margin-left:70px">
-                                    <option>Choose Classifier</option>
+                                <select name="choice" class="btn btn-outline-primary" style="margin-left:70px" required>
+                                    <option value="">Choose Classifier</option>
                                     <option value="1"> SVM Classifier </option>
                                     <option value="2"> DT Classifier </option>
                                     <option value="3"> MLP Classifier </option>
