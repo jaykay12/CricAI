@@ -1,16 +1,9 @@
 @charset "utf-8";
 /* CSS Document */
 
-*{margin:0px; padding:0px;}
-.wrapper { height:auto; width:1000px; margin:auto;}
-.top{ height:100px; width:100%; background-color:#000; opacity:.5}
-#name{color:#FFF; font-size:60px; padding:10px; font-family:"Times New Roman", Times, serif; font-weight:bold;}
-#info{color:#FFF; font-size:18px; padding-top:55px;}
-#banner{background-image="{{url_for('static', filename='CRICKET.jpg')}}" !important ; background-repeat:no-repeat fixed; background-size:100%; height:800px;; text-align:center} 
-.extra{padding-top:100px; padding-bottom:50px; margin-top:50px;}
-#x {color:#fff; margin:0px; font-size:18px}
-#sub{ background-color:#245963; border:#66a0ac solid 2px; padding:10px; width:200px; color:#FFF;}
-#mar{ margin-top:50px;}
-.team{ margin-top:100px;}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
 
 

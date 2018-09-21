@@ -1,35 +1,46 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
+        <link rel="stylesheet" type="text/css" href="../static/styles/styles.css"/>
+        <link rel="stylesheet" type="text/css" href="../static/styles/bootstrap.css">
+        
+        <script src="../static/js/jquery-3.3.1.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="../static/js/bootstrap.js"></script>
+        <script src="../static/js/main.js"></script>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-            <title>Cric AI</title>
-                <link rel="stylesheet" type="text/css" href="/static/styles/styles.css"/>
-                <link rel="stylesheet" type="text/css" href="/static/styles/bootstrap.css"/>
+
+        <title>
+            CricAI: Smart Outcome Prediction System
+        </title>
     </head>
 
-    <body background="/static/assets/CRICKET.jpg" id="banner">
-        <div class="head" id="banner">
-            <div class="top">
-                <div class="wrapper">
-                    <div class="col-md-3" id="name">
-                        CricAI
-                    </div>
-
-                    <div class="col-md-9" align="left" id="info">
-                        <marquee>The most accurate cricket prediction system.</marquee>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="result" align="center" style="margin-top: 75px;">
-                <h1>Winner</h1>
+    <body>
+        <a href="/">
+            <h1 class="display-4" style="margin-top:10px; font-size:40px; font-weight:bold" align="center">CricAI: Smart Outcome Prediction System</h1>
+        </a>
+        <div class="result" align="center" style="margin-top: 75px;">
+            <img src="../static/assets/winner.jpg" class="rounded-circle" alt="trophy">
+            <h1>
+                Winner
+            </h1>
                 <br />
                 <br />
-                <p style="font-size: 100px; color: #fff">
-                {{result}}
-                </p>
-            </div>
+                <div class="card" style="width:300px">
+                        <img src="../static/assets/flags/India.jpg" class="rounded card-img-top" alt="Flag Image" id="flagimage">
+<!--                    <script>
+                            var flagSrc = {result};
+                            console.log("hello",flagSrc);
+                            var newSrc = "../static/assets/flags"+flagSrc+".jpg";
+                            $("#flagimage").attr("src",newSrc);
+                        </script>  
+-->
+                        <div class="card-body">
+                          <h4 class="card-title">{{result}}</h4>
+                        </div>
+                      </div>
         </div>
     </body>
 </html>
