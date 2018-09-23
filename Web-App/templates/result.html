@@ -31,13 +31,14 @@
                 <br />
                 <div class="card" style="width:300px">
                         <img src="../static/assets/flags/India.jpg" class="rounded card-img-top" alt="Flag Image" id="flagimage">
-<!--                    <script>
-                            var flagSrc = {result};
-                            console.log("hello",flagSrc);
-                            var newSrc = "../static/assets/flags"+flagSrc+".jpg";
+                    <script>
+                            
+                            var flagSrc = "{{ result|safe }}";
+                            console.log(flagSrc);
+                            var newSrc = "../static/assets/flags/"+flagSrc+".jpg";
                             $("#flagimage").attr("src",newSrc);
                         </script>  
--->
+
                         <div class="card-body">
                           <h4 class="card-title">{{result}}</h4>
                         </div>
