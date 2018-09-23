@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
-        <link rel="stylesheet" type="text/css" href="../static/styles/styles.css"/>
-        <link rel="stylesheet" type="text/css" href="../static/styles/bootstrap.css">
-        
-        <script src="../static/js/jquery-3.3.1.js"></script>
+        <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='styles/styles.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='styles/bootstrap.css')}}">
+        <link rel="shortcut icon" href="{{url_for('static', filename='assets/cricket.png')}}" />
+        <script src="{{url_for('static', filename='js/jquery-3.3.1.js')}}"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-        <script src="../static/js/bootstrap.js"></script>
-        <script src="../static/js/main.js"></script>
+        <script src="{{url_for('static', filename='js/bootstrap.js')}}"></script>
         
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
         <meta charset="UTF-8">
         <title>
             Cric AI
@@ -54,43 +53,21 @@
                   </div>
 
             <form method="post">
-                <div class="top-four">
-                        <div class="col-c top-four">
-                                <select name="team1" class="btn btn-outline-primary" required>
+                <div class="row rows">
+                        <div class="fr">
+                                <select id="team-1" name="team1" class="btn btn-outline-primary team1" required>
                                         <option value="">Select Team 1</option>
-                                        <option value=" Afghanistan "> Afghanistan </option>
-                                        <option value=" Australia "> Australia </option>
-                                        <option value=" Bangladesh "> Bangladesh </option>
-                                        <option value=" Bermuda "> Bermuda </option>
-                                        <option value=" Canada "> Canada </option>
-                                        <option value=" East Africa "> East Africa </option>
-                                        <option value=" England "> England </option>
-                                        <option value=" Hong Kong "> Hong Kong </option>
-                                        <option value=" India "> India </option>
-                                        <option value=" Ireland "> Ireland </option>
-                                        <option value=" Kenya "> Kenya </option>
-                                        <option value=" Namibia "> Namibia </option>
-                                        <option value=" Netherlands "> Netherlands </option>
-                                        <option value=" New Zealand "> New Zealand </option>
-                                        <option value=" P.N.G. "> P.N.G. </option>
-                                        <option value=" Pakistan "> Pakistan </option>
-                                        <option value=" Scotland "> Scotland </option>
-                                        <option value=" South Africa "> South Africa </option>
-                                        <option value=" Sri Lanka "> Sri Lanka </option>
-                                        <option value=" U.A.E. "> U.A.E. </option>
-                                        <option value=" U.S.A. "> U.S.A. </option>
-                                        <option value=" West Indies "> West Indies </option>
-                                        <option value=" Zimbabwe "> Zimbabwe </option>
+                                        
                                     </select>
                         </div>
-                        <div class="col-c top-four">
+                        <div class="fr">
                                 <select name="innings_t1" class="btn btn-outline-primary" required>
                                         <option value="">Select Innings(Team 1)</option>
                                         <option value="1">First</option>
                                         <option value="2">Second</option>
                                     </select>
                         </div>
-                        <div class="col-c top-four">
+                        <div class="fr">
                                 <select name="venue_t1" class="btn btn-outline-primary" required>
                                         <option value="">Select Venue(Team 1)</option>
                                         <option value="1">Home</option>
@@ -98,7 +75,14 @@
                                         <option value="3">Neutral</option>
                                     </select>
                         </div>
-                        <div class="col-c top-four">
+                </div>
+                <div class="row rows">
+                        <div class="fr" >
+                                <select id="team-2" name="team2" class="btn btn-outline-primary team2 team" required>
+                                        <option value="">Select Team 2</option> 
+                                </select>                      
+                                </div>
+                        <div class="fr" >
                                 <select name="ground" class="btn btn-outline-primary" required>
                                         <option value="">Select Ground</option>
                                         <option value=" Aberdeen "> Aberdeen </option>
@@ -264,47 +248,22 @@
                                         <option value=" Worcester "> Worcester </option>
                                     </select>
                         </div>
+                        <div class="fr">
+                                <select name="choice" class="btn btn-outline-primary" required>
+                                        <option value="">Choose Classifier</option>
+                                        <option value="1"> SVM Classifier </option>
+                                        <option value="2"> DT Classifier </option>
+                                        <option value="3"> MLP Classifier </option>
+                                    </select>  
+                        </div>
                 </div>
-                <div class="col-c top-four" style="margin-top:20px">
-                    <select name="team2" class="btn btn-outline-primary" required>
-                        <option value="">Select Team 2</option>
-                        <option value=" Afghanistan "> Afghanistan </option>
-                        <option value=" Australia "> Australia </option>
-                        <option value=" Bangladesh "> Bangladesh </option>
-                        <option value=" Bermuda "> Bermuda </option>
-                        <option value=" Canada "> Canada </option>
-                        <option value=" East Africa "> East Africa </option>
-                        <option value=" England "> England </option>
-                        <option value=" Hong Kong "> Hong Kong </option>
-                        <option value=" India "> India </option>
-                        <option value=" Ireland "> Ireland </option>
-                        <option value=" Kenya "> Kenya </option>
-                        <option value=" Namibia "> Namibia </option>
-                        <option value=" Netherlands "> Netherlands </option>
-                        <option value=" New Zealand "> New Zealand </option>
-                        <option value=" P.N.G. "> P.N.G. </option>
-                        <option value=" Pakistan "> Pakistan </option>
-                        <option value=" Scotland "> Scotland </option>
-                        <option value=" South Africa "> South Africa </option>
-                        <option value=" Sri Lanka "> Sri Lanka </option>
-                        <option value=" U.A.E. "> U.A.E. </option>
-                        <option value=" U.S.A. "> U.S.A. </option>
-                        <option value=" West Indies "> West Indies </option>
-                        <option value=" Zimbabwe "> Zimbabwe </option>
-                    </select>                      
-                    </div>
-                <div class="col-c top-four">
-                        <select name="choice" class="btn btn-outline-primary" required>
-                                <option value="">Choose Classifier</option>
-                                <option value="1"> SVM Classifier </option>
-                                <option value="2"> DT Classifier </option>
-                                <option value="3"> MLP Classifier </option>
-                            </select>  
-                </div>
-                <div class="col" align="center" style="margin-top:30px">
-                    <input type="submit" value="Run Model" class="btn btn-success">
+                
+                
+                <div class="row btn-down">
+                    <input type="submit" value="Run Model" class="btn btn-success s-btn">
                 </div>   
             </form>     
 </div>
     </body>
+    <script src="{{url_for('static', filename='js/main.js')}}"></script>
 </html>

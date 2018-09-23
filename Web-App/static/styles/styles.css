@@ -31,37 +31,55 @@ select {
     margin: 0px auto !important;
 }
 
+.team1 {
+    color: brown !important;
+    box-shadow: 1px 1px 1px 1px #a19f9f;
+}
+
+.team2 {
+    box-shadow: 1px 1px 1px 1px #a19f9f;
+}
+
+#myCarousel {
+    box-shadow: 1px 1px 1px 1px #474646;
+}
+
+
 /* CSS for small screen devices*/
 @media only screen and (max-width: 768px) {
+    .rows {
+        margin: 0px auto;
+        margin-top: 20px;
+        margin-left: 20% !important; 
 
-.top-four{
-    margin: 0px auto;
-    width: 100%;
-    margin-top: 20px; 
-    display: grid;
-    justify-content: center;
-}
+    }
 
-.col-c {
-    width: 100%;
-    float: none;
-    margin-top: 10px;
-}
+    .fr {
+        width: 100% ;
+        margin: 0px auto;
+        margin-top: 5px; 
+    }
 
+    .btn-down {
+        margin: 0px auto;
+        margin-top: 5px;
+        margin-left: 30% !important;
+    }
 }
 
 /* CSS for large screen devices*/
 @media only screen and (min-width: 768px) {
-    .top-four {
-        display: inline-flex;
-        margin: 0px auto;
-        width: 100%;
-        padding-top: 10px;
+    .rows {
+        margin-top: 20px;
+        margin-left: 15% !important; 
     }
-    .col-c {
-        width: 100%;
-        margin: 0px auto !important;
-        padding: 0px auto;
-        float: none;
+
+    .fr {
+        margin-right: 80px;
+    }
+
+    .s-btn {
+        margin:0px auto;
+        margin-top:20px;
     }
 }
