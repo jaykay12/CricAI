@@ -1,32 +1,26 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
-        <link rel="stylesheet" type="text/css" href="../static/styles/styles.css"/>
-        <link rel="stylesheet" type="text/css" href="../static/styles/bootstrap.css">
+
+        <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='styles/styles.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='styles/bootstrap.css')}}">
+
         <link rel="shortcut icon" href="../static/assets/cricket_icon.ico" />
-     
-        <script src="../static/js/jquery-3.3.1.js"></script>
+
+        <script src="{{url_for('static', filename='js/jquery-3.3.1.js')}}"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-        <script src="../static/js/bootstrap.js"></script>
-        <script src="../static/js/main.js"></script>
+        <script src="{{url_for('static', filename='js/bootstrap.js')}}"></script>
         
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
         <meta charset="UTF-8">
-
-        <style>
-            .carousel-inner img {
-                width: 100%;
-                height: 100%;
-            }
-        </style>
-
         <title>
-            Cric AI: Smart Outcome Prediction System
+            Cric AI
         </title>
     </head>
 
     <body>
+                        
         <div class="container-fluid">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
                     <!-- Indicators -->
@@ -57,272 +51,65 @@
                       <span class="carousel-control-next-icon"></span>
                     </a>
                   </div>
-            </div>
 
-            <h1 class="display-4" style="margin-top:10px; font-size:40px; font-weight:bold" align="center">CricAI: Smart Outcome Prediction System</h1>
+                  <h1 class="display-4 heading" align="center">CricAI: Smart Outcome Prediction System</h1>
 
             <form method="post">
-                    <div class="row" style="margin-top:20px">
+                <div class="row top-row">
                         <div class="col-md-4">
-                            <select name="team1" class="btn btn-outline-primary" style="margin-left:150px" required>
-                                <option value="">Select Team 1</option>
-                                <option value=" Afghanistan "> Afghanistan </option>
-                                <option value=" Australia "> Australia </option>
-                                <option value=" Bangladesh "> Bangladesh </option>
-                                <option value=" Bermuda "> Bermuda </option>
-                                <option value=" Canada "> Canada </option>
-                                <option value=" East Africa "> East Africa </option>
-                                <option value=" England "> England </option>
-                                <option value=" Hong Kong "> Hong Kong </option>
-                                <option value=" India "> India </option>
-                                <option value=" Ireland "> Ireland </option>
-                                <option value=" Kenya "> Kenya </option>
-                                <option value=" Namibia "> Namibia </option>
-                                <option value=" Netherlands "> Netherlands </option>
-                                <option value=" New Zealand "> New Zealand </option>
-                                <option value=" P.N.G. "> P.N.G. </option>
-                                <option value=" Pakistan "> Pakistan </option>
-                                <option value=" Scotland "> Scotland </option>
-                                <option value=" South Africa "> South Africa </option>
-                                <option value=" Sri Lanka "> Sri Lanka </option>
-                                <option value=" U.A.E. "> U.A.E. </option>
-                                <option value=" U.S.A. "> U.S.A. </option>
-                                <option value=" West Indies "> West Indies </option>
-                                <option value=" Zimbabwe "> Zimbabwe </option>
-                            </select>
+                                <select id="team-1" name="team1" class="btn btn-outline-primary" required>
+                                        <option value="">Select Team 1</option>
+                                </select>
                         </div>
 
                         <div class="col-md-3">
-                                <select name="innings_t1" class="btn btn-outline-primary" style="margin-left:70px" required>
-                                    <option value="">Select Innings(Team 1)</option>
-                                    <option value="1">First</option>
-                                    <option value="2">Second</option>
+                                <select id="innings" name="innings_t1" class="btn btn-outline-primary" required>
+                                        <option value="">Select Innings(Team 1)</option>
+                                        <option value="1">First</option>
+                                        <option value="2">Second</option>
                                 </select>
                         </div>
 
                         <div class="col-md-2">
-                                <select name="venue_t1" class="btn btn-outline-primary" style="margin-left:0px" required>
-                                    <option value="">Select Venue(Team 1)</option>
-                                    <option value="1">Home</option>
-                                    <option value="2">Away</option>
-                                    <option value="3">Neutral</option>
+                                <select id="venue" name="venue_t1" class="btn btn-outline-primary" required>
+                                        <option value="">Select Venue(Team 1)</option>
+                                        <option value="1">Home</option>
+                                        <option value="2">Away</option>
+                                        <option value="3">Neutral</option>
                                 </select>
                         </div>
 
                         <div class="col-md-3">
-                                <select name="ground" class="btn btn-outline-primary" style="margin-left:30px" required>
-                                    <option value="">Select Ground</option>
-                                    <option value=" Aberdeen "> Aberdeen </option>
-                                    <option value=" Abu Dhabi "> Abu Dhabi </option>
-                                    <option value=" Adelaide "> Adelaide </option>
-                                    <option value=" Ahmedabad "> Ahmedabad </option>
-                                    <option value=" Albion "> Albion </option>
-                                    <option value=" Albury "> Albury </option>
-                                    <option value=" Amritsar "> Amritsar </option>
-                                    <option value=" Amstelveen "> Amstelveen </option>
-                                    <option value=" Auckland "> Auckland </option>
-                                    <option value=" Ayr "> Ayr </option>
-                                    <option value=" Ballarat "> Ballarat </option>
-                                    <option value=" Basseterre "> Basseterre </option>
-                                    <option value=" Belfast "> Belfast </option>
-                                    <option value=" Bengaluru "> Bengaluru </option>
-                                    <option value=" Benoni "> Benoni </option>
-                                    <option value=" Berri "> Berri </option>
-                                    <option value=" Birmingham "> Birmingham </option>
-                                    <option value=" Bloemfontein "> Bloemfontein </option>
-                                    <option value=" Bogra "> Bogra </option>
-                                    <option value=" Bridgetown "> Bridgetown </option>
-                                    <option value=" Brisbane "> Brisbane </option>
-                                    <option value=" Bristol "> Bristol </option>
-                                    <option value=" Bulawayo "> Bulawayo </option>
-                                    <option value=" Cairns "> Cairns </option>
-                                    <option value=" Canberra "> Canberra </option>
-                                    <option value=" Canterbury "> Canterbury </option>
-                                    <option value=" Cape Town "> Cape Town </option>
-                                    <option value=" Cardiff "> Cardiff </option>
-                                    <option value=" Castries "> Castries </option>
-                                    <option value=" Centurion "> Centurion </option>
-                                    <option value=" Chandigarh "> Chandigarh </option>
-                                    <option value=" Chelmsford "> Chelmsford </option>
-                                    <option value=" Chennai "> Chennai </option>
-                                    <option value=" Chester "> Chester </option>
-                                    <option value=" Chittagong "> Chittagong </option>
-                                    <option value=" Christchurch "> Christchurch </option>
-                                    <option value=" Colombo "> Colombo </option>
-                                    <option value=" Cuttack "> Cuttack </option>
-                                    <option value=" Dambulla "> Dambulla </option>
-                                    <option value=" Darwin "> Darwin </option>
-                                    <option value=" Delhi "> Delhi </option>
-                                    <option value=" Derby "> Derby </option>
-                                    <option value=" Devonport "> Devonport </option>
-                                    <option value=" Dhaka "> Dhaka </option>
-                                    <option value=" Dharamsala "> Dharamsala </option>
-                                    <option value=" Dubai "> Dubai </option>
-                                    <option value=" Dublin "> Dublin </option>
-                                    <option value=" Dunedin "> Dunedin </option>
-                                    <option value=" Durban "> Durban </option>
-                                    <option value=" East London "> East London </option>
-                                    <option value=" Edinburgh "> Edinburgh </option>
-                                    <option value=" Faisalabad "> Faisalabad </option>
-                                    <option value=" Faridabad "> Faridabad </option>
-                                    <option value=" Fatullah "> Fatullah </option>
-                                    <option value=" Galle "> Galle </option>
-                                    <option value=" Georgetown "> Georgetown </option>
-                                    <option value=" Glasgow "> Glasgow </option>
-                                    <option value=" Greater Noida "> Greater Noida </option>
-                                    <option value=" Gros Islet "> Gros Islet </option>
-                                    <option value=" Gujranwala "> Gujranwala </option>
-                                    <option value=" Guwahati "> Guwahati </option>
-                                    <option value=" Gwalior "> Gwalior </option>
-                                    <option value=" Hambantota "> Hambantota </option>
-                                    <option value=" Hamilton "> Hamilton </option>
-                                    <option value=" Harare "> Harare </option>
-                                    <option value=" Hobart "> Hobart </option>
-                                    <option value=" Hove "> Hove </option>
-                                    <option value=" Hyderabad "> Hyderabad </option>
-                                    <option value=" ICCA Dubai "> ICCA Dubai </option>
-                                    <option value=" Indore "> Indore </option>
-                                    <option value=" Jaipur "> Jaipur </option>
-                                    <option value=" Jalandhar "> Jalandhar </option>
-                                    <option value=" Jamshedpur "> Jamshedpur </option>
-                                    <option value=" Jodhpur "> Jodhpur </option>
-                                    <option value=" Johannesburg "> Johannesburg </option>
-                                    <option value=" Kandy "> Kandy </option>
-                                    <option value=" Kanpur "> Kanpur </option>
-                                    <option value=" Karachi "> Karachi </option>
-                                    <option value=" Khulna "> Khulna </option>
-                                    <option value=" Kimberley "> Kimberley </option>
-                                    <option value=" King City "> King City </option>
-                                    <option value=" Kingston "> Kingston </option>
-                                    <option value=" Kingstown "> Kingstown </option>
-                                    <option value=" Kochi "> Kochi </option>
-                                    <option value=" Kolkata "> Kolkata </option>
-                                    <option value=" Kuala Lumpur "> Kuala Lumpur </option>
-                                    <option value=" Kwekwe "> Kwekwe </option>
-                                    <option value=" Lahore "> Lahore </option>
-                                    <option value=" Launceston "> Launceston </option>
-                                    <option value=" Leeds "> Leeds </option>
-                                    <option value=" Leicester "> Leicester </option>
-                                    <option value=" Lincoln "> Lincoln </option>
-                                    <option value=" Lord's "> Lord's </option>
-                                    <option value=" Lucknow "> Lucknow </option>
-                                    <option value=" Manchester "> Manchester </option>
-                                    <option value=" Margao "> Margao </option>
-                                    <option value=" Melbourne "> Melbourne </option>
-                                    <option value=" Mohali "> Mohali </option>
-                                    <option value=" Mombasa "> Mombasa </option>
-                                    <option value=" Mong Kok "> Mong Kok </option>
-                                    <option value=" Moratuwa "> Moratuwa </option>
-                                    <option value=" Mount Maunganui "> Mount Maunganui </option>
-                                    <option value=" Multan "> Multan </option>
-                                    <option value=" Mumbai "> Mumbai </option>
-                                    <option value=" Nagpur "> Nagpur </option>
-                                    <option value=" Nairobi "> Nairobi </option>
-                                    <option value=" Napier "> Napier </option>
-                                    <option value=" Nelson "> Nelson </option>
-                                    <option value=" New Delhi "> New Delhi </option>
-                                    <option value=" New Plymouth "> New Plymouth </option>
-                                    <option value=" North Sound "> North Sound </option>
-                                    <option value=" Northampton "> Northampton </option>
-                                    <option value=" Nottingham "> Nottingham </option>
-                                    <option value=" Paarl "> Paarl </option>
-                                    <option value=" Pallekele "> Pallekele </option>
-                                    <option value=" Patna "> Patna </option>
-                                    <option value=" Perth "> Perth </option>
-                                    <option value=" Peshawar "> Peshawar </option>
-                                    <option value=" Pietermaritzburg "> Pietermaritzburg </option>
-                                    <option value=" Port Elizabeth "> Port Elizabeth </option>
-                                    <option value=" Port Moresby "> Port Moresby </option>
-                                    <option value=" Port of Spain "> Port of Spain </option>
-                                    <option value=" Potchefstroom "> Potchefstroom </option>
-                                    <option value=" Providence "> Providence </option>
-                                    <option value=" Pune "> Pune </option>
-                                    <option value=" Queenstown "> Queenstown </option>
-                                    <option value=" Quetta "> Quetta </option>
-                                    <option value=" Rajkot "> Rajkot </option>
-                                    <option value=" Ranchi "> Ranchi </option>
-                                    <option value=" Rawalpindi "> Rawalpindi </option>
-                                    <option value=" Roseau "> Roseau </option>
-                                    <option value=" Rotterdam "> Rotterdam </option>
-                                    <option value=" Sahiwal "> Sahiwal </option>
-                                    <option value=" Sargodha "> Sargodha </option>
-                                    <option value=" Scarborough "> Scarborough </option>
-                                    <option value=" Schiedam "> Schiedam </option>
-                                    <option value=" Sharjah "> Sharjah </option>
-                                    <option value=" Sheikhupura "> Sheikhupura </option>
-                                    <option value=" Sialkot "> Sialkot </option>
-                                    <option value=" Singapore "> Singapore </option>
-                                    <option value=" Southampton "> Southampton </option>
-                                    <option value=" Srinagar "> Srinagar </option>
-                                    <option value=" St George's "> St George's </option>
-                                    <option value=" St John's "> St John's </option>
-                                    <option value=" Swansea "> Swansea </option>
-                                    <option value=" Sydney "> Sydney </option>
-                                    <option value=" Tangier "> Tangier </option>
-                                    <option value=" Taunton "> Taunton </option>
-                                    <option value=" Taupo "> Taupo </option>
-                                    <option value=" The Hague "> The Hague </option>
-                                    <option value=" The Oval "> The Oval </option>
-                                    <option value=" Thiruvananthapuram "> Thiruvananthapuram </option>
-                                    <option value=" Toronto "> Toronto </option>
-                                    <option value=" Townsville "> Townsville </option>
-                                    <option value=" Tunbridge Wells "> Tunbridge Wells </option>
-                                    <option value=" Vadodara "> Vadodara </option>
-                                    <option value=" Vijayawada "> Vijayawada </option>
-                                    <option value=" Visakhapatnam "> Visakhapatnam </option>
-                                    <option value=" Wellington "> Wellington </option>
-                                    <option value=" Whangarei "> Whangarei </option>
-                                    <option value=" Worcester "> Worcester </option>
+                                <select id="groundid" name="ground" class="btn btn-outline-primary" required>
+                                        <option value="">Select Ground</option>
                                 </select>
-                            </div>
-                    </div>
+                        </div>
 
-                    <div class="row" style="margin-top:20px">
+                </div>
+
+                <div class="row bottom-row">
                         <div class="col-md-4">
-                            <select name="team2" class="btn btn-outline-primary" style="margin-left:150px" required>
-                                <option value="">Select Team 2</option>
-                                <option value=" Afghanistan "> Afghanistan </option>
-                                <option value=" Australia "> Australia </option>
-                                <option value=" Bangladesh "> Bangladesh </option>
-                                <option value=" Bermuda "> Bermuda </option>
-                                <option value=" Canada "> Canada </option>
-                                <option value=" East Africa "> East Africa </option>
-                                <option value=" England "> England </option>
-                                <option value=" Hong Kong "> Hong Kong </option>
-                                <option value=" India "> India </option>
-                                <option value=" Ireland "> Ireland </option>
-                                <option value=" Kenya "> Kenya </option>
-                                <option value=" Namibia "> Namibia </option>
-                                <option value=" Netherlands "> Netherlands </option>
-                                <option value=" New Zealand "> New Zealand </option>
-                                <option value=" P.N.G. "> P.N.G. </option>
-                                <option value=" Pakistan "> Pakistan </option>
-                                <option value=" Scotland "> Scotland </option>
-                                <option value=" South Africa "> South Africa </option>
-                                <option value=" Sri Lanka "> Sri Lanka </option>
-                                <option value=" U.A.E. "> U.A.E. </option>
-                                <option value=" U.S.A. "> U.S.A. </option>
-                                <option value=" West Indies "> West Indies </option>
-                                <option value=" Zimbabwe "> Zimbabwe </option>
-                            </select>
+                                <select id="team-2" name="team2" class="btn btn-outline-primary" required>
+                                        <option value="">Select Team 2</option> 
+                                </select>                      
                         </div>
-                        <div class="col-md-8">
-                                <select name="choice" class="btn btn-outline-primary" style="margin-left:70px" required>
-                                    <option value="">Choose Classifier</option>
-                                    <option value="1"> SVM Classifier </option>
-                                    <option value="2"> DT Classifier </option>
-                                    <option value="3"> MLP Classifier </option>
-                                </select>
-                        </div>
-                        
-                    </div>
-    
-                        <div class="col-md-12" align='center' style="margin-top:30px">
-                            <input type="submit" value="Run Model" class="btn btn-success">
-                        </div>
-    
-                        
-            </form>     
 
+                        <div class="col-md-8">
+                                <select id="choice" name="choice" class="btn btn-outline-primary" required>
+                                        <option value="">Choose Classifier</option>
+                                        <option value="1"> SVM Classifier </option>
+                                        <option value="2"> DT Classifier </option>
+                                        <option value="3"> MLP Classifier </option>
+                                </select>  
+                        </div>
+                </div>
+                
+                
+                <div class="col-md-12 submitButton" align='center'>
+                        <input type="submit" value="Run Model" class="btn btn-success">
+                </div>   
+            </form>     
+</div>
     </body>
+    <script src="{{url_for('static', filename='js/main.js')}}"></script>
 </html>

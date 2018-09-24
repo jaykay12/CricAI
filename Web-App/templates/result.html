@@ -1,35 +1,36 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
-        <link rel="stylesheet" type="text/css" href="../static/styles/styles.css"/>
-        <link rel="stylesheet" type="text/css" href="../static/styles/bootstrap.css">
+
+        <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='styles/styles.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='styles/bootstrap.css')}}">
+        
         <link rel="shortcut icon" href="../static/assets/cricket_icon.ico" />
-     
-        <script src="../static/js/jquery-3.3.1.js"></script>
+
+        <script src="{{url_for('static', filename='js/jquery-3.3.1.js')}}"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-        <script src="../static/js/bootstrap.js"></script>
-        <script src="../static/js/main.js"></script>
+        <script src="{{url_for('static', filename='js/bootstrap.js')}}"></script>
         
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
 
         <title>
-            CricAI: Smart Outcome Prediction System
+            CricAI
         </title>
     </head>
 
     <body>
         <a href="/">
-            <h1 class="display-4" style="margin-top:10px; font-size:40px; font-weight:bold" align="center">CricAI: Smart Outcome Prediction System</h1>
+            <h1 class="display-4 heading" align="center">CricAI: Smart Outcome Prediction System</h1>
         </a>
-        <div class="result" align="center" style="margin-top: 75px;">
+        <div class="result" align="center">
             <img src="../static/assets/winner.jpg" class="rounded-circle" alt="trophy">
-            <h1>
+            <h2>
                 Winner
-            </h1>
+            </h2>
                 <br />
                 <br />
-                <div class="card" style="width:300px">
+                <div class="card card-winner">
                         <img src="../static/assets/flags/India.jpg" class="rounded card-img-top" alt="Flag Image" id="flagimage">
 <!--                    <script>
                             var flagSrc = {result};
@@ -44,4 +45,5 @@
                       </div>
         </div>
     </body>
+    <script src="{{url_for('static', filename='js/main.js')}}"></script>
 </html>
