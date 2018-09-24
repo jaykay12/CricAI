@@ -1,85 +1,61 @@
-.body {
-    margin: 0px auto;
-    margin-top: 60px !important;
-    padding: 0px auto;
-    background-color: rgb(212, 236, 236) !important;
-}
+@charset "utf-8";
+/* CSS Document */
 
-.top-nav {
-    width: 100%;
-    margin: 0px;
-    background-color: rgb(0, 183, 255);
-    height: 60px;
-    position: absolute;
-    box-shadow: 1px 1px 1px 1px #646363;
-    top: 0;
-}
-
-.top-nav a {
-    display: block;
-    margin: 0px auto;
-    font-size: 20px !important;
-    color: beige !important;
-    text-align: center !important;
-}
 .carousel-inner img {
     width: 100%;
     height: 100%;
 }
 
-select {
-    margin: 0px auto !important;
+.myCarousel {
+    margin-top: 65px;
 }
 
-.team1 {
-    color: brown !important;
-    box-shadow: 1px 1px 1px 1px #a19f9f;
+.heading {
+    margin-top:10px; 
+    font-size:40px; 
+    font-weight:bold;
 }
 
-.team2 {
-    box-shadow: 1px 1px 1px 1px #a19f9f;
+.top-row {
+    margin-top:20px;
 }
 
-#myCarousel {
-    box-shadow: 1px 1px 1px 1px #474646;
+#team-1 {
+    margin-left:150px;
 }
 
-
-/* CSS for small screen devices*/
-@media only screen and (max-width: 768px) {
-    .rows {
-        margin: 0px auto;
-        margin-top: 20px;
-        margin-left: 20% !important; 
-
-    }
-
-    .fr {
-        width: 100% ;
-        margin: 0px auto;
-        margin-top: 5px; 
-    }
-
-    .btn-down {
-        margin: 0px auto;
-        margin-top: 5px;
-        margin-left: 30% !important;
-    }
+#innings {
+    margin-left:70px;
 }
 
-/* CSS for large screen devices*/
-@media only screen and (min-width: 768px) {
-    .rows {
-        margin-top: 20px;
-        margin-left: 15% !important; 
-    }
+#venue {
+    margin-left:0px;
+}
 
-    .fr {
-        margin-right: 80px;
-    }
+#groundid {
+    margin-left:30px;
+}
 
-    .s-btn {
-        margin:0px auto;
-        margin-top:20px;
-    }
+.bottom-row {
+    margin-top:20px;
+}
+
+#team-2 {
+    margin-left:150px;
+}
+
+#choice {
+    margin-left:70px;
+}
+
+.submitButton {
+    margin-top:30px;
+}
+
+.result {
+    margin-top: 75px;
+}
+
+.card-winner {
+    width:300px;
 }
