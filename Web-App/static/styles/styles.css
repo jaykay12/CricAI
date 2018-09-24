@@ -6,4 +6,56 @@
     height: 100%;
 }
 
+.myCarousel {
+    margin-top: 65px;
+}
 
+.heading {
+    margin-top:10px; 
+    font-size:40px; 
+    font-weight:bold;
+}
+
+.top-row {
+    margin-top:20px;
+}
+
+#team-1 {
+    margin-left:150px;
+}
+
+#innings {
+    margin-left:70px;
+}
+
+#venue {
+    margin-left:0px;
+}
+
+#groundid {
+    margin-left:30px;
+}
+
+.bottom-row {
+    margin-top:20px;
+}
+
+#team-2 {
+    margin-left:150px;
+}
+
+#choice {
+    margin-left:70px;
+}
+
+.submitButton {
+    margin-top:30px;
+}
+
+.result {
+    margin-top: 75px;
+}
+
+.card-winner {
+    width:300px;
+}
