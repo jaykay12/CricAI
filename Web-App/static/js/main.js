@@ -43,6 +43,8 @@ let populate = function() {
         team2.appendChild(option);
     }
 
+    console.log("Teams Populated");
+
     let groundNames = [
         {value: " Aberdeen " , text: " Aberdeen "},
         {value: " Abu Dhabi " , text: " Abu Dhabi "},
@@ -205,12 +207,16 @@ let populate = function() {
         {value: " Worcester " , text: " Worcester "}
     ];
 
+    console.log("Created");
+
     for(let i = 0; i< groundNames.length; i++)    {
         let option = document.createElement('option'); 
         option.setAttribute('value', groundNames[i].value);
         option.appendChild(document.createTextNode(groundNames[i].text));
         ground.appendChild(option);
     }
+
+    console.log("Countries Populated");
 
 }
 
