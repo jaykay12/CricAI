@@ -16,6 +16,13 @@
     font-weight:bold;
 }
 
+.btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active,
+.show > .btn-outline-primary.dropdown-toggle {
+    color: #007bff;
+    background-color: #fff;
+    border-color: #007bff;
+}
+
 .top-row {
     margin-top:20px;
 }
