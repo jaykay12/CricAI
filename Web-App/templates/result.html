@@ -17,34 +17,58 @@
         <title>
             CricAI
         </title>
+        <style>
+            html, body {
+                height: 100%;
+                width: 100%;
+                margin: 0;
+            }
+            canvas {
+                background: black;
+                z-index: -10;
+                position: fixed;
+                top: 0;
+                left: 0;
+            }
+            
+        </style>
+        
     </head>
 
     <body>
+            
+        <script src="{{url_for('static', filename='js/fireworks.js')}}"></script>
+
+        <div class="container">
         <a href="/">
             <h1 class="display-4 heading" align="center">CricAI: Smart Outcome Prediction System</h1>
         </a>
         <div class="result" align="center">
+            <h1 style="color: white">
+                Winner 
+            </h1>
             <img src="../static/assets/winner.jpg" class="rounded-circle" alt="trophy">
-            <h2>
-                Winner
-            </h2>
+            
                 <br />
                 <br />
-                <div class="card card-winner">
-                        <img src="../static/assets/flags/India.jpg" class="rounded card-img-top" alt="Flag Image" id="flagimage">
+                <br />
+                <div class="">
+                        <img src="../static/assets/flags/India.jpg"  alt="Flag Image" id="flagimage">
                     	
                     	<script>
                             var flagSrc = "{{ result|safe }}";
                             console.log(flagSrc);
                             var newSrc = "../static/assets/flags/"+flagSrc+".jpg";
-                            $("#flagimage").attr("src",newSrc);
+                            jQuery("#flagimage").attr("src",newSrc);
                         </script>  
 
-                        <div class="card-body">
-                          <h4 class="card-title">{{result}}</h4>
-                        </div>
+                       <br>
+                        <h4 style="color: white;background: black; display: inline-block;">{{result}}</h4>
+                        
                       </div>
         </div>
+    </div>
+
     </body>
-    <script src="{{url_for('static', filename='js/main.js')}}"></script>
+    
 </html>
