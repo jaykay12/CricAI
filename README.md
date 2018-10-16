@@ -1,4 +1,5 @@
 # CricAI
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/jaykay12/CricAI/blob/master/LICENSE)
 
 ## A Desktop App & Web App predicting the outcomes of Future Cricket Matches using Neutral Nets & Decision Tree Classifiers. :smile:
 
@@ -23,7 +24,3 @@
    	[username] is replaced by your github username
     
 3. See Individual Apps' README.md for Build-Specific Instructions.
- 
-### License :-
-This project is currently licensed under the MIT License & Copyright (c) 2017 Jalaz Kumar.  
-For more details see [LICENSE.md](https://github.com/jaykay12/CricAI/blob/master/LICENSE).
