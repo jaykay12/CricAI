@@ -13,14 +13,5 @@
   - Decision Tree Classifier
   - Support Vector Machines Classifier
   
-## How to build this project :-
-
-1. Firstly, **fork** this repo from **jaykay12/CricAI** by clicking on fork button
-
-2. Now **clone** the forked repo in your pc. For this first copy the url of your forked repo (use terminal or git bash):
-
-   	`git clone https://github.com/[username]/CricAI.git`
-
-   	[username] is replaced by your github username
-    
-3. See Individual Apps' README.md for Build-Specific Instructions.
+## Publication
+[Outcome Prediction of ODI Cricket Matches using Decision Trees and MLP Networks](https://ieeexplore.ieee.org/document/8703301)
