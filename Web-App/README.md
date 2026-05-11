@@ -1,4 +1,4 @@
-#### Repository acts as sub repository to the base, serves the purpose of deployment & webhooks
+## Repository acts as sub repository to the base, serves the purpose of deployment & webhooks
 
 ### Steps for Hosting on Heroku(Any General Python/flask App)
 1. Login to your heroku account on workspace using `heroku login` & then providing credentials.
@@ -12,8 +12,8 @@
 ### Building the project
 1. Clone the project using `git clone https://github.com/jaykay12/CricAI.git`
 2. Explore into the Web-App using `cd CricAI/Web-App`
-3. Create a Virtual Env using `virtualenv venv`
-4. Activate the Virtual Env using `cd venv/bin` & then, `source activate`
+3. Create a Virtual Env using `python3 -m virtualenv venv`
+4. Activate the Virtual Env using `source venv/bin/activate`
 5. Install all dependencies using `pip install -r requirements.txt`
 
 ### Running the project
