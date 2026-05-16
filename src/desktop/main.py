@@ -1,14 +1,18 @@
-import sys
+import sys,os
 import math
+
+# Adds the 'src' directory to the python path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
 from PyQt5.QtWidgets import QMainWindow, QApplication, QFileDialog, QMessageBox
-import CricAI_Basic,Loader,Result_MLP,Result_DT
+from generated import CricAI_Basic,Loader,Result_MLP,Result_DT
 from PyQt5 import QtGui
-from Classifier import ourMLPClassifier,ourDTClassifier
-import dataInputFormat
+from core.Classifier import ourMLPClassifier,ourDTClassifier
+from core import dataInputFormat
 
 MLPClf = ourMLPClassifier()
 DTClf = ourDTClassifier()
-dIF = dataInputFormat.DataInput()
+dIF = dataInputFormat.DataInput_Labelled()
 
 class MainWindow(QMainWindow):
 	def __init__(self):

@@ -15,11 +15,13 @@ class DataInput_Labelled:
     def hashingTeam1(self):
         d.ReadLabelledDataSet()
         self.ourTeams_1 = {}
+        self.teamNames = []
         for i,teams in enumerate(list(d.match_data.columns)):
             if i==23:
                 break
             teamName = str(teams)
             teamName = teamName.split("Team 1_", 1)[-1]
+            self.teamNames.append(teamName)
             self.ourTeams_1[teamName] = i
 
     def hashingTeam2(self):
@@ -37,6 +39,7 @@ class DataInput_Labelled:
     def hashingGrounds(self):
         d.ReadLabelledDataSet()
         self.ourGrounds = {}
+        self.groundNames = []
         for i,grounds in enumerate(list(d.match_data.columns)):
             if i<46:
                 continue
@@ -44,6 +47,7 @@ class DataInput_Labelled:
                 break
             groundName = str(grounds)
             groundName = groundName.split("Ground_", 1)[-1]
+            self.groundNames.append(groundName)
             self.ourGrounds[groundName] = i
 
     def hashingInnings(self):

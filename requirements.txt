@@ -13,3 +13,5 @@ scipy>=1.10.1
 six>=1.16.0
 sklearn==0.0
 Werkzeug>=2.2.3
+PyQt5>=5.15.4
+PyQt5-sip>=12.9.0
