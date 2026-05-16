@@ -1,5 +1,3 @@
-import datasetRead
-import dataInputFormat
 import pickle
 
 from sklearn.neural_network import MLPClassifier
@@ -7,12 +5,14 @@ from sklearn.metrics import accuracy_score
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.svm import SVC
 
-from datasetRead import Dataset
-from dataInputFormat import DataInput_Categorical, DataInput_Labelled
+from core.datasetRead import Dataset
+from core.dataInputFormat import DataInput_Categorical, DataInput_Labelled
 
 d = Dataset()
 dIFLabelled = DataInput_Labelled()
 dIFCategorical = DataInput_Categorical()
+
+BASE_OUTPUT_PKL_PATH = "data/"
 
 
 class ourSVMClassifier:
@@ -22,14 +22,14 @@ class ourSVMClassifier:
 		self.TrainedSVMclf.fit(d.X_train, d.Y_train)
 
 	def dumpPickle(self):
-		SVMPickleFile = "Pickle_SVMClf.pkl"
-		SVMPickledModel = open(SVMPickleFile,'wb')
+		SVMPickleFile = "svm_classifier.pkl"
+		SVMPickledModel = open(BASE_OUTPUT_PKL_PATH + SVMPickleFile,'wb')
 		pickle.dump(self.TrainedSVMclf,SVMPickledModel)
 		SVMPickledModel.close()
 
 	def loadPickle(self):
-		SVMPickleFile = "Pickle_SVMClf.pkl"
-		SVMPickledModel = open(SVMPickleFile,'rb')
+		SVMPickleFile = "svm_classifier.pkl"
+		SVMPickledModel = open(BASE_OUTPUT_PKL_PATH + SVMPickleFile,'rb')
 		self.SVMclf = pickle.load(SVMPickledModel)
 
 	def accuracyCheck(self):
@@ -53,14 +53,14 @@ class ourMLPClassifier:
 		self.TrainedMLPclf.fit(d.X_train, d.Y_train)
 
 	def dumpPickle(self):
-		MLPPickleFile = "Pickle_MLPClf.pkl"
-		MLPPickledModel = open(MLPPickleFile,'wb')
+		MLPPickleFile = "mlp_classifier.pkl"
+		MLPPickledModel = open(BASE_OUTPUT_PKL_PATH + MLPPickleFile,'wb')
 		pickle.dump(self.TrainedMLPclf,MLPPickledModel)
 		MLPPickledModel.close()
 
 	def loadPickle(self):
-		MLPPickleFile = "Pickle_MLPClf.pkl"
-		MLPPickledModel = open(MLPPickleFile,'rb')
+		MLPPickleFile = "mlp_classifier.pkl"
+		MLPPickledModel = open(BASE_OUTPUT_PKL_PATH + MLPPickleFile,'rb')
 		self.MLPclf = pickle.load(MLPPickledModel)
 
 	def accuracyCheck(self):
@@ -113,14 +113,14 @@ class ourDTClassifier:
 		self.TrainedDTclf.fit(d.X_train, d.Y_train)
 
 	def dumpPickle(self):
-		DTPickleFile = "Pickle_DTClf.pkl"
-		DTPickledModel = open(DTPickleFile,'wb')
+		DTPickleFile = "dt_classifier.pkl"
+		DTPickledModel = open(BASE_OUTPUT_PKL_PATH + DTPickleFile,'wb')
 		pickle.dump(self.TrainedDTclf,DTPickledModel)
 		DTPickledModel.close()
 
 	def loadPickle(self):
-		DTPickleFile = "Pickle_DTClf.pkl"
-		DTPickledModel = open(DTPickleFile,'rb')
+		DTPickleFile = "dt_classifier.pkl"
+		DTPickledModel = open(BASE_OUTPUT_PKL_PATH + DTPickleFile,'rb')
 		self.DTclf = pickle.load(DTPickledModel)
 
 	def accuracyCheck(self):

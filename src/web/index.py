@@ -1,7 +1,13 @@
 import sys, os
-from Classifier import ourMLPClassifier,ourDTClassifier,ourSVMClassifier
-import dataInputFormat
+
+# Adds the 'src' directory to the python path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
+from core.Classifier import ourMLPClassifier,ourDTClassifier,ourSVMClassifier
+import core.dataInputFormat
 from flask import Flask, render_template, request
+
+
 
 app = Flask(__name__)
 
