@@ -1,9 +1,13 @@
+import os
 import pickle
 
 from sklearn.neural_network import MLPClassifier
 from sklearn.metrics import accuracy_score
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.svm import SVC
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
 
 from core.datasetRead import Dataset
 from core.dataInputFormat import DataInput_Categorical, DataInput_Labelled
@@ -12,7 +16,7 @@ d = Dataset()
 dIFLabelled = DataInput_Labelled()
 dIFCategorical = DataInput_Categorical()
 
-BASE_OUTPUT_PKL_PATH = "data/"
+BASE_OUTPUT_PKL_PATH = "/data/"
 
 
 class ourSVMClassifier:
@@ -23,13 +27,13 @@ class ourSVMClassifier:
 
 	def dumpPickle(self):
 		SVMPickleFile = "svm_classifier.pkl"
-		SVMPickledModel = open(BASE_OUTPUT_PKL_PATH + SVMPickleFile,'wb')
+		SVMPickledModel = open(BASE_DIR + BASE_OUTPUT_PKL_PATH + SVMPickleFile,'wb')
 		pickle.dump(self.TrainedSVMclf,SVMPickledModel)
 		SVMPickledModel.close()
 
 	def loadPickle(self):
 		SVMPickleFile = "svm_classifier.pkl"
-		SVMPickledModel = open(BASE_OUTPUT_PKL_PATH + SVMPickleFile,'rb')
+		SVMPickledModel = open(BASE_DIR + BASE_OUTPUT_PKL_PATH + SVMPickleFile,'rb')
 		self.SVMclf = pickle.load(SVMPickledModel)
 
 	def accuracyCheck(self):
@@ -51,16 +55,17 @@ class ourMLPClassifier:
 		d.ReadCategoricalDataSet()
 		self.TrainedMLPclf = MLPClassifier(solver='lbfgs', alpha=1e-5, hidden_layer_sizes=(100, 32), random_state=1)
 		self.TrainedMLPclf.fit(d.X_train, d.Y_train)
+		self.accuracyCheck(self.TrainedMLPclf)
 
 	def dumpPickle(self):
 		MLPPickleFile = "mlp_classifier.pkl"
-		MLPPickledModel = open(BASE_OUTPUT_PKL_PATH + MLPPickleFile,'wb')
+		MLPPickledModel = open(BASE_DIR + BASE_OUTPUT_PKL_PATH + MLPPickleFile,'wb')
 		pickle.dump(self.TrainedMLPclf,MLPPickledModel)
 		MLPPickledModel.close()
 
 	def loadPickle(self):
 		MLPPickleFile = "mlp_classifier.pkl"
-		MLPPickledModel = open(BASE_OUTPUT_PKL_PATH + MLPPickleFile,'rb')
+		MLPPickledModel = open(BASE_DIR + BASE_OUTPUT_PKL_PATH + MLPPickleFile,'rb')
 		self.MLPclf = pickle.load(MLPPickledModel)
 
 	def accuracyCheck(self):
@@ -77,28 +82,28 @@ class ourMLPClassifier:
 		dIFCategorical.hashingTargetWinners()
 		
 		totalPrediction = ourPrediction[0][dIFCategorical.winnerIndex[t1]] + ourPrediction[0][dIFCategorical.winnerIndex[t2]]
-		predictionT1 = (ourPrediction[0][dIFCategorical.winnerIndex[t1]]/totalPrediction) * 100
-		predictionT2 = (ourPrediction[0][dIFCategorical.winnerIndex[t2]]/totalPrediction) * 100
+		self.predictionT1 = (ourPrediction[0][dIFCategorical.winnerIndex[t1]]/totalPrediction) * 100
+		self.predictionT2 = (ourPrediction[0][dIFCategorical.winnerIndex[t2]]/totalPrediction) * 100
 
-		predictionT1 = format(float(predictionT1), '.4f')
-		predictionT2 = format(float(predictionT2), '.4f')
+		if dIFCategorical.winnerIndex[t1] in [1,6,8,13,15,17,18,21] and float(self.predictionT1) < 10.0:
+			self.predictionT1 = float(self.predictionT1) + 20
+			self.predictionT2 = float(self.predictionT2) - 20
+		elif dIFCategorical.winnerIndex[t1] in [1,6,8,13,15,17,18,21] and float(self.predictionT1) < 20.0:
+			self.predictionT1 = float(self.predictionT1) + 10
+			self.predictionT2 = float(self.predictionT2) - 10
 
-		if dIFCategorical.winnerIndex[t1] in [1,6,8,13,15,17,18,21] and float(predictionT1) < 10.0:
-			predictionT1 = float(predictionT1) + 20
-			predictionT2 = float(predictionT2) - 20
-		elif dIFCategorical.winnerIndex[t1] in [1,6,8,13,15,17,18,21] and float(predictionT1) < 20.0:
-			predictionT1 = float(predictionT1) + 10
-			predictionT2 = float(predictionT2) - 10
+		if dIFCategorical.winnerIndex[t2] in [1,6,8,13,15,17,18,21] and float(self.predictionT2) < 10.0:
+			self.predictionT2 = float(self.predictionT2) + 20
+			self.predictionT1 = float(self.predictionT1) - 20
+		elif dIFCategorical.winnerIndex[t2] in [1,6,8,13,15,17,18,21] and float(self.predictionT2) < 20.0:
+			self.predictionT2 = float(self.predictionT2) + 10
+			self.predictionT1 = float(self.predictionT1) - 10
 
-		if dIFCategorical.winnerIndex[t2] in [1,6,8,13,15,17,18,21] and float(predictionT2) < 10.0:
-			predictionT2 = float(predictionT2) + 20
-			predictionT1 = float(predictionT1) - 20
-		elif dIFCategorical.winnerIndex[t2] in [1,6,8,13,15,17,18,21] and float(predictionT2) < 20.0:
-			predictionT2 = float(predictionT2) + 10
-			predictionT1 = float(predictionT1) - 10
+		self.predictionT1 = format(float(self.predictionT1), '.4f')
+		self.predictionT2 = format(float(self.predictionT2), '.4f')
 
 		winnerTeam=""
-		if predictionT1>predictionT2:
+		if self.predictionT1>self.predictionT2:
 			winnerTeam=t1
 		else:
 			winnerTeam=t2
@@ -114,13 +119,13 @@ class ourDTClassifier:
 
 	def dumpPickle(self):
 		DTPickleFile = "dt_classifier.pkl"
-		DTPickledModel = open(BASE_OUTPUT_PKL_PATH + DTPickleFile,'wb')
+		DTPickledModel = open(BASE_DIR + BASE_OUTPUT_PKL_PATH + DTPickleFile,'wb')
 		pickle.dump(self.TrainedDTclf,DTPickledModel)
 		DTPickledModel.close()
 
 	def loadPickle(self):
 		DTPickleFile = "dt_classifier.pkl"
-		DTPickledModel = open(BASE_OUTPUT_PKL_PATH + DTPickleFile,'rb')
+		DTPickledModel = open(BASE_DIR + BASE_OUTPUT_PKL_PATH + DTPickleFile,'rb')
 		self.DTclf = pickle.load(DTPickledModel)
 
 	def accuracyCheck(self):
@@ -146,4 +151,5 @@ class ourDTClassifier:
 		else:
 			winnerTeam = "DT Classifier Can't Predict!"
 
+		self.winner = winnerTeam
 		return winnerTeam
