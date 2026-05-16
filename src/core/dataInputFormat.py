@@ -1,5 +1,5 @@
 import sys
-from datasetRead import Dataset
+from core.datasetRead import Dataset
 
 d = Dataset()
     
