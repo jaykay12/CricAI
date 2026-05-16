@@ -53,9 +53,9 @@ Service boots up @ [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
 
 When setting up your web service on Render, simply use the following run command:
 
-    ```bash
-    gunicorn index:app
-    ```
+```bash
+gunicorn index:app
+```
 
 ---
 
