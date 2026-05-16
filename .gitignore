@@ -4,3 +4,4 @@
 *.pkl
 *.pyc
 venv
+.DS_Store
