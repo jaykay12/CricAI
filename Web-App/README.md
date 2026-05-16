@@ -48,7 +48,8 @@ Service boots up @ [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
 
 ## ☁️ Cloud Hosting
 
-![Deployment](https://img.shields.io/badge/Deployment-Render-brightgreen.svg)
+![Provider](https://img.shields.io/badge/Provider-Render-blue.svg)
+![Deployed](https://img.shields.io/badge/Deployed-Success-brightgreen.svg)
 
 
 When setting up your web service on Render, simply use the following run command:
@@ -62,6 +63,10 @@ gunicorn index:app
 ## Deprecated 
 
 ### Hosting on Heroku (Not Free anymore)
+
+![Provider](https://img.shields.io/badge/Provider-Heroku-orange.svg)
+![Deployed](https://img.shields.io/badge/Deployed-Down-red.svg)
+
 1. Login to your heroku account on workspace using `heroku login` & then providing credentials.
 2. Create the app using `heroku create <*NameOfApp*>` e.g `heroku create cricai`
 3. Set Buildpacks for the app using `heroku buildpacks:set heroku/python`
