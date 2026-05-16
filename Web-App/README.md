@@ -1,15 +1,15 @@
 # 🏏 CricAI
 https://cricai.onrender.com
 
-![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
-![Environment](https://img.shields.io/badge/Environment-Virtualenv-orange.svg)
-![Deployment](https://img.shields.io/badge/Deployment-Render-brightgreen.svg)
 
 A machine learning-powered web application for cricket. This repository contains the source code, pre-trained model handlers, and deployment configurations to get the application running locally or in the cloud.
 
 ---
 
 ## 🛠️ Build & Local Setup
+
+![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
+![Environment](https://img.shields.io/badge/Environment-Virtualenv-orange.svg)
 
 Follow these steps to set up your local development environment:
 
@@ -29,28 +29,27 @@ Follow these steps to set up your local development environment:
     pip install -r requirements.txt
     ```
 
+---
+
 ## 🚀 Running on Local
 
-Once your environment is set up and dependencies are installed, you can boot up the application locally:
+Once your environment is set up and dependencies are installed, you can boot up the application locally after Serialising the classifiers:
 
-1. **Compile & Serialise the Classifiers**  
-    ```bash
-    python3 modelPickler.py
-    ```
-
-2. **Run the Application Server**
-    ```bash
-    python3 index.py
-    ```
-
-3. **View in Browser**  
-   Open your preferred web browser and navigate to:  
-   [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
+```bash
+python3 modelPickler.py
+python3 index.py
+```
 
 
-## ☁️ Hosting on Render
+Service boots up @ [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
 
-Deploying to Render is highly recommended and practically straight-forward. 
+---
+
+
+## ☁️ Cloud Hosting
+
+![Deployment](https://img.shields.io/badge/Deployment-Render-brightgreen.svg)
+
 
 When setting up your web service on Render, simply use the following run command:
 
