@@ -1,12 +1,17 @@
 import sys
-from Classifier import ourMLPClassifier,ourDTClassifier,ourSVMClassifier
-import dataInputFormat
+import os
+
+# Adds the 'src' directory to the python path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
+from core.Classifier import ourMLPClassifier,ourDTClassifier,ourSVMClassifier
+from core import dataInputFormat
 
 if __name__ == '__main__':
 	SVMClf = ourSVMClassifier()
 	MLPClf = ourMLPClassifier()
 	DTClf = ourDTClassifier()
-	dIF = dataInputFormat.DataInput()
+	dIF = dataInputFormat.DataInput_Categorical()
 
 	print("Starting Up..!\n\nLoading Pickled Models")
 	MLPClf.loadPickle()
