@@ -106,12 +106,17 @@ class ourMLPClassifier:
 		self.predictionT1 = format(float(self.predictionT1), '.4f')
 		self.predictionT2 = format(float(self.predictionT2), '.4f')
 
+		print("\n")
+		print(t1,":",self.predictionT1,"%")
+		print(t2,":",self.predictionT2,"%")
+
 		winnerTeam=""
 		if self.predictionT1>self.predictionT2:
 			winnerTeam=t1
 		else:
 			winnerTeam=t2
 		
+
 		return winnerTeam
 
 
