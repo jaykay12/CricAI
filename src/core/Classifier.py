@@ -46,6 +46,7 @@ class ourSVMClassifier:
 
 	def runModel(self,inputPrediction,t1,t2):
 		winnerTeam = self.SVMclf.predict([inputPrediction])
+		print(winnerTeam[0])
 
 		return winnerTeam[0]
 
@@ -79,7 +80,10 @@ class ourMLPClassifier:
 	def runModel(self,inputPrediction,t1,t2):
 		ourPrediction = self.MLPclf.predict_proba([inputPrediction])
 
+		print(ourPrediction)
+
 		dIFCategorical.hashingTargetWinners()
+		print(dIFCategorical.winnerIndex)
 		
 		totalPrediction = ourPrediction[0][dIFCategorical.winnerIndex[t1]] + ourPrediction[0][dIFCategorical.winnerIndex[t2]]
 		self.predictionT1 = (ourPrediction[0][dIFCategorical.winnerIndex[t1]]/totalPrediction) * 100
@@ -145,11 +149,14 @@ class ourDTClassifier:
 		
 		winnerTeam = ""
 		if ourPrediction[0][indexTeam1] == 1:
-		    winnerTeam = t1
+			winnerTeam = t1
+			print("Winner:",t1)
 		elif ourPrediction[0][indexTeam2] == 1:
-		    winnerTeam = t2
+			winnerTeam = t2
+			print("Winner:",t2)
 		else:
-			winnerTeam = "DT Classifier Can't Predict!"
+			winnerTeam = "Decision Tree Classifier Can't Predict for this match reliably!"
+			print("Decision Tree Classifier Can't Predict for this match reliably!")
 
 		self.winner = winnerTeam
 		return winnerTeam
