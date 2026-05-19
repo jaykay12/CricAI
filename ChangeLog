@@ -1,44 +1,35 @@
-[CRICAI-8] | May 19, 2026
-    1. Introduced ChangeLog - Jalaz Kumar
+ May 19, 2026
+    1. [CRICAI-8] | Introduced ChangeLog - Jalaz Kumar
 
-[CRICAI-7] | May 17, 2026
-    1. CD Pipeline Integration - Jalaz Kumar
+May 17, 2026
+    1. [CRICAI-7] | CD Pipeline Integration - Jalaz Kumar
 
-[CRICAI-6] | May 16, 2026
-    1. Refactored Terminal Application to use core module - Jalaz Kumar
+May 16, 2026
+    1. [CRICAI-6] | Refactored Terminal Application to use core module - Jalaz Kumar
+    1. [CRICAI-5] | Refactor Desktop App to use core module - Jalaz Kumar
+    1. [CRICAI-4] | Refactor Web Application to use core module - Jalaz Kumar
+    1. [CRICAI-3] | Project Code Restructure - Jalaz Kumar
+    1. [CRICAI-2] | Reorganised Directory Structure - Jalaz Kumar
+    1. [CRICAI-1] | Refreshed README.md - Jalaz Kumar
 
-[CRICAI-5] | May 16, 2026
-    1. Refactor Desktop App to use core module - Jalaz Kumar
+Oct 6, 2018
+    1. [HACKTOBERFEST] | Added canvas for results page - Savitoj Singh
 
-[CRICAI-4] | May 16, 2026
-    1. Refactor Web Application to use core module - Jalaz Kumar
+Oct 2, 2018
+    1. [HACKTOBERFEST] | Distinct Dropdown Selection - Harsis Yadav
 
-[CRICAI-3] | May 16, 2026
-    1. Project Code Restructure - Jalaz Kumar
+Oct 1, 2018
+    1. [HACKTOBERFEST] | Background color fixed - Aaditya Arora
 
-[CRICAI-2] | May 16, 2026
-    1. Reorganised Directory Structure - Jalaz Kumar
+Sep 24, 2018
+    1. [HACKTOBERFEST] | Solved winner flag issue - Mahmoud Said
+    2. [HACKTOBERFEST] | Fixed UI bug - Ashish Kafle
 
-[CRICAI-1] | May 16, 2026
-    1. Refreshed README.md - Jalaz Kumar
+Sep 23, 2018
+    1. [HACKTOBERFEST] | Add flaticon to the title - Mahmoud Said
 
-[HACKTOBERFEST] | Oct 6, 2018
-    1. Added canvas for results page - Savitoj Singh
+Sep 21, 2018
+    1. [ACADEMIC] | Redesigned Web App UI - Jalaz Kumar
 
-[HACKTOBERFEST] | Oct 2, 2018
-    1. Distinct Dropdown Selection - Harsis Yadav
-
-[HACKTOBERFEST] | Oct 1, 2018
-    1. Background color fixed - Aaditya Arora
-
-[HACKTOBERFEST] | Sep 24, 2018
-    1. Solved winner flag issue - Mahmoud Said
-
-[HACKTOBERFEST] | Sep 24, 2018
-    1. Fixed UI bug - Ashish Kafle
-
-[HACKTOBERFEST] | Sep 23, 2018
-    1. Add flaticon to the title - Mahmoud Said
-
-[ACADEMIC] | Sep 21, 2018
-    1. Redesigned Web App UI - Jalaz Kumar
+Sep 9, 2017
+    1. [ACADEMIC] | Project KickStart - Jalaz Kumar
