@@ -1,26 +1,45 @@
-## *Requirements for the project*
- - PyQT5
- - QT Designer
- - Python3
+Welcome to the **CricAI** desktop application! 🏏
 
-## *Building the Project:*
+---
+
+## 🛠 Requirements
+
+* **Python 3.x**
+* **PyQt5**
+* **Qt Designer**
+
+---
+
+## 🚀 Building the Project
+
+Follow these steps to set up the development environment and get the application running:
+
 1. Clone the project using `git clone https://github.com/jaykay12/CricAI.git`
-2. Explore into the Desktop-App sections using `cd CricAI/Desktop-App`
+2. Explore into the Desktop-App sections using `cd CricAI`
 3. Create a Virtual Env using `python3 -m virtualenv venv`
 4. Activate the Virtual Env using `source venv/bin/activate`
 5. Install all dependencies using `pip install -r requirements.txt`
 
-#### Linux
-6. Install QT Designer on your workspace using `sudo apt-get install qt-designer`
 
-#### MacOS
-6. Install QT Designer on your workspace using `brew install qt@5`
+## 🎨 Installing Qt Designer
+Use the following commands based on your operating system:
 
-## *Running the Classifier Models:*
-1. Change directory to the UI-Based Desktop App using `cd UI-Based App`
-2. Load any UI file from QT Designer using `designer CricAI_Basic.ui`
+### Linux (Ubuntu/Debian)
+
+`sudo apt-get install qt-designer`
+
+### macOS
+
+`brew install qt@5`
+
+## ⚙️ Running the Classifier Models
+
+Follow these steps to generate the UI components, prepare the models, and launch the application:
+
+1. Navigate to the desktop application directory using `cd src/desktop`
+2. Load any UI file into QT Designer using `designer CricAI_Basic.ui`
 3. Convert UI code to Python code using `pyuic5 -x CricAI_Basic.ui -o CricAI_Basic.py`
-4. Pickle your classifiers using `python3 modelPickler.py`
+4. Pickle your classifiers using `python3 ../core/modelPickler.py`
 5. Run the App using `python3 main.py`
 
 

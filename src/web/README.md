@@ -19,7 +19,7 @@ Follow these steps to set up your local development environment:
     ```
 2. **Create & Activate the Virtual Environment**
     ```bash
-    cd CricAI/Web-App
+    cd CricAI/
     python3 -m virtualenv venv
     source venv/bin/activate
     ```
@@ -33,10 +33,9 @@ Follow these steps to set up your local development environment:
 
 ## 🚀 Running on Local
 
-Once your environment is set up and dependencies are installed, you can boot up the application locally after Serialising the classifiers:
+Once your environment is set up and dependencies are installed, you can boot up the application locally which Serialising the classifiers during loading itself:
 
 ```bash
-python3 modelPickler.py
 python3 index.py
 ```
 
