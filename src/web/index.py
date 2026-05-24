@@ -4,9 +4,8 @@ import sys, os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 from core.Classifier import ourMLPClassifier,ourDTClassifier,ourSVMClassifier
-from core import dataInputFormat
+from core import dataInputFormat, modelPickler
 from flask import Flask, render_template, request
-
 
 
 app = Flask(__name__)
@@ -86,4 +85,5 @@ def getResults(ground, innings, venue, team1, team2, choice):
 		
 
 if __name__ =='__main__':
+	modelPickler.initialise_models()
 	app.run(debug=True)
