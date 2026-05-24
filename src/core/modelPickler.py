@@ -17,11 +17,11 @@ def initialise_models():
 	SVMClf.dumpPickle()
 	print("Done: SVM Model!\n")
 	
-	# print("Beginning to Pickle MLP Model!")
-	# MLPClf.trainModel()
-	# MLPClf.accuracyCheck()
-	# MLPClf.dumpPickle()
-	# print("Done: MLP Model!\n")
+	print("----- Beginning to Pickle MLP Model! -----")
+	MLPClf.trainModel()
+	MLPClf.accuracyCheck()
+	MLPClf.dumpPickle()
+	print("Done: MLP Model!\n")
 
 	print("----- Beginning to Pickle: DT Model! -----")
 	DTClf.trainModel()

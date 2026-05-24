@@ -56,7 +56,6 @@ class ourMLPClassifier:
 		d.ReadCategoricalDataSet()
 		self.TrainedMLPclf = MLPClassifier(solver='lbfgs', alpha=1e-5, hidden_layer_sizes=(100, 32), random_state=1)
 		self.TrainedMLPclf.fit(d.X_train, d.Y_train)
-		self.accuracyCheck(self.TrainedMLPclf)
 
 	def dumpPickle(self):
 		MLPPickleFile = "mlp_classifier.pkl"
