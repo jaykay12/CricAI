@@ -1,7 +1,6 @@
 *.gz
 *.log
 *.aux
-*.pkl
 *.pyc
 venv
 .DS_Store
