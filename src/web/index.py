@@ -85,5 +85,7 @@ def getResults(ground, innings, venue, team1, team2, choice):
 		
 
 if __name__ =='__main__':
-	modelPickler.initialise_models()
+	# This is commented for now, .pkl is not getting created on render production. ModelPickler skipped.
+	# modelPickler.initialise_models()
+	
 	app.run(debug=True)
