@@ -1,8 +1,8 @@
-name: Deploy to Render
+name: Production Deploy
 on:
   push:
     branches:
-      - master  # Only triggers on push/merge to master branch
+      - master
 jobs:
   deploy:
     runs-on: ubuntu-latest
