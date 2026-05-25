@@ -1,0 +1,38 @@
+name: Changelog Ensurer
+
+on:
+  pull_request:
+    branches:
+      - master
+    types: [opened, synchronize, reopened]
+
+jobs:
+  check-changelog:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Fetch all history so we can compare branches accurately
+
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v44
+
+      - name: Verify CHANGELOG was modified
+        run: |
+          HAS_CHANGELOG=false
+          
+          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            if [ "$file" = "CHANGELOG.md" ]; then
+              HAS_CHANGELOG=true
+              break
+            fi
+          done
+
+          if [ "$HAS_CHANGELOG" = "true" ]; then
+            echo "✅ CHANGELOG.md has been updated!"
+          else
+            echo "❌ ERROR: Please document your changes by adding an entry to CHANGELOG.md"
+            exit 1
+          fi
