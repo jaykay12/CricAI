@@ -55,6 +55,10 @@ When setting up your web service on Render, simply use the following run command
 
 ```bash
 gunicorn index:app
+
+## OR
+
+gunicorn --bind 0.0.0.0:$PORT --timeout 120 index:app
 ```
 
 ---
