@@ -8,7 +8,6 @@ from core import dataInputFormat, modelPickler
 from flask import Flask, render_template, request
 
 
-modelPickler.initialise_models()
 app = Flask(__name__)
 
 @app.route('/', methods = ["GET","POST"])
@@ -86,4 +85,5 @@ def getResults(ground, innings, venue, team1, team2, choice):
 		
 
 if __name__ =='__main__':
+	modelPickler.initialise_models()
 	app.run(debug=True)
