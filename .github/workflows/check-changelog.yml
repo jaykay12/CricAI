@@ -17,7 +17,7 @@ jobs:
 
       - name: Get changed files
         id: changed-files
-        uses: tj-actions/changed-files@0874344d6ef29c658079a60760662bc4ab339909
+        uses: tj-actions/changed-files@2f7c5bfce28377bc069a65ba478de0a74aa0ca32
 
       - name: Verify CHANGELOG was modified
         run: |
