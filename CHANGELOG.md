@@ -1,11 +1,11 @@
 May 27, 2026
     1. [CRICAI-13] | Initialise SonarQube Analysis in the project
+    2. [CRICAI-14] | Add SonarQube badges to README
 
 May 26, 2026
     1. [CRICAI-10] | Auto-deploy corrected using Github workflows - Jalaz Kumar
     2. [CRICAI-11] | 5xx Solve during model inference on Render Production - Jalaz Kumar
     3. [CRICAI-12] | Changelog Ensurer via Github Actions - Jalaz Kumar
-
 
 May 24, 2026
     1. [CRICAI-9] | Model Pickling during server startup for web - Jalaz Kumar
