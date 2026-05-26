@@ -37,4 +37,13 @@ CricAI implements specialized supervised learning architectures to evaluate, ana
 ## 📚 Academic Publication
 The foundation of the predictive model architectures implemented inside this software can be found in the following published research paper:
 
-👉 [Outcome Prediction of ODI Cricket Matches using Decision Trees and MLP Networks](https://ieeexplore.ieee.org/document/8703301) - (Published on IEEE Xplore)
+👉 [Outcome Prediction of ODI Cricket Matches using Decision Trees and MLP Networks](https://ieeexplore.ieee.org/document/8703301)
+
+---
+
+[![SonarQube Cloud](https://sonarcloud.io/images/project_badges/sonarcloud-light.svg)](https://sonarcloud.io/summary/new_code?id=jaykay12_CricAI)
+
+
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=jaykay12_CricAI&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=jaykay12_CricAI) 
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=jaykay12_CricAI&metric=coverage)](https://sonarcloud.io/summary/new_code?id=jaykay12_CricAI)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=jaykay12_CricAI&metric=bugs)](https://sonarcloud.io/summary/new_code?id=jaykay12_CricAI)
