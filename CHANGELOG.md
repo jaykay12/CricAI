@@ -1,3 +1,6 @@
+May 27, 2026
+    1. [CRICAI-13] | Initialise SonarQube Analysis in the project
+
 May 26, 2026
     1. [CRICAI-10] | Auto-deploy corrected using Github workflows - Jalaz Kumar
     2. [CRICAI-11] | 5xx Solve during model inference on Render Production - Jalaz Kumar
