@@ -21,3 +21,10 @@ def home():
         ))
 	else:
 		return render_template('index.html')
+
+@main.route('/health', methods=['GET'])
+def healthcheck():
+    return jsonify({
+        "status": "healthy",
+        "message": "CricAI is running smoothly ⚡"
+    }), 200
