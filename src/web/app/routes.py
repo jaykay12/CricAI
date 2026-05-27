@@ -6,7 +6,7 @@ main = Blueprint('main', __name__)
 from app.services.predictor import predict_match_outcome
 
 @main.route('/', methods = ["GET","POST"])
-def startup():
+def home():
 	if request.method == "POST":
 		team1 = request.form['team1']
 		team2 = request.form['team2']
@@ -16,12 +16,8 @@ def startup():
 		choice = request.form['choice']
 		
 		#print(team1, team2, innings_t1, venue_t1, ground, choice, file=sys.stderr)
-		return render_template('result.html',result = predict_match_outcome(ground, int(innings_t1), int(venue_t1), team1, team2, int(choice)))
+		return render_template('result.html', result = predict_match_outcome(
+            ground, int(innings_t1), int(venue_t1), team1, team2, int(choice)
+        ))
 	else:
 		return render_template('index.html')
-
-@main.route('/result', methods = ["GET","POST"])
-def result():
-	if request.method == "POST":
-		a = request.form['team1']
-		#print("Hellooo...!", a, file=sys.stderr)
