@@ -1,3 +1,6 @@
+May 28, 2026
+    1. [CRICAI-15] | Refactored Web-app into maintainable project structure
+
 May 27, 2026
     1. [CRICAI-13] | Initialise SonarQube Analysis in the project
     2. [CRICAI-14] | Add SonarQube badges to README
