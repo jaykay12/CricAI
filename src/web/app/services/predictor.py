@@ -3,10 +3,12 @@ import sys
 import os
 
 # Adds the 'src' directory to the python path
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../../')))
 
 from core.Classifier import ourMLPClassifier,ourDTClassifier,ourSVMClassifier
 from core import dataInputFormat, modelPickler
+
+logger = logging.getLogger(__name__)
 
 # Global initialization: Models load ONCE when the app starts
 logger.info("Loading Pickled Models into memory...!")
