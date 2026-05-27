@@ -1,5 +1,5 @@
 import sys
-from flask import request, render_template, Blueprint
+from flask import request, render_template, Blueprint, jsonify
 
 main = Blueprint('main', __name__)
 
