@@ -24,7 +24,7 @@ jobs:
           HAS_CHANGELOG=false
           
           for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
-            if [ "$file" = "CHANGELOG.md" ]; then
+            if [ "$file" = "CHANGELOG" ]; then
               HAS_CHANGELOG=true
               break
             fi
