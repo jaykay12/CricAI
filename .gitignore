@@ -5,3 +5,19 @@
 venv
 .DS_Store
 .idea
+
+
+# Python packaging / distribution files
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+*.tar.gz
+
+# Python testing and coverage artifacts
+.coverage
+htmlcov/
+coverage.xml
+.pytest_cache/
