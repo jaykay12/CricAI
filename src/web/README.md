@@ -26,7 +26,12 @@ Follow these steps to set up your local development environment:
 
 3. **Install dependencies**
     ```bash
-    pip install -r requirements.txt
+    pip install -e ".[dev]"
+    ```
+
+4. **Run tests**
+    ```bash
+    pytest
     ```
 
 ---
@@ -38,7 +43,6 @@ Once your environment is set up and dependencies are installed, you can boot up 
 ```bash
 python3 index.py
 ```
-
 
 Service boots up @ [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
 
@@ -52,6 +56,11 @@ Service boots up @ [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
 
 
 When setting up your web service on Render, simply use the following run command:
+
+```bash
+cd src/web
+python -m pip install --upgrade pip && pip install -r requirements.txt
+```
 
 ```bash
 gunicorn index:app
