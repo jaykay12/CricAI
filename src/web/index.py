@@ -2,7 +2,7 @@ from flask import Flask
 from flask import request, render_template
 
 # Import the routes so Flask registers them
-from app.routes import main		
+from src.web.app.routes import main		
 
 app = Flask(__name__, template_folder='app/templates', static_folder='app/static')
 app.register_blueprint(main)

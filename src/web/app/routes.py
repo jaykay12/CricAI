@@ -3,7 +3,7 @@ from flask import request, render_template, Blueprint, jsonify
 
 main = Blueprint('main', __name__)
 
-from app.services.predictor import predict_match_outcome
+from src.web.app.services.predictor import predict_match_outcome
 
 @main.route('/', methods = ["GET", "POST"])
 def home():
