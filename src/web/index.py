@@ -1,5 +1,10 @@
+import sys
+import os
 from flask import Flask
 from flask import request, render_template
+
+# Adds the 'src' directory to the python path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 # Import the routes so Flask registers them
 from web.app.routes import main		

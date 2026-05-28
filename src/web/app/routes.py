@@ -1,5 +1,9 @@
 import sys
+import os
 from flask import request, render_template, Blueprint, jsonify
+
+# Adds the 'src' directory to the python path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
 
 main = Blueprint('main', __name__)
 
