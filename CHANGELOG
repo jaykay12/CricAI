@@ -2,8 +2,7 @@ May 28, 2026
     1. [CRICAI-15] | Refactored Web-app into maintainable project structure - Jalaz Kumar
     2. [CRICAI-16] | Tests coverage & CI pipeline inclusion - Jalaz Kumar
     3. [CRICAI-17] | SonarQube reporting fix - Jalaz Kumar
-
-
+    4. [CRICAI-17] | Code coverage fix - Jalaz Kumar
 
 May 27, 2026
     1. [CRICAI-13] | Initialise SonarQube Analysis in the project - Jalaz Kumar
