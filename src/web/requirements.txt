@@ -1,17 +1,16 @@
 # This file is used during cloud deployment, contains packages required for running web & core modules
 
-click>=6.7
-Flask>=1.0.2
-gunicorn>=19.9.0
-itsdangerous>=0.24
-Jinja2>=2.10
-MarkupSafe>=2.0.1
-numpy>=1.21
-pandas>=1.4.0
-python-dateutil>=2.8.2
-pytz>=2023.3
-scikit-learn>=1.0.2
-scipy>=1.10.1
-six>=1.16.0
-sklearn==0.0
-Werkzeug>=2.2.3
+click==8.1.8
+Flask==3.1.3
+gunicorn==23.0.0
+itsdangerous==2.2.0
+Jinja2==3.1.6
+MarkupSafe==3.0.3
+numpy==2.0.2
+pandas==2.3.3
+python-dateutil==2.9.0.post0
+pytz==2026.2
+scikit-learn==1.6.1
+scipy==1.13.1
+six==1.17.0
+Werkzeug==3.1.8

@@ -18,3 +18,13 @@ def test_predict_endpoint(client):
     })
     assert response.status_code == 200
     assert b'result' in response.data
+
+
+def test_health_check(client):
+    response = client.get('/health')
+    assert response.status_code == 200
+    
+    # Verify it returns the correct JSON keys
+    json_data = response.get_json()
+    assert json_data["status"] == "healthy"
+    assert "CricAI" in json_data["message"]

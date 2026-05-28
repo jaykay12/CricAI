@@ -15,3 +15,9 @@ build/
 .eggs/
 *.whl
 *.tar.gz
+
+# Python testing and coverage artifacts
+.coverage
+htmlcov/
+coverage.xml
+.pytest_cache/
