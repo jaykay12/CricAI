@@ -11,6 +11,7 @@ pandas==2.3.3
 python-dateutil==2.9.0.post0
 pytz==2026.2
 scikit-learn==1.6.1
-scipy==1.13.1
+scipy>=1.10.1
 six==1.17.0
+sklearn==0.0
 Werkzeug==3.1.8
