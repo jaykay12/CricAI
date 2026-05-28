@@ -25,6 +25,7 @@ def home():
 	else:
 		return render_template('index.html')
 
+# To be used for keeping this application awake on render via cron jobs
 @main.route('/health', methods=["GET"])
 def healthcheck():
     return jsonify({
