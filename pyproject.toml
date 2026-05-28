@@ -1,0 +1,37 @@
+[project]
+name = "CricAI"
+version = "0.1.0"
+description = "Cricket AI Application"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+
+# === Main Dependencies (Production) ===
+dependencies = [
+    "click==8.1.8",
+    "Flask==3.1.3",
+    "gunicorn==23.0.0",
+    "itsdangerous==2.2.0",
+    "Jinja2==3.1.6",
+    "MarkupSafe==3.0.3",
+    "numpy==2.0.2",
+    "pandas==2.3.3",
+    "python-dateutil==2.9.0.post0",
+    "pytz==2026.2",
+    "scikit-learn==1.6.1",
+    "scipy==1.13.1",
+    "six==1.17.0",
+    "Werkzeug==3.1.8",
+    "PyQt5==5.15.11",
+    "PyQt5-sip==12.17.1",
+]
+
+# === Development & Testing Dependencies ===
+[project.optional-dependencies]
+dev = [
+    "pytest==8.4.2",
+    "pytest-cov==7.1.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

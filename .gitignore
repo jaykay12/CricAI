@@ -5,3 +5,13 @@
 venv
 .DS_Store
 .idea
+
+
+# Python packaging / distribution files
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+*.tar.gz

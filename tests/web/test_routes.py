@@ -1,9 +1,7 @@
 import sys, os
 import pytest
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../src')))
-
-from src.web.app.routes import main
+from web.app.routes import main
 
 def test_home_page(client):
     response = client.get('/')
