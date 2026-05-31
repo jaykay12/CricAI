@@ -11,7 +11,6 @@ d = Dataset()
 def labelled_input():
     return DataInput_Labelled()
 
-
 @pytest.fixture
 def categorical_input():
     return DataInput_Categorical()

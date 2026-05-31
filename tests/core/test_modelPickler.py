@@ -5,7 +5,11 @@ from pathlib import Path
 
 # Add src to path (same as your script)
 import sys
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+PARENT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
+sys.path.append(PARENT_DIR)
+
+# Define the path to your data folder dynamically
+DATA_DIR = os.path.join(PARENT_DIR, "src", "core", "data")
 
 from core.Classifier import ourMLPClassifier, ourDTClassifier, ourSVMClassifier
 
@@ -34,7 +38,6 @@ def test_models_can_be_instantiated():
 
 # ====================== TRAINING AND PICKLE TESTS ======================
 
-@pytest.mark.skip(reason="Temporarily disabled")
 def test_svm_model_training_and_pickling(models):
     """Test SVM model training and pickling"""
     svm = models['SVM']
@@ -44,15 +47,14 @@ def test_svm_model_training_and_pickling(models):
     svm.dumpPickle()
     
     # Check if pickle file was created
-    pickle_path = Path("SVM_model.pkl")  # Adjust if your dumpPickle uses different name/path
-    assert pickle_path.exists(), f"Pickle file not found: {pickle_path}"
+    pickle_path = os.path.join(DATA_DIR, "svm_classifier.pkl")
+    assert os.path.exists(pickle_path), f"SVM pickle file was not created at {pickle_path}"
     
     # Verify pickle can be loaded
     with open(pickle_path, 'rb') as f:
         loaded_model = pickle.load(f)
     assert loaded_model is not None
 
-@pytest.mark.skip(reason="Temporarily disabled")
 def test_mlp_model_training_and_pickling(models):
     """Test MLP model training and pickling"""
     mlp = models['MLP']
@@ -61,10 +63,9 @@ def test_mlp_model_training_and_pickling(models):
     mlp.accuracyCheck()
     mlp.dumpPickle()
     
-    pickle_path = Path("MLP_model.pkl")   # Adjust filename if different
-    assert pickle_path.exists(), f"Pickle file not found: {pickle_path}"
+    pickle_path = os.path.join(DATA_DIR, "mlp_classifier.pkl")
+    assert os.path.exists(pickle_path), f"MLP pickle file was not created at {pickle_path}"
 
-@pytest.mark.skip(reason="Temporarily disabled")
 def test_dt_model_training_and_pickling(models):
     """Test Decision Tree model training and pickling"""
     dt = models['DT']
@@ -73,8 +74,8 @@ def test_dt_model_training_and_pickling(models):
     dt.accuracyCheck()
     dt.dumpPickle()
     
-    pickle_path = Path("DT_model.pkl")    # Adjust filename if different
-    assert pickle_path.exists(), f"Pickle file not found: {pickle_path}"
+    pickle_path = os.path.join(DATA_DIR, "dt_classifier.pkl")
+    assert os.path.exists(pickle_path), f"DT pickle file was not created at {pickle_path}"
 
 
 # ====================== HELPER / INTEGRATION TESTS ======================
@@ -89,23 +90,10 @@ def test_all_models_have_required_methods(models):
         assert callable(model.accuracyCheck)
         assert callable(model.dumpPickle)
 
-@pytest.mark.skip(reason="Temporarily disabled")
 def test_pickle_files_are_created():
     """Verify all three pickle files exist after training"""
-    expected_files = ["SVM_model.pkl", "MLP_model.pkl", "DT_model.pkl"]
+    expected_files = ["svm_classifier.pkl", "mlp_classifier.pkl", "dt_classifier.pkl"]
     
     for file in expected_files:
-        path = Path(file)
+        path = Path(DATA_DIR + "/" + file)
         assert path.exists(), f"Expected pickle file missing: {file}"
-
-
-# Optional: Cleanup after tests (if you want to keep workspace clean)
-@pytest.fixture(scope="session", autouse=True)
-def cleanup_pickles(request):
-    def remove_pickles():
-        for file in ["SVM_model.pkl", "MLP_model.pkl", "DT_model.pkl"]:
-            try:
-                Path(file).unlink(missing_ok=True)
-            except:
-                pass
-    request.addfinalizer(remove_pickles)
